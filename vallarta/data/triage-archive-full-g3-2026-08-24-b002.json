@@ -1,0 +1,121 @@
+{
+  "batch": "archive-full-g3-2026-08-24-b002",
+  "metadata": {
+    "queue_kind": "full-read-makeup",
+    "slice_file": "state/queue-slice-archive-full-g3-2026-08-24-b002.json"
+  },
+  "scanned": 10,
+  "reading_note": "Read the full text of all 10 articles printed by readqueue.py next; five qualified local infrastructure/service complaints and five were excluded.",
+  "decisions": [
+    {
+      "index": 180,
+      "article_url": "https://tribunadelabahia.com.mx/basura-coapinole-terreno-baldio/",
+      "article_date": "2026-03-18",
+      "title": "Vecinos de Coapinole denuncian tiradero constante de basura en terreno baldío",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Coapinole residents report daily dumping in a vacant lot, spreading trash into the public street.",
+      "read_by_agent": true
+    },
+    {
+      "index": 181,
+      "article_url": "https://tribunadelabahia.com.mx/alertan-peligro-crucero-cuc-semaforo/",
+      "article_date": "2026-03-25",
+      "title": "Alertan ciudadanos sobre peligro en el crucero del CUC por semáforo descompuesto",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Citizens report a broken traffic light and lack of signage at the CUC crossing for several months.",
+      "read_by_agent": true
+    },
+    {
+      "index": 207,
+      "article_url": "https://diariodevallarta.com/transformacion-calle-hidalgo-punta-de-mita-13-mdp/",
+      "article_date": "2026-06-22",
+      "title": "Arranca transformación de la Calle Hidalgo en Punta de Mita: Invertirán más de 13 MDP",
+      "source_outlet": "Diario de Vallarta",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Road rehabilitation starts after years of community demand for Calle Hidalgo infrastructure improvements in Punta de Mita.",
+      "read_by_agent": true
+    },
+    {
+      "index": 210,
+      "article_url": "https://tribunadelabahia.com.mx/fuerte-lluvia-inunda-tepatitlan-casas-vehiculos-afectados/",
+      "article_date": "2026-07-06",
+      "title": "Fuerte lluvia inunda Tepatitlán; hay casas, vehículos y un hospital afectados",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "out_of_area",
+      "note": "Flooding emergency in Tepatitlán de Morelos, outside the Puerto Vallarta/Bahía de Banderas scope.",
+      "read_by_agent": true
+    },
+    {
+      "index": 213,
+      "article_url": "https://tribunadelabahia.com.mx/peligro-lluvias-cierran-pasos-desnivel-guadalajara-tlajomulco/",
+      "article_date": "2026-07-27",
+      "title": "¡Peligro por lluvias! Cierran pasos a desnivel en Guadalajara y alertan en Tlajomulco",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "out_of_area",
+      "note": "Rain-related closures and alerts in Guadalajara and Tlajomulco, outside the Puerto Vallarta/Bahía de Banderas scope.",
+      "read_by_agent": true
+    },
+    {
+      "index": 228,
+      "article_url": "https://tribunadelabahia.com.mx/basura-incumplimiento-gaviotas/",
+      "article_date": "2026-04-15",
+      "title": "Basura acumulada en residencial Gaviotas por incumplimiento de horarios de recolección",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Gaviotas residents report trash accumulating in the street because waste is put out before collection hours.",
+      "read_by_agent": true
+    },
+    {
+      "index": 237,
+      "article_url": "https://diariodevallarta.com/autos-capsulas-vigilancia-ia/",
+      "article_date": "2026-05-24",
+      "title": "Cómo los nuevos autos se convierten en cápsulas de vigilancia",
+      "source_outlet": "Diario de Vallarta",
+      "decision": "no",
+      "reason_code": "off_topic_other",
+      "note": "Syndicated opinion about AI surveillance in cars and U.S. policy; not local infrastructure.",
+      "read_by_agent": true
+    },
+    {
+      "index": 238,
+      "article_url": "https://tribunadelabahia.com.mx/preocupa-posible-inundacion-en-zona-de-la-paloma/",
+      "article_date": "2026-05-26",
+      "title": "Temen severas inundaciones en colonia Educación por obras en La Paloma",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Colonia Educación residents fear longstanding flood pooling will worsen near the former Plaza de Toros La Paloma construction site.",
+      "read_by_agent": true
+    },
+    {
+      "index": 247,
+      "article_url": "https://tribunadelabahia.com.mx/lluvia-jueves-colapsa-tlaquepaque-autos-bajo-agua/",
+      "article_date": "2026-07-02",
+      "title": "Lluvia de este jueves colapsa Tlaquepaque; autos quedan atrapados bajo el agua",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "out_of_area",
+      "note": "Flooding and mobility impacts in Guadalajara/Tlaquepaque, outside the Puerto Vallarta/Bahía de Banderas scope.",
+      "read_by_agent": true
+    },
+    {
+      "index": 249,
+      "article_url": "https://tribunadelabahia.com.mx/ahuacatlan-tromba-inunda-viviendas/",
+      "article_date": "2026-07-03",
+      "title": "Tromba colapsa Ahuacatlán: desborde de arroyos inunda 43 viviendas durante las lluvias en Nayarit",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "out_of_area",
+      "note": "Flooding emergency in Ahuacatlán, Nayarit, outside the Puerto Vallarta/Bahía de Banderas scope.",
+      "read_by_agent": true
+    }
+  ]
+}

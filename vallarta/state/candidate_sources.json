@@ -4,83 +4,83 @@
   "candidates": [
     {
       "name": "Seapal Vallarta",
-      "kind": "utility (water and sewerage)",
-      "why": "named as the responsible party in the Brisas del Pacífico leak; likely issues public service notices",
+      "kind": "organismo operador (agua y alcantarillado)",
+      "why": "nombrado como responsable en la fuga de Brisas del Pacífico; probablemente publica avisos de servicio al público",
       "first_seen": "2026-08-24",
       "status": "pending_human_approval"
     },
     {
       "name": "Ayuntamiento de Puerto Vallarta",
-      "kind": "municipal government",
-      "why": "named as the authority residents address complaints to",
+      "kind": "gobierno municipal",
+      "why": "nombrado como la autoridad a la que los vecinos dirigen sus quejas",
       "first_seen": "2026-08-24",
       "status": "pending_human_approval"
     },
     {
       "name": "Secretaría de Transporte de Jalisco",
-      "kind": "state agency",
-      "why": "source of transit service statements",
+      "kind": "dependencia estatal",
+      "why": "fuente de comunicados sobre el servicio de transporte",
       "first_seen": "2026-08-24",
       "status": "pending_human_approval"
     },
     {
       "name": "Meridiano (Nayarit edition)",
-      "kind": "news outlet",
+      "kind": "medio de noticias",
       "feed_url": "https://meridiano.mx/feed/",
-      "why": "live RSS with full text (content:encoded); Nayarit-wide coverage including Bahía de Banderas, but sample was Tepic-heavy — would need local_terms filtering",
+      "why": "RSS activo con texto completo (content:encoded); cobertura de todo Nayarit, incluida Bahía de Banderas, pero la muestra cargó hacia Tepic — necesitaría filtrado con local_terms",
       "recon": "probed 2026-08-24: feed live, 10 items, fresh same-day",
       "first_seen": "2026-08-24",
       "status": "approved_by_operator_2026-08-24"
     },
     {
       "name": "Banderas News",
-      "kind": "news outlet (English)",
+      "kind": "medio de noticias (en inglés)",
       "feed_url": "https://banderasnews.com/feed/",
-      "why": "live RSS with full text; English-language, tourism/lifestyle slant but does cover infrastructure works (e.g. Amado Nervo road connection)",
+      "why": "RSS activo con texto completo; en inglés, con sesgo de turismo/estilo de vida, pero sí cubre obras de infraestructura (p. ej. la conexión vial Amado Nervo)",
       "recon": "probed 2026-08-24: feed live, 10 items, fresh same-day",
       "first_seen": "2026-08-24",
       "status": "approved_by_operator_2026-08-24"
     },
     {
       "name": "Vallarta Daily News",
-      "kind": "news outlet (English)",
+      "kind": "medio de noticias (en inglés)",
       "feed_url": "https://www.vallartadaily.com/feed/",
-      "why": "live RSS, 40 items/read, excerpt-only body (page fetch needed); high volume with routine daily reports (weather, flights, peso) mixed with local news",
+      "why": "RSS activo, 40 ítems por lectura, cuerpo solo en extracto (requiere descargar la página); alto volumen con reportes diarios de rutina (clima, vuelos, peso) mezclados con noticias locales",
       "recon": "probed 2026-08-24: feed live, fresh same-day",
       "first_seen": "2026-08-24",
       "status": "pending_human_approval"
     },
     {
       "name": "La Noticia al Punto Vallarta",
-      "kind": "news outlet",
+      "kind": "medio de noticias",
       "feed_url": "https://lanoticiaalpuntovallarta.com/feed/",
-      "why": "feed is live but currently serving multilingual casino-spam posts (Polish/Dutch/Greek) — site appears compromised or selling spam placements",
+      "why": "el feed está vivo pero actualmente sirve publicaciones de spam de casinos en varios idiomas (polaco/neerlandés/griego) — el sitio parece comprometido o vendiendo espacios de spam",
       "recon": "probed 2026-08-24: feed live but content is spam",
       "first_seen": "2026-08-24",
       "status": "rejected_by_recon"
     },
     {
       "name": "PV Mirror City Paper",
-      "kind": "news outlet (English weekly)",
+      "kind": "medio de noticias (semanario en inglés)",
       "feed_url": "https://pvmcitypaper.com/feed/",
-      "why": "feed live but stale (latest item Dec 2025) and lifestyle/columns content, not civic news",
+      "why": "feed vivo pero estancado (último ítem: dic 2025) y con contenido de estilo de vida/columnas, no noticias cívicas",
       "recon": "probed 2026-08-24",
       "first_seen": "2026-08-24",
       "status": "rejected_by_recon"
     },
     {
       "name": "Out & About PV",
-      "kind": "news outlet (English, LGBTQ lifestyle)",
+      "kind": "medio de noticias (en inglés, estilo de vida LGBTQ)",
       "feed_url": "https://outandaboutpv.com/feed/",
-      "why": "feed live and fresh but entertainment/lifestyle focus, not infrastructure complaints",
+      "why": "feed vivo y al día pero con enfoque de entretenimiento/estilo de vida, no quejas de infraestructura",
       "recon": "probed 2026-08-24",
       "first_seen": "2026-08-24",
       "status": "rejected_by_recon"
     },
     {
       "name": "Reporte Diario / Vallarta Opina / NotiVallarta / Vallarta Today",
-      "kind": "news outlets",
-      "why": "no machine-readable feed: Reporte Diario and Vallarta Today 404 on all feed paths; Vallarta Opina serves a broken self-signed TLS cert (CN=ubuntu) and 404s; notivallarta.com does not resolve",
+      "kind": "medios de noticias",
+      "why": "sin feed legible por máquina: Reporte Diario y Vallarta Today dan 404 en todas las rutas de feed; Vallarta Opina sirve un certificado TLS autofirmado roto (CN=ubuntu) y da 404; notivallarta.com no resuelve",
       "recon": "probed 2026-08-24",
       "first_seen": "2026-08-24",
       "status": "rejected_by_recon"

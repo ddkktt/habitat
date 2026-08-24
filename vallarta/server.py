@@ -26,6 +26,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 WEB_DIR = os.path.join(ROOT, "web")
 STATE = os.path.join(ROOT, "state")
 REPORTS = os.path.join(ROOT, "reports")
+PAGES = os.path.join(ROOT, "cache", "pages")
 PREFIX = "" if store.CITY == "vallarta" else "%s-" % store.CITY
 
 
@@ -277,6 +278,124 @@ def _article_page(query):
     }
 
 
+# Desk bylines ("Redacción…") are an outlet speaking as an institution. They
+# get credit too, but ranked apart, so a newsroom label never crowds a person
+# out of the thank-you list.
+_DESK = re.compile(r"redacci|staff|editorial|agencia|newsroom", re.IGNORECASE)
+
+
+def _clean_author(raw):
+    """A byline as a printable name, or None if it holds no name at all."""
+    if not raw:
+        return None
+    name = re.sub(r"^\s*por\b[:\s]*", "", raw.strip(), flags=re.IGNORECASE)
+    name = re.sub(r"\s+", " ", name).strip(" .,·—–-")
+    # Two characters is enough: Tribuna de la Bahía signs with initials (JB, LG).
+    return name if len(name) >= 2 else None
+
+
+def _author_index():
+    """article_url -> byline, joined from everything already fetched.
+
+    Most records predate the author field, but the corpus index and the cached
+    article pages know who wrote them. This is a viewer-side join of the
+    outlets' own byline metadata — nothing is ever written back to disk.
+    """
+    idx = {}
+    for row in _articles():
+        author = _clean_author(row.get("author"))
+        if author:
+            idx[row["url"]] = author
+    for path in glob.glob(os.path.join(PAGES, "*.json")):
+        page = store.load(path, {})
+        author = _clean_author(page.get("author") or page.get("byline"))
+        if author and page.get("article_url"):
+            idx.setdefault(page["article_url"], author)
+    return idx
+
+
+def _collaborators(records):
+    """The thank-you list: who wrote the journalism this map is built from.
+
+    Ranked by articles that became records — the work that actually fed the
+    map — with incidents and located records alongside. Keyed on store.norm so
+    'Redacción…' and 'Redaccion…' are one entry.
+    """
+    authors, uncredited = {}, 0
+    for rec in records:
+        name = rec.get("author")
+        if not name:
+            uncredited += 1
+            continue
+        key = store.norm(name) or name.lower()
+        a = authors.setdefault(key, {
+            "name": name,
+            "kind": "desk" if (_DESK.search(name)
+                              or store.norm(name) == store.norm(rec["source_outlet"]))
+                    else "person",
+            "records": 0, "qualified": 0, "located": 0,
+            "incidents": set(), "colonias": set(),
+            "outlets": Counter(), "categories": Counter(),
+            "first": rec["article_date"], "last": rec["article_date"],
+        })
+        a["records"] += 1
+        a["qualified"] += rec["qualifies"] == "yes"
+        a["located"] += rec["location_certainty"] in ("exact", "approximate")
+        if rec.get("incident_id"):
+            a["incidents"].add(rec["incident_id"])
+        if rec.get("colonia"):
+            a["colonias"].add(rec["colonia"])
+        a["outlets"][rec["source_outlet"]] += 1
+        for cat in rec["categories"]:
+            a["categories"][cat] += 1
+        a["first"] = min(a["first"], rec["article_date"])
+        a["last"] = max(a["last"], rec["article_date"])
+    rows = sorted(authors.values(),
+                  key=lambda a: (a["records"], len(a["incidents"]), a["located"]),
+                  reverse=True)
+    return {
+        "authors": [a | {"incidents": len(a["incidents"]),
+                         "colonias": sorted(a["colonias"]),
+                         "outlets": a["outlets"].most_common(),
+                         "categories": a["categories"].most_common()}
+                    for a in rows],
+        "credited": len(records) - uncredited,
+        "uncredited": uncredited,
+    }
+
+
+def _colonia_rank(incidents):
+    """Reports ranked by colonia — the zone leaderboard.
+
+    Counts stay at the colonia level because that is the unit the honesty
+    rules let a record claim; nothing here groups colonias into invented
+    zones. Incidents without a colonia are counted so the panel can say what
+    the ranking is missing.
+    """
+    rows, unlocated = {}, 0
+    for inc in incidents:
+        name = inc.get("colonia")
+        if not name:
+            unlocated += 1
+            continue
+        r = rows.setdefault(name, {
+            "colonia": name, "incidents": 0, "articles": 0,
+            "open": 0, "resolved": 0, "categories": Counter(),
+            "first": inc["first_article_date"], "last": inc["last_article_date"],
+        })
+        r["incidents"] += 1
+        r["articles"] += inc.get("coverage_count") or len(inc.get("article_urls", []))
+        r["resolved" if inc["status"] == "resolved" else "open"] += 1
+        for cat in inc["categories"]:
+            r["categories"][cat] += 1
+        r["first"] = min(r["first"], inc["first_article_date"])
+        r["last"] = max(r["last"], inc["last_article_date"])
+    ranked = sorted(rows.values(),
+                    key=lambda r: (-r["incidents"], -r["articles"], r["colonia"]))
+    return {"ranked": [r | {"categories": r["categories"].most_common()} for r in ranked],
+            "unlocated": unlocated}
+
+
 def _latest_report():
     paths = sorted(glob.glob(os.path.join(REPORTS, "%sreport-*.md" % PREFIX)))
     if not paths:
@@ -288,6 +407,13 @@ def _latest_report():
 def build_payload():
     records = store.load(store.RECORDS, [])
     incidents = store.load(store.INCIDENTS, [])
+    # Byline join, in memory only: a record keeps its own author field; one
+    # without gets the byline the corpus index or a cached page holds for the
+    # same URL. This is credit rendering, not extraction — records.json is
+    # never touched.
+    bylines = _author_index()
+    for rec in records:
+        rec["author"] = _clean_author(rec.get("author")) or bylines.get(rec["article_url"])
     by_url = {}
     for rec in records:
         by_url.setdefault(rec.get("incident_id"), []).append(rec)
@@ -313,10 +439,13 @@ def build_payload():
             "located_share": round(100.0 * (certainty["exact"] + certainty["approximate"]) / total),
             "certainty": dict(certainty),
         },
+        "collaborators": _collaborators(records),
+        "colonia_rank": _colonia_rank(incidents),
         "gazetteer": {kind: sorted((v["display"] for v in bucket.values()), key=str.lower)
                       for kind, bucket in gaz.items()},
         "city": store.CITY,
         "colonia_coords": store.load(os.path.join(STATE, "colonia_coords.json"), {}),
+        "context_zones": store.load(os.path.join(STATE, "context_zones.json"), {}),
         "vocabulary": store.load(os.path.join(STATE, "vocabulary.json"), {}),
         "candidate_sources": store.load(os.path.join(STATE, "candidate_sources.json"), {}),
         "coverage": store.load(os.path.join(STATE, "%scoverage.json" % PREFIX), {}),
@@ -342,7 +471,7 @@ class Handler(SimpleHTTPRequestHandler):
             try:
                 self.send_json(_article_page(parse_qs(parsed.query)))
             except Exception as exc:                       # noqa: BLE001
-                self.send_json({"error": "Could not read the article index: %s" % exc}, 500)
+                self.send_json({"error": "No se pudo leer el índice de artículos: %s" % exc}, 500)
             return
         if parsed.path == "/api/data":
             try:
@@ -362,7 +491,8 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(body)
 
     def log_message(self, fmt, *args):
-        if "/api/" in (args[0] if args else ""):
+        # log_error llega aquí con HTTPStatus, no str — coacciona antes del "in"
+        if "/api/" in str(args[0] if args else ""):
             super().log_message(fmt, *args)
 
 

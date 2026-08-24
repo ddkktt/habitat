@@ -6,7 +6,7 @@
     "checked": 25,
     "misses": 1,
     "accuracy_pct": 96.0,
-    "note": "One filter miss: delayed school-dome construction in Ecoterra. The other 24 sampled headlines were not qualifying complaints."
+    "note": "Una omisión del filtro: la construcción retrasada del domo escolar en Ecoterra. Los otros 24 titulares muestreados no eran quejas que calificaran."
   },
   {
     "kind": "records",
@@ -15,6 +15,6 @@
     "checked": 10,
     "misses": 0,
     "accuracy_pct": 100.0,
-    "note": "Re-read the cached source text for all 10 sampled Tribuna records; summaries, categories, status, and evidence matched. NoticiasPV records were not in this sample."
+    "note": "Se releyó el texto fuente en caché de los 10 registros muestreados de Tribuna; summaries, categorías, estado y evidencia coincidieron. Los registros de NoticiasPV no entraron en esta muestra."
   }
 ]

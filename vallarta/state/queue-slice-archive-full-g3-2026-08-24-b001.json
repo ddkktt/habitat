@@ -1,0 +1,122 @@
+[
+ {
+  "queue_index": 91,
+  "article_url": "https://tribunadelabahia.com.mx/corte-agua-guadalajara-16-abril-colonias-afectadas/",
+  "article_date": "2026-04-16",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Anuncian corte de agua en Guadalajara este 16 de abril: Colonias afectadas y horarios",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 19,
+  "chars": 3341,
+  "text_available": true
+ },
+ {
+  "queue_index": 104,
+  "article_url": "https://tribunadelabahia.com.mx/lluvia-provoca-inundacion-plaza-del-sol-guadalajara/",
+  "article_date": "2026-07-30",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Lluvia vespertina provoca inundación en Plaza del Sol, en Guadalajara, y afecta circulación en López Mateos",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 19,
+  "chars": 2971,
+  "text_available": true
+ },
+ {
+  "queue_index": 107,
+  "article_url": "https://diariodevallarta.com/digital-blackout-one-server-farm-in-oregon-just-shut-down-payments-for-half-the-country/",
+  "article_date": "2026-08-08",
+  "source_outlet": "Diario de Vallarta",
+  "title": "Apagón digital en EE.UU: Un centro de servidores bloquea los pagos de la mitad del país",
+  "author": "Candelario Peña",
+  "bucket": "screened_out",
+  "score": 19,
+  "chars": 9425,
+  "text_available": true
+ },
+ {
+  "queue_index": 112,
+  "article_url": "https://tribunadelabahia.com.mx/vecinos-denuncian-basurero-clandestino-en-la-colonia-5-de-diciembre/",
+  "article_date": "2026-02-28",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Vecinos denuncian basurero clandestino en la 5 de Diciembre",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 18,
+  "chars": 1117,
+  "text_available": true
+ },
+ {
+  "queue_index": 114,
+  "article_url": "https://tribunadelabahia.com.mx/inundaciones-kenia-88-muertos-rios-desbordados/",
+  "article_date": "2026-03-24",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Inundaciones en Kenia dejan 88 muertos; ríos desbordados provocan crisis humanitaria",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 18,
+  "chars": 2759,
+  "text_available": true
+ },
+ {
+  "queue_index": 143,
+  "article_url": "https://tribunadelabahia.com.mx/aguas-negras-en-avenida-los-tules/",
+  "article_date": "2026-04-16",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Denuncian contaminación por aguas negras en avenida Los Tules",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 17,
+  "chars": 1339,
+  "text_available": true
+ },
+ {
+  "queue_index": 154,
+  "article_url": "https://tribunadelabahia.com.mx/crisis-basura-ecoterra-vecinos-trasladen-residuos/",
+  "article_date": "2026-06-25",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Crisis de basura en Ecoterra: proponen que vecinos trasladen los residuos al vertedero",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 17,
+  "chars": 2695,
+  "text_available": true
+ },
+ {
+  "queue_index": 159,
+  "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-conchas-chinas-dengue/",
+  "article_date": "2026-07-10",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Vecinos denuncian posible foco de dengue en Conchas Chinas",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 17,
+  "chars": 1846,
+  "text_available": true
+ },
+ {
+  "queue_index": 169,
+  "article_url": "https://tribunadelabahia.com.mx/riesgo-de-contaminacion-en-mercado-5-de-diciembre-por-acumulacion-de-basura/",
+  "article_date": "2026-08-18",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Riesgo de contaminación en Mercado “5 de Diciembre” por acumulación de basura",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 17,
+  "chars": 2837,
+  "text_available": true
+ },
+ {
+  "queue_index": 171,
+  "article_url": "https://tribunadelabahia.com.mx/agua-puerto-vallarta-recuperacion-tanque-san-francisco/",
+  "article_date": "2026-08-19",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Concluyen obra del Tanque San Francisco; agua tardará hasta 48 horas en estabilizarse en Vallarta",
+  "author": null,
+  "bucket": "maybe",
+  "score": 17,
+  "chars": 2637,
+  "text_available": true
+ }
+]

@@ -1,0 +1,59 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/bloqueo-carretera-punta-mita-ultimas-noticias/",
+  "article_date": "2026-04-27",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "habitantes de Punta de Mita iniciaron el bloqueo total de la carretera como medida de presión en defensa de Playa Las Cocinas",
+  "street": null,
+  "colonia": "Punta de Mita",
+  "landmark": "Playa Las Cocinas",
+  "summary": "Punta de Mita residents block highway demanding beach access and environmental permits for Playa Las Cocinas works; infrastructure qualification is doubtful.",
+  "affected_people_clue": "habitantes de Punta de Mita",
+  "duration_clue": "desde las primeras horas de este lunes"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/playa-las-cocinas-investigacion-federal-fgr/",
+  "article_date": "2026-05-09",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "el conflicto ambiental y territorial que enfrenta Playa Las Cocinas, en Punta de Mita, municipio de Bahía de Banderas",
+  "street": null,
+  "colonia": "Punta de Mita",
+  "landmark": "Playa Las Cocinas",
+  "summary": "Federal probe into alleged environmental damage and beach-access conflict at Playa Las Cocinas, Punta de Mita; qualification as infrastructure complaint is doubtful.",
+  "affected_people_clue": null,
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/drse-puerto-vallarta-estacionamiento-cadenas-simulacro-sismo/",
+  "article_date": "2026-05-07",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "la Unidad Regional de Servicios (UNIRSE) de la Costa Sierra Occidental … en Fluvial Vallarta",
+  "street": null,
+  "colonia": "Fluvial Vallarta",
+  "landmark": "UNIRSE",
+  "summary": "Official keeps shared UNIRSE parking chained in Fluvial Vallarta, hampering earthquake-drill evacuation; borderline complaint targeting one official's conduct.",
+  "affected_people_clue": "50 mil ciudadanos",
+  "duration_clue": "sigue acaparando"
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "note": "Human-approved public Facebook Pages or groups for social intake. social.py uses this only as metadata for already-exported scraper JSON; it never fetches or contacts these sources. Keep poster/commenter identities out of extracted records.",
+  "last_updated": "2026-08-24",
+  "schema": {
+    "name": "Public Page or group name",
+    "url": "Canonical Facebook Page/group URL",
+    "kind": "local_news | citizen_page | colonia_group | journalist_page | official | environmental_org",
+    "scope_city": "Puerto Vallarta",
+    "scope_colonia": "Optional colonia only when the source is explicitly colonia-scoped",
+    "status": "approved"
+  },
+  "sources": []
+}

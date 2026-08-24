@@ -1,0 +1,101 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/basura-coapinole-terreno-baldio/",
+    "article_date": "2026-03-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Coapinole … terreno baldío ubicado en la esquina de las calles 8 de Mayo y Brasil",
+    "street": "calles 8 de Mayo y Brasil",
+    "colonia": "Coapinole",
+    "landmark": null,
+    "summary": "Coapinole residents report daily dumping in a vacant lot at 8 de Mayo and Brasil, spreading trash into the street.",
+    "affected_people_clue": "Vecinos de la colonia Coapinole",
+    "duration_clue": "todos los días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/alertan-peligro-crucero-cuc-semaforo/",
+    "article_date": "2026-03-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "crucero del CUC, ubicado en la intersección de la Carretera 544 y Avenida Federación",
+    "street": "Carretera 544 y Avenida Federación",
+    "colonia": null,
+    "landmark": "CUC",
+    "summary": "A broken traffic light at the CUC crossing has endangered students, pedestrians and drivers for months.",
+    "affected_people_clue": "decenas de jóvenes",
+    "duration_clue": "varios meses"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/transformacion-calle-hidalgo-punta-de-mita-13-mdp/",
+    "article_date": "2026-06-22",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Paloma Rocío Guevara",
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "familias de Punta de Mita … la calle Hidalgo, en el tramo comprendido entre las calles 5 de Mayo y Guerrero",
+    "street": "calle Hidalgo entre las calles 5 de Mayo y Guerrero",
+    "colonia": "Punta de Mita",
+    "landmark": null,
+    "summary": "Calle Hidalgo rehabilitation in Punta de Mita begins after years of resident demand for safer basic infrastructure.",
+    "affected_people_clue": "cientos de familias",
+    "duration_clue": "Después de años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/basura-incumplimiento-gaviotas/",
+    "article_date": "2026-04-15",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "residencial Gaviotas, en la zona de Los Mangos … edificio ubicado sobre la calle Circunvalación del Róbalo",
+    "street": "calle Circunvalación del Róbalo",
+    "colonia": "Gaviotas",
+    "landmark": null,
+    "summary": "Gaviotas residents report trash left before collection hours on Circunvalación del Róbalo, causing odors and sanitation concerns.",
+    "affected_people_clue": "Habitantes del residencial Gaviotas",
+    "duration_clue": "durante gran parte del día"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/preocupa-posible-inundacion-en-zona-de-la-paloma/",
+    "article_date": "2026-05-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de la colonia Educación … Plaza de Toros La Paloma … calle Politécnico Nacional esquina Boulevard Francisco Medina Ascencio",
+    "street": "calle Politécnico Nacional esquina Boulevard Francisco Medina Ascencio",
+    "colonia": "Educación",
+    "landmark": "Plaza de Toros La Paloma",
+    "summary": "Colonia Educación residents fear construction near La Paloma will worsen years of flood pooling at Politécnico Nacional and Medina Ascencio.",
+    "affected_people_clue": "familias de la zona",
+    "duration_clue": "desde hace años"
+  }
+]

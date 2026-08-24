@@ -1,0 +1,121 @@
+{
+  "batch": "archive-full-g3-2026-08-24-b001",
+  "metadata": {
+    "queue_kind": "full-read-makeup",
+    "slice_file": "state/queue-slice-archive-full-g3-2026-08-24-b001.json"
+  },
+  "scanned": 10,
+  "reading_note": "Read the full text of all 10 articles printed by readqueue.py next; five qualified infrastructure/service complaints and five were excluded.",
+  "decisions": [
+    {
+      "index": 91,
+      "article_url": "https://tribunadelabahia.com.mx/corte-agua-guadalajara-16-abril-colonias-afectadas/",
+      "article_date": "2026-04-16",
+      "title": "Anuncian corte de agua en Guadalajara este 16 de abril: Colonias afectadas y horarios",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "out_of_area",
+      "note": "Scheduled water-service disruption in Guadalajara/Oblatos, outside the Puerto Vallarta/Bahía de Banderas scope.",
+      "read_by_agent": true
+    },
+    {
+      "index": 104,
+      "article_url": "https://tribunadelabahia.com.mx/lluvia-provoca-inundacion-plaza-del-sol-guadalajara/",
+      "article_date": "2026-07-30",
+      "title": "Lluvia vespertina provoca inundación en Plaza del Sol, en Guadalajara, y afecta circulación en López Mateos",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "out_of_area",
+      "note": "Flooding and traffic impacts in Guadalajara/ZMG, outside the Puerto Vallarta/Bahía de Banderas scope.",
+      "read_by_agent": true
+    },
+    {
+      "index": 107,
+      "article_url": "https://diariodevallarta.com/digital-blackout-one-server-farm-in-oregon-just-shut-down-payments-for-half-the-country/",
+      "article_date": "2026-08-08",
+      "title": "Apagón digital en EE.UU: Un centro de servidores bloquea los pagos de la mitad del país",
+      "source_outlet": "Diario de Vallarta",
+      "decision": "no",
+      "reason_code": "off_topic_other",
+      "note": "Syndicated article about a U.S. cloud-services outage and emergency preparedness; not a local public infrastructure complaint.",
+      "read_by_agent": true
+    },
+    {
+      "index": 112,
+      "article_url": "https://tribunadelabahia.com.mx/vecinos-denuncian-basurero-clandestino-en-la-colonia-5-de-diciembre/",
+      "article_date": "2026-02-28",
+      "title": "Vecinos denuncian basurero clandestino en la 5 de Diciembre",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Residents report constant trash accumulation blocking a sidewalk and creating odors in 5 de Diciembre.",
+      "read_by_agent": true
+    },
+    {
+      "index": 114,
+      "article_url": "https://tribunadelabahia.com.mx/inundaciones-kenia-88-muertos-rios-desbordados/",
+      "article_date": "2026-03-24",
+      "title": "Inundaciones en Kenia dejan 88 muertos; ríos desbordados provocan crisis humanitaria",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "off_topic_other",
+      "note": "International disaster/wire story about flooding in Kenya; not a local resident complaint.",
+      "read_by_agent": true
+    },
+    {
+      "index": 143,
+      "article_url": "https://tribunadelabahia.com.mx/aguas-negras-en-avenida-los-tules/",
+      "article_date": "2026-04-16",
+      "title": "Denuncian contaminación por aguas negras en avenida Los Tules",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Citizen reports describe years of sewage discharge and odor on Avenida Los Tules.",
+      "read_by_agent": true
+    },
+    {
+      "index": 154,
+      "article_url": "https://tribunadelabahia.com.mx/crisis-basura-ecoterra-vecinos-trasladen-residuos/",
+      "article_date": "2026-06-25",
+      "title": "Crisis de basura en Ecoterra: proponen que vecinos trasladen los residuos al vertedero",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Ecoterra residents report more than two weeks of insufficient trash collection and overflowing containers.",
+      "read_by_agent": true
+    },
+    {
+      "index": 159,
+      "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-conchas-chinas-dengue/",
+      "article_date": "2026-07-10",
+      "title": "Vecinos denuncian posible foco de dengue en Conchas Chinas",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "no",
+      "reason_code": "off_topic_other",
+      "note": "Health complaint about stagnant water in a private property's pool; not public infrastructure or a public service.",
+      "read_by_agent": true
+    },
+    {
+      "index": 169,
+      "article_url": "https://tribunadelabahia.com.mx/riesgo-de-contaminacion-en-mercado-5-de-diciembre-por-acumulacion-de-basura/",
+      "article_date": "2026-08-18",
+      "title": "Riesgo de contaminación en Mercado “5 de Diciembre” por acumulación de basura",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "Municipal market trash-handling problem affects merchants, shoppers, nearby children and neighbors.",
+      "read_by_agent": true
+    },
+    {
+      "index": 171,
+      "article_url": "https://tribunadelabahia.com.mx/agua-puerto-vallarta-recuperacion-tanque-san-francisco/",
+      "article_date": "2026-08-19",
+      "title": "Concluyen obra del Tanque San Francisco; agua tardará hasta 48 horas en estabilizarse en Vallarta",
+      "source_outlet": "Tribuna de la Bahía",
+      "decision": "yes",
+      "reason_code": "qualified",
+      "note": "SEAPAL reports recovery from several days of water-supply disruption affecting Puerto Vallarta colonias.",
+      "read_by_agent": true
+    }
+  ]
+}

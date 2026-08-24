@@ -1,5 +1,141 @@
 # Cycle changelog
 
+## Decisión del operador — 2026-08-24 · Idioma: todo lo visible en español
+
+El operador fijó la convención de idioma: **todo texto que ve una persona se
+escribe en español** — la documentación, todo el texto del sitio web/panel,
+los informes diarios y el campo `summary` de los registros nuevos. En inglés
+quedan solo los identificadores de código (archivos, campos JSON, enums,
+comandos). La regla está escrita en tres lugares para que ningún agente la
+pierda: `README.md` («Idioma»), `EXTRACTION.md` (encabezado y §4) y el
+documento rector `../vallarta_agent_prompt.md` (sección «Language», y el campo
+`summary` del esquema ahora dice «in Spanish»).
+
+**Qué se tradujo en este cambio**
+
+- `README.md` y `EXTRACTION.md`: traducción completa al español, misma
+  estructura y mismos nombres de archivo. (La sesión concurrente de la capa
+  social ya está escribiendo sus adiciones sobre la versión en español.)
+- `cycle.py report`: todo el texto generado del informe diario ahora sale en
+  español — se muestra en la pestaña «Último informe» del panel, así que era
+  texto del sitio en inglés. El informe de hoy se regeneró.
+- `server.py`: el único mensaje de error en inglés que llegaba al navegador
+  («Could not read the article index») ahora está en español. El resto de la
+  interfaz (`web/`) ya estaba en español desde la traducción anterior.
+- Cadenas de archivos de estado/datos que el panel muestra tal cual:
+  `state/candidate_sources.json` (los campos `kind` y `why` de los 10
+  candidatos — pestaña «Fuentes candidatas»), `state/vocabulary.json` (los
+  `why` de los 4 términos en observación) y `data/audits.json` (las notas de
+  las 2 auditorías — sección «Auditorías de calidad»). También el
+  `reading_note` de `data/triage-2026-08-24.json`, que el informe diario cita.
+  Solo se tradujeron los campos que se renderizan; los campos internos
+  (`recon`, notas de nivel superior no mostradas) quedaron como estaban.
+  Las zonas de `state/context_zones.json` ya estaban en español.
+
+**Qué queda pendiente, y por qué no se hizo ahora**
+
+- **~420 `summary` en inglés en `records.json` / `incidents.json`** — son el
+  único texto en inglés que el panel sigue mostrando (una oración por tarjeta
+  de incidente). No se tradujeron en esta pasada porque la lectura del corpus
+  sigue corriendo y `store.py` reescribe esos archivos al ingerir
+  (`records.json` se escribió minutos antes de este cambio); editar 420
+  registros a mitad de esa corrida arriesga perder la edición o el lote en una
+  colisión de escritura. Hacerlo en **una sola pasada al terminar la corrida**,
+  respetando el tope de 25 palabras del validador, y anotarlo aquí.
+- Los lotes en vuelo llevan en sus instrucciones la regla anterior («summary en
+  inglés»), así que habrá summaries mezclados hasta esa pasada única. Esperado,
+  no un defecto de los lectores.
+- Las entradas históricas de este changelog permanecen en el idioma en que se
+  escribieron, como registro; las nuevas se escriben en español. Los mensajes
+  del validador de `store.py` y la salida de consola siguen en inglés (son
+  salida de herramienta para el operador, no texto del sitio); traducirlos es
+  opcional y de bajo riesgo si el operador lo quiere.
+
+## Intake social — 2026-08-24 · CityPulse con Facebook exportado
+
+Pedido del operador: integrar la idea de CityPulse — búsqueda por tema y fuentes
+locales de Facebook — sin romper el esquema actual de registros/incidentes.
+
+1. **Adaptador `social.py`.** Nuevo flujo de solo lectura: genera búsquedas para
+   ciudad+tema, normaliza JSON exportado por scrapers externos de Facebook y
+   produce `data/social-worklist-<fecha>.json` para clasificación LLM/humana.
+   Después convierte items clasificados en `data/extract-social-<fecha>.json` y
+   `data/triage-social-<fecha>.json`, listos para `store.py`.
+2. **Dos caminos, un almacén.** `source_path` distingue `keyword_search` de
+   `local_sources`, pero ambos terminan como registros normales. Comentarios usan
+   una URL estable `#comment-...` para no chocar con la publicación madre.
+3. **Privacidad y ubicación.** `author` es siempre `null` para Facebook; no se
+   conservan nombres ni perfiles de personas. Una Página local prueba relevancia
+   de ciudad, no colonia. Solo una fuente explícitamente acotada a colonia puede
+   dar `location_basis: "source_colonia_scope"`; el resto depende de evidencia en
+   el texto y del nomenclátor.
+4. **Registro de fuentes.** `state/social_sources.json` queda como lista vacía y
+   aprobada manualmente, con esquema para Páginas/grupos. Ninguna fuente social se
+   consulta desde Codex; el archivo solo da metadatos a exportaciones ya obtenidas.
+
+**Límite conocido:** el panel todavía muestra estos registros principalmente por
+categorías (`drainage`, `trash`, `water`); los campos `topic`/`subtopic` ya viajan
+en `records.json`, pero falta una vista dedicada tipo “Pollution · Puerto
+Vallarta”.
+
+## Dashboard feature — 2026-08-24 · Wildlife category and crocodile context zones
+
+Operator request: crocodile sightings are a recurring public-safety issue near
+the esteros and river mouths, previously squeezed into `other`.
+
+1. **`wildlife` category.** Added to the enum in `store.py` and documented in
+   `EXTRACTION.md` (dangerous fauna in public areas; pair with `public_space`
+   when the complaint is about the response, not the animal). Keywords
+   (cocodrilo, caimán, avistamiento…) join `vocabulary.json` — reading-order
+   hints only, never qualification. The one existing crocodile record
+   (INC-20260629-320, Marina Vallarta beach open after a fatal attack) was
+   recategorized to include `wildlife`; its evidence and location are untouched.
+2. **Context layer, viewer-only.** `state/context_zones.json` holds five
+   operator-provided zones with known crocodile presence (Boca de Tomates /
+   Ameca, Playa del Holi / Pitillal, Marina Vallarta / El Salado, Cuale mouth,
+   Mojoneras), hand-estimated centres like `colonia_coords.json`. Selecting the
+   🐊 category in either category filter draws them dashed-amber on the map and
+   lists them above the incident cards, labeled as background context — they
+   enter no count, no record, no metric. The 🐊 option is always offered even
+   while incidents are scarce, because the context layer is useful on its own.
+3. **Hot-zone toggle.** A map checkbox shades the 10 colonias with the most
+   incidents under the current filter (same set as the side ranking). Filtered
+   to 🐊, it will show where sightings concentrate as data accumulates — the
+   hand-written zones are the prior, the shaded ones are the evidence, and a
+   disagreement between them is a finding.
+
+**Known limit:** zone circles are hand-estimated centres and radii, not habitat
+boundaries; the map labels them as context precisely so nobody reads them as
+measured data.
+
+## Dashboard feature — 2026-08-24 · Collaborator credits and colonia ranking
+
+Operator request: the frame should thank the people the data comes from, and
+rank the reports by zone.
+
+1. **Colaboradores tab.** The journalists whose articles became records, ranked
+   by contribution (articles registered, incidents documented, located
+   records), personal bylines above newsroom desks ("Redacción…"), with an
+   honest count of how many records carry no identifiable author. Clicking a
+   name filters the incident list to their work.
+2. **Byline join, viewer-side only.** Only 36 of 420 records carry an `author`
+   field, but the corpus index and the cached article pages know who wrote most
+   of the rest, keyed by `article_url`. `server.py` joins them at render time;
+   `records.json` is never modified. Byline text comes from the outlets' own
+   metadata — nothing is inferred. Tribuna de la Bahía signs with initials
+   (JB, LG), so a two-character byline is a valid name, credited as printed.
+3. **Colonias tab.** Every colonia ranked by incidents (press coverage shown
+   alongside as article counts, so a story the press returns to weighs
+   visibly), with open/resolved splits, top categories, and last-report dates.
+   Ranking stays at the colonia level — the unit the honesty rules let a
+   record claim — and the panel states how many incidents have no colonia and
+   therefore sit outside the ranking. No zone grouping is invented.
+
+**Known limit:** most archive records predate byline capture, so 384 of 420
+records remain uncredited until their cached pages or corpus rows carry an
+author. The credit list understates prolific reporters accordingly, and the
+panel says so.
+
 ## Reporting cleanup, round 2 — 2026-08-24 · Two workflow generations, one set of filenames
 
 **Previous-change review:** the reporting fixes earlier today held. The audit

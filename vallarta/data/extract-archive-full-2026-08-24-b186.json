@@ -1,0 +1,97 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/ratas-presidencia-bahia-de-banderas-daniela-sahagun-mantenimiento-municipa/",
+  "article_date": "2026-06-04",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "other"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "el mantenimiento de las oficinas de los regidores y de los baños de la Presidencia Municipal de Valle de Banderas",
+  "street": null,
+  "colonia": null,
+  "landmark": "Presidencia Municipal de Valle de Banderas",
+  "summary": "Official reveals rats and deteriorated bathrooms in Bahia de Banderas municipal palace; qualification doubtful as it concerns government building maintenance.",
+  "affected_people_clue": "cientos de empleados",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/entre-ambientales-tala-urbana-vallarta-foro-arbol-mundo/",
+  "article_date": "2026-05-29",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "none",
+  "location_evidence": null,
+  "street": null,
+  "colonia": null,
+  "landmark": null,
+  "summary": "Citizens denounce felling of dozens of urban trees citywide by developers; embedded in forum coverage, so qualification is doubtful.",
+  "affected_people_clue": "Diversos sectores ciudadanos",
+  "duration_clue": "en años recientes"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/se-extiende-suspension-clases-en-puerto-vallarta/",
+  "article_date": "2026-05-28",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "yes",
+  "categories": [
+   "trash"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "la emergencia atmosférica generada por el incendio registrado en el vertedero El Gavilán",
+  "street": null,
+  "colonia": null,
+  "landmark": "vertedero El Gavilán",
+  "summary": "El Gavilan landfill fire keeps atmospheric emergency active; classes suspended in nine colonias due to smoke and contaminants.",
+  "affected_people_clue": "estudiantes, docentes y personal educativo",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/pavel-jarero-crisis-cementerio-municipal-bahia-de-banderas/",
+  "article_date": "2026-05-25",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "other"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "el panteón municipal de San Juan de Abajo",
+  "street": null,
+  "colonia": null,
+  "landmark": "panteón municipal de San Juan de Abajo",
+  "summary": "Senator says Bahia de Banderas lacks functioning municipal cemetery, forcing burials elsewhere; political framing makes qualification doubtful.",
+  "affected_people_clue": "decenas de familias",
+  "duration_clue": "casi la mitad de 2026"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/fernandez-norona-llegara-punta-mita-conflicto-playa-cocinas/",
+  "article_date": "2026-05-22",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "la recuperación de Playa Las Cocinas, donde habitantes de Punta de Mita mantienen una lucha",
+  "street": null,
+  "colonia": "Punta de Mita",
+  "landmark": "Playa Las Cocinas",
+  "summary": "Residents dispute blocked public access to Playa Las Cocinas beach; land conflict and senator visit make qualification doubtful.",
+  "affected_people_clue": "habitantes de Punta de Mita",
+  "duration_clue": "En las últimas semanas"
+ }
+]

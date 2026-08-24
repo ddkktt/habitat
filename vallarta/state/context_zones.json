@@ -1,0 +1,57 @@
+{
+  "note": "Viewer-only context layer: areas with known crocodile presence, hand-maintained like colonia_coords.json. Drawn on the dashboard map when the wildlife category is selected. This is background knowledge, never evidence — it does not enter records, incidents, or any metric, and no incident is ever located from it.",
+  "source": "Operator-provided local knowledge, 2026-08-24. Positions are hand-estimated centres, not official boundaries.",
+  "kind": "crocodile_presence",
+  "zones": [
+    {
+      "name": "Playa Boca de Tomates",
+      "colonias": ["Boca de Tomates"],
+      "water_body": "Estero y Río Ameca",
+      "seasonal": false,
+      "note": "Avistamiento de cocodrilos por cercanía al estero y al Río Ameca.",
+      "lat": 20.6855,
+      "lon": -105.2625,
+      "radius_m": 800
+    },
+    {
+      "name": "Playa del Holi",
+      "colonias": ["Fluvial Vallarta"],
+      "water_body": "Desembocadura del Río Pitillal",
+      "seasonal": true,
+      "note": "Presencia de reptiles en la playa por la desembocadura del Río Pitillal, principalmente en lluvias.",
+      "lat": 20.65,
+      "lon": -105.2415,
+      "radius_m": 600
+    },
+    {
+      "name": "Marina Vallarta y Zona Hotelera",
+      "colonias": ["Marina Vallarta", "Zona Hotelera"],
+      "water_body": "Estero El Salado",
+      "seasonal": false,
+      "note": "Cocodrilos en canales y campos de golf contiguos al Estero El Salado.",
+      "lat": 20.66,
+      "lon": -105.245,
+      "radius_m": 900
+    },
+    {
+      "name": "Desembocadura del Río Cuale (Zona Romántica)",
+      "colonias": ["Emiliano Zapata", "Centro"],
+      "water_body": "Río Cuale",
+      "seasonal": false,
+      "note": "Avistamiento de ejemplares en la franja sur del municipio.",
+      "lat": 20.6068,
+      "lon": -105.2345,
+      "radius_m": 500
+    },
+    {
+      "name": "Mojoneras",
+      "colonias": ["Mojoneras"],
+      "water_body": "Encharcamientos e inundaciones",
+      "seasonal": true,
+      "note": "Incursión de cocodrilos en zonas urbanas por encharcamientos e inundaciones.",
+      "lat": 20.668,
+      "lon": -105.196,
+      "radius_m": 700
+    }
+  ]
+}

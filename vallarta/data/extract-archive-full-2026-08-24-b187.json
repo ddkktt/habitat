@@ -1,0 +1,40 @@
+[
+ {
+  "article_url": "https://diariodevallarta.com/asociacion-ganadera-de-valle-de-banderas-advierte-riesgos-en-infraestructura-y-sanidad-animal/",
+  "article_date": "2026-05-19",
+  "source_outlet": "Diario de Vallarta",
+  "author": "Redaccion de Diario de Vallarta y Nayarit",
+  "qualifies": "unsure",
+  "categories": [
+   "other"
+  ],
+  "status": "new_complaint",
+  "location_certainty": "approximate",
+  "location_evidence": "La Asociación Ganadera Local de Valle de Banderas",
+  "street": null,
+  "colonia": "Valle de Banderas",
+  "landmark": "Asociación Ganadera Local de Valle de Banderas",
+  "summary": "Livestock association building in Valle de Banderas has cracked walls and roof at risk of collapse; qualification doubtful as facility is not public infrastructure.",
+  "affected_people_clue": "personas que acuden diariamente",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/puente-la-desembocada-inaugurado-este-jueves/",
+  "article_date": "2026-05-13",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "yes",
+  "categories": [
+   "roads"
+  ],
+  "status": "resolved",
+  "location_certainty": "exact",
+  "location_evidence": "el reconstruido Puente La Desembocada … fue derribado en la carretera estatal 544, que conecta con Guadalajara, en el tramo de Ixtapa a Las Palmas",
+  "street": "carretera estatal 544",
+  "colonia": null,
+  "landmark": "Puente La Desembocada",
+  "summary": "State rebuilt La Desembocada bridge on highway 544, destroyed by explosives in February; reopening announced, benefiting over 6,000 families.",
+  "affected_people_clue": "más de 6 mil familias",
+  "duration_clue": "desde el 22 de febrero"
+ }
+]

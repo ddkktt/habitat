@@ -1,7 +1,7 @@
 {
   "cycle": "2026-08-24",
   "scanned": 45,
-  "reading_note": "All 45 feed items were read from their published RSS text; cached full article pages were used where available. The 10 NoticiasPV decisions use RSS excerpts because their pages had been fetched before protocol approval and were not re-fetched.",
+  "reading_note": "Los 45 ítems del feed se leyeron desde su texto RSS publicado; se usaron las páginas completas en caché donde existían. Las 10 decisiones de NoticiasPV usan extractos RSS porque sus páginas se descargaron antes de la aprobación del protocolo y no se re-descargaron.",
   "decisions": [
     {
       "index": 0,

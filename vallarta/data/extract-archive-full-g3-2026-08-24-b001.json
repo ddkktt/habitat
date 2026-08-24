@@ -1,0 +1,99 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-denuncian-basurero-clandestino-en-la-colonia-5-de-diciembre/",
+    "article_date": "2026-02-28",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia 5 de Diciembre denunciaron que la calle Guatemala, casi esquina con prolongación de Brasil",
+    "street": "calle Guatemala casi esquina con prolongación de Brasil",
+    "colonia": "5 de Diciembre",
+    "landmark": null,
+    "summary": "Trash accumulates on Guatemala near Brasil in 5 de Diciembre, blocking the sidewalk and creating odors.",
+    "affected_people_clue": "Habitantes de la colonia 5 de Diciembre",
+    "duration_clue": "es constante"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/aguas-negras-en-avenida-los-tules/",
+    "article_date": "2026-04-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en la avenida Los Tules, donde descargas de aguas negras continúan afectando",
+    "street": "avenida Los Tules",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Sewage has flowed for years along Avenida Los Tules, creating odors and health concerns near medical facilities.",
+    "affected_people_clue": "población que transita por la zona",
+    "duration_clue": "desde hace años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/crisis-basura-ecoterra-vecinos-trasladen-residuos/",
+    "article_date": "2026-06-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Los habitantes de Ecoterra han manifestado su inconformidad debido a que llevan más de dos semanas batallando con la recolección de residuos sólidos",
+    "street": null,
+    "colonia": "Ecoterra",
+    "landmark": null,
+    "summary": "Ecoterra residents report over two weeks of insufficient trash collection, with overflowing containers and unattended streets.",
+    "affected_people_clue": "Los habitantes de Ecoterra",
+    "duration_clue": "más de dos semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/riesgo-de-contaminacion-en-mercado-5-de-diciembre-por-acumulacion-de-basura/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "El Mercado Municipal 5 de Diciembre, ubicado sobre las calles San Salvador y Brasilia, frente al viejo cementerio",
+    "street": "calles San Salvador y Brasilia",
+    "colonia": null,
+    "landmark": "Mercado Municipal 5 de Diciembre",
+    "summary": "Trash handling at Mercado Municipal 5 de Diciembre contaminates nearby streets and remains unresolved since the previous administration.",
+    "affected_people_clue": "locatarios",
+    "duration_clue": "Desde la administración anterior"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/agua-puerto-vallarta-recuperacion-tanque-san-francisco/",
+    "article_date": "2026-08-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "SEAPAL says Vallarta water service is recovering after several days of outages, with pressure issues possibly continuing for 48 hours.",
+    "affected_people_clue": "20% de las colonias",
+    "duration_clue": "hasta 48 horas"
+  }
+]

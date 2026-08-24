@@ -2576,9 +2576,10 @@
     "last_article_date": "2026-06-02",
     "article_urls": [
       "https://diariodevallarta.com/incendio-relleno-sanitario-puerto-vallarta-controlado/",
-      "https://tribunadelabahia.com.mx/incendio-relleno-sanitario-el-gavilan-85-por-ciento-controlado/"
+      "https://tribunadelabahia.com.mx/incendio-relleno-sanitario-el-gavilan-85-por-ciento-controlado/",
+      "https://tribunadelabahia.com.mx/se-extiende-suspension-clases-en-puerto-vallarta/"
     ],
-    "coverage_count": 2,
+    "coverage_count": 3,
     "summary": "A landfill fire is controlled at the tire depot but suppression continues elsewhere; no risk to nearby residents is reported, making qualification uncertain.",
     "linked_by_agent": [
       "https://tribunadelabahia.com.mx/incendio-relleno-sanitario-el-gavilan-85-por-ciento-controlado/"
@@ -2936,9 +2937,10 @@
     "incident_id": "INC-20260227-134",
     "categories": [
       "power",
-      "public_space"
+      "public_space",
+      "trash"
     ],
-    "status": "resolved",
+    "status": "ongoing",
     "colonia": "5 de Diciembre",
     "street": "calle San Salvador y Brasilia",
     "landmark": null,
@@ -2948,12 +2950,20 @@
       "brasilia"
     ],
     "first_article_date": "2026-02-27",
-    "last_article_date": "2026-02-27",
+    "last_article_date": "2026-02-28",
     "article_urls": [
-      "https://tribunadelabahia.com.mx/mercado-5-de-diciembre-puerto-vallarta-incendiado-ya-funciona/"
+      "https://tribunadelabahia.com.mx/mercado-5-de-diciembre-puerto-vallarta-incendiado-ya-funciona/",
+      "https://tribunadelabahia.com.mx/vecinos-denuncian-basurero-clandestino-en-la-colonia-5-de-diciembre/"
     ],
-    "coverage_count": 1,
-    "summary": "A partial fire damaged the municipal market, but electricity and normal operations were restored within two days."
+    "coverage_count": 2,
+    "summary": "A partial fire damaged the municipal market, but electricity and normal operations were restored within two days.",
+    "status_history": [
+      {
+        "date": "2026-02-28",
+        "from": "resolved",
+        "to": "ongoing"
+      }
+    ]
   },
   {
     "incident_id": "INC-20260305-135",
@@ -3181,7 +3191,8 @@
     "categories": [
       "drainage",
       "public_space",
-      "trash"
+      "trash",
+      "water"
     ],
     "status": "ongoing",
     "colonia": null,
@@ -3193,9 +3204,10 @@
     "first_article_date": "2026-07-13",
     "last_article_date": "2026-07-13",
     "article_urls": [
-      "https://tribunadelabahia.com.mx/puerto-vallarta-proteger-playas-contaminacion/"
+      "https://tribunadelabahia.com.mx/puerto-vallarta-proteger-playas-contaminacion/",
+      "https://tribunadelabahia.com.mx/playa-del-cuale-puerto-vallarta-no-apta-bano-cofepris/"
     ],
-    "coverage_count": 1,
+    "coverage_count": 2,
     "summary": "Contaminated Playa del Cuale, wastewater threats, and deficient garbage collection endanger Puerto Vallarta beaches and residents."
   },
   {
@@ -3486,9 +3498,10 @@
     "first_article_date": "2026-03-23",
     "last_article_date": "2026-03-23",
     "article_urls": [
-      "https://tribunadelabahia.com.mx/incendio-baldio-alarma-vecinos-coapinole/"
+      "https://tribunadelabahia.com.mx/incendio-baldio-alarma-vecinos-coapinole/",
+      "https://tribunadelabahia.com.mx/basura-coapinole-terreno-baldio/"
     ],
-    "coverage_count": 1,
+    "coverage_count": 2,
     "summary": "An unmanaged Coapinole vacant lot accumulated trash and dry vegetation, causing a fire, smoke, and risks for nearby residents."
   },
   {
@@ -5980,9 +5993,11 @@
       "https://tribunadelabahia.com.mx/playa-las-cocinas-muro-dine-punta-de-mita-20-metros/",
       "https://tribunadelabahia.com.mx/terminan-muro-piedras-playa-las-cocinas-punta-de-mita/",
       "https://tribunadelabahia.com.mx/puntamitenses-responden-dine-playa-las-cocinas-punta-de-mita/",
-      "https://tribunadelabahia.com.mx/playa-las-cocinas-228-mil-firmas-escollera/"
+      "https://tribunadelabahia.com.mx/playa-las-cocinas-228-mil-firmas-escollera/",
+      "https://tribunadelabahia.com.mx/fernandez-norona-llegara-punta-mita-conflicto-playa-cocinas/",
+      "https://tribunadelabahia.com.mx/playa-las-cocinas-investigacion-federal-fgr/"
     ],
-    "coverage_count": 5,
+    "coverage_count": 7,
     "summary": "Protesters said resort wall blocked beach access at Playa Las Cocinas, Punta de Mita; developer agreed to relocate it; borderline private-development dispute."
   },
   {
@@ -6175,17 +6190,19 @@
       "playa cocinas"
     ],
     "first_article_date": "2026-07-22",
-    "last_article_date": "2026-07-22",
+    "last_article_date": "2026-07-28",
     "article_urls": [
-      "https://tribunadelabahia.com.mx/grupo-dine-pierde-concesion-playa-las-cocinas/"
+      "https://tribunadelabahia.com.mx/grupo-dine-pierde-concesion-playa-las-cocinas/",
+      "https://tribunadelabahia.com.mx/ciudadanos-retiro-muro-playa-las-cocinas/"
     ],
-    "coverage_count": 1,
+    "coverage_count": 2,
     "summary": "Rock jetty remains on public beach Playa Las Cocinas after concession revoked; activists demand removal and restoration; environmental dispute, so qualification is doubtful."
   },
   {
     "incident_id": "INC-20260624-290",
     "categories": [
-      "public_space"
+      "public_space",
+      "roads"
     ],
     "status": "ongoing",
     "colonia": "Punta de Mita",
@@ -6198,9 +6215,10 @@
     "first_article_date": "2026-06-24",
     "last_article_date": "2026-06-24",
     "article_urls": [
-      "https://tribunadelabahia.com.mx/grupo-dine-retirara-escollera-playa-las-cocinas-punta-de-mita/"
+      "https://tribunadelabahia.com.mx/grupo-dine-retirara-escollera-playa-las-cocinas-punta-de-mita/",
+      "https://diariodevallarta.com/transformacion-calle-hidalgo-punta-de-mita-13-mdp/"
     ],
-    "coverage_count": 1,
+    "coverage_count": 2,
     "summary": "Developer agrees to remove rock jetty limiting access to Playa Las Cocinas, Punta de Mita, after resident protests; qualification doubtful as private-company dispute."
   },
   {
@@ -6319,9 +6337,10 @@
     "first_article_date": "2026-04-29",
     "last_article_date": "2026-04-29",
     "article_urls": [
-      "https://tribunadelabahia.com.mx/segob-entra-al-conflicto-en-punta-mita/"
+      "https://tribunadelabahia.com.mx/segob-entra-al-conflicto-en-punta-mita/",
+      "https://tribunadelabahia.com.mx/bloqueo-carretera-punta-mita-ultimas-noticias/"
     ],
-    "coverage_count": 1,
+    "coverage_count": 2,
     "summary": "Residents protest tourist development restricting public beach access at Playa Las Cocinas, Punta Mita; federal dialogue promised; borderline land-use conflict, qualification unsure."
   },
   {
@@ -6349,7 +6368,7 @@
     "categories": [
       "public_space"
     ],
-    "status": "failed_repair",
+    "status": "ongoing",
     "colonia": "San José del Valle",
     "street": null,
     "landmark": "unidad deportiva de San José del Valle",
@@ -6358,12 +6377,20 @@
       "unidad deportiva san jose valle"
     ],
     "first_article_date": "2026-04-07",
-    "last_article_date": "2026-04-07",
+    "last_article_date": "2026-04-21",
     "article_urls": [
-      "https://tribunadelabahia.com.mx/pista-tartan-san-jose-del-valle-deterioro-nayarit/"
+      "https://tribunadelabahia.com.mx/pista-tartan-san-jose-del-valle-deterioro-nayarit/",
+      "https://tribunadelabahia.com.mx/rehabilitan-pista-tartan-san-jose-del-valle-bahia-banderas/"
     ],
-    "coverage_count": 1,
-    "summary": "Rehabilitated tartan track at San Jose del Valle sports unit developed holes within eight months; users blame poor materials and repeatedly postponed repairs."
+    "coverage_count": 2,
+    "summary": "Rehabilitated tartan track at San Jose del Valle sports unit developed holes within eight months; users blame poor materials and repeatedly postponed repairs.",
+    "status_history": [
+      {
+        "date": "2026-04-21",
+        "from": "failed_repair",
+        "to": "ongoing"
+      }
+    ]
   },
   {
     "incident_id": "INC-20260207-299",
@@ -6672,5 +6699,397 @@
     ],
     "coverage_count": 1,
     "summary": "Motorcyclist skidded on loose dirt reportedly accumulated on Medina Ascencio's central lanes; hazard is presumptive, so qualification as infrastructure complaint is doubtful."
+  },
+  {
+    "incident_id": "INC-20260805-314",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": null,
+    "landmark": null,
+    "place_key": [],
+    "first_article_date": "2026-08-05",
+    "last_article_date": "2026-08-05",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/usuarios-puerto-vallarta-desconfian-nueva-app-taxis-ctm/"
+    ],
+    "coverage_count": 1,
+    "summary": "Poll respondents distrust new CTM taxi app, citing taxi drivers repeatedly refusing rides to certain colonias; qualification as transit complaint is doubtful."
+  },
+  {
+    "incident_id": "INC-20260729-315",
+    "categories": [
+      "other",
+      "transit"
+    ],
+    "status": "unclear",
+    "colonia": "Centro",
+    "street": null,
+    "landmark": null,
+    "place_key": [],
+    "first_article_date": "2026-07-29",
+    "last_article_date": "2026-07-29",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/puerto-vallarta-aumentan-ventas-verano/"
+    ],
+    "coverage_count": 1,
+    "summary": "Tourism-sales article; interviewee notes downtown parking shortage and public transport conditions needing attention, so qualification as infrastructure complaint is doubtful."
+  },
+  {
+    "incident_id": "INC-20260604-316",
+    "categories": [
+      "other"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": null,
+    "landmark": "Presidencia Municipal de Valle de Banderas",
+    "place_key": [
+      "presidencia municipal valle banderas"
+    ],
+    "first_article_date": "2026-06-04",
+    "last_article_date": "2026-06-04",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/ratas-presidencia-bahia-de-banderas-daniela-sahagun-mantenimiento-municipa/"
+    ],
+    "coverage_count": 1,
+    "summary": "Official reveals rats and deteriorated bathrooms in Bahia de Banderas municipal palace; qualification doubtful as it concerns government building maintenance."
+  },
+  {
+    "incident_id": "INC-20260529-317",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": null,
+    "landmark": null,
+    "place_key": [],
+    "first_article_date": "2026-05-29",
+    "last_article_date": "2026-05-29",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/entre-ambientales-tala-urbana-vallarta-foro-arbol-mundo/"
+    ],
+    "coverage_count": 1,
+    "summary": "Citizens denounce felling of dozens of urban trees citywide by developers; embedded in forum coverage, so qualification is doubtful."
+  },
+  {
+    "incident_id": "INC-20260525-318",
+    "categories": [
+      "other"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": null,
+    "landmark": "panteón municipal de San Juan de Abajo",
+    "place_key": [
+      "panteon municipal san juan abajo"
+    ],
+    "first_article_date": "2026-05-25",
+    "last_article_date": "2026-05-25",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/pavel-jarero-crisis-cementerio-municipal-bahia-de-banderas/"
+    ],
+    "coverage_count": 1,
+    "summary": "Senator says Bahia de Banderas lacks functioning municipal cemetery, forcing burials elsewhere; political framing makes qualification doubtful."
+  },
+  {
+    "incident_id": "INC-20260630-319",
+    "categories": [
+      "public_space",
+      "roads"
+    ],
+    "status": "ongoing",
+    "colonia": "Conchas Chinas",
+    "street": null,
+    "landmark": null,
+    "place_key": [
+      "conchas chinas"
+    ],
+    "first_article_date": "2026-06-30",
+    "last_article_date": "2026-06-30",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/seguridad-puerto-vallarta-rescate-turista-conchas-chinas/"
+    ],
+    "coverage_count": 1,
+    "summary": "Rescue report notes cliffs along Conchas Chinas coastal strip lack pedestrian containment barriers; qualification doubtful since main story is an accident."
+  },
+  {
+    "incident_id": "INC-20260629-320",
+    "categories": [
+      "other",
+      "public_space",
+      "wildlife"
+    ],
+    "status": "new_complaint",
+    "colonia": "Marina Vallarta",
+    "street": null,
+    "landmark": "Marriott Puerto Vallarta Resort and Spa",
+    "place_key": [
+      "marina vallarta",
+      "marriott puerto vallarta resort and spa"
+    ],
+    "first_article_date": "2026-06-29",
+    "last_article_date": "2026-06-29",
+    "article_urls": [
+      "https://diariodevallarta.com/ataque-de-cocodrilo-en-vallarta-llega-a-medios-internacionales/"
+    ],
+    "coverage_count": 1,
+    "summary": "Witnesses say beach near Marriott in Marina Vallarta stayed open without closures or warnings after fatal crocodile attack; infrastructure qualification doubtful."
+  },
+  {
+    "incident_id": "INC-20260627-321",
+    "categories": [
+      "roads"
+    ],
+    "status": "unclear",
+    "colonia": null,
+    "street": "avenida Francisco Villa",
+    "landmark": "Soriana Pitillal",
+    "place_key": [
+      "soriana pitillal",
+      "francisco villa"
+    ],
+    "first_article_date": "2026-06-27",
+    "last_article_date": "2026-06-27",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/camioneta-choca-y-huye-pitillal/"
+    ],
+    "coverage_count": 1,
+    "summary": "Vehicle crash destroyed median containment wall on avenida Francisco Villa near Pitillal bridge; accident report, so complaint qualification is doubtful."
+  },
+  {
+    "incident_id": "INC-20260519-322",
+    "categories": [
+      "other"
+    ],
+    "status": "new_complaint",
+    "colonia": "Valle de Banderas",
+    "street": null,
+    "landmark": "Asociación Ganadera Local de Valle de Banderas",
+    "place_key": [
+      "valle banderas",
+      "asociacion ganadera local valle banderas"
+    ],
+    "first_article_date": "2026-05-19",
+    "last_article_date": "2026-05-19",
+    "article_urls": [
+      "https://diariodevallarta.com/asociacion-ganadera-de-valle-de-banderas-advierte-riesgos-en-infraestructura-y-sanidad-animal/"
+    ],
+    "coverage_count": 1,
+    "summary": "Livestock association building in Valle de Banderas has cracked walls and roof at risk of collapse; qualification doubtful as facility is not public infrastructure."
+  },
+  {
+    "incident_id": "INC-20260513-323",
+    "categories": [
+      "roads"
+    ],
+    "status": "resolved",
+    "colonia": null,
+    "street": "carretera estatal 544",
+    "landmark": "Puente La Desembocada",
+    "place_key": [
+      "desembocada",
+      "carretera estatal 544"
+    ],
+    "first_article_date": "2026-05-13",
+    "last_article_date": "2026-05-13",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/puente-la-desembocada-inaugurado-este-jueves/"
+    ],
+    "coverage_count": 1,
+    "summary": "State rebuilt La Desembocada bridge on highway 544, destroyed by explosives in February; reopening announced, benefiting over 6,000 families."
+  },
+  {
+    "incident_id": "INC-20260507-324",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "colonia": "Fluvial Vallarta",
+    "street": null,
+    "landmark": "UNIRSE",
+    "place_key": [
+      "fluvial vallarta",
+      "unirse"
+    ],
+    "first_article_date": "2026-05-07",
+    "last_article_date": "2026-05-07",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/drse-puerto-vallarta-estacionamiento-cadenas-simulacro-sismo/"
+    ],
+    "coverage_count": 1,
+    "summary": "Official keeps shared UNIRSE parking chained in Fluvial Vallarta, hampering earthquake-drill evacuation; borderline complaint targeting one official's conduct."
+  },
+  {
+    "incident_id": "INC-20260411-325",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": null,
+    "landmark": "puente de La Desembocada",
+    "place_key": [
+      "desembocada"
+    ],
+    "first_article_date": "2026-04-11",
+    "last_article_date": "2026-04-11",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/cae-fractura-trabe-obra-del-puente-desembocada/"
+    ],
+    "coverage_count": 1,
+    "summary": "66-ton beam fell and fractured during La Desembocada bridge reconstruction; a construction mishap, not a resident complaint, so qualification is doubtful."
+  },
+  {
+    "incident_id": "INC-20260416-326",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": "avenida Los Tules",
+    "landmark": null,
+    "place_key": [
+      "tules"
+    ],
+    "first_article_date": "2026-04-16",
+    "last_article_date": "2026-04-16",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/aguas-negras-en-avenida-los-tules/"
+    ],
+    "coverage_count": 1,
+    "summary": "Sewage has flowed for years along Avenida Los Tules, creating odors and health concerns near medical facilities."
+  },
+  {
+    "incident_id": "INC-20260625-327",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "colonia": "Ecoterra",
+    "street": null,
+    "landmark": null,
+    "place_key": [
+      "ecoterra"
+    ],
+    "first_article_date": "2026-06-25",
+    "last_article_date": "2026-06-25",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/crisis-basura-ecoterra-vecinos-trasladen-residuos/"
+    ],
+    "coverage_count": 1,
+    "summary": "Ecoterra residents report over two weeks of insufficient trash collection, with overflowing containers and unattended streets."
+  },
+  {
+    "incident_id": "INC-20260818-328",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": "calles San Salvador y Brasilia",
+    "landmark": "Mercado Municipal 5 de Diciembre",
+    "place_key": [
+      "municipal 5 diciembre",
+      "calles san salvador",
+      "brasilia"
+    ],
+    "first_article_date": "2026-08-18",
+    "last_article_date": "2026-08-18",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/riesgo-de-contaminacion-en-mercado-5-de-diciembre-por-acumulacion-de-basura/"
+    ],
+    "coverage_count": 1,
+    "summary": "Trash handling at Mercado Municipal 5 de Diciembre contaminates nearby streets and remains unresolved since the previous administration."
+  },
+  {
+    "incident_id": "INC-20260819-329",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": null,
+    "landmark": null,
+    "place_key": [],
+    "first_article_date": "2026-08-19",
+    "last_article_date": "2026-08-19",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/agua-puerto-vallarta-recuperacion-tanque-san-francisco/"
+    ],
+    "coverage_count": 1,
+    "summary": "SEAPAL says Vallarta water service is recovering after several days of outages, with pressure issues possibly continuing for 48 hours."
+  },
+  {
+    "incident_id": "INC-20260325-330",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "ongoing",
+    "colonia": null,
+    "street": "Carretera 544 y Avenida Federación",
+    "landmark": "CUC",
+    "place_key": [
+      "cuc",
+      "carretera 544",
+      "federacion"
+    ],
+    "first_article_date": "2026-03-25",
+    "last_article_date": "2026-03-25",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/alertan-peligro-crucero-cuc-semaforo/"
+    ],
+    "coverage_count": 1,
+    "summary": "A broken traffic light at the CUC crossing has endangered students, pedestrians and drivers for months."
+  },
+  {
+    "incident_id": "INC-20260415-331",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "colonia": "Gaviotas",
+    "street": "calle Circunvalación del Róbalo",
+    "landmark": null,
+    "place_key": [
+      "gaviotas",
+      "circunvalacion robalo"
+    ],
+    "first_article_date": "2026-04-15",
+    "last_article_date": "2026-04-15",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/basura-incumplimiento-gaviotas/"
+    ],
+    "coverage_count": 1,
+    "summary": "Gaviotas residents report trash left before collection hours on Circunvalación del Róbalo, causing odors and sanitation concerns."
+  },
+  {
+    "incident_id": "INC-20260526-332",
+    "categories": [
+      "flooding",
+      "roads"
+    ],
+    "status": "ongoing",
+    "colonia": "Educación",
+    "street": "calle Politécnico Nacional esquina Boulevard Francisco Medina Ascencio",
+    "landmark": "Plaza de Toros La Paloma",
+    "place_key": [
+      "educacion",
+      "toros paloma",
+      "politecnico nacional",
+      "boulevard francisco medina ascencio"
+    ],
+    "first_article_date": "2026-05-26",
+    "last_article_date": "2026-05-26",
+    "article_urls": [
+      "https://tribunadelabahia.com.mx/preocupa-posible-inundacion-en-zona-de-la-paloma/"
+    ],
+    "coverage_count": 1,
+    "summary": "Colonia Educación residents fear construction near La Paloma will worsen years of flood pooling at Politécnico Nacional and Medina Ascencio."
   }
 ]

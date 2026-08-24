@@ -33,7 +33,7 @@ REQUIRED = ["article_url", "article_date", "source_outlet", "author", "qualifies
             "affected_people_clue", "duration_clue"]
 
 CATEGORIES = {"roads", "water", "drainage", "flooding", "lighting", "power",
-              "trash", "public_space", "transit", "other"}
+              "trash", "public_space", "transit", "wildlife", "other"}
 STATUSES = {"new_complaint", "ongoing", "failed_repair", "resolved", "unclear"}
 CERTAINTY = {"exact", "approximate", "none"}
 

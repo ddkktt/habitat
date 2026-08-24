@@ -1,291 +1,358 @@
-# Extraction reference
+# Referencia de extracción
 
-How to turn an article into a record. Written for whoever runs the next cycle —
-the judgement calls in here were learned by making them, and several were learned
-by getting them wrong first.
+Cómo convertir un artículo en un registro. Escrito para quien corra el próximo
+ciclo — los criterios de aquí se aprendieron tomándolos, y varios se aprendieron
+primero tomándolos mal.
 
-The governing document is `../vallarta_agent_prompt.md`. Where this file and that
-one disagree, that one wins. This file only says how to apply it.
+El documento rector es `../vallarta_agent_prompt.md`. Donde este archivo y aquel
+difieran, gana aquel. Este archivo solo dice cómo aplicarlo.
+
+**Idioma:** toda la salida que ve una persona se escribe en español — el
+`summary` de cada registro, los informes, el texto del panel y la
+documentación (ver «Idioma» en `README.md`). Los identificadores de código
+(campos JSON, valores de enums, nombres de archivo) se quedan en inglés.
 
 ---
 
-## 1. The three questions, in order
+## 1. Las tres preguntas, en orden
 
-**Does it qualify?** An article qualifies if it describes a *problem with public
-infrastructure or services affecting residents*: roads and potholes, water supply,
-leaks, drainage and sewage, flooding, street lighting, power, rubbish collection,
-public spaces and green areas, sidewalks, bridges, public transit conditions.
+**¿Califica?** Un artículo califica si describe un *problema de infraestructura
+o servicios públicos que afecta a residentes*: vialidades y baches, suministro
+de agua, fugas, drenaje y aguas negras, inundaciones, alumbrado público,
+energía eléctrica, recolección de basura, espacios públicos y áreas verdes,
+banquetas, puentes, condiciones del transporte público.
 
-Excluded even when the article says "denuncia": crime, political accusations,
-medical complaints, labour disputes, accusations against individuals.
+Queda excluido aun cuando el artículo diga «denuncia»: delitos, acusaciones
+políticas, quejas médicas, conflictos laborales, acusaciones contra personas.
 
-Three answers are allowed, and `unsure` is a real answer, not a hedge:
+Se permiten tres respuestas, y `unsure` es una respuesta real, no una evasiva:
 
-| Verdict | When |
+| Veredicto | Cuándo |
 | --- | --- |
-| `yes` | A public-infrastructure problem affecting residents is described. |
-| `unsure` | Genuinely borderline. Record it and say why in the summary. |
-| *(no record)* | Not a complaint. Log the reason in the triage file; never delete. |
+| `yes` | Se describe un problema de infraestructura pública que afecta a residentes. |
+| `unsure` | Genuinamente al límite. Regístralo y di por qué en el summary. |
+| *(sin registro)* | No es una queja. Anota la razón en el archivo de triaje; nunca borres. |
 
-**Where is it?** See §3. The default answer is `none`, and `none` is not a failure.
+**¿Dónde es?** Ver §3. La respuesta por defecto es `none`, y `none` no es un
+fracaso.
 
-**Is it already an incident?** See §5 before saving.
+**¿Ya es un incidente?** Ver §5 antes de guardar.
 
 ---
 
-## 2. Reason codes for exclusions
+## 2. Códigos de razón para exclusiones
 
-Every scanned article gets a decision in `data/triage-<cycle>.json`, including the
-ones you exclude. Exclusions are data: a mis-triaged topic shows up as a pattern
-in the Ciclos tab instead of vanishing.
+Cada artículo revisado recibe una decisión en `data/triage-<ciclo>.json`,
+incluidos los que excluyes. Las exclusiones son datos: un tema mal triado
+aparece como patrón en la pestaña Ciclos en lugar de desaparecer.
 
-| Code | Meaning |
+| Código | Significado |
 | --- | --- |
-| `qualified` | Recorded, `qualifies: yes` |
-| `unsure` | Recorded, `qualifies: unsure` |
-| `off_topic_crime` | Homicide, arrests, cartel, police operations |
-| `off_topic_politics` | Party politics, appointments, legislative process |
-| `off_topic_other` | Sport, weather forecasts, culture, business, national wire |
-| `event_not_complaint` | Clean-up drives, festivals, awareness campaigns |
-| `official_statement_no_problem` | An authority reporting progress or normal operation |
-| `out_of_area` | A real complaint, but outside the municipality |
-| `headline_not_infrastructure` | Judged from the headline alone (say so — see §7) |
+| `qualified` | Registrado, `qualifies: yes` |
+| `unsure` | Registrado, `qualifies: unsure` |
+| `off_topic_crime` | Homicidios, detenciones, cártel, operativos policiales |
+| `off_topic_politics` | Política partidista, nombramientos, proceso legislativo |
+| `off_topic_other` | Deportes, pronóstico del tiempo, cultura, negocios, cable nacional |
+| `event_not_complaint` | Jornadas de limpieza, festivales, campañas de concientización |
+| `official_statement_no_problem` | Una autoridad reportando avances u operación normal |
+| `out_of_area` | Una queja real, pero fuera del municipio |
+| `headline_not_infrastructure` | Juzgado solo por el titular (dilo — ver §7) |
 
-Add a new code rather than forcing a bad fit, and note it in the changelog.
+Agrega un código nuevo en lugar de forzar un mal encaje, y anótalo en el
+changelog.
 
 ---
 
-## 3. Location — the part that goes wrong
+## 3. Ubicación — la parte que sale mal
 
-### The one rule everything else serves
+### La única regla a la que sirve todo lo demás
 
-**No evidence, no location.** `street`, `colonia` and `landmark` may only be
-filled if `location_evidence` contains the article's own words naming that place.
-If you cannot quote it, the value is `null`. Never infer a colonia from knowing
-the city. `store.py` enforces this mechanically; see §6.
+**Sin evidencia no hay ubicación.** `street`, `colonia` y `landmark` solo
+pueden llenarse si `location_evidence` contiene las palabras del propio
+artículo nombrando ese lugar. Si no puedes citarlo, el valor es `null`. Nunca
+infieras una colonia por conocer la ciudad. `store.py` lo aplica
+mecánicamente; ver §6.
 
-### Choosing the certainty level
+### Elegir el nivel de certeza
 
-| Level | Use when | Example |
+| Nivel | Úsalo cuando | Ejemplo |
 | --- | --- | --- |
-| `exact` | A street, corner, or a colonia plus a specific point is named | "avenida Francisco Villa, en el cruce con la calle Viena" |
-| `approximate` | A named area or facility, but no specific point | "los vertederos de Laureles y Coyula-Matatlán" |
-| `none` | Only the municipality, or nothing | "cientos de habitantes" without a place |
+| `exact` | Se nombra una calle, un cruce, o una colonia más un punto específico | «avenida Francisco Villa, en el cruce con la calle Viena» |
+| `approximate` | Un área o instalación con nombre, pero sin punto específico | «los vertederos de Laureles y Coyula-Matatlán» |
+| `none` | Solo el municipio, o nada | «cientos de habitantes» sin un lugar |
 
-**Municipality-wide problems are `none`.** A city-wide water crisis names no place
-*within* the city. This convention is applied consistently to both the Puerto
-Vallarta water crisis and the AMG water-quality complaint. It understates what is
-known and depresses the located-share metric — a `municipality` level has been
-proposed to the operator, and until they rule, `none` is correct.
+**Los problemas de todo el municipio son `none`.** Una crisis de agua de toda
+la ciudad no nombra ningún lugar *dentro* de la ciudad. Esta convención se
+aplica igual a la crisis del agua de Puerto Vallarta y a la queja de calidad
+del agua del AMG. Subestima lo que se sabe y deprime la métrica de proporción
+ubicada — se propuso al operador un nivel `municipality`, y hasta que decida,
+`none` es lo correcto.
 
-### Quoting evidence
+### Citar la evidencia
 
-The source rules cap you at **one short quoted phrase per record**. That single
-quote has to carry every place value you fill in.
+Las reglas de fuentes te limitan a **una frase breve citada por registro**. Esa
+única cita tiene que sostener cada valor de lugar que llenes.
 
-- Prefer one contiguous phrase that names everything at once.
-- An **ellipsis elision** inside that one quote is allowed: `"Vecinos de la colonia
-  Brisas del Pacífico denunciaron … una fuga de agua entre las calles Alemania y
-  avenida Víctor Iturbe"`. This is one quotation with a cut, not two quotations.
-- A headline is published article text and may be quoted.
-- **If a place needs a second, separate quote, drop the place — not the rule.**
-  The Brisas del Pacífico leak reached the "centro cultural La Lija"; that sat in
-  another sentence, so `landmark` is `null` and the fact is not in the dataset.
-  Record the loss in the changelog rather than stretching the quote.
+- Prefiere una sola frase contigua que nombre todo a la vez.
+- Se permite una **elisión con puntos suspensivos** dentro de esa única cita:
+  `"Vecinos de la colonia Brisas del Pacífico denunciaron … una fuga de agua
+  entre las calles Alemania y avenida Víctor Iturbe"`. Es una cita con un
+  corte, no dos citas.
+- Un titular es texto publicado del artículo y puede citarse.
+- **Si un lugar necesita una segunda cita separada, suelta el lugar — no la
+  regla.** La fuga de Brisas del Pacífico llegó al «centro cultural La Lija»;
+  eso estaba en otra oración, así que `landmark` es `null` y el hecho no está
+  en el conjunto de datos. Registra la pérdida en el changelog en lugar de
+  estirar la cita.
 
-### Compound values
+### Valores compuestos
 
-Write a corner as it appears — `"Avenida Francisco Villa esquina calle Viena"`.
-`store.split_places()` breaks it apart for matching, so both streets fingerprint
-separately. The same applies to landmarks joined by "y".
+Escribe un cruce tal como aparece — `"Avenida Francisco Villa esquina calle
+Viena"`. `store.split_places()` lo separa para el cotejo, así que ambas calles
+generan su propia huella. Lo mismo aplica a puntos de referencia unidos por
+«y».
 
 ---
 
-## 4. The remaining fields
+## 4. Los campos restantes
 
-**`author`** — the byline as printed, else `null`. A newsroom byline
-("Redacción Vallarta Independiente") is fine. This is the *only* personal name
-allowed anywhere in a record.
+**`author`** — la firma tal como está impresa, si no `null`. Una firma de
+redacción («Redacción Vallarta Independiente») es válida. Este es el *único*
+nombre de persona permitido en cualquier parte de un registro.
 
-> **Privacy, absolute:** never record the name of a private individual. If the
-> article names the resident who complained, omit it. Complaints matter;
-> complainers' identities do not.
+> **Privacidad, absoluta:** nunca registres el nombre de un particular. Si el
+> artículo nombra al vecino que se quejó, omítelo. Las quejas importan; las
+> identidades de quienes se quejan no.
 
-**`categories`** — one or more of `roads water drainage flooding lighting power
-trash public_space transit other`. Note the enum has no `sidewalks`: a broken
-sidewalk goes to `public_space`, and an uncovered manhole in one goes to
-`drainage`. Multiple categories are normal — the Tonalá storm record carries
-`flooding`, `drainage` and `trash` because rubbish blocked the storm drains.
+**`categories`** — una o más de `roads water drainage flooding lighting power
+trash public_space transit wildlife other`. Ojo: el enum no tiene `sidewalks`:
+una banqueta rota va a `public_space`, y un registro destapado en una va a
+`drainage`. Varias categorías son normales — el registro de la tormenta de
+Tonalá lleva `flooding`, `drainage` y `trash` porque la basura tapó los
+colectores pluviales. `wildlife` es para fauna peligrosa en áreas públicas —
+sobre todo avistamientos de cocodrilo cerca de los esteros y desembocaduras;
+combínalo con `public_space` cuando la queja es sobre la respuesta (sin
+cierres, sin señalización, sin cercado) y no sobre el animal en sí.
 
 **`status`**
 
-| Value | Use when |
+| Valor | Úsalo cuando |
 | --- | --- |
-| `new_complaint` | First report; no prior notification or repair mentioned |
-| `ongoing` | The text says it persists ("se mantiene", "desde hace días") |
-| `failed_repair` | It was repaired or attended and failed again |
-| `resolved` | The article says it is fixed |
-| `unclear` | The text does not say — a valid answer |
+| `new_complaint` | Primer reporte; no se menciona aviso previo ni reparación |
+| `ongoing` | El texto dice que persiste («se mantiene», «desde hace días») |
+| `failed_repair` | Se reparó o atendió y volvió a fallar |
+| `resolved` | El artículo dice que está arreglado |
+| `unclear` | El texto no lo dice — una respuesta válida |
 
-**`summary`** — one sentence, **25 words maximum**, in English. If the article is
-ambiguous, say so *in the summary* rather than smoothing it over: *"…it is
-political commentary, so qualification is doubtful."* If one article covers many
-places, say how many (see §7).
+**`summary`** — una oración, **25 palabras máximo, en español**. Si el
+artículo es ambiguo, dilo *en el summary* en lugar de alisarlo: *«…es una
+columna de opinión, así que su calificación es dudosa.»* Si un artículo cubre
+muchos lugares, di cuántos (ver §7). Los registros anteriores a la decisión de
+idioma de 2026-08-24 traen el summary en inglés; se traducirán en una sola
+pasada (ver changelog) — no mezcles idiomas en registros nuevos.
 
-**`affected_people_clue` / `duration_clue`** — short phrases from the article
-("cientos de habitantes", "más de cuatro días"), else `null`. Keep them to a few
-words; they are clues, not quotations.
+**`affected_people_clue` / `duration_clue`** — frases cortas del artículo
+(«cientos de habitantes», «más de cuatro días»), si no `null`. Mantenlas en
+pocas palabras; son pistas, no citas.
 
----
+### Registros sociales / CityPulse
 
-## 5. Duplicates and incidents
-
-Compare against records from the previous **14 days**. Two articles are the same
-incident when they match on **category AND location AND overlapping time**. On a
-match: do not create an incident, link the article, update the status if it
-changed, and let `coverage_count` rise. Repeated coverage is public pressure —
-preserve it.
-
-Matching is mechanical and deliberately conservative: **records with no location
-never auto-merge.** That is a safety property, not a bug. A false merge destroys
-two real incidents; a missed merge only splits one.
-
-When you *know* two unlocated articles cover one event, say so explicitly:
+`social.py` convierte exportaciones públicas de Facebook en
+`data/social-worklist-<fecha>.json`; ese archivo todavía no decide si algo
+califica. La clasificación LLM/humana debe producir los mismos campos
+obligatorios de arriba y puede añadir estos campos extra, que `store.py`
+conserva:
 
 ```json
-"same_incident_as": "https://…/the-first-article-you-recorded"
+{
+  "source_type": "facebook",
+  "source_path": "keyword_search | local_sources",
+  "content_type": "post | comment",
+  "topic": "pollution",
+  "subtopic": "sewage | garbage | beach_water | air_smell | other",
+  "sentiment": "complaint | question | neutral | support",
+  "severity": "low | medium | high | unknown",
+  "engagement": 34,
+  "location_basis": "gazetteer_match | source_colonia_scope | llm_text | none",
+  "city_relevance_basis": "text_or_query | local_source_scope | source_colonia_scope | unproven"
+}
 ```
 
-Four outlets covered one water march that way, giving `coverage_count: 4`. The
-link is your stated judgement — it is stored as `linked_by_agent` on the incident,
-and is never inferred by the code. Point it at an article already in the store.
+Para comentarios, `article_url` es la URL de la publicación con un sufijo estable
+`#comment-...`; así varios comentarios de la misma publicación no chocan en el
+deduplicador de registros. `author` siempre es `null`: nombres de particulares,
+perfiles y enlaces de comentaristas no entran al dataset.
+
+Una Página local puede probar relevancia de ciudad, no ubicación fina. Si una
+publicación de `Noticias Puerto Vallarta` dice «otra vez salen aguas negras»,
+puede ser relevante para Puerto Vallarta, pero `location_certainty` sigue siendo
+`none` salvo que el texto nombre una colonia/calle/punto de referencia. Solo una
+fuente explícitamente acotada a colonia puede usar `source_colonia_scope` como
+ubicación `approximate`.
 
 ---
 
-## 6. What the validator rejects, and what to do
+## 5. Duplicados e incidentes
 
-`python3 store.py data/extract-<cycle>.json` refuses bad records before they land.
-A rejection is usually correct — fix the record, not the check.
+Compara contra los registros de los **14 días** previos. Dos artículos son el
+mismo incidente cuando coinciden en **categoría Y ubicación Y tiempo
+traslapado**. Ante una coincidencia: no crees un incidente, enlaza el artículo,
+actualiza el estado si cambió, y deja que `coverage_count` suba. La cobertura
+repetida es presión pública — presérvala.
 
-| Message | Meaning | Fix |
+El cotejo es mecánico y deliberadamente conservador: **los registros sin
+ubicación nunca se auto-fusionan.** Eso es una propiedad de seguridad, no un
+bug. Una fusión falsa destruye dos incidentes reales; una fusión perdida solo
+parte uno en dos.
+
+Cuando *sabes* que dos artículos sin ubicación cubren un mismo evento, dilo
+explícitamente:
+
+```json
+"same_incident_as": "https://…/el-primer-articulo-que-registraste"
+```
+
+Cuatro medios cubrieron así una misma marcha por el agua, dando
+`coverage_count: 4`. El enlace es tu juicio declarado — se guarda como
+`linked_by_agent` en el incidente, y el código nunca lo infiere. Apúntalo a un
+artículo que ya esté en el almacén.
+
+---
+
+## 6. Qué rechaza el validador, y qué hacer
+
+`python3 store.py data/extract-<ciclo>.json` rechaza registros malos antes de
+que aterricen. Un rechazo suele ser correcto — corrige el registro, no la
+verificación.
+
+| Mensaje | Significado | Corrección |
 | --- | --- | --- |
-| `X is not supported by location_evidence` | You filled a place the quote does not name | Requote to cover it, or set the place to `null` |
-| `X set but location_evidence is null` | A place with no evidence at all | Set the place to `null` |
-| `location_certainty 'none' but a place field is filled` | Contradiction | Raise the certainty or clear the place |
-| `location_certainty 'exact' without evidence` | Certainty claimed with nothing behind it | Add the quote or drop to `none` |
-| `summary over 25 words (N)` | Too long | Cut it |
-| `bad category` / `bad status` | Outside the enum | Use a listed value |
-| `same_incident_as points at an unknown article` | Link target not in the store | Ingest that article first |
+| `X is not supported by location_evidence` | Llenaste un lugar que la cita no nombra | Recita para cubrirlo, o pon el lugar en `null` |
+| `X set but location_evidence is null` | Un lugar sin evidencia alguna | Pon el lugar en `null` |
+| `location_certainty 'none' but a place field is filled` | Contradicción | Sube la certeza o limpia el lugar |
+| `location_certainty 'exact' without evidence` | Certeza declarada sin nada detrás | Agrega la cita o baja a `none` |
+| `summary over 25 words (N)` | Demasiado largo | Recórtalo |
+| `bad category` / `bad status` | Fuera del enum | Usa un valor listado |
+| `same_incident_as points at an unknown article` | El destino del enlace no está en el almacén | Ingiere ese artículo primero |
 
-On the first run of cycle 1 this rejected two of three records, both mine, both
-correctly. That is the check working.
-
----
-
-## 7. Known traps
-
-**One record per article cannot hold several places.** A UDG TV article located
-storm flooding at *seven* crossings and colonias; the schema permits one. Record
-the worst point, state the count in the summary ("Storm flooded seven points
-across Tonalá…"), and know that the other six are not in the dataset. A
-`sub_locations` array is proposed and awaiting a human decision.
-
-**Feed text may be truncated.** Some outlets put the full body in the RSS; others
-publish an excerpt. If you extract from an excerpt, mark it in the triage file as
-`extraction_source: "rss_excerpt"` so nobody later mistakes a thin record for a
-thorough one.
-
-**Some pages will not parse.** The El Informador extractor returns a sidebar
-headline instead of the article body. Since a page may be fetched only once ever,
-raw HTML is now kept in `cache/pages-raw/` so parsing can be redone offline —
-but pages fetched before that fix cannot be recovered without human authorisation
-to re-fetch.
-
-**Every article gets read. No screening.** Operator decision, 2026-08-24: the
-corpus is read in full — all of it, at corpus scale. The prefilter may still
-order the reading queue, but nothing is ever `screened_out`, and no verdict is
-made from a headline when the text is available (it always is: the corpus
-carries full text locally). The old sampling audit of a screened-out pile is
-obsolete once no pile exists.
-
-**Do not claim a reading you did not do.** The triage file records, for every
-article, that its text was read. Until the full-corpus read completes, the
-report separates *read so far* from *not yet read* — never call an unread
-article processed. Keep it honest.
+En la primera corrida del ciclo 1 esto rechazó dos de tres registros, ambos
+míos, ambos correctamente. Eso es la verificación funcionando.
 
 ---
 
-## 8. Working a cycle
+## 7. Trampas conocidas
+
+**Un registro por artículo no puede contener varios lugares.** Un artículo de
+UDG TV ubicó inundaciones de tormenta en *siete* cruces y colonias; el esquema
+permite uno. Registra el punto peor, declara la cuenta en el summary
+(«Tormenta inundó siete puntos de Tonalá…»), y sabe que los otros seis no
+están en el conjunto de datos. Un arreglo `sub_locations` está propuesto y
+espera decisión humana.
+
+**El texto del feed puede venir truncado.** Algunos medios ponen el cuerpo
+completo en el RSS; otros publican un extracto. Si extraes de un extracto,
+márcalo en el archivo de triaje como `extraction_source: "rss_excerpt"` para
+que nadie después confunda un registro delgado con uno exhaustivo.
+
+**Algunas páginas no se dejan parsear.** El extractor de El Informador
+devuelve un titular de barra lateral en lugar del cuerpo del artículo. Como
+una página solo puede descargarse una vez en la vida, el HTML crudo ahora se
+guarda en `cache/pages-raw/` para poder re-parsear sin conexión — pero las
+páginas descargadas antes de ese arreglo no pueden recuperarse sin
+autorización humana para re-descargar.
+
+**Cada artículo se lee. Sin cribado.** Decisión del operador, 2026-08-24: el
+corpus se lee completo — todo, a escala de corpus. El prefiltro aún puede
+ordenar la cola de lectura, pero nada queda jamás `screened_out`, y ningún
+veredicto se toma desde un titular cuando el texto está disponible (siempre lo
+está: el corpus trae el texto completo localmente). La vieja auditoría por
+muestreo de la pila cribada queda obsoleta en cuanto no existe pila.
+
+**No declares una lectura que no hiciste.** El archivo de triaje registra,
+para cada artículo, que su texto fue leído. Hasta que la lectura completa del
+corpus termine, el informe separa *leído hasta ahora* de *pendiente de leer* —
+nunca llames procesado a un artículo no leído. Mantenlo honesto.
+
+---
+
+## 8. Trabajar un ciclo
 
 ```bash
-python3 feeds.py                              # COLLECT  -> data/worklist-<date>.json
-python3 prefilter.py <corpus> --out <ranked>  # set the READING ORDER for an archive corpus
-#   read, decide, and write:
-#     data/extract-<date>.json   the records
-#     data/triage-<date>.json    a decision for every article scanned
-python3 store.py data/extract-<date>.json     # VALIDATE + merge incidents
-python3 cycle.py learn  <date>                # LEARN   gazetteer, coverage
-python3 cycle.py report <date>                # REPORT  -> reports/report-<date>.md
-python3 sample.py records --n 10              # weekly check; below 90% accuracy, stop
-# (sample.py screened is retired: nothing is screened out any more — everything is read)
+python3 feeds.py                              # COLLECT  -> data/worklist-<fecha>.json
+python3 prefilter.py <corpus> --out <ranked>  # fijar el ORDEN DE LECTURA de un corpus de archivo
+#   leer, decidir y escribir:
+#     data/extract-<fecha>.json   los registros
+#     data/triage-<fecha>.json    una decisión por cada artículo revisado
+python3 store.py data/extract-<fecha>.json    # VALIDAR + fusionar incidentes
+python3 cycle.py learn  <fecha>               # LEARN   nomenclátor, cobertura
+python3 cycle.py report <fecha>               # REPORT  -> reports/report-<fecha>.md
+python3 sample.py records --n 10              # control semanal; debajo de 90% de precisión, detente
+# (sample.py screened está retirado: ya nada se criba — todo se lee)
 ```
 
-Working a corpus backfill, where the corpus is too large for one sitting:
+Trabajar un backfill de corpus, donde el corpus es demasiado grande para una
+sola sentada:
 
 ```bash
-python3 readqueue.py status                   # read so far vs not yet read
-python3 readqueue.py next --n 25 --label b051 # next 25 in reading order, full text inline
-#   read every one of them, then write the triage and extract files
+python3 readqueue.py status                   # leído hasta ahora vs pendiente
+python3 readqueue.py next --n 25 --label b051 # siguientes 25 en orden de lectura, texto completo en línea
+#   leer cada uno de ellos, después escribir los archivos de triaje y extracción
 python3 store.py data/extract-archive-<...>.json
-python3 batchlog.py --batch <id> --triage <triage> --extract <extract>
-python3 readqueue.py audit                    # progress file vs triage files — run between batches
+python3 batchlog.py --batch <id> --triage <triaje> --extract <extracción>
+python3 readqueue.py audit                    # archivo de avance vs archivos de triaje — correr entre lotes
 ```
 
-> **`readqueue.py next` is for a single reader working interactively.** It hands
-> out whatever is unclaimed at the instant it runs, and a claim only becomes
-> visible to anyone else once the batch is logged. Several readers calling it at
-> once will be handed overlapping work. When work is split across concurrent
-> readers, cut the assignments up front into fixed batch files and give each
-> reader its own — do not let them draw from the queue. This is the same hazard
-> `batchlog.py`'s lock exists for, one layer up.
+> **`readqueue.py next` es para un solo lector trabajando interactivamente.**
+> Reparte lo que esté sin reclamar en el instante en que corre, y un reclamo
+> solo se vuelve visible para los demás cuando el lote se registra. Varios
+> lectores llamándolo a la vez recibirán trabajo traslapado. Cuando el trabajo
+> se reparte entre lectores concurrentes, corta las asignaciones por
+> adelantado en archivos de lote fijos y dale a cada lector el suyo — no los
+> dejes sacar de la cola. Es el mismo peligro para el que existe el candado de
+> `batchlog.py`, una capa más arriba.
 
-**Never conclude "nothing to read" from `processed_urls`.** It is a summary; the
-triage files are the evidence. A URL can sit in `processed_urls` with no decision
-behind it, and if you take that as a read and log an empty batch, the article
-stays marked processed, the queue skips it forever, and no verdict exists
-anywhere. Four batches did this and stranded 238 articles. `batchlog.py` now
-refuses a batch with no decisions; if your assigned articles look already-done,
-run `readqueue.py audit` and requeue them rather than logging nothing.
+**Nunca concluyas «no hay nada que leer» desde `processed_urls`.** Es un
+resumen; los archivos de triaje son la evidencia. Una URL puede estar en
+`processed_urls` sin ninguna decisión detrás, y si tomas eso como lectura y
+registras un lote vacío, el artículo queda marcado como procesado, la cola lo
+salta para siempre y no existe veredicto en ninguna parte. Cuatro lotes
+hicieron esto y dejaron varados 238 artículos. `batchlog.py` ahora rechaza un
+lote sin decisiones; si tus artículos asignados parecen ya-hechos, corre
+`readqueue.py audit` y reencólalos en lugar de registrar nada.
 
-`batchlog.py` takes a lock, so several readers can work one corpus at once. It
-refuses a batch whose decisions fall outside `yes`/`unsure`/`no`, or that do not
-record whether each article was read: an unrecognised verdict is counted as an
-exclusion by everything downstream, which once buried 14 real complaints.
+`batchlog.py` toma un candado, así que varios lectores pueden trabajar un
+corpus a la vez. Rechaza un lote cuyas decisiones caigan fuera de
+`yes`/`unsure`/`no`, o que no registre si cada artículo fue leído: un
+veredicto no reconocido lo cuenta como exclusión todo lo que viene después, lo
+que una vez enterró 14 quejas reales.
 
-`readqueue.py audit` exists because the progress file is a summary and the
-triage files are the evidence. When they disagree, the progress file is wrong —
-a read that left no decision row behind is not a read.
+`readqueue.py audit` existe porque el archivo de avance es un resumen y los
+archivos de triaje son la evidencia. Cuando difieren, el archivo de avance
+está mal — una lectura que no dejó fila de decisión no es una lectura.
 
-### The fourth verdict: `unprocessed`
+### El cuarto veredicto: `unprocessed`
 
-A handful of corpus items carry no readable text (42 of the 7,665 in
-`corpus-pv.json`), and the fetch-once rule forbids re-fetching them. They get
-`decision: "unprocessed"` with `read_by_agent: false` — the honest answer, and
-the only case where a decision may be recorded without a read. §7 still forbids
-reaching a *verdict* from a headline, and `unprocessed` is not a verdict: it is
-the record that no verdict could be reached.
+Un puñado de ítems del corpus no trae texto legible (42 de los 7,665 de
+`corpus-pv.json`), y la regla de descargar-una-sola-vez prohíbe
+re-descargarlos. Reciben `decision: "unprocessed"` con `read_by_agent: false`
+— la respuesta honesta, y el único caso en que puede registrarse una decisión
+sin una lectura. §7 sigue prohibiendo alcanzar un *veredicto* desde un
+titular, y `unprocessed` no es un veredicto: es el registro de que ningún
+veredicto pudo alcanzarse.
 
-`unprocessed` is **not** an exclusion. Every counter reports it separately, and
-its reason never enters the exclusion breakdown — folding it in would present a
-stub nobody could read as a considered rejection. The allowed values live in
-`batchlog.VERDICTS`; adding one means teaching every counter about it in the
-same change, or it silently lands in some else-branch. That is not hypothetical:
-it is how batch b022 reported 14 real complaints as exclusions.
+`unprocessed` **no** es una exclusión. Cada contador lo reporta por separado,
+y su razón nunca entra al desglose de exclusiones — meterlo ahí presentaría un
+esbozo que nadie pudo leer como un rechazo considerado. Los valores permitidos
+viven en `batchlog.VERDICTS`; agregar uno significa enseñárselo a cada
+contador en el mismo cambio, o aterriza silenciosamente en algún else. No es
+hipotético: así fue como el lote b022 reportó 14 quejas reales como
+exclusiones.
 
-Then write the changelog entry: what you learned, what you changed, and what you
-propose but may not change yourself. Open it by checking whether the previous
-cycle's changes actually helped — located share and verification accuracy — and
-revert anything that made those worse.
+Después escribe la entrada del changelog: qué aprendiste, qué cambiaste, y qué
+propones pero no puedes cambiar tú. Ábrela verificando si los cambios del
+ciclo anterior de verdad ayudaron — proporción ubicada y precisión de
+verificación — y revierte lo que las haya empeorado.
 
-**Not yours to change:** the honesty rules, the privacy rules, the read-only rule,
-the rate limits. Proposals for those go in the changelog for a human.
+**No te toca cambiar:** las reglas de honestidad, las reglas de privacidad, la
+regla de solo lectura, los límites de velocidad. Las propuestas sobre eso van
+al changelog para un humano.

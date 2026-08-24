@@ -1,0 +1,122 @@
+[
+ {
+  "queue_index": 180,
+  "article_url": "https://tribunadelabahia.com.mx/basura-coapinole-terreno-baldio/",
+  "article_date": "2026-03-18",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Vecinos de Coapinole denuncian tiradero constante de basura en terreno baldío",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 16,
+  "chars": 1333,
+  "text_available": true
+ },
+ {
+  "queue_index": 181,
+  "article_url": "https://tribunadelabahia.com.mx/alertan-peligro-crucero-cuc-semaforo/",
+  "article_date": "2026-03-25",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Alertan ciudadanos sobre peligro en el crucero del CUC por semáforo descompuesto",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 16,
+  "chars": 1506,
+  "text_available": true
+ },
+ {
+  "queue_index": 207,
+  "article_url": "https://diariodevallarta.com/transformacion-calle-hidalgo-punta-de-mita-13-mdp/",
+  "article_date": "2026-06-22",
+  "source_outlet": "Diario de Vallarta",
+  "title": "Arranca transformación de la Calle Hidalgo en Punta de Mita: Invertirán más de 13 MDP",
+  "author": "Paloma Rocío Guevara",
+  "bucket": "screened_out",
+  "score": 16,
+  "chars": 2171,
+  "text_available": true
+ },
+ {
+  "queue_index": 210,
+  "article_url": "https://tribunadelabahia.com.mx/fuerte-lluvia-inunda-tepatitlan-casas-vehiculos-afectados/",
+  "article_date": "2026-07-06",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Fuerte lluvia inunda Tepatitlán; hay casas, vehículos y un hospital afectados",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 16,
+  "chars": 2747,
+  "text_available": true
+ },
+ {
+  "queue_index": 213,
+  "article_url": "https://tribunadelabahia.com.mx/peligro-lluvias-cierran-pasos-desnivel-guadalajara-tlajomulco/",
+  "article_date": "2026-07-27",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "¡Peligro por lluvias! Cierran pasos a desnivel en Guadalajara y alertan en Tlajomulco",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 16,
+  "chars": 2541,
+  "text_available": true
+ },
+ {
+  "queue_index": 228,
+  "article_url": "https://tribunadelabahia.com.mx/basura-incumplimiento-gaviotas/",
+  "article_date": "2026-04-15",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Basura acumulada en residencial Gaviotas por incumplimiento de horarios de recolección",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 15,
+  "chars": 1420,
+  "text_available": true
+ },
+ {
+  "queue_index": 237,
+  "article_url": "https://diariodevallarta.com/autos-capsulas-vigilancia-ia/",
+  "article_date": "2026-05-24",
+  "source_outlet": "Diario de Vallarta",
+  "title": "Cómo los nuevos autos se convierten en cápsulas de vigilancia",
+  "author": "Israel Hernández",
+  "bucket": "screened_out",
+  "score": 15,
+  "chars": 6318,
+  "text_available": true
+ },
+ {
+  "queue_index": 238,
+  "article_url": "https://tribunadelabahia.com.mx/preocupa-posible-inundacion-en-zona-de-la-paloma/",
+  "article_date": "2026-05-26",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Temen severas inundaciones en colonia Educación por obras en La Paloma",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 15,
+  "chars": 1138,
+  "text_available": true
+ },
+ {
+  "queue_index": 247,
+  "article_url": "https://tribunadelabahia.com.mx/lluvia-jueves-colapsa-tlaquepaque-autos-bajo-agua/",
+  "article_date": "2026-07-02",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Lluvia de este jueves colapsa Tlaquepaque; autos quedan atrapados bajo el agua",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 15,
+  "chars": 2230,
+  "text_available": true
+ },
+ {
+  "queue_index": 249,
+  "article_url": "https://tribunadelabahia.com.mx/ahuacatlan-tromba-inunda-viviendas/",
+  "article_date": "2026-07-03",
+  "source_outlet": "Tribuna de la Bahía",
+  "title": "Tromba colapsa Ahuacatlán: desborde de arroyos inunda 43 viviendas durante las lluvias en Nayarit",
+  "author": null,
+  "bucket": "screened_out",
+  "score": 15,
+  "chars": 2370,
+  "text_available": true
+ }
+]

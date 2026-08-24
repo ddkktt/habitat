@@ -13,7 +13,8 @@ const el = (tag, cls, text) => {
 const CATEGORY_LABEL = {
   roads: "vialidades", water: "agua", drainage: "drenaje", flooding: "inundaciones",
   lighting: "alumbrado", power: "electricidad", trash: "basura",
-  public_space: "espacio público", transit: "transporte", other: "otro",
+  public_space: "espacio público", transit: "transporte",
+  wildlife: "🐊 cocodrilos / fauna", other: "otro",
 };
 const STATUS_LABEL = {
   new_complaint: "queja nueva", ongoing: "en curso", failed_repair: "reparación fallida",
@@ -101,6 +102,8 @@ function render() {
   initMapSection();
   buildFilters();
   renderIncidents();
+  renderColonias();
+  renderCredits();
   renderCycles();
   renderLearning();
   renderReading();
@@ -131,7 +134,8 @@ function renderCertainty(certainty, total) {
 /* El mapa es un visor: dibuja incidentes ya almacenados sobre coordenadas
    aproximadas de state/colonia_coords.json. Nunca escribe ni geocodifica. */
 const MONTH_ES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
-let MAP = null, MAP_LAYER = null, mapMonths = [], mapWired = false, mapPlayTimer = null;
+let MAP = null, MAP_LAYER = null, HOT_LAYER = null, ZONE_LAYER = null,
+    mapMonths = [], mapWired = false, mapPlayTimer = null;
 const mapState = { cat: "", status: "", month: null };
 
 const monthKey = (d) => (d || "").slice(0, 7);
@@ -161,9 +165,11 @@ function mapAgg() {
   return { agg, noloc };
 }
 
-function focusColonia(name) {
+/* Lleva al panel de incidentes filtrado por un texto: una colonia desde el
+   mapa o el ranking, o una firma desde el panel de colaboradores. */
+function focusSearch(query) {
   $("#f-reset").click();
-  $("#f-search").value = name;
+  $("#f-search").value = query;
   renderIncidents();
   document.querySelector('.tab[data-panel="p-incidents"]').click();
   document.getElementById("p-incidents").scrollIntoView({ behavior: "smooth" });
@@ -189,6 +195,9 @@ function initMapSection() {
     inc.categories.forEach((c) => cats.add(c));
     statuses.add(inc.status);
   });
+  /* fauna se ofrece siempre: elegirla enciende la capa de zonas con presencia
+     conocida de cocodrilos aunque todavía haya pocos (o cero) incidentes */
+  cats.add("wildlife");
   const keepCat = $("#m-category").value, keepSt = $("#m-status").value;
   fill($("#m-category"), [...cats].sort().map((c) => ({ value: c, label: CATEGORY_LABEL[c] || c })), "Todas las categorías");
   fill($("#m-status"), [...statuses].sort().map((s) => ({ value: s, label: STATUS_LABEL[s] || s })), "Cualquier estado");
@@ -210,6 +219,7 @@ function initMapSection() {
     mapWired = true;
     $("#m-category").addEventListener("input", () => { mapState.cat = $("#m-category").value; updateMap(); });
     $("#m-status").addEventListener("input", () => { mapState.status = $("#m-status").value; updateMap(); });
+    $("#m-hot").addEventListener("input", updateMap);
     $("#m-play").addEventListener("click", () => {
       if (mapPlayTimer) { stopMapPlay(); return; }
       let m = mapState.month === null ? -1 : mapState.month;
@@ -240,6 +250,10 @@ function initMapSection() {
       maxZoom: 18,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(MAP);
+    /* orden de dibujo: sombras de colonias calientes y zonas de contexto
+       debajo, círculos de incidentes encima */
+    HOT_LAYER = L.layerGroup().addTo(MAP);
+    ZONE_LAYER = L.layerGroup().addTo(MAP);
     MAP_LAYER = L.layerGroup().addTo(MAP);
   }
   updateMap();
@@ -269,7 +283,7 @@ function updateMap() {
       });
       const go = el("button", "pop-link", "Ver los incidentes →");
       go.type = "button";
-      go.addEventListener("click", () => focusColonia(name));
+      go.addEventListener("click", () => focusSearch(name));
       pop.appendChild(go);
       marker.bindPopup(pop);
       marker.bindTooltip(`${name}: ${a.n}`);
@@ -278,6 +292,24 @@ function updateMap() {
   } else {
     [...agg.entries()].forEach(([name, a]) => { if (!coordFor(name)) unmapped.push([name, a.n]); });
   }
+
+  /* Zonas calientes: sombrea las 10 colonias con más incidentes del filtro
+     actual (las mismas del ranking lateral). Con la categoría en fauna, esto
+     se vuelve "dónde se concentran los avistamientos" conforme haya datos. */
+  if (HOT_LAYER) {
+    HOT_LAYER.clearLayers();
+    if ($("#m-hot").checked) {
+      const hot = cssColor("--series-2");
+      [...agg.entries()].sort((a, b) => b[1].n - a[1].n).slice(0, 10).forEach(([name, a]) => {
+        const pos = coordFor(name);
+        if (!pos) return;
+        HOT_LAYER.addLayer(L.circle([pos.lat, pos.lon], {
+          radius: 650, stroke: false, fillColor: hot, fillOpacity: 0.18,
+        }).bindTooltip(`${name}: ${a.n} incidente${a.n === 1 ? "" : "s"} con el filtro actual`));
+      });
+    }
+  }
+  updateCrocZones();
 
   const periodo = (mapState.month === null ? "todo el periodo" : monthLabel(mapMonths[mapState.month])) +
     (mapState.cat ? " · " + (CATEGORY_LABEL[mapState.cat] || mapState.cat) : "") +
@@ -291,7 +323,7 @@ function updateMap() {
     const b = el("button", "m-top-row");
     b.type = "button";
     b.append(el("span", null, name), el("span", "n", String(a.n)));
-    b.addEventListener("click", () => focusColonia(name));
+    b.addEventListener("click", () => focusSearch(name));
     top.appendChild(b);
   });
   if (!rows.length) top.appendChild(el("p", "empty", "Ninguna colonia coincide con el filtro."));
@@ -313,6 +345,62 @@ function updateMap() {
     : "";
 }
 
+/* Capa de contexto: zonas con presencia conocida de cocodrilos, de
+   state/context_zones.json (mantenida a mano, como colonia_coords.json).
+   Es conocimiento de fondo para leer el mapa — nunca entra a ningún conteo —
+   y aparece cuando algún filtro de categoría está en fauna: así un incidente
+   real de cocodrilo se dibuja encima de la zona donde se esperaba. */
+function updateCrocZones() {
+  if (!DATA) return;
+  const zones = (DATA.context_zones || {}).zones || [];
+  const on = zones.length > 0 &&
+    (mapState.cat === "wildlife" || $("#f-category").value === "wildlife");
+
+  if (ZONE_LAYER) {
+    ZONE_LAYER.clearLayers();
+    if (on) {
+      const warn = cssColor("--warn");
+      zones.forEach((z) => {
+        const circle = L.circle([z.lat, z.lon], {
+          radius: z.radius_m || 700,
+          color: warn, weight: 1.5, dashArray: "5 4",
+          fillColor: warn, fillOpacity: 0.16,
+        });
+        const pop = el("div");
+        pop.appendChild(el("strong", null, "🐊 " + z.name));
+        pop.appendChild(el("div", "byline", z.water_body));
+        pop.appendChild(el("div", null, z.note));
+        if (z.seasonal) pop.appendChild(el("div", "byline", "mayor presencia en temporada de lluvias"));
+        pop.appendChild(el("div", "byline", "capa de contexto — no es un incidente reportado"));
+        circle.bindPopup(pop);
+        circle.bindTooltip("🐊 " + z.name);
+        ZONE_LAYER.addLayer(circle);
+      });
+    }
+  }
+
+  const mapNote = $("#m-croc");
+  mapNote.hidden = !on;
+  if (on) {
+    mapNote.textContent = "🐊 Zona punteada = presencia conocida de cocodrilos (esteros y desembocaduras de ríos; " +
+      "contexto local mantenido a mano en state/context_zones.json). Es fondo para leer el mapa, no incidentes reportados.";
+  }
+
+  const ctx = $("#croc-context");
+  const listOn = zones.length > 0 && $("#f-category").value === "wildlife";
+  ctx.hidden = !listOn;
+  ctx.textContent = "";
+  if (listOn) {
+    ctx.appendChild(el("p", "kind", "🐊 Contexto: zonas con presencia conocida de cocodrilos (punteadas en el mapa)"));
+    zones.forEach((z) => {
+      const row = el("p");
+      row.appendChild(el("b", null, z.name));
+      row.append(document.createTextNode(" — " + z.note));
+      ctx.appendChild(row);
+    });
+  }
+}
+
 /* ---------------------------------------------------------------- filtros */
 function fill(select, values, allLabel) {
   select.textContent = "";
@@ -327,6 +415,7 @@ function buildFilters() {
     statuses.add(inc.status);
     inc.records.forEach((r) => outlets.add(r.source_outlet));
   });
+  cats.add("wildlife"); /* siempre presente: enciende la capa de zonas de cocodrilos */
   fill($("#f-category"), [...cats].sort().map((c) => ({ value: c, label: CATEGORY_LABEL[c] || c })), "Todas las categorías");
   fill($("#f-status"), [...statuses].sort().map((s) => ({ value: s, label: STATUS_LABEL[s] || s })), "Cualquier estado");
   fill($("#f-certainty"), ["exact", "approximate", "none"].map((c) => ({ value: c, label: CERTAINTY_LABEL[c] })), "Cualquier ubicación");
@@ -376,6 +465,7 @@ function renderIncidents() {
     shown.length === DATA.incidents.length
       ? `${shown.length} incidente${shown.length === 1 ? "" : "s"}`
       : `${shown.length} de ${DATA.incidents.length} incidentes`;
+  updateCrocZones();
 }
 
 function card(inc) {
@@ -435,6 +525,97 @@ function card(inc) {
   });
   li.appendChild(srcs);
   return li;
+}
+
+/* ---------------------------------------------------------------- colonias */
+function renderColonias() {
+  const cr = DATA.colonia_rank || { ranked: [], unlocated: 0 };
+  const total = cr.ranked.reduce((sum, r) => sum + r.incidents, 0);
+  $("#col-intro").textContent = cr.ranked.length
+    ? `${total} incidentes ubicados en ${cr.ranked.length} colonias, ordenadas por número de incidentes. ` +
+      `«Artículos» cuenta la cobertura de prensa: un incidente al que los medios vuelven varias veces pesa más.`
+    : "Todavía no hay incidentes con colonia.";
+
+  const body = $("#colonia-table").tBodies[0];
+  body.textContent = "";
+  cr.ranked.forEach((r, i) => {
+    const tr = el("tr");
+    tr.appendChild(el("td", "num rank" + (i < 3 ? " top" : ""), String(i + 1)));
+    const td = el("td");
+    const link = el("button", "rowlink", r.colonia);
+    link.type = "button";
+    link.title = "Ver los incidentes de " + r.colonia;
+    link.addEventListener("click", () => focusSearch(r.colonia));
+    td.appendChild(link);
+    tr.appendChild(td);
+    [r.incidents, r.articles, r.open, r.resolved].forEach((n) =>
+      tr.appendChild(el("td", "num", String(n))));
+    tr.appendChild(el("td", null, r.categories.slice(0, 2)
+      .map(([c, n]) => `${CATEGORY_LABEL[c] || c} (${n})`).join(", ")));
+    tr.appendChild(el("td", null, r.last));
+    body.appendChild(tr);
+  });
+
+  $("#col-noloc").textContent = cr.unlocated
+    ? `${cr.unlocated} incidente${cr.unlocated === 1 ? " no trae" : "s no traen"} colonia en el artículo, ` +
+      `así que quedan fuera del ranking: en el tablero aparecen como «sin ubicación», no se adivinan.`
+    : "";
+}
+
+/* ---------------------------------------------------------------- colaboradores */
+/* El agradecimiento del tablero: cada dato viene de la prensa local, y esta
+   pestaña le da el crédito a quien firmó ese trabajo. Las firmas salen del
+   propio medio (registro, índice del corpus o página cacheada); nunca se
+   inventa una autoría. */
+function renderCredits() {
+  const cred = DATA.collaborators || { authors: [], credited: 0, uncredited: 0 };
+  const people = cred.authors.filter((a) => a.kind === "person");
+  const desks = cred.authors.filter((a) => a.kind === "desk");
+
+  $("#cred-intro").textContent =
+    "Este mapa existe porque alguien salió a reportear. Gracias a las y los periodistas de la bahía " +
+    "cuyo trabajo alimenta cada ficha — este es su crédito, con enlace a sus artículos en cada incidente.";
+
+  const list = $("#cred-people");
+  list.textContent = "";
+  people.forEach((a, i) => {
+    const li = el("li", "cred" + (i < 3 ? " top" : ""));
+    const rank = el("span", "cred-rank", String(i + 1));
+    rank.setAttribute("aria-hidden", "true");
+    const body = el("div", "cred-body");
+
+    const name = el("button", "cred-name", a.name);
+    name.type = "button";
+    name.title = "Ver los incidentes que documentó";
+    name.addEventListener("click", () => focusSearch(a.name));
+    body.appendChild(name);
+    body.appendChild(el("p", "byline", a.outlets.map(([o]) => o).join(" · ")));
+
+    const bits = [
+      `${a.records} ${a.records === 1 ? "artículo registrado" : "artículos registrados"}`,
+      `${a.incidents} incidente${a.incidents === 1 ? "" : "s"}`,
+      `${a.located} con ubicación`,
+    ];
+    if (a.colonias.length) bits.push("colonias: " + a.colonias.join(", "));
+    body.appendChild(el("p", "cred-stats", bits.join(" · ")));
+
+    if (a.categories.length) {
+      const tags = el("div", "tags");
+      a.categories.slice(0, 3).forEach(([c, n]) =>
+        tags.appendChild(el("span", "tag cat", `${CATEGORY_LABEL[c] || c} ${n}`)));
+      body.appendChild(tags);
+    }
+    li.append(rank, body);
+    list.appendChild(li);
+  });
+  if (!people.length) list.appendChild(el("p", "empty", "Ningún registro trae todavía una firma personal."));
+
+  barRows($("#cred-desks"), desks.map((a) => [a.name, a.records]), "--series-2");
+
+  const totalRecs = cred.credited + cred.uncredited;
+  $("#cred-uncredited").textContent =
+    `${cred.credited} de ${totalRecs} artículos registrados traen firma; los ${cred.uncredited} restantes ` +
+    `se publicaron sin autor identificable, así que su crédito queda con el medio que los publicó.`;
 }
 
 /* ---------------------------------------------------------------- ciclos */

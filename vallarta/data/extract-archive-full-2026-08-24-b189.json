@@ -1,0 +1,40 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/rehabilitan-pista-tartan-san-jose-del-valle-bahia-banderas/",
+    "article_date": "2026-04-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la pista de tartán de la Unidad Deportiva de San José del Valle , en Bahía de Banderas, Nayarit",
+    "street": null,
+    "colonia": "San José del Valle",
+    "landmark": "Unidad Deportiva de San José del Valle",
+    "summary": "Tartan track at San Jose del Valle sports unit wore out prematurely since October 2025; warranty repairs began after citizen complaints.",
+    "affected_people_clue": "reportes y denuncias ciudadanas",
+    "duration_clue": "desde octubre de 2025"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/cae-fractura-trabe-obra-del-puente-desembocada/",
+    "article_date": "2026-04-11",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la obra del nuevo puente de La Desembocada, en Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": "puente de La Desembocada",
+    "summary": "66-ton beam fell and fractured during La Desembocada bridge reconstruction; a construction mishap, not a resident complaint, so qualification is doubtful.",
+    "affected_people_clue": "conectividad entre la costa y la sierra de Jalisco",
+    "duration_clue": "antes de que inicie el temporal de lluvias"
+  }
+]

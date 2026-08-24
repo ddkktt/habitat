@@ -113,25 +113,27 @@ def report(cycle):
                   {d["article_url"] for d in (triage or {"decisions": []})["decisions"]})
     cycle_recs = [r for r in records if r["article_url"] in cycle_urls]
 
-    lines = ["# Daily report — %s — %s" % (store.CITY, cycle), ""]
+    # Reports are human-facing, so they are written in Spanish (operator
+    # decision, 2026-08-24); enum values stay in English everywhere else.
+    lines = ["# Informe diario — %s — %s" % (store.CITY, cycle), ""]
     if triage:
         counts = Counter(d["decision"] for d in triage["decisions"])
         decisions = triage["decisions"]
         read = sum(1 for d in decisions if d.get("read_by_agent", True))
-        lines += ["## Articles"]
+        lines += ["## Artículos"]
         if triage.get("reading_note"):
             lines += ["", "> %s" % triage["reading_note"], ""]
-        lines += ["- scanned and read as full text: %d" % read]
+        lines += ["- revisados y leídos como texto completo: %d" % read]
         if read != len(decisions):
             # Nothing is screened out any more, so an unread article is a
             # failure to report, not a policy. Name it rather than folding it
             # into the scanned count.
-            lines += ["- **triaged without a full-text read: %d** — see the"
-                      " unprocessed list below" % (len(decisions) - read)]
-        lines += ["- qualified: %d" % counts["yes"],
-                  "- unsure (held for human review): %d" % counts["unsure"],
-                  "- read but not a public-infrastructure complaint: %d" % counts["no"],
-                  "- full article pages fetched: %d" % sum(1 for d in decisions if d.get("full_page_fetched")),
+            lines += ["- **triados sin lectura de texto completo: %d** — ver la"
+                      " lista de no procesados abajo" % (len(decisions) - read)]
+        lines += ["- califican: %d" % counts["yes"],
+                  "- dudosos (retenidos para revisión humana): %d" % counts["unsure"],
+                  "- leídos pero no son una queja de infraestructura pública: %d" % counts["no"],
+                  "- páginas de artículo completas descargadas: %d" % sum(1 for d in decisions if d.get("full_page_fetched")),
                   ""]
     # An article either opened an incident (it is that incident's first article)
     # or was merged into one. Counting records in multi-article incidents instead
@@ -139,47 +141,48 @@ def report(cycle):
     first_urls = {i["article_urls"][0] for i in incidents if i.get("article_urls")}
     opened = [r for r in cycle_recs if r["article_url"] in first_urls]
     merged = [r for r in cycle_recs if r["article_url"] not in first_urls]
-    lines += ["## Incidents",
-              "- new incidents opened: %d" % len({r.get("incident_id") for r in opened}),
-              "- articles merged into an existing incident: %d" % len(merged),
-              "- incidents tracked in total: %d" % len(incidents),
+    lines += ["## Incidentes",
+              "- incidentes nuevos abiertos: %d" % len({r.get("incident_id") for r in opened}),
+              "- artículos fusionados a un incidente existente: %d" % len(merged),
+              "- incidentes en seguimiento en total: %d" % len(incidents),
               ""]
     cert = Counter(r["location_certainty"] for r in cycle_recs)
     total = max(len(cycle_recs), 1)
-    lines += ["## Location certainty (this cycle)"]
+    cert_label = {"exact": "exacta", "approximate": "aproximada", "none": "sin ubicación"}
+    lines += ["## Certeza de ubicación (este ciclo)"]
     for level in ("exact", "approximate", "none"):
-        lines.append("- %s: %d (%.0f%%)" % (level, cert[level], 100.0 * cert[level] / total))
+        lines.append("- %s: %d (%.0f%%)" % (cert_label[level], cert[level], 100.0 * cert[level] / total))
     located = 100.0 * (cert["exact"] + cert["approximate"]) / total
-    lines += ["- **located share (exact+approximate): %.0f%%**" % located, ""]
+    lines += ["- **proporción ubicada (exacta+aproximada): %.0f%%**" % located, ""]
 
     allcert = Counter(r["location_certainty"] for r in records)
     alltotal = max(len(records), 1)
-    lines += ["## Location certainty (all cycles)",
-              "- exact %d / approximate %d / none %d — located share %.0f%%"
+    lines += ["## Certeza de ubicación (todos los ciclos)",
+              "- exacta %d / aproximada %d / sin ubicación %d — proporción ubicada %.0f%%"
               % (allcert["exact"], allcert["approximate"], allcert["none"],
                  100.0 * (allcert["exact"] + allcert["approximate"]) / alltotal), ""]
 
     progress = corpus_progress()
     if progress:
-        lines += ["## Corpus backfill — read so far vs not yet read"]
+        lines += ["## Backfill del corpus — leído hasta ahora vs pendiente de leer"]
         for p in progress:
             pct = 100.0 * p["read"] / max(p["total"], 1)
-            lines += ["- `%s`: **%d of %d read (%.1f%%)**, %d not yet read, across %d batches"
+            lines += ["- `%s`: **%d de %d leídos (%.1f%%)**, %d pendientes de leer, en %d lotes"
                       % (p["corpus"], p["read"], p["total"], pct, p["remaining"], p["batches"]),
-                      "  - from the part already read: %d qualified, %d unsure"
+                      "  - de la parte ya leída: %d califican, %d dudosos"
                       % (p["qualified"], p["unsure"])]
         if any(p["remaining"] for p in progress):
             lines += ["",
-                      "These corpora are **not fully read**. Every article in them is to be",
-                      "read — nothing is screened out — so the counts above describe the part",
-                      "read so far and nothing else. They are not a rate, not a total, and not",
-                      "evidence that the unread part holds no complaints."]
+                      "Estos corpus **no están completamente leídos**. Cada artículo en ellos",
+                      "debe leerse — nada se descarta — así que las cifras de arriba describen",
+                      "la parte leída hasta ahora y nada más. No son una tasa, no son un total",
+                      "y no son evidencia de que la parte no leída no contenga quejas."]
         lines.append("")
 
     if triage:
         unprocessed = [d for d in triage["decisions"] if d.get("unprocessed")]
-        lines += ["## Articles that could not be processed"]
-        lines += ["- %s — %s" % (d["article_url"], d.get("note", "")) for d in unprocessed] or ["- none"]
+        lines += ["## Artículos que no se pudieron procesar"]
+        lines += ["- %s — %s" % (d["article_url"], d.get("note", "")) for d in unprocessed] or ["- ninguno"]
         lines.append("")
 
     out = os.path.join(ROOT, "reports", "%sreport-%s.md" % (PREFIX, cycle))

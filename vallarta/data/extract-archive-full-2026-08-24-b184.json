@@ -1,0 +1,81 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/playa-del-cuale-puerto-vallarta-no-apta-bano-cofepris/",
+  "article_date": "2026-07-10",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "yes",
+  "categories": [
+   "water",
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "la Playa del Cuale, en Puerto Vallarta, Jalisco, se encuentra entre las cinco playas del país no aptas para uso recreativo",
+  "street": null,
+  "colonia": null,
+  "landmark": "Playa del Cuale",
+  "summary": "Cofepris lists Playa del Cuale among Mexico's five most contaminated beaches, unsafe for swimming due to elevated bacteria levels.",
+  "affected_people_clue": "la población y a los turistas",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/seguridad-puerto-vallarta-rescate-turista-conchas-chinas/",
+  "article_date": "2026-06-30",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "roads",
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "extremar precauciones al transitar a pie por la franja costera de Conchas Chinas",
+  "street": null,
+  "colonia": "Conchas Chinas",
+  "landmark": null,
+  "summary": "Rescue report notes cliffs along Conchas Chinas coastal strip lack pedestrian containment barriers; qualification doubtful since main story is an accident.",
+  "affected_people_clue": "los visitantes",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://diariodevallarta.com/ataque-de-cocodrilo-en-vallarta-llega-a-medios-internacionales/",
+  "article_date": "2026-06-29",
+  "source_outlet": "Diario de Vallarta",
+  "author": "Paloma Rocío Guevara",
+  "qualifies": "unsure",
+  "categories": [
+   "public_space",
+   "other"
+  ],
+  "status": "new_complaint",
+  "location_certainty": "exact",
+  "location_evidence": "en la zona de Marina Vallarta, cerca de la playa frente al Marriott Puerto Vallarta Resort and Spa",
+  "street": null,
+  "colonia": "Marina Vallarta",
+  "landmark": "Marriott Puerto Vallarta Resort and Spa",
+  "summary": "Witnesses say beach near Marriott in Marina Vallarta stayed open without closures or warnings after fatal crocodile attack; infrastructure qualification doubtful.",
+  "affected_people_clue": null,
+  "duration_clue": "al día siguiente"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/camioneta-choca-y-huye-pitillal/",
+  "article_date": "2026-06-27",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "roads"
+  ],
+  "status": "unclear",
+  "location_certainty": "exact",
+  "location_evidence": "sobre la avenida Francisco Villa, frente a Soriana Pitillal, metros antes del puente del río Pitillal",
+  "street": "avenida Francisco Villa",
+  "colonia": null,
+  "landmark": "Soriana Pitillal",
+  "summary": "Vehicle crash destroyed median containment wall on avenida Francisco Villa near Pitillal bridge; accident report, so complaint qualification is doubtful.",
+  "affected_people_clue": "un serio peligro para los automovilistas",
+  "duration_clue": null
+ }
+]

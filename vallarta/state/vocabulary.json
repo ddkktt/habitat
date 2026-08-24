@@ -2,24 +2,157 @@
   "note": "Keyword hints used to triage feed items. 'active' terms are in use now; 'watch_list' terms were observed in this cycle's qualifying articles and are promoted to active next cycle. Keywords only ever surface an article for reading — they never decide qualification on their own.",
   "last_updated": "2026-08-24",
   "active": {
-    "water": ["agua", "fuga de agua", "fugas de agua", "desabasto", "abasto de agua", "sin agua", "tandeo", "suministro", "pipas", "Seapal"],
-    "roads": ["bache", "baches", "pavimento", "pavimentación", "socavón", "socavones", "empedrado", "vialidad", "calle", "calles", "camino", "carretera"],
-    "drainage": ["drenaje", "alcantarilla", "alcantarillado", "aguas negras", "aguas residuales", "colector", "coladera", "registro abierto"],
-    "flooding": ["inundación", "inundaciones", "encharcamiento", "desbordamiento", "arroyo", "canal", "lluvias"],
-    "lighting": ["alumbrado", "alumbrado público", "luminaria", "luminarias", "lámpara", "lámparas", "oscuridad"],
-    "power": ["apagón", "apagones", "corte de luz", "cortes de luz", "CFE", "sin energía", "energía eléctrica"],
-    "trash": ["basura", "recolección", "aseo público", "tiradero", "residuos", "relleno sanitario"],
-    "public_space": ["maleza", "hierba", "banqueta", "banquetas", "puente peatonal", "parque", "plaza", "área verde", "áreas verdes", "abandono"],
-    "transit": ["camión", "camiones", "ruta", "rutas", "transporte público", "parada", "paradas", "semafóro", "semáforo", "semaforización"],
-    "complaint_signals": ["denuncian", "denuncia ciudadana", "vecinos exigen", "reporte ciudadano", "piden atención", "sin respuesta", "quejas", "reportan", "afecta", "afectados"]
+    "water": [
+      "agua",
+      "fuga de agua",
+      "fugas de agua",
+      "desabasto",
+      "abasto de agua",
+      "sin agua",
+      "tandeo",
+      "suministro",
+      "pipas",
+      "Seapal"
+    ],
+    "roads": [
+      "bache",
+      "baches",
+      "pavimento",
+      "pavimentación",
+      "socavón",
+      "socavones",
+      "empedrado",
+      "vialidad",
+      "calle",
+      "calles",
+      "camino",
+      "carretera"
+    ],
+    "drainage": [
+      "drenaje",
+      "alcantarilla",
+      "alcantarillado",
+      "aguas negras",
+      "aguas residuales",
+      "colector",
+      "coladera",
+      "registro abierto"
+    ],
+    "flooding": [
+      "inundación",
+      "inundaciones",
+      "encharcamiento",
+      "desbordamiento",
+      "arroyo",
+      "canal",
+      "lluvias"
+    ],
+    "lighting": [
+      "alumbrado",
+      "alumbrado público",
+      "luminaria",
+      "luminarias",
+      "lámpara",
+      "lámparas",
+      "oscuridad"
+    ],
+    "power": [
+      "apagón",
+      "apagones",
+      "corte de luz",
+      "cortes de luz",
+      "CFE",
+      "sin energía",
+      "energía eléctrica"
+    ],
+    "trash": [
+      "basura",
+      "recolección",
+      "aseo público",
+      "tiradero",
+      "residuos",
+      "relleno sanitario"
+    ],
+    "public_space": [
+      "maleza",
+      "hierba",
+      "banqueta",
+      "banquetas",
+      "puente peatonal",
+      "parque",
+      "plaza",
+      "área verde",
+      "áreas verdes",
+      "abandono"
+    ],
+    "transit": [
+      "camión",
+      "camiones",
+      "ruta",
+      "rutas",
+      "transporte público",
+      "parada",
+      "paradas",
+      "semafóro",
+      "semáforo",
+      "semaforización"
+    ],
+    "complaint_signals": [
+      "denuncian",
+      "denuncia ciudadana",
+      "vecinos exigen",
+      "reporte ciudadano",
+      "piden atención",
+      "sin respuesta",
+      "quejas",
+      "reportan",
+      "afecta",
+      "afectados"
+    ],
+    "wildlife": [
+      "cocodrilo",
+      "cocodrilos",
+      "caimán",
+      "lagarto",
+      "avistamiento"
+    ]
   },
   "watch_list": [
-    {"term": "registro abierto", "learned_from": "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/", "why": "local wording for an uncovered manhole/utility box; the generic 'drenaje' keyword would have missed this headline", "promoted": true},
-    {"term": "parota", "learned_from": "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/", "why": "a large native tree used as a landmark reference in reports", "promoted": false},
-    {"term": "VaqueRun", "learned_from": "https://vallartaindependiente.com/2026/08/19/sin-agua-pero-con-vaquerun-la-apuesta-politica-de-munguia/", "why": "event name only; noted so it is not mistaken for a service term", "promoted": false}
+    {
+      "term": "registro abierto",
+      "learned_from": "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/",
+      "why": "expresión local para un registro o caja de servicio destapado; la palabra clave genérica 'drenaje' habría pasado por alto este titular",
+      "promoted": true
+    },
+    {
+      "term": "parota",
+      "learned_from": "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/",
+      "why": "árbol nativo de gran tamaño usado como punto de referencia en los reportes",
+      "promoted": false
+    },
+    {
+      "term": "VaqueRun",
+      "learned_from": "https://vallartaindependiente.com/2026/08/19/sin-agua-pero-con-vaquerun-la-apuesta-politica-de-munguia/",
+      "why": "solo es el nombre de un evento; anotado para que no se confunda con un término de servicios",
+      "promoted": false
+    },
+    {
+      "term": "cocodrilo",
+      "learned_from": "https://diariodevallarta.com/ataque-de-cocodrilo-en-vallarta-llega-a-medios-internacionales/",
+      "why": "el operador agregó la categoría 'wildlife' (2026-08-24): la presencia de cocodrilos cerca de los esteros y desembocaduras es un problema recurrente de seguridad pública que se archivaba en 'other'",
+      "promoted": true
+    }
   ],
   "anti_keywords": {
     "note": "words that look like complaints but usually mark excluded topics",
-    "terms": ["denuncia penal", "homicidio", "detienen", "cártel", "licencia", "diputado", "gobernador"]
+    "terms": [
+      "denuncia penal",
+      "homicidio",
+      "detienen",
+      "cártel",
+      "licencia",
+      "diputado",
+      "gobernador"
+    ]
   }
 }
