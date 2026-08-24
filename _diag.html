@@ -1,0 +1,16 @@
+<iframe src="/" id="fr" style="width:1400px;height:900px"></iframe>
+<pre id="out">pending</pre>
+<script>
+setTimeout(() => {
+  try {
+    const d = document.getElementById("fr").contentDocument;
+    const tp = d.querySelector(".leaflet-tile-pane");
+    document.getElementById("out").textContent = "DIAG:" + JSON.stringify({
+      dark: matchMedia("(prefers-color-scheme: dark)").matches,
+      dataTheme: d.documentElement.dataset.theme || null,
+      filter: tp ? d.defaultView.getComputedStyle(tp).filter : "no tile pane",
+      mapH: d.getElementById("map") ? d.getElementById("map").offsetHeight : -1
+    });
+  } catch (e) { document.getElementById("out").textContent = "DIAG-ERR:" + e.message; }
+}, 12000);
+</script>

@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pulso Vallarta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Archivo:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="mast-inner">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <rect x="1"  y="1"  width="14" height="14" rx="4.5" fill="#f2e5b4"/>
+        <rect x="17" y="1"  width="14" height="14" rx="4.5" fill="#5b93d0"/>
+        <rect x="1"  y="17" width="14" height="14" rx="4.5" fill="#e9d6ae"/>
+        <rect x="17" y="17" width="14" height="14" rx="4.5" fill="#bfe3d2"/>
+        <circle cx="8" cy="8" r="2.6" fill="#e9b45c"/>
+        <path d="M19 7.6 Q20.9 5.6 22.8 7.6 T26.6 7.6" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M19 10.8 Q20.9 8.8 22.8 10.8 T26.6 10.8" fill="none" stroke="#ffffff" stroke-opacity=".62" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <div class="brand-words">
+        <p class="kicker">Agua, drenaje, inundaciones y residuos · Puerto Vallarta</p>
+        <h1>Pulso Vallarta</h1>
+        <p class="sub" id="source-line">reportadas por la prensa local</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button type="button" class="btn" id="reload-btn" title="Volver a leer los datos del disco">Recargar</button>
+      <button type="button" class="btn icon" id="theme-btn" title="Alternar claro / oscuro" aria-label="Alternar claro / oscuro">◐</button>
+    </div>
+  </div>
+</header>
+
+<div id="status" class="status" role="status">Cargando…</div>
+
+<main id="app" hidden>
+
+  <!-- Tres vistas: el mapa vivo, el crédito del trabajo que lo alimenta y la
+       metodología de construcción del sitio. Cada nav .tabs manda
+       solo sobre los paneles de su propio ámbito: esta gobierna .view, las de
+       adentro siguen gobernando sus .panel. -->
+  <nav class="tabs primary" role="tablist" data-target=".view">
+    <button class="tab is-on" role="tab" data-panel="v-map">Mapa e incidentes</button>
+    <button class="tab" role="tab" data-panel="v-people">Colaboradores y colonias</button>
+    <button class="tab" role="tab" data-panel="v-method">Metodología</button>
+  </nav>
+
+  <section id="v-map" class="view" role="tabpanel" aria-label="Mapa e incidentes">
+  <!-- Cabina: el mapa fijo a la izquierda, el riel de datos a la derecha.
+       El mapa y la evidencia que lo explica comparten pantalla siempre. -->
+  <div class="cockpit">
+    <aside class="statrail" aria-label="Estadísticas del recorte del mapa">
+      <p class="eyebrow">Estadísticas</p>
+      <p class="railnote" id="st-slice">Cuentas del recorte que está dibujado en el mapa.</p>
+
+      <div class="stat-table">
+        <h3 class="st-h">Categorías <span class="hint">incidentes</span></h3>
+        <table class="grid tight" id="st-cats">
+          <thead><tr><th>Categoría</th><th class="num">Inc.</th><th class="num">%</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="stat-table">
+        <h3 class="st-h">Estado del caso <span class="hint">incidentes</span></h3>
+        <table class="grid tight" id="st-status">
+          <thead><tr><th>Estado</th><th class="num">Inc.</th><th class="num">%</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="stat-table">
+        <h3 class="st-h">Meses <span class="hint">por primer reporte</span></h3>
+        <table class="grid tight" id="st-months">
+          <thead><tr><th>Mes</th><th class="num">Inc.</th><th class="num">Colonias</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="stat-table">
+        <h3 class="st-h">Medios <span class="hint">quién lo reportó</span></h3>
+        <table class="grid tight" id="st-outlets">
+          <thead><tr><th>Medio</th><th class="num">Art.</th><th class="num">Inc.</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="stat-table">
+        <h3 class="st-h">Ubicación <span class="hint">certeza del recorte</span></h3>
+        <table class="grid tight" id="st-cert">
+          <thead><tr><th>Certeza</th><th class="num">Inc.</th><th class="num">%</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <p class="note" id="st-foot"></p>
+    </aside>
+
+    <section class="cockpit-map" aria-label="Mapa de incidentes">
+      <div class="map-toolbar">
+        <label class="field"><span>Categoría</span><select id="m-category"></select></label>
+        <label class="field"><span>Estado</span><select id="m-status"></select></label>
+        <div class="field"><span>Mes</span>
+          <div class="mchips" id="m-months"></div>
+        </div>
+        <button type="button" class="btn icon" id="m-play" title="Recorrer los meses">▶</button>
+        <label class="check"><input type="checkbox" id="m-hot"> <span>Sombrear las colonias con más incidentes</span></label>
+        <label class="check"><input type="checkbox" id="m-crocs-toggle" checked> <span>Zonas de cocodrilos</span></label>
+        <p class="slice" id="m-label"></p>
+      </div>
+      <div class="map-stage">
+        <div id="map" role="application" aria-label="Mapa de incidentes por colonia"></div>
+      </div>
+      <p class="note croc-note" id="m-croc" hidden></p>
+      <details class="map-notes">
+        <summary>Cómo leerlo · notas de cobertura</summary>
+        <p class="note"><strong>Cómo leerlo.</strong> Círculo = incidentes en el centro aproximado de la colonia.
+          Las posiciones vienen de <code>state/colonia_coords.json</code> (estimaciones manuales, no límites
+          oficiales); una colonia sin coordenadas se anota aquí en lugar de adivinarse.</p>
+        <p class="note" id="m-unmapped"></p>
+        <p class="note" id="m-coverage"></p>
+      </details>
+    </section>
+
+    <aside class="rail">
+      <section class="rail-sec rail-stats" aria-label="Totales">
+        <div class="focus-brief" aria-label="Foco actual">
+          <p class="focus-kicker">Foco temporal</p>
+          <h2 id="focus-title">Agua y residuos</h2>
+          <p id="focus-copy" class="focus-copy"></p>
+          <div class="focus-breakdown" id="focus-breakdown"></div>
+        </div>
+      </section>
+
+      <section class="rail-sec" id="rail-territorio">
+        <p class="eyebrow">Territorio</p>
+        <p class="railnote">Las colonias con más incidentes bajo el filtro actual del mapa; clic en una para abrir sus expedientes.</p>
+        <div id="m-top"></div>
+        <a class="rail-more" href="#sec-colonias">Radiografía completa por colonia ↓</a>
+      </section>
+
+      <section class="rail-sec" id="rail-crocs" hidden>
+        <p class="eyebrow">Contexto local</p>
+        <div class="note croc-note" id="croc-context"></div>
+      </section>
+
+      <section class="rail-sec rail-feed">
+        <nav class="tabs rail-tabs" role="tablist">
+          <button class="tab is-on" role="tab" data-panel="p-news">Noticias</button>
+          <button class="tab" role="tab" data-panel="p-incidents">Incidentes</button>
+        </nav>
+
+        <section id="p-news" class="panel" role="tabpanel" aria-label="Últimas noticias">
+          <p class="railnote" id="n-intro">El flujo de artículos del corpus, del más reciente al más viejo.</p>
+          <div class="filters">
+            <label class="field grow">
+              <span>Buscar</span>
+              <input id="n-search" type="search" placeholder="titular, colonia, palabra…" autocomplete="off">
+            </label>
+            <label class="field"><span>Categoría</span><select id="n-category"></select></label>
+            <label class="field"><span>Orden</span><select id="n-sort">
+              <option value="date">Más recientes</option>
+              <option value="date_asc">Más antiguas</option>
+              <option value="score">Relevancia</option>
+            </select></label>
+            <label class="field"><span>Medio</span><select id="n-outlet"></select></label>
+            <label class="check"><input type="checkbox" id="n-recorded"> <span>Solo con registro</span></label>
+            <button type="button" class="btn" id="n-reset">Limpiar</button>
+            <p class="slice" id="n-count"></p>
+          </div>
+          <ul class="cards feed" id="news-list"></ul>
+          <p class="empty" id="news-empty" hidden>Ningún artículo coincide con estos filtros.</p>
+          <button type="button" class="btn wide" id="n-more" hidden>Cargar más</button>
+        </section>
+
+        <section id="p-incidents" class="panel" role="tabpanel" aria-label="Incidentes" hidden>
+          <div class="filters">
+            <label class="field grow">
+              <span>Buscar</span>
+              <input id="f-search" type="search" placeholder="calle, colonia, palabra…" autocomplete="off">
+            </label>
+            <label class="field"><span>Categoría</span><select id="f-category"></select></label>
+            <label class="field"><span>Estado</span><select id="f-status"></select></label>
+            <label class="field"><span>Ubicación</span><select id="f-certainty"></select></label>
+            <label class="field"><span>Medio</span><select id="f-outlet"></select></label>
+            <label class="check"><input type="checkbox" id="f-unsure"> <span>Solo lo que está por revisar</span></label>
+            <button type="button" class="btn" id="f-reset">Limpiar</button>
+            <p class="slice" id="slice-label"></p>
+          </div>
+          <ul class="cards" id="incident-list"></ul>
+          <p class="empty" id="incident-empty" hidden>Ningún incidente coincide con estos filtros.</p>
+        </section>
+      </section>
+    </aside>
+  </div>
+  </section>
+
+  <section id="v-people" class="view" role="tabpanel" aria-label="Colaboradores y colonias" hidden>
+  <!-- Colaboradores y colonias, hombro con hombro: quién lo contó y dónde pasa. -->
+  <div class="duo">
+    <section class="block" id="sec-credits">
+      <p class="eyebrow">Crédito</p>
+      <h2 class="block-title">Colaboradores</h2>
+      <p class="lede" id="cred-intro"></p>
+      <h3 class="sec">Periodistas <span class="hint">firmas personales, ordenadas por artículos que alimentaron el mapa</span></h3>
+      <ol class="cred-list" id="cred-people"></ol>
+      <h3 class="sec">Redacciones <span class="hint">artículos firmados por la mesa de redacción del medio</span></h3>
+      <div id="cred-desks" class="reasons"></div>
+      <p class="note" id="cred-uncredited"></p>
+      <a class="rail-more" href="#sec-social">Capa social: quién abre y quién sostiene cada historia ↓</a>
+    </section>
+
+    <section class="block" id="sec-colonias">
+      <p class="eyebrow">Territorio</p>
+      <h2 class="block-title">Radiografía por colonia</h2>
+      <p class="lede" id="col-intro"></p>
+      <div class="table-scroll">
+        <table class="grid" id="colonia-table">
+          <thead><tr><th class="num">#</th><th>Colonia</th><th class="num">Incidentes</th>
+            <th class="num">Artículos</th><th class="num">Abiertos</th><th class="num">Resueltos</th>
+            <th>Categorías principales</th><th>Último reporte</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note" id="col-noloc"></p>
+    </section>
+  </div>
+
+  <section class="block" id="sec-social">
+    <p class="eyebrow">Capa social</p>
+    <h2 class="block-title">Quién sostiene la conversación</h2>
+    <p class="lede" id="soc-intro"></p>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab is-on" role="tab" data-panel="p-soc-top">Top colaboradores</button>
+      <button class="tab" role="tab" data-panel="p-soc-colonias">Colonias</button>
+      <button class="tab" role="tab" data-panel="p-soc-rank">Ranking</button>
+    </nav>
+
+    <section id="p-soc-top" class="panel" role="tabpanel">
+      <h3 class="sec">Reconocimientos <span class="hint">primicias y seguimientos, calculados de las fechas de los registros</span></h3>
+      <ol class="cred-list" id="soc-honors"></ol>
+    </section>
+
+    <section id="p-soc-colonias" class="panel" role="tabpanel" hidden>
+      <h3 class="sec">Voces por colonia <span class="hint">qué firmas cuentan las historias de cada colonia</span></h3>
+      <ul class="cred-list" id="soc-voices"></ul>
+    </section>
+
+    <section id="p-soc-rank" class="panel" role="tabpanel" hidden>
+      <h3 class="sec">Ranking <span class="hint">puntaje = artículos + incidentes + 3 × primicias + 2 × seguimientos</span></h3>
+      <div class="table-scroll">
+        <table class="grid" id="soc-rank-table">
+          <thead><tr><th class="num">#</th><th>Firma</th><th>Medio</th>
+            <th class="num">Artículos</th><th class="num">Incidentes</th>
+            <th class="num">Primicias</th><th class="num">Seguimientos</th>
+            <th class="num">Colonias</th><th class="num">Puntaje</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note" id="soc-rank-note"></p>
+    </section>
+
+    <p class="note" id="soc-note"></p>
+  </section>
+
+  </section>
+
+  <section id="v-method" class="view" role="tabpanel" aria-label="Metodología" hidden>
+    <section class="block methodology" id="sec-method">
+      <p class="eyebrow">Metodología</p>
+      <h2 class="block-title">Cómo se construyó el mapa</h2>
+      <p class="lede">Pulso Vallarta combina lectura automatizada, revisión estructurada y una capa de visualización local para convertir señales públicas en incidentes ubicables por colonia.</p>
+
+      <div class="method-grid" aria-label="Proceso de construcción del sitio">
+        <article class="method-step">
+          <span class="method-num">01</span>
+          <h3>Recolección de noticias</h3>
+          <p>Los datos base vienen de sitios de noticias locales. Se recopilaron feeds, sitemaps, páginas públicas y archivos permitidos por cada medio, guardando metadatos, texto extraído y enlaces de origen para no depender de una sola consulta.</p>
+        </article>
+        <article class="method-step">
+          <span class="method-num">02</span>
+          <h3>Clasificación con LLMs</h3>
+          <p>Los artículos se leyeron con modelos de lenguaje para decidir si describían una queja o falla urbana, asignar categorías como agua, drenaje, inundación o basura, y separar comunicados o notas fuera de alcance.</p>
+        </article>
+        <article class="method-step">
+          <span class="method-num">03</span>
+          <h3>Extracción de ubicación</h3>
+          <p>El mismo proceso extrajo colonias, calles y puntos de referencia mencionados por la fuente. La ubicación solo se acepta cuando aparece en la evidencia; si no hay colonia clara, el registro queda como aproximado o sin ubicación.</p>
+        </article>
+        <article class="method-step">
+          <span class="method-num">04</span>
+          <h3>Fusión y visor</h3>
+          <p>Los registros aceptados se deduplicaron en incidentes, se agruparon por colonia y se dibujaron en el sitio con Leaflet sobre OpenStreetMap. Las coordenadas de colonias son centros aproximados mantenidos en archivos locales.</p>
+        </article>
+      </div>
+
+      <div class="method-note">
+        <h3>Capa social</h3>
+        <p>La capa de redes sociales incluida en esta versión es una fabricación sintética para probar el modelo de datos, las vistas y el flujo editorial. No debe leerse como evidencia real de publicaciones ciudadanas. La intención futura es reemplazarla por acceso vía API o exportaciones autorizadas, con aprobación humana de fuentes, reglas de privacidad y trazabilidad equivalente a la prensa.</p>
+      </div>
+    </section>
+  </section>
+
+  <section class="block" id="sec-expediente">
+    <p class="eyebrow">Expediente</p>
+    <h2 class="block-title">La maquinaria detrás del mapa</h2>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab" role="tab" data-panel="p-articles" id="tab-articles" hidden>Artículos</button>
+      <button class="tab is-on" role="tab" data-panel="p-cycles">Ciclos</button>
+      <button class="tab" role="tab" data-panel="p-learning">Lo que ha aprendido</button>
+      <button class="tab" role="tab" data-panel="p-screening" id="tab-screening" hidden>Lectura</button>
+      <button class="tab" role="tab" data-panel="p-report">Último informe</button>
+    </nav>
+
+    <section id="p-articles" class="panel" role="tabpanel" hidden>
+      <p class="note" id="art-intro"></p>
+      <div class="filters">
+        <label class="field grow"><span>Buscar título, categoría, medio</span>
+          <input id="a-search" type="search" placeholder="bache, fuga, colonia…" autocomplete="off"></label>
+        <label class="field"><span>Grupo</span><select id="a-bucket"></select></label>
+        <label class="field"><span>Categoría</span><select id="a-category"></select></label>
+        <label class="field"><span>Medio</span><select id="a-outlet"></select></label>
+        <label class="field"><span>Desde</span><input id="a-from" type="date"></label>
+        <label class="field"><span>Hasta</span><input id="a-to" type="date"></label>
+        <label class="field"><span>Orden</span><select id="a-sort">
+          <option value="score">Puntaje</option><option value="date">Más recientes</option>
+          <option value="date_asc">Más antiguos</option></select></label>
+        <label class="check"><input type="checkbox" id="a-recorded"> <span>Solo con registro</span></label>
+        <button type="button" class="btn" id="a-reset">Restablecer</button>
+      </div>
+      <div class="pager">
+        <button type="button" class="btn" id="a-prev">‹ Anterior</button>
+        <span id="a-count" class="slice"></span>
+        <button type="button" class="btn" id="a-next">Siguiente ›</button>
+      </div>
+      <ul class="cards" id="article-list"></ul>
+      <div class="pager">
+        <button type="button" class="btn" id="a-prev2">‹ Anterior</button>
+        <span id="a-count2" class="slice"></span>
+        <button type="button" class="btn" id="a-next2">Siguiente ›</button>
+      </div>
+    </section>
+
+    <section id="p-cycles" class="panel" role="tabpanel">
+      <div class="table-scroll">
+        <table class="grid" id="cycle-table">
+          <thead><tr><th>Ciclo</th><th class="num">Revisados</th><th class="num">Califican</th>
+            <th class="num">Dudosos</th><th class="num">Excluidos</th><th class="num">Páginas descargadas</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <h3 class="sec">Por qué se excluyeron artículos</h3>
+      <div id="reason-bars" class="reasons"></div>
+      <p class="note">Las exclusiones se registran en lugar de descartarse, así que un tema mal
+        clasificado aparece aquí como un patrón en vez de desaparecer.</p>
+    </section>
+
+    <section id="p-learning" class="panel" role="tabpanel" hidden>
+      <div class="two-col">
+        <div>
+          <h3 class="sec">Nomenclátor <span class="hint">lugares confirmados por una frase citada</span></h3>
+          <div id="gazetteer"></div>
+          <h3 class="sec">Cobertura</h3>
+          <div id="coverage"></div>
+        </div>
+        <div>
+          <h3 class="sec">Vocabulario en observación</h3>
+          <div id="vocab"></div>
+          <h3 class="sec">Fuentes candidatas <span class="hint">registradas, no consultadas</span></h3>
+          <div id="sources"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="p-screening" class="panel" role="tabpanel" hidden>
+      <p class="note" id="screen-intro"></p>
+      <div class="stats" id="screen-stats" aria-label="Avance de lectura del corpus"></div>
+
+      <h3 class="sec">Orden de lectura (barra = total del corpus)</h3>
+      <div id="screen-reasons" class="reasons"></div>
+
+      <h3 class="sec">Pendientes de leer por medio</h3>
+      <div id="screen-outlets" class="reasons"></div>
+
+      <h3 class="sec">Categorías detectadas en el corpus</h3>
+      <div id="screen-cats" class="reasons"></div>
+
+      <h3 class="sec">Auditorías de calidad</h3>
+      <div id="audits"></div>
+
+      <h3 class="sec">Siguientes en la cola de lectura</h3>
+      <div class="table-scroll">
+        <table class="grid" id="unread-table">
+          <thead><tr><th>Fecha</th><th>Medio</th><th>Titular</th>
+            <th class="num">Puntaje</th><th>Grupo</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="p-report" class="panel" role="tabpanel" hidden>
+      <pre class="report" id="report-md"></pre>
+    </section>
+  </section>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
