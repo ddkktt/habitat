@@ -1,0 +1,21 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/asi-fue-momento-exacto-demolicion-desembocada/",
+  "article_date": "2026-03-02",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "yes",
+  "categories": [
+   "roads"
+  ],
+  "status": "ongoing",
+  "location_certainty": "exact",
+  "location_evidence": "puente de La Desembocada … ubicado sobre la carretera estatal 544 en el tramo Ixtapa–Las Palmas",
+  "street": "carretera estatal 544",
+  "colonia": null,
+  "landmark": "puente de La Desembocada",
+  "summary": "La Desembocada bridge on state highway 544, destroyed with explosives during February 22 violence, is being demolished for reconstruction expected by July.",
+  "affected_people_clue": null,
+  "duration_clue": "concluida a más tardar en julio"
+ }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/elevadores-uma-puerto-vallarta-fuera-de-servicio/",
+    "article_date": "2026-06-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "other"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "no sirven tres de los cuatro elevadores que hay instalados en la UMA",
+    "street": null,
+    "colonia": null,
+    "landmark": "UMA",
+    "summary": "Three of four elevators at Puerto Vallarta's UMA municipal offices broken for two months; citizens, especially elderly and mobility-impaired, demand immediate repair.",
+    "affected_people_clue": "adultos mayores o las personas que tienen problemas de movilidad",
+    "duration_clue": "Desde hace dos meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/rehabilitaran-las-cuatro-estaciones-meteorologicas-de-puerto-vallarta/",
+    "article_date": "2026-06-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "other"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "se encuentran en la Base Central de Bomberos , Joyas del Pedregal , Las Palmas y Boca de Tomatlán",
+    "street": null,
+    "colonia": null,
+    "landmark": "Base Central de Bomberos",
+    "summary": "Two of four municipal weather stations are broken across four sites; city plans rehabilitation, provider recommends replacement; official plan, so qualification is doubtful.",
+    "affected_people_clue": null,
+    "duration_clue": "daños por el paso del tiempo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/techumbre-muelle-boca-tomatlan-diseno-siop/",
+    "article_date": "2026-05-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la instalación de una techumbre en el muelle de Boca de Tomatlán",
+    "street": null,
+    "colonia": null,
+    "landmark": "muelle de Boca de Tomatlán",
+    "summary": "Pier roof works at Boca de Tomatlan damaged pier slabs, prompting closure; repairs and state redesign underway; official project update, qualification doubtful.",
+    "affected_people_clue": "los cientos de turistas que se embarcan diariamente",
+    "duration_clue": null
+  }
+]

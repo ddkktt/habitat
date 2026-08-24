@@ -1,0 +1,279 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/tormenton-sorprende-puerto-vallarta-dia-san-juan/",
+    "article_date": "2026-06-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "corrientes de agua avanzando por vialidades de colonias como El Pitillal y La Bobadilla",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "A storm flooded streets in El Pitillal and La Bobadilla; residents also reported trash and a persistently troubled arroyo.",
+    "affected_people_clue": "habitantes",
+    "duration_clue": "varios meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-normalizar-suministro-agua-llevamos-sin-agua-ciudadanos/",
+    "article_date": "2026-07-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Habitantes de Villa de Guadalupe señalaron que permanecen sin servicio desde el sábado",
+    "street": null,
+    "colonia": "Villa de Guadalupe",
+    "landmark": null,
+    "summary": "Residents in Villa de Guadalupe and Coapinole remained without water despite SEAPAL’s promise to restore supply after storm-related electrical failures.",
+    "affected_people_clue": "habitantes",
+    "duration_clue": "desde el sábado"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-vallarta-canal-inundacion-francisco-villa/",
+    "article_date": "2026-07-31",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "sobre la avenida Francisco Villa ... boca de tormenta ubicada en el canal contiguo a las instalaciones de Telcel",
+    "street": "avenida Francisco Villa",
+    "colonia": null,
+    "landmark": "Telcel",
+    "summary": "A blocked storm-drain outlet flooded avenida Francisco Villa, disrupting traffic until the drainage channel could be cleared.",
+    "affected_people_clue": "decenas de automovilistas",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/camion-choca-poste-cfe-zona-romantica-sin-luz/",
+    "article_date": "2026-08-01",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "unclear",
+    "location_certainty": "exact",
+    "location_evidence": "sobre la calle Púlpito, en la colonia Amapas, en las inmediaciones del Hotel Tropicana",
+    "street": "calle Púlpito",
+    "colonia": "Amapas",
+    "landmark": "Hotel Tropicana",
+    "summary": "A truck damaged electrical infrastructure on calle Púlpito, leaving the Amapas area without power and disrupting circulation.",
+    "affected_people_clue": "varias colonias",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://diariodevallarta.com/la-crisis-del-agua-en-puerto-vallarta/",
+    "article_date": "2026-08-20",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Redaccion de Diario de Vallarta y Nayarit",
+    "qualifies": "unsure",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Opinion article reports a week-long Puerto Vallarta water crisis affecting 140 colonies; its political framing makes qualification uncertain.",
+    "affected_people_clue": "cerca de 140 colonias",
+    "duration_clue": "prácticamente una semana",
+    "same_incident_as": "https://tribunadelabahia.com.mx/otro-dia-sin-agua-cinco-colonias-puerto-vallarta-restablecimiento-servicio/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/colonias-sin-agua-puerto-vallarta-pozo-38-falla/",
+    "article_date": "2026-04-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "las colonias: Bobadilla, Magisterio y su ampliación, 12 de Octubre",
+    "street": null,
+    "colonia": "Bobadilla",
+    "landmark": null,
+    "summary": "A pump failure leaves 32 northern Puerto Vallarta colonies without water while SEAPAL estimates restoration by Friday morning.",
+    "affected_people_clue": "32 colonias",
+    "duration_clue": "de jueves a viernes",
+    "same_incident_as": "https://tribunadelabahia.com.mx/por-que-no-agua-colonias-vallarta-seapal/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/campestre-las-canadas-sin-agua-27-abril-puerto-vallarta/",
+    "article_date": "2026-04-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "en la colonia Campestre Las Cañadas ... calle Golondrina de Mar, esquina con Los Patos",
+    "street": "calle Golondrina de Mar esquina con Los Patos",
+    "colonia": "Campestre Las Cañadas",
+    "landmark": null,
+    "summary": "A scheduled interconnection cut will leave Campestre Las Cañadas without water from 9 a.m. to 5 p.m.",
+    "affected_people_clue": "habitantes",
+    "duration_clue": "de 9:00 de la mañana a 5:00 de la tarde"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/lluvias-aumentan-fugas-rupturas-red-agua-vallarta/",
+    "article_date": "2026-07-17",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Redaccion de Diario de Vallarta y Nayarit",
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Rain increases water-network leaks and sewage blockage risks across Puerto Vallarta; SEAPAL says crews respond continuously.",
+    "affected_people_clue": "familias vallartenses",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/obra-cfe-sin-agua-seis-colonias-vallarta-seapal/",
+    "article_date": "2026-07-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en el cruce de las avenidas Politécnico Nacional y Universo",
+    "street": "avenidas Politécnico Nacional y Universo",
+    "colonia": null,
+    "landmark": null,
+    "summary": "CFE contractor damage to a water pipe leaves six Puerto Vallarta colonies awaiting gradual service recovery.",
+    "affected_people_clue": "seis colonias",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/francisco-villa-amanece-agua-vallarta-lluvia-varados/",
+    "article_date": "2026-07-31",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding"
+    ],
+    "status": "unclear",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Francisco Villa ... entre la Unidad Deportiva Agustín Flores Contreras y la calle Sierra Aconcagua",
+    "street": "avenida Francisco Villa",
+    "colonia": null,
+    "landmark": "Unidad Deportiva Agustín Flores Contreras",
+    "summary": "Flooding on avenida Francisco Villa stranded vehicles and disrupted residents’ travel after heavy rain.",
+    "affected_people_clue": "varios vehículos",
+    "duration_clue": null,
+    "same_incident_as": "https://tribunadelabahia.com.mx/seapal-vallarta-canal-inundacion-francisco-villa/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-activa-pipas-gratuitas-colonias-vallarta/",
+    "article_date": "2026-08-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "colonias de la parte alta de El Pitillal, la zona de Mojoneras",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "SEAPAL supplies emergency tankers because many Puerto Vallarta areas remain without stable water service.",
+    "affected_people_clue": "familias",
+    "duration_clue": null,
+    "same_incident_as": "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-corte-agua/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-restablecimiento-agua-3/",
+    "article_date": "2026-08-15",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "zonas de la parte media y alta de El Pitillal",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "SEAPAL reports gradual recovery after a mega-cut, while many colonies still await stable water pressure.",
+    "affected_people_clue": "alrededor de 140 colonias",
+    "duration_clue": "72 horas adicionales",
+    "same_incident_as": "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-corte-agua/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/desesperados-falta-agua-vallartenses-lluvia-banarse/",
+    "article_date": "2026-08-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "plaza de la populosa colonia El Progreso",
+    "street": null,
+    "colonia": "El Progreso",
+    "landmark": null,
+    "summary": "Residents remain without water nearly a week into the contingency and resort to rain, streams, and an area spring.",
+    "affected_people_clue": "filas de personas",
+    "duration_clue": "casi una semana",
+    "same_incident_as": "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-corte-agua/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/munguia-prometio-agua-vallarta-desabasto-hartazago/",
+    "article_date": "2026-08-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A political accountability article reports hundreds of families endured over eight days without water; qualification is uncertain.",
+    "affected_people_clue": "cientos de familias",
+    "duration_clue": "más de ocho días",
+    "same_incident_as": "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-corte-agua/"
+  }
+]

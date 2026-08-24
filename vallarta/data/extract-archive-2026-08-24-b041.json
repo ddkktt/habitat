@@ -1,0 +1,83 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-tormenta-zona-hotelera-norte/",
+    "article_date": "2026-07-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage"
+    ],
+    "status": "unclear",
+    "location_certainty": "exact",
+    "location_evidence": "el cruce de la avenida Politécnico Nacional y el bulevar Francisco Medina Ascencio",
+    "street": "avenida Politécnico Nacional y bulevar Francisco Medina Ascencio",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A storm flooded the Politécnico–Medina Ascencio intersection and northern Puerto Vallarta areas, disrupting traffic and entering some homes.",
+    "affected_people_clue": "automovilistas y peatones",
+    "duration_clue": "poco más de una hora"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-instala-bombeo-reparacion-avenida-mexico/",
+    "article_date": "2026-07-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "La intervención se localiza en el cruce de avenida México y avenida Las Palmas, en la delegación Mojoneras",
+    "street": "avenida México y avenida Las Palmas",
+    "colonia": "Mojoneras",
+    "landmark": null,
+    "summary": "SEAPAL continues repairing a sanitary-drainage line at the México–Las Palmas intersection, where works affect traffic.",
+    "affected_people_clue": "vecinos y automovilistas",
+    "duration_clue": "del martes 21 al lunes 27 de julio de 2026",
+    "same_incident_as": "https://tribunadelabahia.com.mx/seapal-cerraran-carriles-avenida-mexico-vallarta/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/lemus-busca-revertir-percepcion-inseguridad-vallarta/",
+    "article_date": "2026-07-30",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "lighting",
+      "roads",
+      "public_space"
+    ],
+    "status": "unclear",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A security-focused political article asks for better municipal lighting, pothole repair, and sidewalks, so qualification is uncertain.",
+    "affected_people_clue": "familias",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/cuando-regresa-agua-vallarta-seapal-corte-obras/",
+    "article_date": "2026-08-11",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Planned highway works will interrupt water service across about 139 Puerto Vallarta zones, with gradual recovery through August 16.",
+    "affected_people_clue": "alrededor de 139 colonias y zonas",
+    "duration_clue": "del miércoles 12 al domingo 16 de agosto",
+    "same_incident_as": "https://tribunadelabahia.com.mx/139-colonias-sin-agua-puerto-vallarta-miercoles/"
+  }
+]

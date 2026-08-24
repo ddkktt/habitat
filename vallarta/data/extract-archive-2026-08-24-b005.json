@@ -1,0 +1,290 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/cuando-volvera-agua-vallarta-seapal-normalizara-servicio/",
+    "article_date": "2026-07-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A temporary repair interruption leaves more than one hundred Puerto Vallarta colonies awaiting gradual water restoration.",
+    "affected_people_clue": "más de un centenar de colonias",
+    "duration_clue": "desde el viernes 24 de julio"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-calle-10-mayo-baches/",
+    "article_date": "2026-08-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "deterioro de la calle 10 de Mayo",
+    "street": "calle 10 de Mayo",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report years of potholes, slippery slopes, and missing sidewalks on 10 de Mayo street, requesting full rehabilitation.",
+    "affected_people_clue": "peatones y automovilistas",
+    "duration_clue": "varios años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuerte-tormenta-electrica-sacude-puerto-vallarta-apagones/",
+    "article_date": "2026-08-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A storm triggers citizen reports of power outages across Puerto Vallarta, while some trees fall and authorities assess impacts.",
+    "affected_people_clue": "habitantes de distintas colonias",
+    "duration_clue": "desde la madrugada"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-chatarra-basura-rio-danubio/",
+    "article_date": "2026-08-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calle Río Danubio, en su cruce con el lateral de la avenida Libramiento",
+    "street": "calle Río Danubio",
+    "colonia": null,
+    "landmark": null,
+    "summary": "An abandoned vehicle surrounded by accumulating trash remains unresolved on Río Danubio, prompting residents to request municipal cleanup.",
+    "affected_people_clue": "vecinos de la zona",
+    "duration_clue": "hasta el momento"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-coparmex-desabasto-agua-negocios/",
+    "article_date": "2026-08-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A week-long water shortage forces Puerto Vallarta businesses to buy private tankers, increasing costs and disrupting operations.",
+    "affected_people_clue": "pequeños y medianos negocios",
+    "duration_clue": "casi una semana"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-queman-lona-partido-verde-exigen-munguia-agua-vallarta/",
+    "article_date": "2026-08-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "habitantes de la colonia La Aurora denunciaron el desabasto de agua",
+    "street": "La Aurora",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents of La Aurora report several days without water while SEAPAL work has not fully restored service.",
+    "affected_people_clue": "familias",
+    "duration_clue": "varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vehiculos-abandonados-magisterio-puerto-vallarta/",
+    "article_date": "2026-03-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "sobre la calle José Vasconcelos … cerca del kínder de la Colonia Magisterio",
+    "street": "calle José Vasconcelos",
+    "colonia": "Magisterio",
+    "landmark": null,
+    "summary": "Abandoned vehicles and accumulated trash remain near a kindergarten, creating health and safety concerns for residents.",
+    "affected_people_clue": "padres de familia y niños",
+    "duration_clue": "seis semanas aproximadamente"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncian-banqueta-basilio-badillo/",
+    "article_date": "2026-03-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "transitan por la Zona Romántica … sobre la calle Basilio Badillo",
+    "street": "calle Basilio Badillo",
+    "colonia": "Zona Romántica",
+    "landmark": null,
+    "summary": "A damaged sidewalk on Basilio Badillo causes falls and obstructs pedestrians near a busy public-transit stop.",
+    "affected_people_clue": "adultos mayores y peatones",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/que-esta-pasando-vallarta-basura-claves-crisis-recoleccion/",
+    "article_date": "2026-03-29",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A prolonged collection crisis leaves trash accumulating across Puerto Vallarta as routes are cut and municipal measures remain insufficient.",
+    "affected_people_clue": "habitantes de Puerto Vallarta",
+    "duration_clue": "desde el 23 de enero"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncia-basurero-clandestino-los-delfines-puerto-vallarta/",
+    "article_date": "2026-04-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "LG",
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "fraccionamiento Los Delfines … intersección de Prolongación 13 de Septiembre y calle Orca",
+    "street": "Prolongación 13 de Septiembre esquina calle Orca",
+    "colonia": "Los Delfines",
+    "landmark": null,
+    "summary": "A clandestine dump in Los Delfines has accumulated household waste, rubble, and dead animals for four years.",
+    "affected_people_clue": "habitantes de la zona",
+    "duration_clue": "durante los últimos cuatro años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/crece-hartazgo-vallarta-basura-acumulada/",
+    "article_date": "2026-04-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report accumulated garbage and missed collection across multiple Puerto Vallarta neighborhoods, with odors and possible pests.",
+    "affected_people_clue": "vecinos de diversas colonias",
+    "duration_clue": "dos o tres días sin servicio"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/recoleccion-basura-puerto-vallarta-48-horas/",
+    "article_date": "2026-05-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "After weeks of accumulated waste and complaints, authorities promise Puerto Vallarta collection will normalize within 48 hours.",
+    "affected_people_clue": "vecinos de diversas colonias",
+    "duration_clue": "semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/protesta-vallarta-fracasa-no-responden-llevar-basura/",
+    "article_date": "2026-05-11",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A failed protest call highlights weeks of unresolved garbage accumulation, odors, and public complaints across Puerto Vallarta.",
+    "affected_people_clue": "usuarios en redes sociales",
+    "duration_clue": "semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vivienda-imposible-trabajadores/",
+    "article_date": "2026-05-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Workers report scarce, crowded buses and long waits as housing costs push them toward Puerto Vallarta’s periphery.",
+    "affected_people_clue": "trabajadores",
+    "duration_clue": "cada vez más prolongados"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/heberto-castillo-baches-colonia-progreso/",
+    "article_date": "2026-07-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "failed_repair",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes de la colonia El Progreso denunciaron el deterioro de la calle Heberto Castillo",
+    "street": "calle Heberto Castillo",
+    "colonia": "El Progreso",
+    "landmark": null,
+    "summary": "A failed patch left potholes exposed again on Heberto Castillo, risking motorists and pedestrians in El Progreso.",
+    "affected_people_clue": "automovilistas, motociclistas y peatones",
+    "duration_clue": "aproximadamente un mes"
+  }
+]

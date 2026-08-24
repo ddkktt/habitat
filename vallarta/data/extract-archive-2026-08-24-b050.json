@@ -1,0 +1,79 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-palmar-progreso-denuncian-areas-verdes-ejido-juntas/",
+    "article_date": "2026-07-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Palmar del Progreso … calle 20 de Noviembre, en la esquina con la calle Prosperidad",
+    "street": "calle 20 de Noviembre esquina calle Prosperidad",
+    "colonia": "colonia Palmar del Progreso",
+    "landmark": null,
+    "summary": "Residents contest fencing of a community green area and adjacent parking space in Palmar del Progreso.",
+    "affected_people_clue": "Vecinos de la colonia",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/carretera-federal-200-largas-filas-obras-km-115-paso-alternado/",
+    "article_date": "2026-08-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "carretera Federal 200, a la altura del kilómetro 115, en el municipio de Bahía de Banderas",
+    "street": "carretera Federal 200",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A landslide left Federal Highway 200 partially open under alternating traffic while repairs and resurfacing continue.",
+    "affected_people_clue": null,
+    "duration_clue": "continúan las afectaciones"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/rezago-transporte-nayarit-frena-proyecto-metropolitano/",
+    "article_date": "2026-08-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "entre Bahía de Banderas y Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Outdated Nayarit transit and stalled coordination block a regional public-transport project affecting daily cross-state riders.",
+    "affected_people_clue": "miles de trabajadores, estudiantes y turistas",
+    "duration_clue": "casi siete años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/clima-puerto-vallarta-hoy-8-agosto-hora-llovera/",
+    "article_date": "2026-08-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "flooding",
+      "power"
+    ],
+    "status": "unclear",
+    "location_certainty": "approximate",
+    "location_evidence": "la principal afectación por acumulación de agua se encontraba en Las Glorias",
+    "street": null,
+    "colonia": "Las Glorias",
+    "landmark": null,
+    "summary": "A storm report mentions power cuts and water accumulation in Las Glorias, but mainly provides a weather forecast.",
+    "affected_people_clue": "Habitantes de distintas colonias",
+    "duration_clue": "durante la madrugada"
+  }
+]

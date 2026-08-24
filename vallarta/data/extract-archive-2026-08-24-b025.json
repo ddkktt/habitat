@@ -1,0 +1,272 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/diego-franco-destaca-inversion-historica-vallarta/",
+    "article_date": "2026-08-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "The regional official says Puerto Vallarta garbage collection needs integral planning and more collection units, especially during rains.",
+    "affected_people_clue": null,
+    "duration_clue": "durante la temporada de lluvias"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/recoleccion-basura-puerto-vallarta-camiones-ayuntamiento/",
+    "article_date": "2026-02-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Centro de Puerto Vallarta y franja turística",
+    "street": null,
+    "colonia": "Centro",
+    "landmark": null,
+    "summary": "Only six municipal trucks initially cover selected routes, leaving other Puerto Vallarta areas without garbage collection.",
+    "affected_people_clue": "resto de las colonias y zonas del municipio",
+    "duration_clue": "hasta nuevo aviso"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/habra-agua-estiaje-vallarta-seapal-prepara/",
+    "article_date": "2026-03-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Puerto Vallarta residents face recurring low pressure, momentary cuts, and irregular water service as demand and drought increase.",
+    "affected_people_clue": "miles de hogares",
+    "duration_clue": "cada año"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-zona-hotelera-sur-mismaloya-19-marzo/",
+    "article_date": "2026-03-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "power"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "Zona Hotelera Sur de Puerto Vallarta … Mismaloya",
+    "street": null,
+    "colonia": "Mismaloya",
+    "landmark": null,
+    "summary": "Scheduled power maintenance will interrupt electricity and water service in Puerto Vallarta’s southern hotel zone and Mismaloya.",
+    "affected_people_clue": "habitantes, hoteles y comercios",
+    "duration_clue": "8 horas"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/zona-hotelera-sur-y-mismaloya-se-quedaran-sin-luz-y-agua-este-jueves-en-puerto-vallarta/",
+    "article_date": "2026-03-19",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Redaccion de Diario de Vallarta y Nayarit",
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "power"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "Zona Hotelera Sur de Puerto Vallarta … Mismaloya",
+    "street": null,
+    "colonia": "Mismaloya",
+    "landmark": null,
+    "summary": "Scheduled power maintenance will interrupt electricity and water service in Puerto Vallarta’s southern hotel zone and Mismaloya.",
+    "affected_people_clue": "habitantes, hoteles y comercios",
+    "duration_clue": "8 horas",
+    "same_incident_as": "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-zona-hotelera-sur-mismaloya-19-marzo/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-27-marzo-ixtapa-las-juntas/",
+    "article_date": "2026-03-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "Verde Vallarta … Las Juntas",
+    "street": null,
+    "colonia": "Las Juntas",
+    "landmark": null,
+    "summary": "Scheduled hydraulic work will interrupt water service in named Puerto Vallarta neighborhoods during the day.",
+    "affected_people_clue": "habitantes de las zonas afectadas",
+    "duration_clue": "9:00 a 16:00"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/camiones-basura-puerto-vallarta-sin-placas/",
+    "article_date": "2026-04-02",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents criticize unplated municipal garbage trucks, but the article focuses on compliance rather than a clear collection failure.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/sin-agua-colonia-5-de-diciembre-puerto-vallarta-seapal/",
+    "article_date": "2026-04-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "resolved",
+    "location_certainty": "exact",
+    "location_evidence": "cruce de las calles Nicaragua y Ecuador",
+    "street": "Nicaragua y Ecuador",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A broken pipe cut water to Puerto Vallarta’s 5 de Diciembre area; Seapal completed repairs that afternoon.",
+    "affected_people_clue": null,
+    "duration_clue": "todo el día"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-ixtapa-vallarta/",
+    "article_date": "2026-04-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "calle Iturbide, esquina con Felipe Ángeles",
+    "street": "Iturbide esquina Felipe Ángeles",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Scheduled SEAPAL interconnection work will interrupt water service in two Ixtapa neighborhoods.",
+    "affected_people_clue": null,
+    "duration_clue": "9:00 a 16:00"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-increpan-alcalde-puerto-vallarta-agua/",
+    "article_date": "2026-04-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "colonia San Miguel … no tenemos agua en la colonia",
+    "street": null,
+    "colonia": "San Miguel",
+    "landmark": null,
+    "summary": "Neighbors in San Miguel confront the mayor over repeated water shortages and demand an explanation.",
+    "affected_people_clue": "vecinos",
+    "duration_clue": "muchas faltas de agua"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-masivo-vallarta-hoy-140-colonias/",
+    "article_date": "2026-04-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Marina Vallarta",
+    "street": null,
+    "colonia": "Marina Vallarta",
+    "landmark": null,
+    "summary": "A ruptured main leaves more than 140 Puerto Vallarta neighborhoods without water pending gradual service recovery.",
+    "affected_people_clue": "más de 140 colonias y fraccionamientos",
+    "duration_clue": "del 21 al 24 de abril"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-seapal-puerto-vallarta-mayo-2026/",
+    "article_date": "2026-05-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "calle Universidad del Valle de Atemajac, esquina con Fresnos",
+    "street": "Universidad del Valle de Atemajac esquina Fresnos",
+    "colonia": null,
+    "landmark": null,
+    "summary": "SEAPAL plans a temporary water interruption while investigating a possible leak at a named street corner.",
+    "affected_people_clue": "habitantes de cuatro colonias",
+    "duration_clue": "9:00 a 16:00"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-centro-emiliano-zapata-5diciembre/",
+    "article_date": "2026-05-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Carretera a Barra de Navidad y la calle Púlpito",
+    "street": "Carretera a Barra de Navidad y Púlpito",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A ruptured pipe interrupts water service to three Puerto Vallarta neighborhoods while repairs proceed.",
+    "affected_people_clue": "Centro, Emiliano Zapata y 5 de Diciembre",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-colonias-norte-puerto-vallarta-colector-centro-norte/",
+    "article_date": "2026-06-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Colector Centro-Norte sobre la avenida Prisciliano Sánchez",
+    "street": "avenida Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Collector repairs on Prisciliano Sánchez cause temporary water shortages while workers address related infrastructure damage.",
+    "affected_people_clue": "colonias de la zona norte",
+    "duration_clue": "hasta por 72 horas"
+  }
+]

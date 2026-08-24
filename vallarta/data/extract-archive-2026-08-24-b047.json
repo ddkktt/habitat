@@ -1,0 +1,40 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/mientras-vallarta-arde-munguia-presume-encuesta-los-gavilanes/",
+    "article_date": "2026-05-29",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Más de 24 horas después del inicio del incendio en el relleno sanitario Los Gavilanes",
+    "street": null,
+    "colonia": null,
+    "landmark": "relleno sanitario Los Gavilanes",
+    "summary": "A landfill fire in Los Gavilanes persisted for over 24 hours while crews worked to contain it.",
+    "affected_people_clue": null,
+    "duration_clue": "Más de 24 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/proepa-confirma-clausura-relleno-sanitario-el-gavilan-puerto-vallarta/",
+    "article_date": "2026-06-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "sitio de disposición final de residuos sólidos urbanos ... conocido como El Gavilán",
+    "street": null,
+    "colonia": null,
+    "landmark": "El Gavilán",
+    "summary": "El Gavilán landfill was partially closed after inspectors found smoke, flames, missing authorization, and technical noncompliance.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  }
+]

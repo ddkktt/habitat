@@ -1,0 +1,295 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuga-agua-siete-colonias-puerto-vallarta-miercoles/",
+    "article_date": "2026-06-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "la calle Alameda, entre Guerrero y Francisco I. Madero, en la colonia Coapinole",
+    "street": "calle Alameda, entre Guerrero y Francisco I. Madero",
+    "colonia": "Coapinole",
+    "landmark": null,
+    "summary": "A water-line leak at Alameda in Coapinole temporarily cut service to seven Puerto Vallarta neighborhoods.",
+    "affected_people_clue": "siete colonias",
+    "duration_clue": "este miércoles"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuga-tuberia-sin-agua-120-colonias-vallarta/",
+    "article_date": "2026-07-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "suspensión del suministro de agua potable en 120 colonias de la zona norte del municipio",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A damaged main pipe left 120 Puerto Vallarta neighborhoods without water while repairs proceeded.",
+    "affected_people_clue": "120 colonias",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/juan-calderon-aprovecha-carencia-de-agua-y-reparte-en-pipas/",
+    "article_date": "2026-08-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "familias de la delegación municipal de Las Juntas",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Political commentary describes a water shortage affecting families in Las Juntas; qualification is borderline.",
+    "affected_people_clue": "familias",
+    "duration_clue": "cinco días sin agua"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-amanece-con-reportes-de-cortes-de-luz/",
+    "article_date": "2026-08-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calles de la colonia Lomas del Calvario … calle Inés Meza, entre Ecuador y Guatemala",
+    "street": "calle Inés Meza, entre Ecuador y Guatemala",
+    "colonia": "Lomas del Calvario",
+    "landmark": null,
+    "summary": "Residents reported power outages after heavy rain, including an outage at Inés Meza between Ecuador and Guatemala.",
+    "affected_people_clue": "algunas personas",
+    "duration_clue": "desde la medianoche"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-pitillal-coapinole-desabasto-agua/",
+    "article_date": "2026-04-01",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "tanque El Mangal ... parte alta de El Pitillal",
+    "street": null,
+    "colonia": null,
+    "landmark": "tanque El Mangal",
+    "summary": "A failed valve at tank El Mangal caused severe water shortages and low pressure across upper El Pitillal and Coapinole.",
+    "affected_people_clue": "decenas de colonias",
+    "duration_clue": "varias horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-agua-puerto-vallarta-restablecimiento-fin-semana/",
+    "article_date": "2026-04-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "baja presión y falta del vital líquido en numerosas colonias de la ciudad",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Water shortages and low pressure persisted across numerous Puerto Vallarta neighborhoods as Seapal worked toward weekend restoration.",
+    "affected_people_clue": "numerosas colonias",
+    "duration_clue": "desde el jueves"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/bloc-party-2026-fuga-drenaje-basura-emiliano-zapata/",
+    "article_date": "2026-05-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "calles de la colonia Emiliano Zapata",
+    "street": null,
+    "colonia": "Emiliano Zapata",
+    "landmark": null,
+    "summary": "Sewer overflows, foul odors, and event litter affected Emiliano Zapata during a Pride street party.",
+    "affected_people_clue": "cientos de personas",
+    "duration_clue": "desde hace años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-reparacion-socavon-prisciliano-sanchez-72-horas-puerto-vallarta/",
+    "article_date": "2026-06-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "socavón registrado sobre la avenida Prisciliano Sánchez",
+    "street": "avenida Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A sewer-collector blockage caused a sinkhole on Prisciliano Sánchez, closing lanes and spilling wastewater near Versalles.",
+    "affected_people_clue": "circulación vehicular",
+    "duration_clue": "72 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/socavon-prisciliano-sanchez-cierre-72-horas-puerto-vallarta/",
+    "article_date": "2026-06-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Prisciliano Sánchez … fraccionamiento El Capricho",
+    "street": "avenida Prisciliano Sánchez",
+    "colonia": "El Capricho",
+    "landmark": null,
+    "summary": "A collapsed sewer pipe opened a sinkhole on Prisciliano Sánchez in El Capricho, closing a lane for up to 72 hours.",
+    "affected_people_clue": "automovilistas",
+    "duration_clue": "72 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/ocho-colonias-puerto-vallarta-sin-agua-reparaciones-ruptura-tuberias-30-junio-2026/",
+    "article_date": "2026-06-30",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "calle Pavo Real, entre las vialidades Guacamayo y Papagayo",
+    "street": "calle Pavo Real, entre las vialidades Guacamayo y Papagayo",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Two pipe repairs temporarily interrupted water for eight Puerto Vallarta neighborhoods, including a Pavo Real crossing and La Aurora.",
+    "affected_people_clue": "al menos ocho colonias",
+    "duration_clue": "este martes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/recoleccion-basura-vallarta-servicios-publicos-cambiaron-dias-no-horarios/",
+    "article_date": "2026-07-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "falta de recolección de basura en las colonias ... servicio sigue siendo deficiente en gran parte de la ciudad",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Garbage collection remains deficient across much of Puerto Vallarta; officials cite insufficient staff despite recent vehicle purchases.",
+    "affected_people_clue": "gran parte de la ciudad",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-calle-moderna-baches/",
+    "article_date": "2026-08-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calle Jorge Negrete, en su cruce con Camino a Playa Grande, en la colonia La Moderna",
+    "street": "calle Jorge Negrete, en su cruce con Camino a Playa Grande",
+    "colonia": "La Moderna",
+    "landmark": null,
+    "summary": "Longstanding potholes, flooding, and missing sidewalks on Jorge Negrete endanger residents and traffic in La Moderna.",
+    "affected_people_clue": "niñas, niños, adultos mayores y personas con movilidad reducida",
+    "duration_clue": "desde hace varios años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/basura-puerto-vallarta-vacaciones-semana-santa/",
+    "article_date": "2026-04-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "La franja turística de Puerto Vallarta ... cerros de basura en varias calles y esquinas",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Garbage piles in Puerto Vallarta’s tourist strip obstruct sidewalks, with residents reporting missed collection and rats.",
+    "affected_people_clue": "vecinos y comerciantes",
+    "duration_clue": "más de 12 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/llenando-tanques-seapal-alta-demanda/",
+    "article_date": "2026-04-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "particularmente en las partes altas de El Pitillal",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "Water service remained intermittent in upper El Pitillal and Ixtapa while storage tanks recovered after an electrical failure.",
+    "affected_people_clue": "numerosas colonias",
+    "duration_clue": "durante este periodo vacacional"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/tormenton-sorprende-puerto-vallarta-dia-san-juan/",
+    "article_date": "2026-06-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "vialidades de colonias como El Pitillal y La Bobadilla",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "Storm flooding affected El Pitillal streets, while residents reported a months-long arroyo problem and trash threatening further blockages.",
+    "affected_people_clue": "habitantes",
+    "duration_clue": "varios meses"
+  }
+]

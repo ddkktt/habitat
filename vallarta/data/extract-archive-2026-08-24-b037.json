@@ -1,0 +1,61 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/centro-camion-sin-frenos-arbo/",
+    "article_date": "2026-06-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "cruce de las calles Libertad y Juárez",
+    "street": "Libertad y Juárez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A public bus brake failure at Libertad and Juárez exposes a transit safety and maintenance problem affecting passengers and road users.",
+    "affected_people_clue": "pasajeros, peatones y automovilistas",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-ocho-meses-malecon/",
+    "article_date": "2026-07-02",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "obra de ampliación y remodelación del Malecón Puerto Vallarta ... calle 31 de Octubre",
+    "street": "31 de Octubre",
+    "colonia": null,
+    "landmark": "Malecón Puerto Vallarta",
+    "summary": "Eight months of unfinished Malecón works leave excavations, debris, and impaired pedestrian mobility in central Puerto Vallarta.",
+    "affected_people_clue": "comerciantes, residentes y visitantes",
+    "duration_clue": "ocho meses",
+    "same_incident_as": "https://tribunadelabahia.com.mx/puerto-vallarta-obras-centro-inconclusas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/el-caudal-aumenta-pero-siguen-cruzando/",
+    "article_date": "2026-07-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "vado de la presa derivadora Las Gaviotas",
+    "street": null,
+    "colonia": null,
+    "landmark": "presa derivadora Las Gaviotas",
+    "summary": "A rain-swollen public crossing remains risky, but the article reports official warnings rather than a resident complaint.",
+    "affected_people_clue": "automovilistas",
+    "duration_clue": "temporada de lluvias"
+  }
+]

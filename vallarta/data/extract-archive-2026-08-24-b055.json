@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/persisten-cierres-nodo-vial-las-juntas-caos-vial/",
+    "article_date": "2026-08-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "el ingreso al nodo vial ... principalmente en el crucero de Las Juntas",
+    "street": null,
+    "colonia": null,
+    "landmark": "nodo vial de Las Juntas",
+    "summary": "A structurally damaged Las Juntas road node remains closed without visible repairs, causing severe congestion and delays.",
+    "affected_people_clue": "miles de conductores",
+    "duration_clue": "desde hace varios días"
+  }
+]

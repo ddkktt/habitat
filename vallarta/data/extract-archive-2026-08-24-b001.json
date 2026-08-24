@@ -1,0 +1,337 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-mojoneras-ayuntamiento-vallarta-inundaciones/",
+    "article_date": "2026-08-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "un puente ubicado por debajo de la avenida México, justo enfrente del cárcamo de Seapal Vallarta y del semáforo de la entrada al Centro de Convenciones, frente a la avenida Paseo de las Flores",
+    "street": "Avenida México",
+    "colonia": null,
+    "landmark": "Centro de Convenciones",
+    "summary": "Recurring floods in Las Mojoneras worsen when a blocked bridge and storm drainage overflow into homes.",
+    "affected_people_clue": "agua de hasta medio metro en viviendas",
+    "duration_clue": "cada temporada de lluvias"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-contaminacion-tuki-parque/",
+    "article_date": "2026-07-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes de la colonia El Pitillal denunciaron … sobre la calle 20 de Noviembre, entre las calles Alemania y Japón, a unos metros del Tuki Parque",
+    "street": "Calle 20 de Noviembre entre las calles Alemania y Japón",
+    "colonia": "El Pitillal",
+    "landmark": "Tuki Parque",
+    "summary": "Trash, abandoned tires, and wastewater create a contaminated, mosquito-prone area beside Tuki Parque.",
+    "affected_people_clue": "familias que habitan en la zona",
+    "duration_clue": "desde hace tiempo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/colapso-drenaje-versalles-seapal-taponamiento-mexico/",
+    "article_date": "2026-06-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de la colonia Versalles denunciaron … sobre la avenida México, entre Prisciliano Sánchez y Pino",
+    "street": "Avenida México entre Prisciliano Sánchez y Pino",
+    "colonia": "Versalles",
+    "landmark": null,
+    "summary": "A sewer blockage sends contaminated water through Versalles streets and near a school while residents await lasting repairs.",
+    "affected_people_clue": "estudiantes y comunidad escolar",
+    "duration_clue": "nuevo colapso"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-calle-madero-abandono/",
+    "article_date": "2026-07-15",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de la calle Francisco I. Madero, en la colonia Morelos y Pavón de Puerto Vallarta, denunciaron",
+    "street": "Calle Francisco I. Madero",
+    "colonia": "Morelos y Pavón",
+    "landmark": null,
+    "summary": "Residents report uncollected trash, potholes, mud, and unpaved sections on Francisco I. Madero street.",
+    "affected_people_clue": "familias que habitan en la colonia",
+    "duration_clue": "durante mucho tiempo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/casi-mitad-puerto-vallarta-sin-agua-lista-colonias/",
+    "article_date": "2026-02-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Planned maintenance will leave nearly 150 Puerto Vallarta colonies with low pressure or no water overnight.",
+    "affected_people_clue": "casi 150 colonias",
+    "duration_clue": "desde las 10:00 de la noche del jueves 19"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/aguas-negras-inundan-versalle-puerto-vallarta/",
+    "article_date": "2026-06-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Vecinos de la colonia Versalles denunciaron nuevamente el colapso del drenaje sanitario",
+    "street": null,
+    "colonia": "Versalles",
+    "landmark": null,
+    "summary": "Recurring sewage flooding and open saturated drains affect Versalles streets, homes, and a nearby school.",
+    "affected_people_clue": "padres de familia y estudiantes",
+    "duration_clue": "nuevamente"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-cierre-centro-vialidad-2/",
+    "article_date": "2026-07-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en las calles Morelos y Aldama mantienen cerrado el acceso vehicular al centro de Puerto Vallarta",
+    "street": "Calles Morelos y Aldama",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A sinkhole repair closes central access, forcing public-transit passengers to walk and use detours.",
+    "affected_people_clue": "usuarios del transporte público, trabajadores y vecinos",
+    "duration_clue": "la restricción continúa este viernes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/ixtapa-basura-recoleccion-colapsa/",
+    "article_date": "2026-07-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes de la colonia Idipe señalaron … también afecta vialidades como la avenida Independencia, la calle Tamarindos",
+    "street": "Avenida Independencia",
+    "colonia": "Idipe",
+    "landmark": null,
+    "summary": "Failed garbage collection leaves waste piled on public roads in Ixtapa, affecting residents and nearby sectors.",
+    "affected_people_clue": "habitantes de la colonia Idipe",
+    "duration_clue": "en los últimos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vallarta-crisis-basura-servicios/",
+    "article_date": "2026-06-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report simultaneous citywide garbage accumulation and water outages affecting many Puerto Vallarta colonies.",
+    "affected_people_clue": "miles de ciudadanos",
+    "duration_clue": "más de 48 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-se-queda-sin-agua-tras-tormenta/",
+    "article_date": "2026-08-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "An electrical failure leaves many Puerto Vallarta colonies without water while pumps and storage systems recover.",
+    "affected_people_clue": "decenas de colonias",
+    "duration_clue": "más de 12 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/calle-anegada-aguas-negras/",
+    "article_date": "2026-02-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "resolved",
+    "location_certainty": "exact",
+    "location_evidence": "la centrica colonia Emiliano Zapata … calle Venustiano Carranza, corriendo por el típico empedrado hasta la playa Los Muertos",
+    "street": "Calle Venustiano Carranza",
+    "colonia": "Emiliano Zapata",
+    "landmark": "Playa Los Muertos",
+    "summary": "A three-week sewage overflow affected streets and businesses in Emiliano Zapata before SEAPAL intervened.",
+    "affected_people_clue": "vecinos y comerciantes",
+    "duration_clue": "aproximadamente tres semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-abandonado-basura-gobierno-inepto/",
+    "article_date": "2026-04-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report more than 48 hours without water and garbage collection across many Puerto Vallarta colonies.",
+    "affected_people_clue": "decenas de colonias",
+    "duration_clue": "más de 48 horas"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/",
+    "article_date": "2026-08-21",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Redaccion de Diario de Vallarta y Nayarit",
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "After a delayed project, 142 Puerto Vallarta colonies still face low pressure or intermittent water service.",
+    "affected_people_clue": "142 colonias y fraccionamientos",
+    "duration_clue": "desde el miércoles 12 de agosto"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuga-agua-seapal-reportes/",
+    "article_date": "2026-07-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en el número 766 de la calle José Alfredo Jiménez, en la colonia La Moderna, Puerto Vallarta",
+    "street": "Calle José Alfredo Jiménez",
+    "colonia": "La Moderna",
+    "landmark": null,
+    "summary": "An unrepaired water leak persists for more than a week despite two reports to SEAPAL.",
+    "affected_people_clue": "vecinos",
+    "duration_clue": "más de una semana"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-bache-calle-aldama/",
+    "article_date": "2026-07-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "sobre la calle Aldama, entre las calles Morelos y Mina, en la zona centro de Puerto Vallarta",
+    "street": "Calle Aldama entre las calles Morelos y Mina",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A deep pothole damaged a vehicle and remains a hazard on Aldama street during rainy conditions.",
+    "affected_people_clue": "automovilistas y motociclistas",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-getsemani-crisis-basura/",
+    "article_date": "2026-07-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "los vecinos de la colonia Getsemaní alzan la voz para exigir la intervención inmediata del Ayuntamiento",
+    "street": null,
+    "colonia": "Getsemaní",
+    "landmark": null,
+    "summary": "More than 20 days without collection leaves garbage, odors, insects, and leachate across Getsemaní.",
+    "affected_people_clue": "niñas, niños, adultos mayores y personas con enfermedades respiratorias",
+    "duration_clue": "más de 20 días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-ixtapa-denuncian-abandono-calle-estano/",
+    "article_date": "2026-05-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes de la colonia Mina II en Ixtapa denuncian el mal estado de la calle Estaño",
+    "street": "Calle Estaño",
+    "colonia": "Mina II",
+    "landmark": null,
+    "summary": "Years of potholes and missing pavement on Calle Estaño hinder traffic and affect residents in Ixtapa.",
+    "affected_people_clue": "automovilistas, motociclistas y personas que transitan",
+    "duration_clue": "desde hace años"
+  }
+]

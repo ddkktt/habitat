@@ -1,0 +1,59 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-fluuvial-accidente-motocicleta-irresponsabilidad/",
+  "article_date": "2026-08-16",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "roads"
+  ],
+  "status": "unclear",
+  "location_certainty": "approximate",
+  "location_evidence": "sobre la avenida Fluvial Vallarta … la falta de funcionamiento de los semáforos en dicha intersección",
+  "street": "avenida Fluvial Vallarta",
+  "colonia": null,
+  "landmark": null,
+  "summary": "Accident report notes traffic lights out of service at an Avenida Fluvial Vallarta intersection; infrastructure issue is secondary, so qualification is uncertain.",
+  "affected_people_clue": null,
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/pista-tartan-san-jose-valle-ano-destruida/",
+  "article_date": "2026-08-10",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "yes",
+  "categories": [
+   "public_space"
+  ],
+  "status": "failed_repair",
+  "location_certainty": "approximate",
+  "location_evidence": "La pista de tartán de San José del Valle, en Bahía de Banderas",
+  "street": null,
+  "colonia": "San José del Valle",
+  "landmark": "pista de tartán de San José del Valle",
+  "summary": "Year-old tartan track in San Jose del Valle, Bahia de Banderas, deteriorated within two months; repairs failed and surface is nearly destroyed.",
+  "affected_people_clue": "atletas y padres de familia",
+  "duration_clue": "apenas dos meses después de su inauguración"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/presidenta-colonia-infonavit-ayuntamiento-no-dejarla-trabajar/",
+  "article_date": "2026-07-28",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "unclear",
+  "location_certainty": "approximate",
+  "location_evidence": "podaron 20 árboles de los andadores del Infonavit",
+  "street": null,
+  "colonia": "Infonavit",
+  "landmark": null,
+  "summary": "Infonavit neighborhood committee president says municipality obstructs colonia improvements and cited her for tree pruning; administrative dispute, so qualification is doubtful.",
+  "affected_people_clue": "a petición de los vecinos",
+  "duration_clue": null
+ }
+]

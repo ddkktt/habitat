@@ -1,0 +1,78 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/comiendo-carretera-200-boca-tomatlan/",
+    "article_date": "2026-02-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en la Carretera Federal 200 a Barra de Navidad, aproximadamente 50 metros antes de llegar al poblado de Boca de Tomatlán",
+    "street": "Carretera Federal 200",
+    "colonia": null,
+    "landmark": "Boca de Tomatlán",
+    "summary": "A growing sinkhole is eroding Federal 200 near Boca de Tomatlán, forcing pedestrians onto the highway and threatening collapse.",
+    "affected_people_clue": "los peatones y deportistas",
+    "duration_clue": "hace un año"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/suspenden-recoleccion-basura-puerto-vallarta/",
+    "article_date": "2026-02-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": "este lunes 23 de febrero el servicio quedará suspendido en todo Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Puerto Vallarta temporarily suspended garbage collection across the municipality after violence, asking residents to keep waste off streets.",
+    "affected_people_clue": null,
+    "duration_clue": "este lunes 23 de febrero"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/santana-inicia-obra-de-acceso-las-conchas-en-san-jose-del-valle/",
+    "article_date": "2026-02-27",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Paloma Rocío Guevara",
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la obra de la calle de ingreso al Fraccionamiento Las Conchas, en San José del Valle",
+    "street": null,
+    "colonia": "Las Conchas",
+    "landmark": null,
+    "summary": "Residents had long requested the Las Conchas access road; paving has begun in San José del Valle with a four-month schedule.",
+    "affected_people_clue": "todas las familias",
+    "duration_clue": "cuatro meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puente-amado-nervo-ampliar-carriles/",
+    "article_date": "2026-03-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "del puente interestatal Amado Nervo ... vialidad Constitución",
+    "street": "vialidad Constitución",
+    "colonia": null,
+    "landmark": "Puente Amado Nervo",
+    "summary": "The Amado Nervo bridge connection narrows to four lanes, requiring Constitución expansion to serve millions of annual users.",
+    "affected_people_clue": "más de 7.6 millones de usuarios al año",
+    "duration_clue": "en los próximos meses"
+  }
+]

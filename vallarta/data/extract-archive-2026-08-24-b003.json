@@ -1,0 +1,337 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-socavon-exhaciendas-pitillal/",
+    "article_date": "2026-07-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Ex Haciendas del Pitillal ... calle Hacienda, casi en su cruce con la calle Agua",
+    "street": "Calle Hacienda casi en su cruce con la calle Agua",
+    "colonia": "Ex Haciendas del Pitillal",
+    "landmark": null,
+    "summary": "A growing sinkhole and obstructed drainage on Calle Hacienda threaten pedestrians, motorists, and nearby homes.",
+    "affected_people_clue": "peatones y automovilistas",
+    "duration_clue": "continúa aumentando de tamaño"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-inundaciones-jardines-puerto/",
+    "article_date": "2026-07-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Jardines del Puerto ... sobre la calle Quimixto",
+    "street": "Calle Quimixto",
+    "colonia": "Jardines del Puerto",
+    "landmark": null,
+    "summary": "Recurring floods on Calle Quimixto persist after a bridge restricted drainage, threatening residents’ homes during heavy rain.",
+    "affected_people_clue": "familias que viven sobre la calle",
+    "duration_clue": "desde hace varios años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/apagones-puerto-vallarta-vecinos-dos-dias-sin-luz/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Morelos y Pavón, particularmente en la zona de la calle Genaro Padilla",
+    "street": "Calle Genaro Padilla",
+    "colonia": "Morelos y Pavón",
+    "landmark": null,
+    "summary": "Prolonged outages affect two Puerto Vallarta colonias; Morelos y Pavón has lacked electricity for two days.",
+    "affected_people_clue": "familias",
+    "duration_clue": "dos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/persisten-quejas-por-fallas-recoleccion-basura/",
+    "article_date": "2026-04-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Missed collection persists across at least six Puerto Vallarta colonias after the municipal service change.",
+    "affected_people_clue": "ciudadanos de diversas colonias",
+    "duration_clue": "más de una semana"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuga-agua-col-del-toro/",
+    "article_date": "2026-04-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Del Toro ... avenida Las Torres número 159",
+    "street": "Avenida Las Torres",
+    "colonia": "Del Toro",
+    "landmark": null,
+    "summary": "An unrepaired drinking-water leak on Avenida Las Torres has worsened for more than four months, wasting water and damaging the road.",
+    "affected_people_clue": "residentes de la zona",
+    "duration_clue": "más de cuatro meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-olimpica-abandono-contaminacion-canal/",
+    "article_date": "2026-05-15",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding",
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Olímpica ... canal ubicado en el callejón Sierra Rocallosa, en su cruce con la avenida Francisco Medina Ascencio",
+    "street": "Callejón Sierra Rocallosa en su cruce con la avenida Francisco Medina Ascencio",
+    "colonia": "Olímpica",
+    "landmark": null,
+    "summary": "A trash-filled, contaminated drainage canal near Playa Camarones repeatedly causes flooding, odors, and mosquito risks.",
+    "affected_people_clue": "quienes viven y trabajan en este sector",
+    "duration_clue": "cada año"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/basura-canal-de-la-colonia-santa-maria/",
+    "article_date": "2026-06-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Santa María ... cruce de las calles Kristal Vallarta y Garza Blanca",
+    "street": "Calles Kristal Vallarta y Garza Blanca",
+    "colonia": "Santa María",
+    "landmark": null,
+    "summary": "Residents report suspected wastewater discharge and heavy trash in a Santa María canal, causing odors and health concerns.",
+    "affected_people_clue": "habitantes del sector",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-regreso-agua-vecinos-no-servicio/",
+    "article_date": "2026-06-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents in several Puerto Vallarta areas still lack water despite SEAPAL’s announcement that service was returning.",
+    "affected_people_clue": "decenas de usuarios",
+    "duration_clue": "varias horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/atencion-puerto-vallarta-colonias-sin-agua-fuga/",
+    "article_date": "2026-07-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A damaged main pipe leaves 120 Puerto Vallarta colonias and developments without drinking water while repairs proceed.",
+    "affected_people_clue": "120 colonias y fraccionamientos",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/inundaciones-ixtapa-vehiculos-lluvia-vallarta/",
+    "article_date": "2026-07-31",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "andador Mirlo de la calle Gaviotas, en Los Tamarindos, Ixtapa",
+    "street": "Andador Mirlo de la calle Gaviotas",
+    "colonia": "Los Tamarindos",
+    "landmark": null,
+    "summary": "Intense rain flooded homes and vehicles in Ixtapa, with water reaching half a meter at several points.",
+    "affected_people_clue": "casas y vehículos",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/abandono-parque-barrio-santa-maria/",
+    "article_date": "2026-03-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space",
+      "lighting"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "parque del barrio Santa María",
+    "street": null,
+    "colonia": "Santa María",
+    "landmark": null,
+    "summary": "An abandoned Santa María park has accumulated trash, lacks maintenance, and has no public lighting.",
+    "affected_people_clue": "familias que viven en los alrededores",
+    "duration_clue": "desde hace varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-queman-basura-fallas-recoleccion-puerto-vallarta/",
+    "article_date": "2026-05-29",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "colonia San Esteban ... sobre la vía pública",
+    "street": null,
+    "colonia": "San Esteban",
+    "landmark": null,
+    "summary": "Residents burned accumulated rubbish in San Esteban after repeated collection failures across Puerto Vallarta.",
+    "affected_people_clue": "habitantes de la colonia",
+    "duration_clue": "casi dos meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fugas-sin-atender-progreso/",
+    "article_date": "2026-06-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia El Progreso ... cruce de las calles Frijol y San Nicolás",
+    "street": "Calles Frijol y San Nicolás",
+    "colonia": "El Progreso",
+    "landmark": null,
+    "summary": "Two unrepaired drinking-water leaks at El Progreso’s Frijol and San Nicolás crossing waste water and affect the road.",
+    "affected_people_clue": "vecinos de la zona",
+    "duration_clue": "durante varias semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/abandono-calle-junt-hospital-regional/",
+    "article_date": "2026-06-30",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "lighting"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calle Francisco I. Madero, en el tramo comprendido entre la avenida de los Poetas y la calle Noruega, a escasos metros del Hospital Regional",
+    "street": "Calle Francisco I. Madero entre avenida de los Poetas y calle Noruega",
+    "colonia": null,
+    "landmark": null,
+    "summary": "An unpaved, poorly lit Francisco I. Madero segment near Hospital Regional has remained neglected for over four years.",
+    "affected_people_clue": "familias y personas que acuden al Hospital Regional",
+    "duration_clue": "más de cuatro años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncian-cierres-viales-previo-aviso-centro-vallarta/",
+    "article_date": "2026-07-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "unclear",
+    "location_certainty": "exact",
+    "location_evidence": "socavón localizado en el cruce de las calles Morelos y Aldama",
+    "street": "Calles Morelos y Aldama",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Unannounced central road closures for sinkhole repairs disrupted transit; qualification is borderline because the complaint centers on communication.",
+    "affected_people_clue": "usuarios del transporte público y peatones",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-loma-bonita-calle-abandono/",
+    "article_date": "2026-07-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Loma Bonita ... calle Inés Meza, en su cruce con Benito Juárez",
+    "street": "Calle Inés Meza en su cruce con Benito Juárez",
+    "colonia": "Loma Bonita",
+    "landmark": null,
+    "summary": "Residents repeatedly fill deteriorated Inés Meza with earth, but rain exposes dangerous potholes again.",
+    "affected_people_clue": "estudiantes y adultos mayores",
+    "duration_clue": "durante años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-fuga-seapal-lucerna/",
+    "article_date": "2026-07-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calle Lucerna, casi en su cruce con el bulevar Francisco Medina Ascencio",
+    "street": "Calle Lucerna casi en su cruce con el bulevar Francisco Medina Ascencio",
+    "colonia": null,
+    "landmark": null,
+    "summary": "An unrepaired water leak on Lucerna has caused subsidence and may form a sinkhole, endangering road users.",
+    "affected_people_clue": "automovilistas, motociclistas, ciclistas y peatones",
+    "duration_clue": "aproximadamente tres semanas"
+  }
+]

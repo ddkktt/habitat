@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-coparmex-apagones-cfe/",
+    "article_date": "2026-06-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Business report describes repeated Puerto Vallarta outages but focuses on commercial impacts, so resident qualification is uncertain.",
+    "affected_people_clue": "pequeños, medianos y grandes negocios",
+    "duration_clue": "constantes"
+  }
+]

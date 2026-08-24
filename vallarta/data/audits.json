@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "screened",
+    "cycle": "2026-08-24",
+    "seed": 1,
+    "checked": 25,
+    "misses": 1,
+    "accuracy_pct": 96.0,
+    "note": "One filter miss: delayed school-dome construction in Ecoterra. The other 24 sampled headlines were not qualifying complaints."
+  },
+  {
+    "kind": "records",
+    "cycle": "2026-08-24",
+    "seed": 1,
+    "checked": 10,
+    "misses": 0,
+    "accuracy_pct": 100.0,
+    "note": "Re-read the cached source text for all 10 sampled Tribuna records; summaries, categories, status, and evidence matched. NoticiasPV records were not in this sample."
+  }
+]

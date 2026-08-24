@@ -1,0 +1,83 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/el-jorullo-llanitos-delegacion-puerto-vallarta/",
+    "article_date": "2026-04-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "El Jorullo ... acceso a estas comunidades aún cuenta con tramos de terracería y otros empedrados zampeados, sufriendo a veces de deslaves",
+    "street": null,
+    "colonia": "El Jorullo",
+    "landmark": null,
+    "summary": "El Jorullo communities have rough access roads and occasional landslides; residents have requested retaining walls and storm drainage.",
+    "affected_people_clue": "232 inhabitants",
+    "duration_clue": "a veces"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/incendio-relleno-sanitario-el-gavilan-85-por-ciento-controlado/",
+    "article_date": "2026-06-02",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "incendio en el relleno sanitario El Gavilán",
+    "street": null,
+    "colonia": null,
+    "landmark": "relleno sanitario El Gavilán",
+    "summary": "A fire at Puerto Vallarta’s El Gavilán landfill remains partly uncontrolled, with smoke and cooling work continuing after six days.",
+    "affected_people_clue": null,
+    "duration_clue": "seis días",
+    "same_incident_as": "https://diariodevallarta.com/incendio-relleno-sanitario-puerto-vallarta-controlado/"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/seapal-avanza-reconstruccion-colector-centro-norte-tras-colapso/",
+    "article_date": "2026-06-08",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Paloma Rocío Guevara",
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en el cruce de las avenidas México y Prisciliano Sánchez",
+    "street": "avenidas México y Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A collapsed sewer collector disrupted a major junction; reconstruction and sanitation work continue while water service remains normal.",
+    "affected_people_clue": "miles de familias vallartenses",
+    "duration_clue": "menos de 72 horas",
+    "same_incident_as": "https://tribunadelabahia.com.mx/colapso-colector-vallarta-grave-de-lo-previsto-seapal/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-cambios-recoleccion-basura/",
+    "article_date": "2026-07-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents criticized repeated Puerto Vallarta garbage-collection schedule changes; officials say route adjustments should stabilize service.",
+    "affected_people_clue": "todas las colonias del municipio",
+    "duration_clue": "casi dos años",
+    "same_incident_as": "https://tribunadelabahia.com.mx/cambios-recoleccion-basura-desatan-criticas/"
+  }
+]

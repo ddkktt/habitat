@@ -1,0 +1,80 @@
+{
+  "articles": {
+    "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/": {
+      "chars": 5041,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://tribunadelabahia.com.mx/vallarta-transporte-electrico-rutas-pasajeros/": {
+      "chars": 4925,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://vallartaindependiente.com/2026/08/19/sin-agua-pero-con-vaquerun-la-apuesta-politica-de-munguia/": {
+      "chars": 2544,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://vallartaindependiente.com/2026/08/24/fuga-de-agua-por-mas-de-cuatro-dias-afecta-a-la-colonia-brisas-del-pacifico/": {
+      "chars": 1062,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.informador.mx/jalisco/lluvias-dejan-danos-en-cihuatlan-20260824-0047.html": {
+      "chars": 48,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.informador.mx/jalisco/proepa-con-pendientes-reporta-avances-en-remediacion-de-laureles-y-matatlan-20260824-0067.html": {
+      "chars": 48,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.informador.mx/jalisco/video-capta-el-momento-en-que-la-corriente-arrastra-a-dos-mujeres-en-lomas-de-polanco-20260823-0060.html": {
+      "chars": 85,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.noticiaspv.com.mx/arroyos-azolvados-riesgo-inundaciones-vallarta/": {
+      "chars": 1782,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.noticiaspv.com.mx/basura-acumulada-persiste-esquinas-puerto-vallarta/": {
+      "chars": 1766,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.noticiaspv.com.mx/inundaciones-afectan-acceso-centro-universitario-costa/": {
+      "chars": 1689,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.noticiaspv.com.mx/semaforos-fallan-caos-cruce-federacion-carretera-544/": {
+      "chars": 1566,
+      "fetched": "2026-08-24",
+      "ok": true
+    },
+    "https://www.noticiaspv.com.mx/vecinos-improvisan-alertas-alcantarillas-abiertas-vallarta/": {
+      "chars": 1764,
+      "fetched": "2026-08-24",
+      "ok": true
+    }
+  },
+  "feed_reads": {
+    "2026-08-24": {
+      "banderasnews": 1,
+      "diario": 2,
+      "independiente": 2,
+      "informador": 1,
+      "meridiano": 1,
+      "noticiaspv": 2,
+      "occidental": 1,
+      "partidero": 1,
+      "quadratin": 1,
+      "tribuna": 2,
+      "udgtv": 1,
+      "zonadocs": 1
+    }
+  }
+}

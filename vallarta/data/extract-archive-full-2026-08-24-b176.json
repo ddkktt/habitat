@@ -1,0 +1,42 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/rehabilitacion-ciclovias-pendiente-8-meses-aprobacion/",
+  "article_date": "2026-07-12",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "yes",
+  "categories": [
+   "roads",
+   "transit"
+  ],
+  "status": "ongoing",
+  "location_certainty": "none",
+  "location_evidence": null,
+  "street": null,
+  "colonia": null,
+  "landmark": null,
+  "summary": "Bike-lane rehabilitation program covering 14 stretches across 30 colonias remains unexecuted eight months after approval; cyclists report unchanged, unsafe conditions.",
+  "affected_people_clue": "más de 6 mil ciclistas",
+  "duration_clue": "más de ocho meses"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/denuncian-al-ex-y-actual-director-de-desarrollo-urbano/",
+  "article_date": "2026-07-02",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space",
+   "other"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "el terreno donde se derrumbó un edificio junto al puente del Cuale",
+  "street": null,
+  "colonia": null,
+  "landmark": "puente del Cuale",
+  "summary": "Family denounces urban-development officials over permits privatizing federal riverside land by Cuale bridge; ruins risk collapse. Mainly a corruption accusation, qualification doubtful.",
+  "affected_people_clue": null,
+  "duration_clue": null
+ }
+]

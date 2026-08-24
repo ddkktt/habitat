@@ -1,0 +1,119 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/que-dia-hora-regresa-agua-puerto-vallarta/",
+    "article_date": "2026-04-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "diversas colonias de la parte alta de El Pitillal",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "A Pozo 38 electrical failure leaves upper El Pitillal neighborhoods with low pressure or no water while repairs continue.",
+    "affected_people_clue": "diversas colonias",
+    "duration_clue": "durante el jueves"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-reparacion-comienza-regresar-agua-vallarta/",
+    "article_date": "2026-04-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "After nearly a day without water, Pozo 38 is repaired but service is only gradually returning across affected Puerto Vallarta areas.",
+    "affected_people_clue": "varias colonias",
+    "duration_clue": "casi un día de corte"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-concluye-reparacion-tuberia-en-vallarta/",
+    "article_date": "2026-04-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "incluyendo áreas como Marina Vallarta, Versalles, Fluvial Vallarta, Las Juntas, Ixtapa, Aramara",
+    "street": null,
+    "colonia": "Marina Vallarta",
+    "landmark": null,
+    "summary": "A ruptured main pipe caused a mass water outage affecting over 140 Puerto Vallarta colonies; repair finished, but system recovery is pending.",
+    "affected_people_clue": "más de 140 colonias",
+    "duration_clue": "desde el martes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-vallarta-corte-agua-tuberia-rota/",
+    "article_date": "2026-05-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "en la colonia La Aurora, debido a la ruptura de una tubería en el edificio 2005 B",
+    "street": null,
+    "colonia": "La Aurora",
+    "landmark": "edificio 2005 B",
+    "summary": "A ruptured pipe temporarily cuts water service in La Aurora while technicians work to restore supply.",
+    "affected_people_clue": "vecinos de la colonia La Aurora",
+    "duration_clue": "suspensión temporal"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/medina-ascencio-obra-mal-hecha/",
+    "article_date": "2026-05-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "failed_repair",
+    "location_certainty": "exact",
+    "location_evidence": "en el cruce de la avenida Francisco Medina Ascencio y Liverpool",
+    "street": "avenida Francisco Medina Ascencio y Liverpool",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A loose roadway grate at the Medina Ascencio–Liverpool intersection damaged a bus and created a traffic safety hazard.",
+    "affected_people_clue": "un camión del transporte público",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-abre-llave-sabado-reconstruccion-colector/",
+    "article_date": "2026-06-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "roads",
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "sobre la avenida México, lo que causó un socavón en la Prisciliano Sánchez",
+    "street": "avenida México",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A collapsed sewer collector caused a sinkhole and water-service disruption; SEAPAL continues structural repairs and restoration work.",
+    "affected_people_clue": "colonias afectadas",
+    "duration_clue": "este sábado"
+  }
+]

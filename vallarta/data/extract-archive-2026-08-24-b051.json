@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/unirse-reabre-puerto-vallarta-danos-balazos-acceso-estacionamiento/",
+    "article_date": "2026-02-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "En avenida de Los Grandes Lagos número 236, en Fluvial Vallarta",
+    "street": "avenida de Los Grandes Lagos número 236",
+    "colonia": "Fluvial Vallarta",
+    "landmark": null,
+    "summary": "Vandalized UNIRSE offices still have a damaged main entrance, forcing residents to use the rear door despite resumed services.",
+    "affected_people_clue": "aproximadamente 50 mil ciudadanos al mes",
+    "duration_clue": "desde el domingo violento"
+  }
+]

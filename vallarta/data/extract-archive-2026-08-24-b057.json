@@ -1,0 +1,62 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/habilitan-paso-provisional-la-desembocada-puerto-vallarta/",
+    "article_date": "2026-02-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en el Camino Viejo al Cantón ... a la altura del poblado La Desembocada",
+    "street": "Camino Viejo al Cantón",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A damaged bridge closed a road and isolated families near La Desembocada; a provisional crossing only partially restores access.",
+    "affected_people_clue": "más de seis familias",
+    "duration_clue": "no es una solución definitiva",
+    "same_incident_as": "https://tribunadelabahia.com.mx/habilitan-brecha-alterna-cierre-puente-la-desembocada-puerto-vallarta/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puente-desembocada-reconstruccion-julio-80-millones-jalisco/",
+    "article_date": "2026-02-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "El puente de La Desembocada ... en la carretera estatal 544, en el tramo de Ixtapa a Las Palmas",
+    "street": "carretera estatal 544",
+    "colonia": null,
+    "landmark": "Puente de La Desembocada",
+    "summary": "A damaged bridge leaves 6,000 families disconnected while officials plan reconstruction and maintain a provisional crossing.",
+    "affected_people_clue": "6 mil familias",
+    "duration_clue": "hasta julio próximo",
+    "same_incident_as": "https://tribunadelabahia.com.mx/comunidades-sin-viveres-puente-desembocada-puerto-vallarta/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puente-amado-nervo-avanza-terminara-antes/",
+    "article_date": "2026-03-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "El Puente Amado Nervo, que unirá a los municipios de Puerto Vallarta y Bahía de Banderas",
+    "street": null,
+    "colonia": null,
+    "landmark": "Puente Amado Nervo",
+    "summary": "The unfinished Amado Nervo Bridge leaves severe congestion in the region, though officials report construction is ahead of schedule.",
+    "affected_people_clue": "cientos de ciudadanos",
+    "duration_clue": "lista en julio de 2026",
+    "same_incident_as": "https://tribunadelabahia.com.mx/puente-amado-nervo-ampliar-carriles/"
+  }
+]

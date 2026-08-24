@@ -1,0 +1,42 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puesto-frutas-insurgentes-puerto-vallarta-reclamo-zorrilla/",
+    "article_date": "2026-03-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calle Insurgentes de la colonia Emiliano Zapata",
+    "street": "calle Insurgentes",
+    "colonia": "Emiliano Zapata",
+    "landmark": null,
+    "summary": "Complaints say informal stalls obstruct a central sidewalk and worsen waste, while similar public-space commerce has returned in recent months.",
+    "affected_people_clue": "colonos",
+    "duration_clue": "en los últimos meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/apagon-en-zona-hotelera-de-puerto-vallarta-jueves/",
+    "article_date": "2026-03-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "Comunidades de la Costa Sur: Mismaloya, Boca de Tomatlán, Quimixto, Las Ánimas y Yelapa",
+    "street": null,
+    "colonia": "Mismaloya",
+    "landmark": null,
+    "summary": "A scheduled eight-hour CFE outage will affect Puerto Vallarta’s southern coastal communities, including residents, businesses, and hotels.",
+    "affected_people_clue": "población general, comercios y hoteles",
+    "duration_clue": "ocho horas",
+    "same_incident_as": "https://tribunadelabahia.com.mx/corte-luz-zona-hotelera-sur-puerto-vallarta-19-marzo/"
+  }
+]

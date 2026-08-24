@@ -1,0 +1,41 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/mercado-5-de-diciembre-puerto-vallarta-incendiado-ya-funciona/",
+    "article_date": "2026-02-27",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power",
+      "public_space"
+    ],
+    "status": "resolved",
+    "location_certainty": "exact",
+    "location_evidence": "calle San Salvador y Brasilia de la colonia 5 de Diciembre",
+    "street": "calle San Salvador y Brasilia",
+    "colonia": "5 de Diciembre",
+    "landmark": null,
+    "summary": "A partial fire damaged the municipal market, but electricity and normal operations were restored within two days.",
+    "affected_people_clue": "dos locatarios afectados",
+    "duration_clue": "en dos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/comerciantes-malecon-paseo-peatonal/",
+    "article_date": "2026-03-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "desde el Parque Hidalgo hasta un hotel ubicado en la entrada del malecón",
+    "street": null,
+    "colonia": null,
+    "landmark": "Parque Hidalgo",
+    "summary": "Delayed promenade works leave construction materials on the public way, hindering pedestrians and hurting nearby merchants.",
+    "affected_people_clue": "comerciantes y vecinos",
+    "duration_clue": "desde el año pasado"
+  }
+]

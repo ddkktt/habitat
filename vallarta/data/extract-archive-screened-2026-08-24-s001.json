@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-ecoterra-domo-escolar/",
+    "article_date": "2026-07-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "un plantel educativo ubicado en el fraccionamiento Ecoterra, en Puerto Vallarta",
+    "street": null,
+    "colonia": "Ecoterra",
+    "landmark": null,
+    "summary": "Delayed school-dome construction keeps a community court closed and disrupts safe student use of the public facility.",
+    "affected_people_clue": "comunidad escolar",
+    "duration_clue": "continúa inconclusa"
+  }
+]

@@ -1,0 +1,24 @@
+{
+ "batch": "archive-2026-08-24-orphan01",
+ "corpus": "data/corpus-pv.json",
+ "scanned": 1,
+ "metadata": {
+  "queue_kind": "gap-repair"
+ },
+ "reading_note": "Gap repair, not a new batch. This URL was listed in archive-progress processed_urls and its record was already in records.json (incident INC-20260717-140), but no batch triage file contained a decision for it — the extraction survived and the triage row was lost. Found by reconciling processed_urls against the triage files. The article was re-read as full text from the corpus and triaged independently; the verdict below was reached without consulting the stored record and then matched it on every field (yes / public_space / ongoing / approximate, same evidence quote). No new record was created — this file only restores the missing decision row.",
+ "decisions": [
+  {
+   "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-ecoterra-domo-escolar/",
+   "article_date": "2026-07-17",
+   "title": "Padres denuncian atraso en construcción de domo escolar en Ecoterra, Puerto Vallarta",
+   "source_outlet": "Tribuna de la Bahía",
+   "decision": "yes",
+   "reason_code": "qualified",
+   "note": "Parents report the school dome works in fraccionamiento Ecoterra are still unfinished after classes resumed; the court stays fenced and out of service. A stalled public works project affecting residents.",
+   "read_by_agent": true,
+   "extraction_source": "archive_corpus_text",
+   "already_in_store": true,
+   "incident_id": "INC-20260717-140"
+  }
+ ]
+}

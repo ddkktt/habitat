@@ -1,0 +1,100 @@
+[
+  {
+    "article_url": "https://www.noticiaspv.com.mx/arroyos-azolvados-riesgo-inundaciones-vallarta/",
+    "article_date": "2026-08-24",
+    "source_outlet": "NoticiasPV",
+    "author": "Mauricio Lira Camacho",
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Unmaintained, debris-filled city waterways may overflow during storms, threatening nearby neighborhoods.",
+    "affected_people_clue": "colonias aledañas",
+    "duration_clue": "las precipitaciones continúan"
+  },
+  {
+    "article_url": "https://www.noticiaspv.com.mx/vecinos-improvisan-alertas-alcantarillas-abiertas-vallarta/",
+    "article_date": "2026-08-24",
+    "source_outlet": "NoticiasPV",
+    "author": "Mauricio Lira Camacho",
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Open or damaged drains in public spaces force residents to mark hazards with tires, putting pedestrians at risk.",
+    "affected_people_clue": "peatones",
+    "duration_clue": "se ha vuelto cotidiana"
+  },
+  {
+    "article_url": "https://www.noticiaspv.com.mx/basura-acumulada-persiste-esquinas-puerto-vallarta/",
+    "article_date": "2026-08-24",
+    "source_outlet": "NoticiasPV",
+    "author": "Mauricio Lira Camacho",
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Persistent illegal dumping at city street corners creates waste accumulation, odors, infection risks, and pests.",
+    "affected_people_clue": "vecinos y comerciantes",
+    "duration_clue": "persiste"
+  },
+  {
+    "article_url": "https://www.noticiaspv.com.mx/inundaciones-afectan-acceso-centro-universitario-costa/",
+    "article_date": "2026-08-24",
+    "source_outlet": "NoticiasPV",
+    "author": "Mauricio Lira Camacho",
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "camino de ingreso al Centro Universitario de la Costa",
+    "street": null,
+    "colonia": null,
+    "landmark": "Centro Universitario de la Costa",
+    "summary": "Light rain repeatedly floods the access road to the Centro Universitario de la Costa, disrupting students, staff, drivers, and pedestrians.",
+    "affected_people_clue": "estudiantes, académicos y trabajadores",
+    "duration_clue": "problemática recurrente"
+  },
+  {
+    "article_url": "https://www.noticiaspv.com.mx/semaforos-fallan-caos-cruce-federacion-carretera-544/",
+    "article_date": "2026-08-24",
+    "source_outlet": "NoticiasPV",
+    "author": "Mauricio Lira Camacho",
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "El cruce entre la Carretera 544 a Las Palmas y la Avenida Federación",
+    "street": "Carretera 544 a Las Palmas esquina Avenida Federación",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Recurring traffic-signal failures at a named junction create daily congestion and danger for motorists and pedestrians.",
+    "affected_people_clue": "automovilistas y peatones",
+    "duration_clue": "A diario"
+  }
+]

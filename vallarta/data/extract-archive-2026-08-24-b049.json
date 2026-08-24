@@ -1,0 +1,80 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/observatorio-centro-historico-patrimonio-cultural-puerto-vallarta-inventario/",
+    "article_date": "2026-07-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "el centro histórico de Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": "Centro Histórico",
+    "summary": "An observatory demands heritage-inventory updates after demolitions; this borderline preservation complaint may not concern infrastructure services.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/video-mantenimiento-vallarta-pinta-infraestructura-ausencia-ayuntamiento/",
+    "article_date": "2026-07-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "La falta de mantenimiento en los espacios públicos de Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report neglected public-space maintenance, including painting, rubbish collection, and gardening left to citizens.",
+    "affected_people_clue": "propios habitantes",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://diariodevallarta.com/mejoras-servicios-bienestar-animal-bahia-de-banderas/",
+    "article_date": "2026-07-09",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Redaccion de Diario de Vallarta y Nayarit",
+    "qualifies": "unsure",
+    "categories": [
+      "power",
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "An official report notes voltage variations affecting water supply in Bahía de Banderas; the brief service complaint is borderline.",
+    "affected_people_clue": "población",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://diariodevallarta.com/bacheo-palma-real-mejora-calles-bahia-de-banderas/",
+    "article_date": "2026-07-13",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Redaccion de Diario de Vallarta y Nayarit",
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "resolved",
+    "location_certainty": "approximate",
+    "location_evidence": "En Palma Real, Bahía de Banderas, se llevó a cabo una jornada de bacheo",
+    "street": null,
+    "colonia": "Palma Real",
+    "landmark": null,
+    "summary": "A municipal bacheo campaign repaired 70–80 potholes in Palma Real after residents requested safer streets.",
+    "affected_people_clue": "familias del fraccionamiento",
+    "duration_clue": null
+  }
+]

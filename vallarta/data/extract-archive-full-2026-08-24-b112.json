@@ -1,0 +1,40 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/playa-las-cocinas-muro-dine-punta-de-mita-20-metros/",
+  "article_date": "2026-05-05",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "recorrería 10 metros el muro de piedras en Playa Las Cocinas , en Punta de Mita",
+  "street": null,
+  "colonia": "Punta de Mita",
+  "landmark": "Playa Las Cocinas",
+  "summary": "Community demands developer's beach wall retreat 20 meters off federal zone at Playa Las Cocinas; access dispute, qualification as infrastructure doubtful.",
+  "affected_people_clue": "la comunidad de Punta de Mita",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/no-espectaculares-puerto-vallarta/",
+  "article_date": "2026-04-25",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "aparecieron de manera sorpresiva en los últimos días en el muy transitado boulevard Francisco Medina Ascencio",
+  "street": "boulevard Francisco Medina Ascencio",
+  "colonia": null,
+  "landmark": null,
+  "summary": "Advertising structures illegally installed on Medina Ascencio boulevard medians; officials promise removal; partly political permit dispute, qualification doubtful.",
+  "affected_people_clue": null,
+  "duration_clue": "en los últimos días"
+ }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-volcadura-canal-seguridad/",
+    "article_date": "2026-07-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Cristóbal Colón … avenida Federación",
+    "street": "avenida Federación",
+    "colonia": "Cristóbal Colón",
+    "landmark": null,
+    "summary": "Residents report unsafe speeding conditions and ineffective speed bumps on Avenida Federación, demanding better road-safety infrastructure.",
+    "affected_people_clue": "habitantes de la colonia",
+    "duration_clue": "constantemente"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-camiones-insuficientes/",
+    "article_date": "2026-08-01",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "avenida Francisco Medina Ascencio ... El Coapinole, El Pitillal",
+    "street": "avenida Francisco Medina Ascencio",
+    "colonia": "El Coapinole",
+    "landmark": null,
+    "summary": "Transit users report inadequate coverage and waits over 30 minutes as 19 electric buses serve only part of Puerto Vallarta.",
+    "affected_people_clue": "pasajeros de rutas urbanas",
+    "duration_clue": "más de 30 minutos"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/agua-intermitente-ixtapa-cinco-dias-pozo-3/",
+    "article_date": "2026-02-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "San Francisco, La Mina I y II, Colinas Universidad, Ixtapa Centro",
+    "street": null,
+    "colonia": "Ixtapa Centro",
+    "landmark": null,
+    "summary": "Scheduled maintenance will leave 15 Ixtapa-area colonies with intermittent water for at least five days.",
+    "affected_people_clue": "al menos 15 colonias",
+    "duration_clue": "al menos cinco días"
+  }
+]

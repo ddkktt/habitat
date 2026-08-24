@@ -1,0 +1,2637 @@
+{
+  "streets": {
+    "francisco villa": {
+      "display": "Avenida Francisco Villa",
+      "seen": 10,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-obstruccion-banqueta-francisco-villa/",
+        "https://tribunadelabahia.com.mx/lluvias-puerto-vallarta-arboles-caidos-encharcamientos/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-arbol-papelillo-riesgo/",
+        "https://tribunadelabahia.com.mx/seapal-vallarta-canal-inundacion-francisco-villa/",
+        "https://tribunadelabahia.com.mx/francisco-villa-amanece-agua-vallarta-lluvia-varados/"
+      ]
+    },
+    "viena": {
+      "display": "calle Viena",
+      "seen": 4,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/",
+        "https://tribunadelabahia.com.mx/bache-peligroso-versalles/"
+      ]
+    },
+    "alemania": {
+      "display": "Calle Alemania",
+      "seen": 2,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://vallartaindependiente.com/2026/08/24/fuga-de-agua-por-mas-de-cuatro-dias-afecta-a-la-colonia-brisas-del-pacifico/"
+      ]
+    },
+    "victor iturbe": {
+      "display": "avenida Víctor Iturbe",
+      "seen": 2,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://vallartaindependiente.com/2026/08/24/fuga-de-agua-por-mas-de-cuatro-dias-afecta-a-la-colonia-brisas-del-pacifico/"
+      ]
+    },
+    "mexico": {
+      "display": "Avenida México",
+      "seen": 23,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-mojoneras-ayuntamiento-vallarta-inundaciones/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-portales-basura-acumulada/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-mojoneras-avenida-mexico/",
+        "https://tribunadelabahia.com.mx/estudiantes-cuc-puerto-vallarta-sombra-parada-avenida-mexico/",
+        "https://tribunadelabahia.com.mx/semana-santa-no-concluye-ampliacion-malecon/",
+        "https://tribunadelabahia.com.mx/obra-limpieza-canal-peatones-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/lluvias-puerto-vallarta-inundaciones-trafico-caida-arbol-junio-2026/",
+        "https://tribunadelabahia.com.mx/atencion-vallarta-seapal-habilita-desvio-crisis-agua/",
+        "https://tribunadelabahia.com.mx/seapal-cerraran-carriles-avenida-mexico-vallarta/",
+        "https://tribunadelabahia.com.mx/seapal-cierres-avenida-mexico-palmas-drenaje-vallarta/",
+        "https://tribunadelabahia.com.mx/seapal-aclara-obras-avenida-mexico-corte-agua/",
+        "https://tribunadelabahia.com.mx/ampliacion-avenida-mexico-cuatro-carriles-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/seapal-abre-llave-sabado-reconstruccion-colector/",
+        "https://tribunadelabahia.com.mx/seapal-instala-bombeo-reparacion-avenida-mexico/"
+      ]
+    },
+    "20 noviembre entre calles alemania": {
+      "display": "Calle 20 de Noviembre entre las calles Alemania",
+      "seen": 2,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-contaminacion-tuki-parque/"
+      ]
+    },
+    "japon": {
+      "display": "Japón",
+      "seen": 2,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-contaminacion-tuki-parque/"
+      ]
+    },
+    "mexico entre prisciliano sanchez": {
+      "display": "Avenida México entre Prisciliano Sánchez",
+      "seen": 2,
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/colapso-drenaje-versalles-seapal-taponamiento-mexico/"
+      ]
+    },
+    "pino": {
+      "display": "Pino",
+      "seen": 2,
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/colapso-drenaje-versalles-seapal-taponamiento-mexico/"
+      ]
+    },
+    "francisco i madero": {
+      "display": "Calle Francisco I. Madero",
+      "seen": 3,
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-calle-madero-abandono/",
+        "https://tribunadelabahia.com.mx/fuga-agua-siete-colonias-puerto-vallarta-miercoles/"
+      ]
+    },
+    "calles morelos": {
+      "display": "Calles Morelos",
+      "seen": 4,
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-cierre-centro-vialidad-2/",
+        "https://tribunadelabahia.com.mx/denuncian-cierres-viales-previo-aviso-centro-vallarta/"
+      ]
+    },
+    "aldama": {
+      "display": "Aldama",
+      "seen": 4,
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-cierre-centro-vialidad-2/",
+        "https://tribunadelabahia.com.mx/denuncian-cierres-viales-previo-aviso-centro-vallarta/"
+      ]
+    },
+    "independencia": {
+      "display": "Avenida Independencia",
+      "seen": 2,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/ixtapa-basura-recoleccion-colapsa/"
+      ]
+    },
+    "venustiano carranza": {
+      "display": "Calle Venustiano Carranza",
+      "seen": 2,
+      "first_seen": "2026-02-14",
+      "last_seen": "2026-02-14",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/calle-anegada-aguas-negras/"
+      ]
+    },
+    "jose alfredo jimenez": {
+      "display": "Calle José Alfredo Jiménez",
+      "seen": 2,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-agua-seapal-reportes/"
+      ]
+    },
+    "aldama entre calles morelos": {
+      "display": "Calle Aldama entre las calles Morelos",
+      "seen": 3,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-bache-calle-aldama/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-bache-calle-aldama-2/"
+      ]
+    },
+    "mina": {
+      "display": "Mina",
+      "seen": 3,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-bache-calle-aldama/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-bache-calle-aldama-2/"
+      ]
+    },
+    "estano": {
+      "display": "Calle Estaño",
+      "seen": 2,
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-ixtapa-denuncian-abandono-calle-estano/"
+      ]
+    },
+    "berlin entre calles berna": {
+      "display": "calle Berlín entre calles Berna",
+      "seen": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-fuga-agua-versalles/"
+      ]
+    },
+    "rafael osuna": {
+      "display": "Rafael Osuna",
+      "seen": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-fuga-agua-versalles/"
+      ]
+    },
+    "calles aldama": {
+      "display": "calles Aldama",
+      "seen": 2,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-morelos-obras/"
+      ]
+    },
+    "morelos": {
+      "display": "Morelos",
+      "seen": 2,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-morelos-obras/"
+      ]
+    },
+    "gorrion en su cruce con codorniz": {
+      "display": "calle Gorrión en su cruce con Codorniz",
+      "seen": 2,
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-basura-sauces-denuncia/"
+      ]
+    },
+    "1 junio": {
+      "display": "calle 1 de Junio",
+      "seen": 2,
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/atencion-el-pitillal-fuga-sin-agua-colonias-vallarta/"
+      ]
+    },
+    "coapinole": {
+      "display": "avenida Coapinole",
+      "seen": 2,
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/atencion-el-pitillal-fuga-sin-agua-colonias-vallarta/"
+      ]
+    },
+    "miramar entre calles chihuahua": {
+      "display": "calle Miramar entre las calles Chihuahua",
+      "seen": 2,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-de-la-bobadilla-denuncian-acumulacion-basura/"
+      ]
+    },
+    "jalisco": {
+      "display": "Jalisco",
+      "seen": 2,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-de-la-bobadilla-denuncian-acumulacion-basura/"
+      ]
+    },
+    "hacienda casi en su cruce con agua": {
+      "display": "calle Hacienda casi en su cruce con calle Agua",
+      "seen": 3,
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-socavon-exhaciendas-pitillal/"
+      ]
+    },
+    "quimixto": {
+      "display": "Calle Quimixto",
+      "seen": 2,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-inundaciones-jardines-puerto/"
+      ]
+    },
+    "genaro padilla": {
+      "display": "Calle Genaro Padilla",
+      "seen": 2,
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/apagones-puerto-vallarta-vecinos-dos-dias-sin-luz/"
+      ]
+    },
+    "torres": {
+      "display": "Avenida Las Torres",
+      "seen": 4,
+      "first_seen": "2026-04-09",
+      "last_seen": "2026-07-02",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-agua-col-del-toro/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-denuncian-invasion-area-verde/"
+      ]
+    },
+    "callejon sierra rocallosa en su cruce con francisco medina ascencio": {
+      "display": "Callejón Sierra Rocallosa en su cruce con la avenida Francisco Medina Ascencio",
+      "seen": 2,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-olimpica-abandono-contaminacion-canal/"
+      ]
+    },
+    "calles kristal vallarta": {
+      "display": "Calles Kristal Vallarta",
+      "seen": 2,
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-canal-de-la-colonia-santa-maria/"
+      ]
+    },
+    "garza blanca": {
+      "display": "Garza Blanca",
+      "seen": 2,
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-canal-de-la-colonia-santa-maria/"
+      ]
+    },
+    "andador mirlo gaviotas": {
+      "display": "Andador Mirlo de la calle Gaviotas",
+      "seen": 2,
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/inundaciones-ixtapa-vehiculos-lluvia-vallarta/"
+      ]
+    },
+    "calles frijol": {
+      "display": "Calles Frijol",
+      "seen": 2,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fugas-sin-atender-progreso/"
+      ]
+    },
+    "san nicolas": {
+      "display": "San Nicolás",
+      "seen": 4,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-07-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fugas-sin-atender-progreso/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-parque-ojo-agua-abandono/"
+      ]
+    },
+    "francisco i madero entre poetas": {
+      "display": "Calle Francisco I. Madero entre avenida de los Poetas",
+      "seen": 2,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/abandono-calle-junt-hospital-regional/"
+      ]
+    },
+    "noruega": {
+      "display": "calle Noruega",
+      "seen": 2,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/abandono-calle-junt-hospital-regional/"
+      ]
+    },
+    "ines meza en su cruce con benito juarez": {
+      "display": "Calle Inés Meza en su cruce con Benito Juárez",
+      "seen": 2,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-loma-bonita-calle-abandono/"
+      ]
+    },
+    "lucerna casi en su cruce con francisco medina ascencio": {
+      "display": "Calle Lucerna casi en su cruce con el bulevar Francisco Medina Ascencio",
+      "seen": 2,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-fuga-seapal-lucerna/"
+      ]
+    },
+    "pico orizaba": {
+      "display": "Pico de Orizaba",
+      "seen": 2,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-basura-santa-elena/"
+      ]
+    },
+    "santa elena": {
+      "display": "Santa Elena",
+      "seen": 2,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-basura-santa-elena/"
+      ]
+    },
+    "sinaloa": {
+      "display": "Sinaloa",
+      "seen": 2,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/inundacion-mojoneras-22-casas-afectadas/"
+      ]
+    },
+    "guanajuato": {
+      "display": "Guanajuato",
+      "seen": 2,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/inundacion-mojoneras-22-casas-afectadas/"
+      ]
+    },
+    "28 octubre": {
+      "display": "28 de Octubre",
+      "seen": 2,
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-salitrillo-excremento/"
+      ]
+    },
+    "30 noviembre": {
+      "display": "30 de Noviembre",
+      "seen": 4,
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-salitrillo-excremento/",
+        "https://tribunadelabahia.com.mx/conexiones-irregulares-puerto-vallarta/"
+      ]
+    },
+    "gaviota entre carretera 544": {
+      "display": "calle Gaviota entre la carretera 544",
+      "seen": 2,
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/acumulacion-de-basura-ixtapa/"
+      ]
+    },
+    "pavo real": {
+      "display": "Pavo Real",
+      "seen": 2,
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/acumulacion-de-basura-ixtapa/"
+      ]
+    },
+    "argentina": {
+      "display": "Argentina",
+      "seen": 2,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-colonias-centro-5-de-diciembre/"
+      ]
+    },
+    "brasil": {
+      "display": "Brasil",
+      "seen": 2,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-colonias-centro-5-de-diciembre/"
+      ]
+    },
+    "portal san juan": {
+      "display": "Portal San Juan",
+      "seen": 2,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-portales-basura-acumulada/"
+      ]
+    },
+    "jongitud barrios": {
+      "display": "Jongitud Barrios",
+      "seen": 3,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-07-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/contaminacion-aguas-negras-urgencias-issste/",
+        "https://tribunadelabahia.com.mx/seapal-vallarta-calle-fovissste-100-encharcamientos/"
+      ]
+    },
+    "maria montessori": {
+      "display": "María Montessori",
+      "seen": 4,
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/poda-calle-montessori/",
+        "https://tribunadelabahia.com.mx/desperdicio-agua-molestia-en-palmar-de-aramara/"
+      ]
+    },
+    "agua zarca": {
+      "display": "Agua Zarca",
+      "seen": 2,
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-parque-ojo-agua-abandono/"
+      ]
+    },
+    "ex haciendas": {
+      "display": "Avenida Ex Haciendas",
+      "seen": 2,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-de-ex-haciendas-del-pitillal-denuncian-deterioro-de-avenida-pese-a-recientes-reparaciones/"
+      ]
+    },
+    "calles vicente guerrero e ines meza": {
+      "display": "Calles Vicente Guerrero e Inés Meza",
+      "seen": 2,
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/loma-bonita-sin-agua/"
+      ]
+    },
+    "violeta en su cruce con maestros": {
+      "display": "calle Violeta en su cruce con Avenida de los Maestros",
+      "seen": 2,
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-02-26",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/quejas-acumulacion-basura/"
+      ]
+    },
+    "francisco medina ascencio": {
+      "display": "avenida Francisco Medina Ascencio",
+      "seen": 11,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-08-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-baches-zona-hotelera/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-baches-medina-prisciliano/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-tormentas-limpieza-desazolve/",
+        "https://tribunadelabahia.com.mx/escurrimientos-de-agua-cruda-medina-ascencio/",
+        "https://tribunadelabahia.com.mx/medina-ascencio-obra-mal-hecha/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-camiones-insuficientes/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-tormenta-zona-hotelera-norte/",
+        "https://tribunadelabahia.com.mx/derrapa_motociclista-menor-herido/"
+      ]
+    },
+    "mexico entre tamaulipas": {
+      "display": "Avenida México entre calle Tamaulipas",
+      "seen": 2,
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/reducen-carril-avenida-mexico-puerto-vallarta-obras-agua/"
+      ]
+    },
+    "universidad guadalajara": {
+      "display": "avenida Universidad de Guadalajara",
+      "seen": 2,
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/reducen-carril-avenida-mexico-puerto-vallarta-obras-agua/"
+      ]
+    },
+    "calles rafael osuna": {
+      "display": "calles Rafael Osuna",
+      "seen": 2,
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/bache-peligroso-versalles/"
+      ]
+    },
+    "10 mayo": {
+      "display": "calle 10 de Mayo",
+      "seen": 4,
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-calle-10-mayo-baches/",
+        "https://tribunadelabahia.com.mx/arboles-cables-bobadilla/"
+      ]
+    },
+    "rio danubio": {
+      "display": "calle Río Danubio",
+      "seen": 2,
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-chatarra-basura-rio-danubio/"
+      ]
+    },
+    "aurora": {
+      "display": "La Aurora",
+      "seen": 2,
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-queman-lona-partido-verde-exigen-munguia-agua-vallarta/"
+      ]
+    },
+    "jose vasconcelos": {
+      "display": "calle José Vasconcelos",
+      "seen": 2,
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vehiculos-abandonados-magisterio-puerto-vallarta/"
+      ]
+    },
+    "basilio badillo": {
+      "display": "calle Basilio Badillo",
+      "seen": 2,
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-banqueta-basilio-badillo/"
+      ]
+    },
+    "prolongacion 13 septiembre": {
+      "display": "Prolongación 13 de Septiembre",
+      "seen": 2,
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncia-basurero-clandestino-los-delfines-puerto-vallarta/"
+      ]
+    },
+    "orca": {
+      "display": "calle Orca",
+      "seen": 2,
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncia-basurero-clandestino-los-delfines-puerto-vallarta/"
+      ]
+    },
+    "alazan": {
+      "display": "calle Alazán",
+      "seen": 2,
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-autos-abandonados-hipodromo/"
+      ]
+    },
+    "calles 20 noviembre": {
+      "display": "calles 20 de Noviembre",
+      "seen": 2,
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/conexiones-irregulares-puerto-vallarta/"
+      ]
+    },
+    "bello horizonte": {
+      "display": "calle Bello Horizonte",
+      "seen": 2,
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/apertura-irregular-camino-linda-vista/"
+      ]
+    },
+    "calles san salvador": {
+      "display": "calles San Salvador",
+      "seen": 4,
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-04-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/mercado-5-diciembre-danos-incendios-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/incendios-mercado-5-diciembre-cableado-riesgo/"
+      ]
+    },
+    "brasilia": {
+      "display": "Brasilia",
+      "seen": 7,
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-04-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/mercado-5-diciembre-danos-incendios-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/mercado-5-de-diciembre-puerto-vallarta-incendiado-ya-funciona/",
+        "https://tribunadelabahia.com.mx/incendios-mercado-5-diciembre-cableado-riesgo/"
+      ]
+    },
+    "paseo flores": {
+      "display": "avenida Paseo de las Flores",
+      "seen": 2,
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/obstruccion-en-banquetas-paseo-de-las-flores-por-arboles-caidos-y-maleza/"
+      ]
+    },
+    "carretera estatal 544": {
+      "display": "Carretera estatal 544",
+      "seen": 5,
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-07-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/comunidades-sin-viveres-puente-desembocada-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/onu-mujeres-evalua-seguridad-espacios-vallarta/",
+        "https://tribunadelabahia.com.mx/habilitan-brecha-alterna-cierre-puente-la-desembocada-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/puente-desembocada-reconstruccion-julio-80-millones-jalisco/"
+      ]
+    },
+    "paseo palmas": {
+      "display": "Avenida Paseo de las Palmas",
+      "seen": 2,
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-en-la-colonia-ignacio-l-vallarta/"
+      ]
+    },
+    "gaviota en cruce con pavo real": {
+      "display": "Calle Gaviota en el cruce con Pavo Real",
+      "seen": 2,
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-05-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/autos-abandonados-los-tamarindos-basura/"
+      ]
+    },
+    "calles hermenegildo galeana": {
+      "display": "Calles Hermenegildo Galeana",
+      "seen": 2,
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-abandono-basura-parque-las-juntas/"
+      ]
+    },
+    "luis moya": {
+      "display": "Luis Moya",
+      "seen": 2,
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-abandono-basura-parque-las-juntas/"
+      ]
+    },
+    "veracruz entre 16 septiembre": {
+      "display": "calle Veracruz, entre 16 de Septiembre",
+      "seen": 2,
+      "first_seen": "2026-02-27",
+      "last_seen": "2026-02-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/arboles-cables-bobadilla/"
+      ]
+    },
+    "juarez": {
+      "display": "calle Juárez",
+      "seen": 3,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-pozo-calle-juarez/",
+        "https://tribunadelabahia.com.mx/centro-camion-sin-frenos-arbo/"
+      ]
+    },
+    "allende": {
+      "display": "Allende",
+      "seen": 2,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-pozo-calle-juarez/"
+      ]
+    },
+    "febronio uribe": {
+      "display": "calle Febronio Uribe",
+      "seen": 2,
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-estacionamiento-autobuses-glorias/"
+      ]
+    },
+    "arrecife": {
+      "display": "Privada Arrecife",
+      "seen": 2,
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/arboles-cinepolis-peligro-para-vecinos-ex-haciendas-pitillal/"
+      ]
+    },
+    "jesus rodriguez barba": {
+      "display": "avenida Jesús Rodríguez Barba",
+      "seen": 2,
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-07-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-semaforos-fluvial-falla/"
+      ]
+    },
+    "miramar": {
+      "display": "Miramar",
+      "seen": 2,
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/alertan-demolicion-hormiga-centro-vallarta/"
+      ]
+    },
+    "iturbide": {
+      "display": "Iturbide",
+      "seen": 3,
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/alertan-demolicion-hormiga-centro-vallarta/",
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-vallarta/"
+      ]
+    },
+    "san salvador": {
+      "display": "calle San Salvador",
+      "seen": 3,
+      "first_seen": "2026-02-27",
+      "last_seen": "2026-02-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/mercado-5-de-diciembre-puerto-vallarta-incendiado-ya-funciona/"
+      ]
+    },
+    "calles exiquio corona e independencia": {
+      "display": "calles Exiquio Corona e Independencia",
+      "seen": 2,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/reportan-alcantarilla-abierta-en-el-cruce-de-las-calles-exiquio-corona-e-independencia/"
+      ]
+    },
+    "carretera a palmas": {
+      "display": "carretera a Las Palmas",
+      "seen": 8,
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-cinco-colonias/",
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-seapal-vallarta-5-marzo/",
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-puerto-vallarta-26-febrero-2026/"
+      ]
+    },
+    "prisciliano sanchez": {
+      "display": "Prisciliano Sánchez",
+      "seen": 13,
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-baches-medina-prisciliano/",
+        "https://tribunadelabahia.com.mx/colapso-colector-vallarta-grave-de-lo-previsto-seapal/",
+        "https://tribunadelabahia.com.mx/seapal-reparacion-socavon-prisciliano-sanchez-72-horas-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/socavon-prisciliano-sanchez-cierre-72-horas-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/reabririan-sabado-calle-prisciliano-sanchez-socavon/",
+        "https://tribunadelabahia.com.mx/corte-agua-colonias-norte-puerto-vallarta-colector-centro-norte/",
+        "https://tribunadelabahia.com.mx/seapal-vallarta-anuncia-corte-de-agua-cuatro-colonias-viernes/",
+        "https://tribunadelabahia.com.mx/munguia-nego-crisis-comunicacion-arranca-bacheo-puerto-vallarta/",
+        "https://diariodevallarta.com/seapal-avanza-reconstruccion-colector-centro-norte-tras-colapso/"
+      ]
+    },
+    "hidalgo": {
+      "display": "calle Hidalgo",
+      "seen": 3,
+      "first_seen": "2026-03-04",
+      "last_seen": "2026-03-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-seapal-vallarta-5-marzo/"
+      ]
+    },
+    "guatemala entre finlandia": {
+      "display": "calle Guatemala, entre Finlandia",
+      "seen": 3,
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/habra-corte-agua-jueves-trabajos-de-seapal/"
+      ]
+    },
+    "suecia": {
+      "display": "Suecia",
+      "seen": 3,
+      "first_seen": "2026-05-06",
+      "last_seen": "2026-05-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/habra-corte-agua-jueves-trabajos-de-seapal/"
+      ]
+    },
+    "calles allende": {
+      "display": "calles Allende",
+      "seen": 3,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/arbol-cae-derriba-lineas-cfe-ixtapa-puerto-vallarta/"
+      ]
+    },
+    "josefa ortiz": {
+      "display": "Josefa Ortiz",
+      "seen": 3,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/arbol-cae-derriba-lineas-cfe-ixtapa-puerto-vallarta/"
+      ]
+    },
+    "calles francisco javier mujica": {
+      "display": "calles Francisco Javier Mujica",
+      "seen": 3,
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-las-juntas-puerto-vallarta-12-marzo/"
+      ]
+    },
+    "candido aguilar": {
+      "display": "Cándido Aguilar",
+      "seen": 3,
+      "first_seen": "2026-03-11",
+      "last_seen": "2026-03-11",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-las-juntas-puerto-vallarta-12-marzo/"
+      ]
+    },
+    "carretera barra navidad": {
+      "display": "carretera Barra de Navidad",
+      "seen": 3,
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-luz-zona-hotelera-sur-puerto-vallarta-19-marzo/"
+      ]
+    },
+    "calles guatemala": {
+      "display": "calles Guatemala",
+      "seen": 3,
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/incendio-baldio-alarma-vecinos-coapinole/"
+      ]
+    },
+    "alameda": {
+      "display": "Alameda",
+      "seen": 3,
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/incendio-baldio-alarma-vecinos-coapinole/"
+      ]
+    },
+    "politecnico": {
+      "display": "avenida Politécnico",
+      "seen": 3,
+      "first_seen": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/obra-limpieza-canal-peatones-puerto-vallarta/"
+      ]
+    },
+    "carretera 544 a palmas": {
+      "display": "Carretera 544 a Las Palmas",
+      "seen": 1,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://www.noticiaspv.com.mx/semaforos-fallan-caos-cruce-federacion-carretera-544/"
+      ]
+    },
+    "federacion": {
+      "display": "Avenida Federación",
+      "seen": 3,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://www.noticiaspv.com.mx/semaforos-fallan-caos-cruce-federacion-carretera-544/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-volcadura-canal-seguridad/",
+        "https://tribunadelabahia.com.mx/se-inunda-obra-siop-entrada-verde-vallarta/"
+      ]
+    },
+    "poetas": {
+      "display": "Poetas",
+      "seen": 1,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/lluvias-puerto-vallarta-inundaciones-trafico-caida-arbol-junio-2026/"
+      ]
+    },
+    "palm springs entre havre": {
+      "display": "calle Palm Springs entre Havre",
+      "seen": 1,
+      "first_seen": "2026-02-09",
+      "last_seen": "2026-02-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/drenaje-colapsa-versalles-puerto-vallarta/"
+      ]
+    },
+    "francia": {
+      "display": "Francia",
+      "seen": 1,
+      "first_seen": "2026-02-09",
+      "last_seen": "2026-02-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/drenaje-colapsa-versalles-puerto-vallarta/"
+      ]
+    },
+    "prisciliano sanchez casi en su cruce con mexico": {
+      "display": "avenida Prisciliano Sánchez casi en su cruce con avenida México",
+      "seen": 1,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/socavon-vallarta-prisciliano-sanchez-tardara-10-dias/"
+      ]
+    },
+    "calles 21 marzo": {
+      "display": "calles 21 de Marzo",
+      "seen": 1,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/ayuntamiento-puerto-vallarta-puente-peatonal-escaleras-coapinole/"
+      ]
+    },
+    "josefa ortiz dominguez": {
+      "display": "Josefa Ortiz de Domínguez",
+      "seen": 1,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/ayuntamiento-puerto-vallarta-puente-peatonal-escaleras-coapinole/"
+      ]
+    },
+    "alameda entre guerrero": {
+      "display": "calle Alameda, entre Guerrero",
+      "seen": 1,
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-agua-siete-colonias-puerto-vallarta-miercoles/"
+      ]
+    },
+    "ines meza entre ecuador": {
+      "display": "calle Inés Meza, entre Ecuador",
+      "seen": 1,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-amanece-con-reportes-de-cortes-de-luz/"
+      ]
+    },
+    "guatemala": {
+      "display": "Guatemala",
+      "seen": 1,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-amanece-con-reportes-de-cortes-de-luz/"
+      ]
+    },
+    "pavo real entre vialidades guacamayo": {
+      "display": "calle Pavo Real, entre las vialidades Guacamayo",
+      "seen": 1,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/ocho-colonias-puerto-vallarta-sin-agua-reparaciones-ruptura-tuberias-30-junio-2026/"
+      ]
+    },
+    "papagayo": {
+      "display": "Papagayo",
+      "seen": 1,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/ocho-colonias-puerto-vallarta-sin-agua-reparaciones-ruptura-tuberias-30-junio-2026/"
+      ]
+    },
+    "jorge negrete en su cruce con camino a playa grande": {
+      "display": "calle Jorge Negrete, en su cruce con Camino a Playa Grande",
+      "seen": 1,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-calle-moderna-baches/"
+      ]
+    },
+    "pulpito": {
+      "display": "calle Púlpito",
+      "seen": 2,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/camion-choca-poste-cfe-zona-romantica-sin-luz/",
+        "https://tribunadelabahia.com.mx/corte-agua-centro-emiliano-zapata-5diciembre/"
+      ]
+    },
+    "golondrina mar": {
+      "display": "calle Golondrina de Mar",
+      "seen": 1,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/campestre-las-canadas-sin-agua-27-abril-puerto-vallarta/"
+      ]
+    },
+    "con patos": {
+      "display": "con Los Patos",
+      "seen": 1,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/campestre-las-canadas-sin-agua-27-abril-puerto-vallarta/"
+      ]
+    },
+    "avenidas politecnico nacional": {
+      "display": "avenidas Politécnico Nacional",
+      "seen": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/obra-cfe-sin-agua-seis-colonias-vallarta-seapal/"
+      ]
+    },
+    "universo": {
+      "display": "Universo",
+      "seen": 2,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/obra-cfe-sin-agua-seis-colonias-vallarta-seapal/",
+        "https://tribunadelabahia.com.mx/seapal-repara-tuberia-cfe-restablece-agua-seis-colonias-vallarta/"
+      ]
+    },
+    "guillermo prieto": {
+      "display": "calle Guillermo Prieto",
+      "seen": 1,
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-02-11",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-puerto-vallarta-jueves-12-febrero-2026/"
+      ]
+    },
+    "palmas": {
+      "display": "avenida Las Palmas",
+      "seen": 5,
+      "first_seen": "2026-02-11",
+      "last_seen": "2026-08-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-puerto-vallarta-jueves-12-febrero-2026/",
+        "https://tribunadelabahia.com.mx/seapal-cerraran-carriles-avenida-mexico-vallarta/",
+        "https://tribunadelabahia.com.mx/seapal-cierres-avenida-mexico-palmas-drenaje-vallarta/",
+        "https://tribunadelabahia.com.mx/cierre-vial-en-avenida-las-palmas-por-tres-meses-al-norte-de-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/seapal-instala-bombeo-reparacion-avenida-mexico/"
+      ]
+    },
+    "gaviota": {
+      "display": "calle Gaviota",
+      "seen": 1,
+      "first_seen": "2026-02-21",
+      "last_seen": "2026-02-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-ixtapa-interrumpen-gira-munguia/"
+      ]
+    },
+    "con guillermo prieto": {
+      "display": "con Guillermo Prieto",
+      "seen": 1,
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-puerto-vallarta-26-febrero-2026/"
+      ]
+    },
+    "31 octubre": {
+      "display": "calle 31 de Octubre",
+      "seen": 3,
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-07-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-acumulada-calle-31-octubre/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-obras-centro-inconclusas/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-ocho-meses-malecon/"
+      ]
+    },
+    "boulevard francisco medina ascencio": {
+      "display": "boulevard Francisco Medina Ascencio",
+      "seen": 1,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/canal-pluvial-en-la-entrada-al-centro/"
+      ]
+    },
+    "nicaragua": {
+      "display": "Nicaragua",
+      "seen": 1,
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/sin-agua-colonia-5-de-diciembre-puerto-vallarta-seapal/"
+      ]
+    },
+    "ecuador": {
+      "display": "Ecuador",
+      "seen": 1,
+      "first_seen": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/sin-agua-colonia-5-de-diciembre-puerto-vallarta-seapal/"
+      ]
+    },
+    "felipe angeles": {
+      "display": "Felipe Ángeles",
+      "seen": 1,
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-ixtapa-vallarta/"
+      ]
+    },
+    "universidad valle atemajac": {
+      "display": "Universidad del Valle de Atemajac",
+      "seen": 1,
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-seapal-puerto-vallarta-mayo-2026/"
+      ]
+    },
+    "fresnos": {
+      "display": "Fresnos",
+      "seen": 1,
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-seapal-puerto-vallarta-mayo-2026/"
+      ]
+    },
+    "carretera a barra navidad": {
+      "display": "Carretera a Barra de Navidad",
+      "seen": 1,
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-centro-emiliano-zapata-5diciembre/"
+      ]
+    },
+    "jesus langarica": {
+      "display": "Jesús Langarica",
+      "seen": 1,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-obras-centro-inconclusas/"
+      ]
+    },
+    "bolivia": {
+      "display": "calle Bolivia",
+      "seen": 1,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/calle-bolivia-coapinole-bacheo-puerto-vallarta/"
+      ]
+    },
+    "politecnico nacional": {
+      "display": "avenida Politécnico Nacional",
+      "seen": 3,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-agua-avenida-politecnico-nacional-trafico-lento/",
+        "https://tribunadelabahia.com.mx/seapal-repara-tuberia-cfe-restablece-agua-seis-colonias-vallarta/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-tormenta-zona-hotelera-norte/"
+      ]
+    },
+    "rivera rio": {
+      "display": "calle Rivera del Río",
+      "seen": 1,
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/recibo-agua-seapal-vallarta-43-mil-pesos-emiliano-zapata/"
+      ]
+    },
+    "francisco murguia": {
+      "display": "calle Francisco Murguía",
+      "seen": 1,
+      "first_seen": "2026-02-12",
+      "last_seen": "2026-02-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/escurrimientos-de-agua-cruda-medina-ascencio/"
+      ]
+    },
+    "cascadas entre calles manantial": {
+      "display": "avenida Las Cascadas entre calles Manantial",
+      "seen": 1,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-basurero-clandestino-ojo-de-agua/"
+      ]
+    },
+    "arroyito": {
+      "display": "Arroyito",
+      "seen": 1,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-basurero-clandestino-ojo-de-agua/"
+      ]
+    },
+    "veracruz en su cruce con 21 marzo": {
+      "display": "calle Veracruz en su cruce con 21 de Marzo",
+      "seen": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/floresta-acumulacion-de-basura/"
+      ]
+    },
+    "libertad": {
+      "display": "Libertad",
+      "seen": 1,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/centro-camion-sin-frenos-arbo/"
+      ]
+    },
+    "paseo industria": {
+      "display": "Paseo de la Industria",
+      "seen": 1,
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/autos-abandonados-paseo-de-la-industria/"
+      ]
+    },
+    "avenidas mexico": {
+      "display": "avenidas México",
+      "seen": 1,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "evidence_urls": [
+        "https://diariodevallarta.com/seapal-avanza-reconstruccion-colector-centro-norte-tras-colapso/"
+      ]
+    },
+    "liverpool": {
+      "display": "Liverpool",
+      "seen": 1,
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/medina-ascencio-obra-mal-hecha/"
+      ]
+    },
+    "carretera federal 200": {
+      "display": "Carretera Federal 200",
+      "seen": 3,
+      "first_seen": "2026-02-21",
+      "last_seen": "2026-08-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/comiendo-carretera-200-boca-tomatlan/",
+        "https://tribunadelabahia.com.mx/carretera-federal-200-largas-filas-obras-km-115-paso-alternado/"
+      ]
+    },
+    "vialidad constitucion": {
+      "display": "vialidad Constitución",
+      "seen": 1,
+      "first_seen": "2026-03-03",
+      "last_seen": "2026-03-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puente-amado-nervo-ampliar-carriles/"
+      ]
+    },
+    "insurgentes": {
+      "display": "calle Insurgentes",
+      "seen": 1,
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puesto-frutas-insurgentes-puerto-vallarta-reclamo-zorrilla/"
+      ]
+    },
+    "20 noviembre": {
+      "display": "calle 20 de Noviembre",
+      "seen": 2,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-palmar-progreso-denuncian-areas-verdes-ejido-juntas/"
+      ]
+    },
+    "prosperidad": {
+      "display": "calle Prosperidad",
+      "seen": 2,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-palmar-progreso-denuncian-areas-verdes-ejido-juntas/"
+      ]
+    },
+    "francisco medina ascencio con prisciliano sanchez": {
+      "display": "avenida Francisco Medina Ascencio con Prisciliano Sánchez",
+      "seen": 1,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/proponen-modulo-adolescentes-comisaria-peatonales/"
+      ]
+    },
+    "ricardo flores magon": {
+      "display": "Ricardo Flores Magón",
+      "seen": 1,
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/incendio-vivienda-las-juntas/"
+      ]
+    },
+    "francisco serrano": {
+      "display": "Francisco Serrano",
+      "seen": 1,
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/incendio-vivienda-las-juntas/"
+      ]
+    },
+    "camino viejo al canton": {
+      "display": "Camino Viejo al Cantón",
+      "seen": 1,
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/habilitan-paso-provisional-la-desembocada-puerto-vallarta/"
+      ]
+    },
+    "grandes lagos numero 236": {
+      "display": "avenida de Los Grandes Lagos número 236",
+      "seen": 1,
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/unirse-reabre-puerto-vallarta-danos-balazos-acceso-estacionamiento/"
+      ]
+    },
+    "grandes lagos": {
+      "display": "avenida Grandes Lagos",
+      "seen": 1,
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/autorizan-tala-enorme-arbol-fluvial-vallarta-plaza/"
+      ]
+    }
+  },
+  "colonias": {
+    "brisas del pacifico": {
+      "display": "Brisas del Pacífico",
+      "seen": 1,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://vallartaindependiente.com/2026/08/24/fuga-de-agua-por-mas-de-cuatro-dias-afecta-a-la-colonia-brisas-del-pacifico/"
+      ]
+    },
+    "pitillal": {
+      "display": "El Pitillal",
+      "seen": 16,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-08-15",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-contaminacion-tuki-parque/",
+        "https://tribunadelabahia.com.mx/por-que-no-agua-colonias-vallarta-seapal/",
+        "https://tribunadelabahia.com.mx/convocan-protesta-contra-seapal-corte-agua/",
+        "https://tribunadelabahia.com.mx/restablecen-servicio-agua-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/llenando-tanques-seapal-alta-demanda/",
+        "https://tribunadelabahia.com.mx/tormenton-sorprende-puerto-vallarta-dia-san-juan/",
+        "https://tribunadelabahia.com.mx/seapal-activa-pipas-gratuitas-colonias-vallarta/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-restablecimiento-agua-3/",
+        "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-18-colonias-afectadas/",
+        "https://tribunadelabahia.com.mx/que-dia-hora-regresa-agua-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/proponen-modulo-adolescentes-comisaria-peatonales/"
+      ]
+    },
+    "versalles": {
+      "display": "Versalles",
+      "seen": 11,
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-07-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/colapso-drenaje-versalles-seapal-taponamiento-mexico/",
+        "https://tribunadelabahia.com.mx/aguas-negras-inundan-versalle-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-fuga-agua-versalles/",
+        "https://tribunadelabahia.com.mx/bache-peligroso-versalles/",
+        "https://tribunadelabahia.com.mx/crece-vallarta-infraestructura-urbana-rezagando/",
+        "https://tribunadelabahia.com.mx/drenaje-colapsa-versalles-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/aguas-negras-versalles-realizan-limpieza/"
+      ]
+    },
+    "morelos y pavon": {
+      "display": "Morelos y Pavón",
+      "seen": 4,
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-08-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-calle-madero-abandono/",
+        "https://tribunadelabahia.com.mx/apagones-puerto-vallarta-vecinos-dos-dias-sin-luz/"
+      ]
+    },
+    "idipe": {
+      "display": "Idipe",
+      "seen": 2,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/ixtapa-basura-recoleccion-colapsa/"
+      ]
+    },
+    "emiliano zapata": {
+      "display": "Emiliano Zapata",
+      "seen": 5,
+      "first_seen": "2026-02-14",
+      "last_seen": "2026-07-15",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/calle-anegada-aguas-negras/",
+        "https://tribunadelabahia.com.mx/bloc-party-2026-fuga-drenaje-basura-emiliano-zapata/",
+        "https://tribunadelabahia.com.mx/recibo-agua-seapal-vallarta-43-mil-pesos-emiliano-zapata/",
+        "https://tribunadelabahia.com.mx/puesto-frutas-insurgentes-puerto-vallarta-reclamo-zorrilla/"
+      ]
+    },
+    "moderna": {
+      "display": "La Moderna",
+      "seen": 3,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-08-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-agua-seapal-reportes/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-calle-moderna-baches/"
+      ]
+    },
+    "getsemani": {
+      "display": "Getsemaní",
+      "seen": 2,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-getsemani-crisis-basura/"
+      ]
+    },
+    "mina ii": {
+      "display": "Mina II",
+      "seen": 2,
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-ixtapa-denuncian-abandono-calle-estano/"
+      ]
+    },
+    "": {
+      "display": "Centro",
+      "seen": 5,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-08-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-morelos-obras/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-pozo-calle-juarez/",
+        "https://tribunadelabahia.com.mx/recoleccion-basura-puerto-vallarta-camiones-ayuntamiento/"
+      ]
+    },
+    "sauces": {
+      "display": "Los Sauces",
+      "seen": 2,
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-basura-sauces-denuncia/"
+      ]
+    },
+    "bugambilias": {
+      "display": "Bugambilias",
+      "seen": 4,
+      "first_seen": "2026-04-03",
+      "last_seen": "2026-07-08",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-bugambilias-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/otro-dia-sin-agua-cinco-colonias-puerto-vallarta-restablecimiento-servicio/"
+      ]
+    },
+    "campo verde": {
+      "display": "Campo Verde",
+      "seen": 2,
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-04-30",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/crisis-recoleccion-basura-puerto-vallarta-colonias/"
+      ]
+    },
+    "bobadilla": {
+      "display": "La Bobadilla",
+      "seen": 5,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-de-la-bobadilla-denuncian-acumulacion-basura/",
+        "https://tribunadelabahia.com.mx/arboles-cables-bobadilla/",
+        "https://tribunadelabahia.com.mx/colonias-sin-agua-puerto-vallarta-pozo-38-falla/"
+      ]
+    },
+    "ex haciendas pitillal": {
+      "display": "Ex Haciendas del Pitillal",
+      "seen": 7,
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-socavon-exhaciendas-pitillal/",
+        "https://tribunadelabahia.com.mx/vecinos-de-ex-haciendas-del-pitillal-denuncian-deterioro-de-avenida-pese-a-recientes-reparaciones/",
+        "https://tribunadelabahia.com.mx/arboles-cinepolis-peligro-para-vecinos-ex-haciendas-pitillal/"
+      ]
+    },
+    "jardines puerto": {
+      "display": "Jardines del Puerto",
+      "seen": 2,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-inundaciones-jardines-puerto/"
+      ]
+    },
+    "toro": {
+      "display": "Del Toro",
+      "seen": 2,
+      "first_seen": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-agua-col-del-toro/"
+      ]
+    },
+    "olimpica": {
+      "display": "Olímpica",
+      "seen": 2,
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-olimpica-abandono-contaminacion-canal/"
+      ]
+    },
+    "santa maria": {
+      "display": "Santa María",
+      "seen": 4,
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-canal-de-la-colonia-santa-maria/",
+        "https://tribunadelabahia.com.mx/abandono-parque-barrio-santa-maria/"
+      ]
+    },
+    "tamarindos": {
+      "display": "Los Tamarindos",
+      "seen": 7,
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/inundaciones-ixtapa-vehiculos-lluvia-vallarta/",
+        "https://tribunadelabahia.com.mx/acumulacion-de-basura-ixtapa/",
+        "https://tribunadelabahia.com.mx/autos-abandonados-los-tamarindos-basura/",
+        "https://tribunadelabahia.com.mx/vecinos-ixtapa-interrumpen-gira-munguia/"
+      ]
+    },
+    "san esteban": {
+      "display": "San Esteban",
+      "seen": 2,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-queman-basura-fallas-recoleccion-puerto-vallarta/"
+      ]
+    },
+    "progreso": {
+      "display": "El Progreso",
+      "seen": 3,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-08-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fugas-sin-atender-progreso/",
+        "https://tribunadelabahia.com.mx/desesperados-falta-agua-vallartenses-lluvia-banarse/"
+      ]
+    },
+    "loma bonita": {
+      "display": "Loma Bonita",
+      "seen": 4,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-loma-bonita-calle-abandono/",
+        "https://tribunadelabahia.com.mx/loma-bonita-sin-agua/"
+      ]
+    },
+    "santa elena": {
+      "display": "Santa Elena",
+      "seen": 2,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-basura-santa-elena/"
+      ]
+    },
+    "salitrillo": {
+      "display": "El Salitrillo",
+      "seen": 4,
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/fuga-salitrillo-excremento/",
+        "https://tribunadelabahia.com.mx/conexiones-irregulares-puerto-vallarta/"
+      ]
+    },
+    "12 octubre": {
+      "display": "12 de Octubre",
+      "seen": 2,
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-colonias-vallarta-persiste-falta/"
+      ]
+    },
+    "portales": {
+      "display": "Portales",
+      "seen": 2,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-portales-basura-acumulada/"
+      ]
+    },
+    "fovissste": {
+      "display": "Fovissste",
+      "seen": 3,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-07-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/contaminacion-aguas-negras-urgencias-issste/",
+        "https://tribunadelabahia.com.mx/seapal-vallarta-calle-fovissste-100-encharcamientos/"
+      ]
+    },
+    "palmares universidad": {
+      "display": "Palmares Universidad",
+      "seen": 2,
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/acumulacion-basura-ixtapa/"
+      ]
+    },
+    "palmar aramara": {
+      "display": "Palmar de Aramara",
+      "seen": 4,
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/desabasto-agua-obliga-cerrar-restaurantes-vallarta/",
+        "https://tribunadelabahia.com.mx/desperdicio-agua-molestia-en-palmar-de-aramara/"
+      ]
+    },
+    "ecoteras": {
+      "display": "Ecoteras",
+      "seen": 2,
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-cambio-horario-basura/"
+      ]
+    },
+    "desembocada": {
+      "display": "La Desembocada",
+      "seen": 2,
+      "first_seen": "2026-02-27",
+      "last_seen": "2026-02-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/anuncian-llegada-60-camiones-puerto-vallarta/"
+      ]
+    },
+    "magisterio": {
+      "display": "Magisterio",
+      "seen": 4,
+      "first_seen": "2026-02-26",
+      "last_seen": "2026-03-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/quejas-acumulacion-basura/",
+        "https://tribunadelabahia.com.mx/vehiculos-abandonados-magisterio-puerto-vallarta/"
+      ]
+    },
+    "glorias": {
+      "display": "Las Glorias",
+      "seen": 6,
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-08-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/desazolvan-las-glorias-evitar-inundaciones-vallarta/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-estacionamiento-autobuses-glorias/",
+        "https://tribunadelabahia.com.mx/clima-puerto-vallarta-hoy-8-agosto-hora-llovera/"
+      ]
+    },
+    "laguna valle": {
+      "display": "Laguna del Valle",
+      "seen": 2,
+      "first_seen": "2026-04-27",
+      "last_seen": "2026-04-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/irregularidad-recoleccion-basura-puerto-vallarta-lagunas-del-valle/"
+      ]
+    },
+    "zona romantica": {
+      "display": "Zona Romántica",
+      "seen": 3,
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-28",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-banqueta-basilio-badillo/",
+        "https://tribunadelabahia.com.mx/preocupa-lgbt-restriccion-en-vallarta-pride/"
+      ]
+    },
+    "delfines": {
+      "display": "Los Delfines",
+      "seen": 2,
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncia-basurero-clandestino-los-delfines-puerto-vallarta/"
+      ]
+    },
+    "hipodromo": {
+      "display": "Hipódromo",
+      "seen": 2,
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-autos-abandonados-hipodromo/"
+      ]
+    },
+    "mojoneras": {
+      "display": "Mojoneras",
+      "seen": 5,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-mojoneras-avenida-mexico/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-lluvia-provoca-encharcamientos-viales/",
+        "https://tribunadelabahia.com.mx/cierre-vial-en-avenida-las-palmas-por-tres-meses-al-norte-de-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/seapal-instala-bombeo-reparacion-avenida-mexico/"
+      ]
+    },
+    "linda vista oceano": {
+      "display": "Linda Vista Océano",
+      "seen": 2,
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/apertura-irregular-camino-linda-vista/"
+      ]
+    },
+    "ramblases": {
+      "display": "Ramblases",
+      "seen": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/recoleccion-basura-puerto-vallarta-garantizada-el-gavilan/"
+      ]
+    },
+    "brisas pacifico": {
+      "display": "Brisas del Pacífico",
+      "seen": 3,
+      "first_seen": "2026-04-10",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-de-brisas-del-pacifico-falta-agua/",
+        "https://vallartaindependiente.com/2026/08/24/fuga-de-agua-por-mas-de-cuatro-dias-afecta-a-la-colonia-brisas-del-pacifico/"
+      ]
+    },
+    "juntas": {
+      "display": "Las Juntas",
+      "seen": 8,
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-abandono-basura-parque-las-juntas/",
+        "https://tribunadelabahia.com.mx/corte-agua-las-juntas-puerto-vallarta-12-marzo/",
+        "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-27-marzo-ixtapa-las-juntas/",
+        "https://tribunadelabahia.com.mx/escurrimientos-de-agua-cruda-medina-ascencio/",
+        "https://tribunadelabahia.com.mx/incendio-vivienda-las-juntas/"
+      ]
+    },
+    "paseo ribera": {
+      "display": "Paseo de la Ribera",
+      "seen": 2,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-denuncian-invasion-area-verde/"
+      ]
+    },
+    "paso ribera": {
+      "display": "Paso de la Ribera",
+      "seen": 2,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-obras-irregulares-instalacion-circo-ayala/"
+      ]
+    },
+    "fluvial vallarta": {
+      "display": "Fluvial Vallarta",
+      "seen": 3,
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-07-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-semaforos-fluvial-falla/",
+        "https://tribunadelabahia.com.mx/unirse-reabre-puerto-vallarta-danos-balazos-acceso-estacionamiento/"
+      ]
+    },
+    "5 diciembre": {
+      "display": "5 de Diciembre",
+      "seen": 3,
+      "first_seen": "2026-02-27",
+      "last_seen": "2026-02-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/mercado-5-de-diciembre-puerto-vallarta-incendiado-ya-funciona/"
+      ]
+    },
+    "ecoterra": {
+      "display": "Ecoterra",
+      "seen": 3,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-ecoterra-domo-escolar/",
+        "https://tribunadelabahia.com.mx/ecoterra-sin-agua-miercoles-puerto-vallarta/"
+      ]
+    },
+    "coapinole": {
+      "display": "Coapinole",
+      "seen": 8,
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-08-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/incendio-baldio-alarma-vecinos-coapinole/",
+        "https://tribunadelabahia.com.mx/ayuntamiento-puerto-vallarta-puente-peatonal-escaleras-coapinole/",
+        "https://tribunadelabahia.com.mx/fuga-agua-siete-colonias-puerto-vallarta-miercoles/",
+        "https://tribunadelabahia.com.mx/calle-bolivia-coapinole-bacheo-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-incendio-lote-baldio-seguridad/",
+        "https://tribunadelabahia.com.mx/puerto-vallarta-camiones-insuficientes/"
+      ]
+    },
+    "lomas calvario": {
+      "display": "Lomas del Calvario",
+      "seen": 1,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-08-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-amanece-con-reportes-de-cortes-de-luz/"
+      ]
+    },
+    "capricho": {
+      "display": "El Capricho",
+      "seen": 1,
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/socavon-prisciliano-sanchez-cierre-72-horas-puerto-vallarta/"
+      ]
+    },
+    "villa guadalupe": {
+      "display": "Villa de Guadalupe",
+      "seen": 1,
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/seapal-normalizar-suministro-agua-llevamos-sin-agua-ciudadanos/"
+      ]
+    },
+    "amapas": {
+      "display": "Amapas",
+      "seen": 1,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/camion-choca-poste-cfe-zona-romantica-sin-luz/"
+      ]
+    },
+    "campestre canadas": {
+      "display": "Campestre Las Cañadas",
+      "seen": 1,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/campestre-las-canadas-sin-agua-27-abril-puerto-vallarta/"
+      ]
+    },
+    "mismaloya": {
+      "display": "Mismaloya",
+      "seen": 3,
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-19",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-zona-hotelera-sur-mismaloya-19-marzo/",
+        "https://diariodevallarta.com/zona-hotelera-sur-y-mismaloya-se-quedaran-sin-luz-y-agua-este-jueves-en-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/apagon-en-zona-hotelera-de-puerto-vallarta-jueves/"
+      ]
+    },
+    "san miguel": {
+      "display": "San Miguel",
+      "seen": 1,
+      "first_seen": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-increpan-alcalde-puerto-vallarta-agua/"
+      ]
+    },
+    "marina vallarta": {
+      "display": "Marina Vallarta",
+      "seen": 3,
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-05-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-masivo-vallarta-hoy-140-colonias/",
+        "https://tribunadelabahia.com.mx/seapal-concluye-reparacion-tuberia-en-vallarta/",
+        "https://tribunadelabahia.com.mx/incendio-marina-vallarta-preocupa-ayuntamiento/"
+      ]
+    },
+    "aramara": {
+      "display": "Aramara",
+      "seen": 1,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/89-colonias-puerto-vallarta-falta-agua-miercoles-12-agosto/"
+      ]
+    },
+    "ojo agua": {
+      "display": "Ojo de Agua",
+      "seen": 1,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-basurero-clandestino-ojo-de-agua/"
+      ]
+    },
+    "floresta": {
+      "display": "La Floresta",
+      "seen": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/floresta-acumulacion-de-basura/"
+      ]
+    },
+    "diaz ordaz": {
+      "display": "Díaz Ordaz",
+      "seen": 1,
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-26-marzo-colonias/"
+      ]
+    },
+    "jorullo": {
+      "display": "El Jorullo",
+      "seen": 1,
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/el-jorullo-llanitos-delegacion-puerto-vallarta/"
+      ]
+    },
+    "aurora": {
+      "display": "La Aurora",
+      "seen": 2,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-apagones-zonas/",
+        "https://tribunadelabahia.com.mx/seapal-vallarta-corte-agua-tuberia-rota/"
+      ]
+    },
+    "cristobal colon": {
+      "display": "Cristóbal Colón",
+      "seen": 1,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-volcadura-canal-seguridad/"
+      ]
+    },
+    "ixtapa": {
+      "display": "Ixtapa Centro",
+      "seen": 1,
+      "first_seen": "2026-02-13",
+      "last_seen": "2026-02-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/agua-intermitente-ixtapa-cinco-dias-pozo-3/"
+      ]
+    },
+    "conchas": {
+      "display": "Las Conchas",
+      "seen": 1,
+      "first_seen": "2026-02-27",
+      "last_seen": "2026-02-27",
+      "evidence_urls": [
+        "https://diariodevallarta.com/santana-inicia-obra-de-acceso-las-conchas-en-san-jose-del-valle/"
+      ]
+    },
+    "palma real": {
+      "display": "Palma Real",
+      "seen": 1,
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "evidence_urls": [
+        "https://diariodevallarta.com/bacheo-palma-real-mejora-calles-bahia-de-banderas/"
+      ]
+    },
+    "palmar progreso": {
+      "display": "colonia Palmar del Progreso",
+      "seen": 3,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-palmar-progreso-denuncian-areas-verdes-ejido-juntas/",
+        "https://tribunadelabahia.com.mx/vecinos-palmar-progreso-fueron-enganados-areas-verdes/"
+      ]
+    },
+    "verde vallarta": {
+      "display": "Verde Vallarta",
+      "seen": 1,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/se-inunda-obra-siop-entrada-verde-vallarta/"
+      ]
+    }
+  },
+  "landmarks": {
+    "conalep 1": {
+      "display": "Conalep 1",
+      "seen": 2,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-registro-abierto-francisco-villa/"
+      ]
+    },
+    "convenciones": {
+      "display": "Centro de Convenciones",
+      "seen": 2,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/vecinos-mojoneras-ayuntamiento-vallarta-inundaciones/"
+      ]
+    },
+    "tuki": {
+      "display": "Tuki Parque",
+      "seen": 2,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-contaminacion-tuki-parque/"
+      ]
+    },
+    "playa muertos": {
+      "display": "Playa Los Muertos",
+      "seen": 2,
+      "first_seen": "2026-02-14",
+      "last_seen": "2026-02-14",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/calle-anegada-aguas-negras/"
+      ]
+    },
+    "relleno sanitario gavilan": {
+      "display": "relleno sanitario de El Gavilán",
+      "seen": 7,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-07-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-incendio-gavilan-residuos/",
+        "https://tribunadelabahia.com.mx/ayuntamiento-desmiente-falsa-colecta-viveres-incendio-el-gavilan/",
+        "https://tribunadelabahia.com.mx/relleno-sanitario-el-gavilan-riesgo-multas-cierre-total/",
+        "https://tribunadelabahia.com.mx/incendio-relleno-sanitario-el-gavilan-85-por-ciento-controlado/"
+      ]
+    },
+    "playa holi": {
+      "display": "Playa Holi",
+      "seen": 4,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-basura-entrada-playa-holi/",
+        "https://tribunadelabahia.com.mx/playa-holi-perdido-mas-30-superficie-advierten/"
+      ]
+    },
+    "uma": {
+      "display": "UMA",
+      "seen": 2,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-portales-basura-acumulada/"
+      ]
+    },
+    "ojo agua": {
+      "display": "parque Ojo de Agua",
+      "seen": 2,
+      "first_seen": "2026-07-25",
+      "last_seen": "2026-07-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-parque-ojo-agua-abandono/"
+      ]
+    },
+    "cafe leche": {
+      "display": "Café + Leche",
+      "seen": 2,
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/desabasto-agua-obliga-cerrar-restaurantes-vallarta/"
+      ]
+    },
+    "lazaro cardenas": {
+      "display": "Parque Lázaro Cárdenas",
+      "seen": 3,
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-suciedad-abandono-parque-lazaro-cardenas-puerto-vallarta/"
+      ]
+    },
+    "galerias vallarta": {
+      "display": "Galerías Vallarta",
+      "seen": 2,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-baches-zona-hotelera/"
+      ]
+    },
+    "sobre rio mascota": {
+      "display": "puente sobre el río Mascota",
+      "seen": 4,
+      "first_seen": "2026-02-25",
+      "last_seen": "2026-02-25",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/unibus-reanuda-rutas-puerto-vallarta-quema-camiones/",
+        "https://tribunadelabahia.com.mx/comunidades-sin-viveres-puente-desembocada-puerto-vallarta/"
+      ]
+    },
+    "acopio animal": {
+      "display": "Centro de Acopio Animal",
+      "seen": 2,
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/apertura-irregular-camino-linda-vista/"
+      ]
+    },
+    "municipal 5 diciembre": {
+      "display": "Mercado Municipal 5 de Diciembre",
+      "seen": 4,
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-04-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/mercado-5-diciembre-danos-incendios-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/incendios-mercado-5-diciembre-cableado-riesgo/"
+      ]
+    },
+    "municipal gavilanes": {
+      "display": "vertedero municipal Los Gavilanes",
+      "seen": 2,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/mas-de-100-elementos-combaten-incendio-los-gavilanes-puerto-vallarta/"
+      ]
+    },
+    "basurero gavilan": {
+      "display": "basurero El Gavilán",
+      "seen": 2,
+      "first_seen": "2026-05-28",
+      "last_seen": "2026-05-28",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/incendio-llantas-gavilanes-columna-humo/"
+      ]
+    },
+    "gavilan": {
+      "display": "El Gavilán",
+      "seen": 5,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/reportan-derrame-lixiviados-relleno-el-gavilan/",
+        "https://diariodevallarta.com/incendio-relleno-sanitario-puerto-vallarta-controlado/",
+        "https://tribunadelabahia.com.mx/proepa-confirma-clausura-relleno-sanitario-el-gavilan-puerto-vallarta/"
+      ]
+    },
+    "caracol": {
+      "display": "Plaza Caracol",
+      "seen": 2,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-deforestacion-incrementa-temperatura-urbana/"
+      ]
+    },
+    "lineal pitillal": {
+      "display": "Parque Lineal del Pitillal",
+      "seen": 2,
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-parque-pitillal-sin-luz/"
+      ]
+    },
+    "playa flamingos": {
+      "display": "Playa Flamingos",
+      "seen": 2,
+      "first_seen": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/basura-en-la-colonia-ignacio-l-vallarta/"
+      ]
+    },
+    "esmeralda": {
+      "display": "Esmeralda",
+      "seen": 2,
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/descargas-aguas-negras-playas-sur-puerto-vallarta/"
+      ]
+    },
+    "unidad municipal administrativa": {
+      "display": "Unidad Municipal Administrativa",
+      "seen": 2,
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/sin-luz-uma-puerto-vallarta-jueves/"
+      ]
+    },
+    "lienzo charro rivera": {
+      "display": "Lienzo Charro La Rivera",
+      "seen": 2,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/denuncian-obras-irregulares-instalacion-circo-ayala/"
+      ]
+    },
+    "parota": {
+      "display": "Plaza Parota",
+      "seen": 2,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-arbol-papelillo-riesgo/"
+      ]
+    },
+    "hidalgo": {
+      "display": "Parque Hidalgo",
+      "seen": 6,
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-27",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/comerciantes-malecon-paseo-peatonal/",
+        "https://tribunadelabahia.com.mx/semana-santa-no-concluye-ampliacion-malecon/"
+      ]
+    },
+    "isla rio cuale": {
+      "display": "Isla del Río Cuale",
+      "seen": 2,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/abandono-gatos-isla-rio-cuale-puerto-vallarta-vigilancia/"
+      ]
+    },
+    "laguna tomasa": {
+      "display": "Laguna Tomasa",
+      "seen": 5,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-laguna-tomasa-parque-ecologico/",
+        "https://tribunadelabahia.com.mx/lluvias-puerto-vallarta-inundaciones-trafico-caida-arbol-junio-2026/"
+      ]
+    },
+    "playa cuale": {
+      "display": "Playa del Cuale",
+      "seen": 4,
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-proteger-playas-contaminacion/"
+      ]
+    },
+    "capricho": {
+      "display": "fraccionamiento El Capricho",
+      "seen": 3,
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/colapso-colector-vallarta-grave-de-lo-previsto-seapal/"
+      ]
+    },
+    "canal": {
+      "display": "canal",
+      "seen": 6,
+      "first_seen": "2026-03-10",
+      "last_seen": "2026-04-12",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/estudiantes-cuc-puerto-vallarta-sombra-parada-avenida-mexico/",
+        "https://tribunadelabahia.com.mx/obra-limpieza-canal-peatones-puerto-vallarta/"
+      ]
+    },
+    "universitario costa": {
+      "display": "Centro Universitario de la Costa",
+      "seen": 1,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "evidence_urls": [
+        "https://www.noticiaspv.com.mx/inundaciones-afectan-acceso-centro-universitario-costa/"
+      ]
+    },
+    "tanque mangal": {
+      "display": "tanque El Mangal",
+      "seen": 1,
+      "first_seen": "2026-04-01",
+      "last_seen": "2026-04-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-pitillal-coapinole-desabasto-agua/"
+      ]
+    },
+    "telcel": {
+      "display": "Telcel",
+      "seen": 1,
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/seapal-vallarta-canal-inundacion-francisco-villa/"
+      ]
+    },
+    "tropicana": {
+      "display": "Hotel Tropicana",
+      "seen": 1,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/camion-choca-poste-cfe-zona-romantica-sin-luz/"
+      ]
+    },
+    "unidad deportiva agustin flores contreras": {
+      "display": "Unidad Deportiva Agustín Flores Contreras",
+      "seen": 1,
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/francisco-villa-amanece-agua-vallarta-lluvia-varados/"
+      ]
+    },
+    "terreno pensiones estado": {
+      "display": "terreno de Pensiones del Estado",
+      "seen": 1,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/canal-pluvial-en-la-entrada-al-centro/"
+      ]
+    },
+    "clinica issste": {
+      "display": "clínica del ISSSTE",
+      "seen": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/seapal-vallarta-calle-fovissste-100-encharcamientos/"
+      ]
+    },
+    "desembocada": {
+      "display": "puente de La Desembocada",
+      "seen": 2,
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-26",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/habilitan-brecha-alterna-cierre-puente-la-desembocada-puerto-vallarta/",
+        "https://tribunadelabahia.com.mx/puente-desembocada-reconstruccion-julio-80-millones-jalisco/"
+      ]
+    },
+    "tanque agua azul": {
+      "display": "Tanque Agua Azul",
+      "seen": 1,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/cinco-colonias-sin-agua-puerto-vallarta-falla-tanque-agua-azul/"
+      ]
+    },
+    "malecon puerto vallarta": {
+      "display": "Malecón Puerto Vallarta",
+      "seen": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puerto-vallarta-ocho-meses-malecon/"
+      ]
+    },
+    "presa derivadora gaviotas": {
+      "display": "presa derivadora Las Gaviotas",
+      "seen": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/el-caudal-aumenta-pero-siguen-cruzando/"
+      ]
+    },
+    "amado nervo": {
+      "display": "puente Amado Nervo",
+      "seen": 4,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/puente-amado-nervo-ciclovia-balizamiento-riesgo/",
+        "https://tribunadelabahia.com.mx/puente-amado-nervo-ampliar-carriles/",
+        "https://tribunadelabahia.com.mx/puente-amado-nervo-avanza-terminara-antes/",
+        "https://tribunadelabahia.com.mx/puente-amado-nervo-obras-retrasan-apertura/"
+      ]
+    },
+    "rio mascota": {
+      "display": "río Mascota",
+      "seen": 1,
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/nuevo-paso-vehicular-rio-mascota-puente-desembocada-vallarta/"
+      ]
+    },
+    "edificio 2005 b": {
+      "display": "edificio 2005 B",
+      "seen": 1,
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/seapal-vallarta-corte-agua-tuberia-rota/"
+      ]
+    },
+    "boca tomatlan": {
+      "display": "Boca de Tomatlán",
+      "seen": 1,
+      "first_seen": "2026-02-21",
+      "last_seen": "2026-02-21",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/comiendo-carretera-200-boca-tomatlan/"
+      ]
+    },
+    "relleno sanitario gavilanes": {
+      "display": "relleno sanitario Los Gavilanes",
+      "seen": 1,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-05-29",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/mientras-vallarta-arde-munguia-presume-encuesta-los-gavilanes/"
+      ]
+    },
+    "universitario costa cuc": {
+      "display": "Centro Universitario de la Costa (CUC)",
+      "seen": 1,
+      "first_seen": "2026-03-30",
+      "last_seen": "2026-03-30",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/reparan-semaforo-cucosta-vallarta-semanas-fuera-de-servicio/"
+      ]
+    },
+    "nodo vial": {
+      "display": "nodo vial",
+      "seen": 1,
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/persisten-cierres-nodo-vial-las-juntas-caos-vial/"
+      ]
+    },
+    "krystal": {
+      "display": "hotel Krystal",
+      "seen": 1,
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/derrapa_motociclista-menor-herido/"
+      ]
+    },
+    "hospital regional puerto vallarta": {
+      "display": "Hospital Regional de Puerto Vallarta",
+      "seen": 1,
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "evidence_urls": [
+        "https://tribunadelabahia.com.mx/personas-situacion-calle-hospital-regional-puerto-vallarta/"
+      ]
+    }
+  }
+}

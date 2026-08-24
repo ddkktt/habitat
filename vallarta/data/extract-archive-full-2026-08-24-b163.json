@@ -1,0 +1,59 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/clausuran-obras-muelle-de-boca-de-tomatlan/",
+  "article_date": "2026-05-06",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "yes",
+  "categories": [
+   "transit"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "muelle de Boca de Tomatlán, al sur de Puerto Vallarta",
+  "street": null,
+  "colonia": "Boca de Tomatlán",
+  "landmark": "muelle de Boca de Tomatlán",
+  "summary": "Civil Protection halted shade-structure works on Boca de Tomatlan pier after slab openings damaged its steel, posing structural risk to users.",
+  "affected_people_clue": "muchos turistas utilizan este punto diariamente",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/camioneta-ayuntamiento-se-incendia-caloso/",
+  "article_date": "2026-05-01",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "other"
+  ],
+  "status": "resolved",
+  "location_certainty": "exact",
+  "location_evidence": "en la colonia El Caloso, en Puerto Vallarta … debajo del puente del Libramiento Luis Donaldo Colosio",
+  "street": null,
+  "colonia": "El Caloso",
+  "landmark": "puente del Libramiento Luis Donaldo Colosio",
+  "summary": "City-owned truck caught fire under Libramiento bridge in El Caloso; extinguished; article questions municipal fleet maintenance, so qualification is doubtful.",
+  "affected_people_clue": "un domicilio cercano resultó afectado por el humo",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/segob-entra-al-conflicto-en-punta-mita/",
+  "article_date": "2026-04-29",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "Playa Las Cocinas, ubicada en la Zona Federal Marítimo Terrestre (ZOFEMAT) de Punta Mita, Nayarit",
+  "street": null,
+  "colonia": "Punta Mita",
+  "landmark": "Playa Las Cocinas",
+  "summary": "Residents protest tourist development restricting public beach access at Playa Las Cocinas, Punta Mita; federal dialogue promised; borderline land-use conflict, qualification unsure.",
+  "affected_people_clue": "pobladores de Punta Mita",
+  "duration_clue": "varios días de tensión"
+ }
+]

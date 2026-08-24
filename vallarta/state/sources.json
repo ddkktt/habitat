@@ -1,0 +1,93 @@
+{
+  "note": "Feed registry per city. Only the approved Puerto Vallarta set from vallarta_agent_prompt.md is active. A Guadalajara set was added and removed on 2026-08-24 at the operator's direction: Guadalajara is out of scope. Its collected data is parked in data/removed-gdl/ rather than deleted, in case the Jalisco outlets are later wanted as sources of Puerto Vallarta coverage.",
+  "cities": {
+    "vallarta": {
+      "label": "Puerto Vallarta",
+      "local_terms": [
+        "puerto vallarta",
+        "vallarta",
+        "bahia de banderas",
+        "ixtapa",
+        "pitillal",
+        "las juntas",
+        "mezcales",
+        "bucerias",
+        "seapal"
+      ],
+      "feeds": {
+        "tribuna": {
+          "name": "Tribuna de la Bahía",
+          "url": "https://tribunadelabahia.com.mx/feed/"
+        },
+        "independiente": {
+          "name": "Vallarta Independiente",
+          "url": "https://vallartaindependiente.com/feed/"
+        },
+        "diario": {
+          "name": "Diario de Vallarta",
+          "url": "https://diariodevallarta.com/feed/"
+        },
+        "noticiaspv": {
+          "name": "NoticiasPV",
+          "url": "https://www.noticiaspv.com.mx/feed/"
+        },
+        "meridiano": {
+          "name": "Meridiano",
+          "url": "https://meridiano.mx/feed/"
+        },
+        "banderasnews": {
+          "name": "Banderas News",
+          "url": "https://banderasnews.com/feed/"
+        }
+      }
+    }
+  },
+  "inactive_cities": {
+    "gdl": {
+      "label": "Guadalajara / ZMG",
+      "local_terms": [
+        "guadalajara",
+        "zapopan",
+        "tlaquepaque",
+        "tonala",
+        "tlajomulco",
+        "el salto",
+        "zmg",
+        "zona metropolitana",
+        "jalisco",
+        "siapa",
+        "colonia",
+        "mi macro",
+        "periferico",
+        "calzada independencia",
+        "avenida vallarta"
+      ],
+      "feeds": {
+        "informador": {
+          "name": "El Informador",
+          "url": "https://www.informador.mx/rss/jalisco.xml"
+        },
+        "occidental": {
+          "name": "El Occidental",
+          "url": "https://www.eloccidental.com.mx/rss.xml"
+        },
+        "udgtv": {
+          "name": "UDG TV",
+          "url": "https://udgtv.com/feed/"
+        },
+        "quadratin": {
+          "name": "Quadratín Jalisco",
+          "url": "https://jalisco.quadratin.com.mx/feed/"
+        },
+        "partidero": {
+          "name": "Partidero",
+          "url": "https://partidero.com/feed/"
+        },
+        "zonadocs": {
+          "name": "ZonaDocs",
+          "url": "https://zonadocs.mx/feed/"
+        }
+      }
+    }
+  }
+}

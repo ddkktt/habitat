@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/derrapa_motociclista-menor-herido/",
+    "article_date": "2026-03-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Francisco Medina Ascencio, frente al hotel Krystal",
+    "street": "avenida Francisco Medina Ascencio",
+    "colonia": null,
+    "landmark": "hotel Krystal",
+    "summary": "A road-surface defect on Francisco Medina Ascencio caused a motorcycle crash, while another irregular bump remains unaddressed.",
+    "affected_people_clue": "un motociclista y su hijo",
+    "duration_clue": "no ha sido atendido"
+  }
+]

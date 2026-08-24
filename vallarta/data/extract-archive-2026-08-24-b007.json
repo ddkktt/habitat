@@ -1,0 +1,175 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/desabasto-agua-obliga-cerrar-restaurantes-vallarta/",
+    "article_date": "2026-08-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Café + Leche, ubicado en Palmar de Aramara",
+    "street": null,
+    "colonia": "Palmar de Aramara",
+    "landmark": "Café + Leche",
+    "summary": "Water shortages across Puerto Vallarta force a Palmar de Aramara restaurant to close temporarily as service restoration remains gradual.",
+    "affected_people_clue": "alrededor de 140 colonias",
+    "duration_clue": "durante el domingo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/colonias-puerto-vallarta-intermitencias-agua-seapal/",
+    "article_date": "2026-08-20",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Intermittent water, low pressure, and temporary outages persist across Puerto Vallarta after more than 72 hours of contingency work.",
+    "affected_people_clue": "aproximadamente al 40% de las colonias",
+    "duration_clue": "más de 72 horas de trabajos"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/convocatoria-llevar-basura-presidencia-vallarta/",
+    "article_date": "2026-05-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents protest weeks of accumulated garbage and unreliable collection in Puerto Vallarta despite promised normalization.",
+    "affected_people_clue": "población de Puerto Vallarta",
+    "duration_clue": "semanas de inconformidad ciudadana"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-de-ex-haciendas-del-pitillal-denuncian-deterioro-de-avenida-pese-a-recientes-reparaciones/",
+    "article_date": "2026-06-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "failed_repair",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes del fraccionamiento Ex Haciendas del Pitillal ... Avenida Ex Haciendas presenta nuevamente severos daños",
+    "street": "Avenida Ex Haciendas",
+    "colonia": "Ex Haciendas del Pitillal",
+    "landmark": null,
+    "summary": "Potholes quickly returned on Avenida Ex Haciendas after recent repairs, threatening daily travel for residents and pedestrians.",
+    "affected_people_clue": "automovilistas, motociclistas y peatones",
+    "duration_clue": "hace apenas unas semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-cambio-horario-basura/",
+    "article_date": "2026-07-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Habitantes de colonias como Ecoteras ... han enfrentado retrasos e intermitencias en la recolección de basura",
+    "street": null,
+    "colonia": "Ecoteras",
+    "landmark": null,
+    "summary": "Residents in six Puerto Vallarta areas report delayed, intermittent garbage collection after repeated schedule changes.",
+    "affected_people_clue": "muchos vecinos",
+    "duration_clue": "durante las últimas semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/anuncian-llegada-60-camiones-puerto-vallarta/",
+    "article_date": "2026-02-27",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "a la altura del poblado de La Desembocada y cruzar caminando el puente",
+    "street": null,
+    "colonia": "La Desembocada",
+    "landmark": null,
+    "summary": "A damaged bridge forces northern passengers to transfer on foot at La Desembocada, causing long waits and immense queues.",
+    "affected_people_clue": "42 mil personas al día",
+    "duration_clue": "desde el martes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/loma-bonita-sin-agua/",
+    "article_date": "2026-03-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "failed_repair",
+    "location_certainty": "exact",
+    "location_evidence": "la colonia Loma Bonita ... la esquina de las calles Vicente Guerrero e Inés Meza",
+    "street": "Calles Vicente Guerrero e Inés Meza",
+    "colonia": "Loma Bonita",
+    "landmark": null,
+    "summary": "Intermittent water in Loma Bonita returns air before brief flow, while previous valve work has failed to provide reliable service.",
+    "affected_people_clue": "familias que habitan en la zona",
+    "duration_clue": "desde hace tiempo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncian-suciedad-abandono-parque-lazaro-cardenas-puerto-vallarta/",
+    "article_date": "2026-05-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Parque Lázaro Cárdenas, conocido popularmente como el “Parque de los Azulejos”",
+    "street": null,
+    "colonia": null,
+    "landmark": "Parque Lázaro Cárdenas",
+    "summary": "Accumulated trash, odors, and missing maintenance leave Parque Lázaro Cárdenas dirty and apparently abandoned.",
+    "affected_people_clue": "residentes como turistas",
+    "duration_clue": "desde hace varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-obstruccion-banqueta-francisco-villa/",
+    "article_date": "2026-07-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "por la avenida Francisco Villa",
+    "street": "Avenida Francisco Villa",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A blocked, overgrown sidewalk on Avenida Francisco Villa forces pedestrians into the roadway amid months-long neglect.",
+    "affected_people_clue": "vecinos y peatones",
+    "duration_clue": "varios meses"
+  }
+]

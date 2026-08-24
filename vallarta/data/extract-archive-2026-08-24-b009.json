@@ -1,0 +1,217 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/reportan-derrame-lixiviados-relleno-el-gavilan/",
+    "article_date": "2026-06-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "El relleno sanitario El Gavilán registra un derrame de lixiviados",
+    "street": null,
+    "colonia": null,
+    "landmark": "El Gavilán",
+    "summary": "A landfill leak is discharging contaminated liquid while waste operations continue under partial closure in Puerto Vallarta.",
+    "affected_people_clue": null,
+    "duration_clue": "continúa emitiendo humo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-deforestacion-incrementa-temperatura-urbana/",
+    "article_date": "2026-08-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "frente a Plaza Caracol, donde la gente espera el transporte sin la cobertura de un techo verde",
+    "street": null,
+    "colonia": null,
+    "landmark": "Plaza Caracol",
+    "summary": "Urban tree loss leaves public waiting areas exposed to intense heat, reducing shade for pedestrians and transit users.",
+    "affected_people_clue": "la población que camina por la infraestructura urbana",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-parque-pitillal-sin-luz/",
+    "article_date": "2026-08-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "lighting",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "falta de iluminación en el Parque Lineal de la ribera del Pitillal",
+    "street": null,
+    "colonia": null,
+    "landmark": "Parque Lineal del Pitillal",
+    "summary": "Missing lighting at Parque Lineal del Pitillal makes nighttime walking and exercise difficult and raises safety concerns.",
+    "affected_people_clue": "personas que acuden diariamente",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://diariodevallarta.com/por-que-seapal-es-la-unica-operadora-de-jalisco-con-agua-certificada/",
+    "article_date": "2026-02-17",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Claudio Fabián Guevara",
+    "qualifies": "unsure",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "An interview touts certified water while acknowledging recent turbidity and supply interruptions, so qualification as a complaint is uncertain.",
+    "affected_people_clue": "algunas colonias",
+    "duration_clue": "en las últimas semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/comunidades-sin-viveres-puente-desembocada-puerto-vallarta/",
+    "article_date": "2026-02-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "el puente sobre el río Mascota, en la carretera estatal 544 rumbo a Guadalajara, en las inmediaciones del poblado de La Desembocada",
+    "street": "Carretera estatal 544",
+    "colonia": null,
+    "landmark": "puente sobre el río Mascota",
+    "summary": "A damaged bridge cuts off northern and rural communities, disrupting food, water, medicine, and transport access.",
+    "affected_people_clue": "múltiples comunidades",
+    "duration_clue": "desde el domingo 22 de febrero"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/basura-en-la-colonia-ignacio-l-vallarta/",
+    "article_date": "2026-03-27",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "El punto señalado por los vecinos se ubica sobre la avenida Paseo de las Palmas, en un canal que se extiende hasta el libramiento Luis Donaldo Colosio y desemboca en Playa Flamingos",
+    "street": "Avenida Paseo de las Palmas",
+    "colonia": null,
+    "landmark": "Playa Flamingos",
+    "summary": "Uncollected waste piles up along Paseo de las Palmas, causing odors and scattered rubbish near the canal toward Playa Flamingos.",
+    "affected_people_clue": "habitantes de la colonia Ignacio L. Vallarta",
+    "duration_clue": "desde hace varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-de-brisas-del-pacifico-falta-agua/",
+    "article_date": "2026-04-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Habitantes de la colonia Brisas del Pacífico denunciaron irregularidades en el servicio de agua potable",
+    "street": null,
+    "colonia": "Brisas del Pacífico",
+    "landmark": null,
+    "summary": "Repeated unannounced water cuts and poor reporting access leave Brisas del Pacífico residents without reliable service.",
+    "affected_people_clue": "Habitantes de la colonia Brisas del Pacífico",
+    "duration_clue": "desde el pasado martes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/descargas-aguas-negras-playas-sur-puerto-vallarta/",
+    "article_date": "2026-04-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "el condominio conocido como “Las Gemelas” estaría realizando descargas constantes de aguas negras hacia el mar, afectando directamente a playas como Esmeralda y Las Gemelas",
+    "street": null,
+    "colonia": null,
+    "landmark": "Esmeralda",
+    "summary": "Reported recurring sewage discharges from Las Gemelas contaminate southern beaches, causing odors and discoloration for residents and visitors.",
+    "affected_people_clue": "bañistas y visitantes",
+    "duration_clue": "de manera recurrente"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/autos-abandonados-los-tamarindos-basura/",
+    "article_date": "2026-05-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de la colonia Tamarindos en la delegación de Ixtapa, Puerto Vallarta, volvieron a denunciar el abandono de un vehículo que permanece estacionado desde hace tiempo sobre la calle Gaviota, en el cruce con Pavo Real",
+    "street": "Calle Gaviota en el cruce con Pavo Real",
+    "colonia": "Tamarindos",
+    "landmark": null,
+    "summary": "An abandoned car blocks cleaning and attracts rubbish on Gaviota at Pavo Real near a busy school route in Tamarindos.",
+    "affected_people_clue": "estudiantes, personal docente y padres de familia",
+    "duration_clue": "lleva meses sin ser movido"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/incendio-relleno-sanitario-puerto-vallarta-controlado/",
+    "article_date": "2026-05-30",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Israel Hernández",
+    "qualifies": "unsure",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "El incendio registrado en el relleno sanitario El Gavilán, en Puerto Vallarta, ya se encuentra bajo control",
+    "street": null,
+    "colonia": null,
+    "landmark": "El Gavilán",
+    "summary": "A landfill fire is controlled at the tire depot but suppression continues elsewhere; no risk to nearby residents is reported, making qualification uncertain.",
+    "affected_people_clue": "vecinos",
+    "duration_clue": "desde el inicio de la emergencia"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncian-abandono-basura-parque-las-juntas/",
+    "article_date": "2026-06-01",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de las calles Hermenegildo Galeana y Luis Moya en Las Juntas denunciaron el deterioro en el que se encuentra un parque ubicado en esta zona",
+    "street": "Calles Hermenegildo Galeana y Luis Moya",
+    "colonia": "Las Juntas",
+    "landmark": null,
+    "summary": "An abandoned Las Juntas park needs cleaning and maintenance, while garbage accumulation creates odors and health concerns.",
+    "affected_people_clue": "niñas, niños y personas que frecuentan el parque",
+    "duration_clue": "desde hace tiempo"
+  }
+]

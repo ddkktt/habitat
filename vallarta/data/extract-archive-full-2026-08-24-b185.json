@@ -1,0 +1,40 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/accidente-federal200-puentes/",
+  "article_date": "2026-06-20",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "roads"
+  ],
+  "status": "ongoing",
+  "location_certainty": "exact",
+  "location_evidence": "la carretera federal 200, en el entronque a la autopista de Puerto Vallarta-Guadalajara",
+  "street": "carretera federal 200",
+  "colonia": null,
+  "landmark": "entronque a la autopista de Puerto Vallarta-Guadalajara",
+  "summary": "Drivers repeatedly request a median barrier at federal highway 200's junction with the Vallarta-Guadalajara autopista; article mainly reports one crash, so qualification is doubtful.",
+  "affected_people_clue": "señalado en diversas ocasiones por automovilistas",
+  "duration_clue": null
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-derrapa-jardinero-medina-ascencio/",
+  "article_date": "2026-06-15",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "roads"
+  ],
+  "status": "unclear",
+  "location_certainty": "exact",
+  "location_evidence": "sobre la avenida Francisco Medina Ascencio … frente a la Décima Segunda Zona Naval",
+  "street": "avenida Francisco Medina Ascencio",
+  "colonia": null,
+  "landmark": "Décima Segunda Zona Naval",
+  "summary": "Motorcyclist skidded on loose dirt reportedly accumulated on Medina Ascencio's central lanes; hazard is presumptive, so qualification as infrastructure complaint is doubtful.",
+  "affected_people_clue": null,
+  "duration_clue": null
+ }
+]

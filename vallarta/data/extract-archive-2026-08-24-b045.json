@@ -1,0 +1,40 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/autobuses-electricos-puerto-vallarta-parabuses-centro/",
+    "article_date": "2026-04-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "Autobuses eléctricos sí entrarán al Centro de Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Many Puerto Vallarta bus stops lack shade and benches; authorities plan ten new shelters and fleet upgrades.",
+    "affected_people_clue": "usuarios del transporte público",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://diariodevallarta.com/seapal-busca-megaobra-de-900-millones-para-asegurar-agua-en-vallarta-a-largo-plazo/",
+    "article_date": "2026-04-10",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Paloma Rocío Guevara",
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "suministro de agua potable en Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Puerto Vallarta’s water system produces less than peak demand; SEAPAL proposes a river-intake project to address the capacity gap.",
+    "affected_people_clue": "familias vallartenses",
+    "duration_clue": "durante los próximos 50 años"
+  }
+]

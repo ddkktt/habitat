@@ -1,0 +1,41 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/usuarios-puerto-vallarta-desconfian-nueva-app-taxis-ctm/",
+    "article_date": "2026-08-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Poll respondents distrust new CTM taxi app, citing taxi drivers repeatedly refusing rides to certain colonias; qualification as transit complaint is doubtful.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-aumentan-ventas-verano/",
+    "article_date": "2026-07-29",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "transit",
+      "other"
+    ],
+    "status": "unclear",
+    "location_certainty": "approximate",
+    "location_evidence": "la falta de estacionamiento en la zona centro y las condiciones del transporte público",
+    "street": null,
+    "colonia": "Centro",
+    "landmark": null,
+    "summary": "Tourism-sales article; interviewee notes downtown parking shortage and public transport conditions needing attention, so qualification as infrastructure complaint is doubtful.",
+    "affected_people_clue": "para los habitantes como para los turistas",
+    "duration_clue": null
+  }
+]

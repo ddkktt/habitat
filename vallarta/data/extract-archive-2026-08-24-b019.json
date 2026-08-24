@@ -1,0 +1,41 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/lemus-y-munguia-tienen-a-vallarta-de-porqueria/",
+    "article_date": "2026-03-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Opinion column says old event banners litter public structures in Puerto Vallarta; qualification as an infrastructure complaint is borderline.",
+    "affected_people_clue": "vecinos",
+    "duration_clue": "cuatro, cinco o seis meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/sin-luz-uma-puerto-vallarta-jueves/",
+    "article_date": "2026-06-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Unidad Municipal Administrativa (UMA) de Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": "Unidad Municipal Administrativa",
+    "summary": "A power outage at Puerto Vallarta’s municipal offices stopped public services and affected citizens seeking procedures and payments.",
+    "affected_people_clue": "decenas de ciudadanos",
+    "duration_clue": "desde las primeras horas de este jueves"
+  }
+]

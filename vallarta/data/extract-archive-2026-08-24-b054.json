@@ -1,0 +1,81 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/personas-situacion-calle-hospital-regional-puerto-vallarta/",
+    "article_date": "2026-06-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Hospital Regional de Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": "Hospital Regional de Puerto Vallarta",
+    "summary": "Families report sanitation and access problems around a public hospital's outdoor spaces, including human waste in a garden.",
+    "affected_people_clue": "familiares de pacientes",
+    "duration_clue": "todo el día y noche"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/autorizan-tala-enorme-arbol-fluvial-vallarta-plaza/",
+    "article_date": "2026-06-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "resolved",
+    "location_certainty": "exact",
+    "location_evidence": "árbol ... ubicado sobre la avenida Grandes Lagos",
+    "street": "avenida Grandes Lagos",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents criticize authorized removal of a mature urban tree, reducing green-space services on Avenida Grandes Lagos.",
+    "affected_people_clue": "la población",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puente-amado-nervo-obras-retrasan-apertura/",
+    "article_date": "2026-07-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "transit",
+      "lighting"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Puente Amado Nervo, infraestructura que conectará a Bahía de Banderas con Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": "Puente Amado Nervo",
+    "summary": "Delayed access works keep the Amado Nervo bridge closed without an official opening date.",
+    "affected_people_clue": null,
+    "duration_clue": "casi un año"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-palmar-progreso-fueron-enganados-areas-verdes/",
+    "article_date": "2026-07-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "áreas de cesión de la colonia Palmar del Progreso",
+    "street": null,
+    "colonia": "Palmar del Progreso",
+    "landmark": null,
+    "summary": "Residents dispute private conversion of community green areas in Palmar del Progreso after years without notification.",
+    "affected_people_clue": "los colonos",
+    "duration_clue": "desde hace más de una década",
+    "same_incident_as": "https://tribunadelabahia.com.mx/vecinos-palmar-progreso-denuncian-areas-verdes-ejido-juntas/"
+  }
+]

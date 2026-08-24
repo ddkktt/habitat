@@ -1,0 +1,1067 @@
+{
+  "source": "OpenStreetMap via Overpass API (multiple strategies)",
+  "query_method": "merged: place tags (original + bbox retry), landuse residential, admin boundaries",
+  "retrieved": "2026-08-24",
+  "license": "ODbL — (c) OpenStreetMap contributors",
+  "count": 26,
+  "note": "DRAFT — pending human review. Includes both OSM-derived entries (colonias field) and sampled postal-code data (sepomex field). Note: CKAN API (datos.gob.mx) did not return JSON; Zippopotam sampling used as fallback for postal-code data.",
+  "dropped_count": 6,
+  "dropped_names": [
+    "Rural Zone",
+    "Rural Zone",
+    "Rural Zone",
+    "Rural Zone",
+    "Rural Zone",
+    "Altavela II Etapa 2"
+  ],
+  "strategy_counts": {
+    "place": 23,
+    "landuse": 3,
+    "admin_boundary": 0
+  },
+  "colonias": [
+    {
+      "name": "Aldea Hortus",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7469933,
+      "lon": -105.2894615
+    },
+    {
+      "name": "Arboleta",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7699061,
+      "lon": -105.226266
+    },
+    {
+      "name": "Azul Turquesa",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7744503,
+      "lon": -105.2119747
+    },
+    {
+      "name": "Boca de Tomatlán",
+      "methods": [
+        "landuse"
+      ],
+      "landuse": "residential",
+      "lat": 20.5114985,
+      "lon": -105.3154412
+    },
+    {
+      "name": "Centro",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.6083784,
+      "lon": -105.2345743
+    },
+    {
+      "name": "Colibri",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7606968,
+      "lon": -105.3190061
+    },
+    {
+      "name": "Colonia Rincon del Puerto",
+      "methods": [
+        "landuse",
+        "place"
+      ],
+      "place": "neighbourhood",
+      "landuse": "residential",
+      "lat": 20.6801033,
+      "lon": -105.2359167
+    },
+    {
+      "name": "Fraccionamiento Altavela",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7466372,
+      "lon": -105.2729573
+    },
+    {
+      "name": "Fraccionamiento Altavela II",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7503795,
+      "lon": -105.285287
+    },
+    {
+      "name": "Fraccionamiento Altavela Residencial",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7458901,
+      "lon": -105.2817098
+    },
+    {
+      "name": "Fraccionamiento Balcones de Vallarta",
+      "methods": [
+        "landuse"
+      ],
+      "landuse": "residential",
+      "lat": 20.6918042,
+      "lon": -105.2197144
+    },
+    {
+      "name": "Fraccionamiento Cendela",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7508219,
+      "lon": -105.274695
+    },
+    {
+      "name": "Fraccionamiento Paraíso Vallarta",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7570079,
+      "lon": -105.2760915
+    },
+    {
+      "name": "Fraccionamiento Real Ixtapa I",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7161596,
+      "lon": -105.2236578
+    },
+    {
+      "name": "Fraccionamiento Zitadela",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.751906,
+      "lon": -105.2753501
+    },
+    {
+      "name": "Gringo Gulch",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.6068878,
+      "lon": -105.2336058
+    },
+    {
+      "name": "Jardiens del Sol",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.768622,
+      "lon": -105.212576
+    },
+    {
+      "name": "Los Mangos",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7592321,
+      "lon": -105.322568
+    },
+    {
+      "name": "Paso Ancho",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.5919435,
+      "lon": -105.2154511
+    },
+    {
+      "name": "Paso del Guayabo",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.5892808,
+      "lon": -105.21219
+    },
+    {
+      "name": "Pitillal",
+      "methods": [
+        "place"
+      ],
+      "place": "suburb",
+      "lat": 20.6530486,
+      "lon": -105.217993
+    },
+    {
+      "name": "Primavera Residencial",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7435125,
+      "lon": -105.2824808
+    },
+    {
+      "name": "Santa Fa Fracc.",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7761456,
+      "lon": -105.2152046
+    },
+    {
+      "name": "Selva Romántica",
+      "methods": [
+        "landuse"
+      ],
+      "landuse": "residential",
+      "lat": 20.6015048,
+      "lon": -105.2361885
+    },
+    {
+      "name": "Villas los Parotas",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.7600848,
+      "lon": -105.3207978
+    },
+    {
+      "name": "Zona Romántica",
+      "methods": [
+        "place"
+      ],
+      "place": "neighbourhood",
+      "lat": 20.6022025,
+      "lon": -105.2350998
+    }
+  ],
+  "sepomex": {
+    "source": "Zippopotam API (api.zippopotam.us/MX/<cp>), full sweep of CP 48280-48399",
+    "note": "Zippopotam aggregates postal data; not official SEPOMEX. Full sweep, 5s between requests. 404s are unassigned CPs.",
+    "retrieved": "2026-08-24",
+    "cps_with_data": 42,
+    "cps_errored": {},
+    "count": 132,
+    "asentamientos": [
+      {
+        "name": "24 de Febrero",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "5 de Diciembre",
+        "cps": [
+          "48350"
+        ]
+      },
+      {
+        "name": "Agua Azul",
+        "cps": [
+          "48340"
+        ]
+      },
+      {
+        "name": "Agua Zarca",
+        "cps": [
+          "48315"
+        ]
+      },
+      {
+        "name": "Altavista",
+        "cps": [
+          "48380"
+        ]
+      },
+      {
+        "name": "Amapas",
+        "cps": [
+          "48399"
+        ]
+      },
+      {
+        "name": "Aramara",
+        "cps": [
+          "48314"
+        ]
+      },
+      {
+        "name": "Arboledas",
+        "cps": [
+          "48315"
+        ]
+      },
+      {
+        "name": "Benito Juarez",
+        "cps": [
+          "48389"
+        ]
+      },
+      {
+        "name": "Bobadilla",
+        "cps": [
+          "48298"
+        ]
+      },
+      {
+        "name": "Boca de Mixmaloya",
+        "cps": [
+          "48294"
+        ]
+      },
+      {
+        "name": "Boca de Tomatlan",
+        "cps": [
+          "48292"
+        ]
+      },
+      {
+        "name": "Brisas Del Pacifico",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Buenos Aires",
+        "cps": [
+          "48370"
+        ]
+      },
+      {
+        "name": "Bugambilias",
+        "cps": [
+          "48340"
+        ]
+      },
+      {
+        "name": "Campestre",
+        "cps": [
+          "48343"
+        ]
+      },
+      {
+        "name": "Ciudad de Puerto Vallarta",
+        "cps": [
+          "48309"
+        ]
+      },
+      {
+        "name": "Coapinole",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Conchas Chinas",
+        "cps": [
+          "48390",
+          "48399"
+        ]
+      },
+      {
+        "name": "Cristobal Colon",
+        "cps": [
+          "48327"
+        ]
+      },
+      {
+        "name": "Ctm Infonavit",
+        "cps": [
+          "48318"
+        ]
+      },
+      {
+        "name": "De las Juntas Delegacion",
+        "cps": [
+          "48291"
+        ]
+      },
+      {
+        "name": "Del Mar",
+        "cps": [
+          "48344"
+        ]
+      },
+      {
+        "name": "Del Toro",
+        "cps": [
+          "48296"
+        ]
+      },
+      {
+        "name": "Del Villar",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Delfines",
+        "cps": [
+          "48325"
+        ]
+      },
+      {
+        "name": "Diaz Ordaz",
+        "cps": [
+          "48310"
+        ]
+      },
+      {
+        "name": "Educacion",
+        "cps": [
+          "48338"
+        ]
+      },
+      {
+        "name": "El Caloso",
+        "cps": [
+          "48360"
+        ]
+      },
+      {
+        "name": "El Calvario",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "El Cerro",
+        "cps": [
+          "48304"
+        ]
+      },
+      {
+        "name": "El Cortijo",
+        "cps": [
+          "48314"
+        ]
+      },
+      {
+        "name": "El Mangal",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "El Pitillal",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "El Remance",
+        "cps": [
+          "48389"
+        ]
+      },
+      {
+        "name": "Emiliano Zapata",
+        "cps": [
+          "48380"
+        ]
+      },
+      {
+        "name": "Fovissste",
+        "cps": [
+          "48313"
+        ]
+      },
+      {
+        "name": "Fovissste 96",
+        "cps": [
+          "48328"
+        ]
+      },
+      {
+        "name": "Gastronomicos",
+        "cps": [
+          "48353"
+        ]
+      },
+      {
+        "name": "Gaviotas",
+        "cps": [
+          "48328"
+        ]
+      },
+      {
+        "name": "Guadalupe Victoria",
+        "cps": [
+          "48317"
+        ]
+      },
+      {
+        "name": "Haciendas Del Pitilla",
+        "cps": [
+          "48318"
+        ]
+      },
+      {
+        "name": "Herradura",
+        "cps": [
+          "48340"
+        ]
+      },
+      {
+        "name": "Ignacio L Vallarta",
+        "cps": [
+          "48325"
+        ]
+      },
+      {
+        "name": "Independencia",
+        "cps": [
+          "48327"
+        ]
+      },
+      {
+        "name": "Ixtapa",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Jardin",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Jardines",
+        "cps": [
+          "48344"
+        ]
+      },
+      {
+        "name": "Jardines de La Higuera",
+        "cps": [
+          "48313"
+        ]
+      },
+      {
+        "name": "Jardines Del Bosque",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Jardines Del Puerto",
+        "cps": [
+          "48316"
+        ]
+      },
+      {
+        "name": "Jardines Vallarta",
+        "cps": [
+          "48328"
+        ]
+      },
+      {
+        "name": "Joyas Del Pedregal",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "La Aurora",
+        "cps": [
+          "48338"
+        ]
+      },
+      {
+        "name": "La Esperanza",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "La Floresta",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "La Marina",
+        "cps": [
+          "48314"
+        ]
+      },
+      {
+        "name": "La Moderna",
+        "cps": [
+          "48344"
+        ]
+      },
+      {
+        "name": "La Pedrera",
+        "cps": [
+          "48343"
+        ]
+      },
+      {
+        "name": "La Playita",
+        "cps": [
+          "48296"
+        ]
+      },
+      {
+        "name": "La Primavera",
+        "cps": [
+          "48325"
+        ]
+      },
+      {
+        "name": "La Vena",
+        "cps": [
+          "48320"
+        ]
+      },
+      {
+        "name": "Las Aralias I",
+        "cps": [
+          "48328"
+        ]
+      },
+      {
+        "name": "Las Aralias II",
+        "cps": [
+          "48328"
+        ]
+      },
+      {
+        "name": "Las Canoas",
+        "cps": [
+          "48360"
+        ]
+      },
+      {
+        "name": "Las Flores",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Las Glorias",
+        "cps": [
+          "48333"
+        ]
+      },
+      {
+        "name": "Las Mojoneras",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Las Palmas",
+        "cps": [
+          "48333"
+        ]
+      },
+      {
+        "name": "Las Peñas",
+        "cps": [
+          "48360"
+        ]
+      },
+      {
+        "name": "Lazaro Cardenas",
+        "cps": [
+          "48280",
+          "48330"
+        ]
+      },
+      {
+        "name": "Leandro Valle",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Linda Vista Oceano",
+        "cps": [
+          "48344"
+        ]
+      },
+      {
+        "name": "Llanitos",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Loma Bonita",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Lomas de Coapinole",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Lomas de Enmedio",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Lomas de Mismaloya",
+        "cps": [
+          "48294"
+        ]
+      },
+      {
+        "name": "Lomas de San Nicolas",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Lomas Del Calvario",
+        "cps": [
+          "48295"
+        ]
+      },
+      {
+        "name": "Lomas Del Pedregal",
+        "cps": [
+          "48343"
+        ]
+      },
+      {
+        "name": "Lopez Mateos",
+        "cps": [
+          "48340"
+        ]
+      },
+      {
+        "name": "Los Mangos",
+        "cps": [
+          "48310"
+        ]
+      },
+      {
+        "name": "Los Portales",
+        "cps": [
+          "48315"
+        ]
+      },
+      {
+        "name": "Los Sauces",
+        "cps": [
+          "48328"
+        ]
+      },
+      {
+        "name": "Los Tamarindos",
+        "cps": [
+          "48282"
+        ]
+      },
+      {
+        "name": "Los Tules",
+        "cps": [
+          "48333"
+        ]
+      },
+      {
+        "name": "Magisterio",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Magnolias",
+        "cps": [
+          "48344"
+        ]
+      },
+      {
+        "name": "Mariano Otero",
+        "cps": [
+          "48320"
+        ]
+      },
+      {
+        "name": "Marina Sol",
+        "cps": [
+          "48334"
+        ]
+      },
+      {
+        "name": "Marina Vallarta",
+        "cps": [
+          "48335"
+        ]
+      },
+      {
+        "name": "Mojoneras R",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Morelos y Pavon",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Niños Heroes",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Nogalito",
+        "cps": [
+          "48399"
+        ]
+      },
+      {
+        "name": "Ojo de Agua",
+        "cps": [
+          "48344"
+        ]
+      },
+      {
+        "name": "Olimpica",
+        "cps": [
+          "48330"
+        ]
+      },
+      {
+        "name": "Palmar de Aramara",
+        "cps": [
+          "48314"
+        ]
+      },
+      {
+        "name": "Palmar Del Progreso",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Palo Seco",
+        "cps": [
+          "48325"
+        ]
+      },
+      {
+        "name": "Paraiso",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Parques las Palmas",
+        "cps": [
+          "48317"
+        ]
+      },
+      {
+        "name": "Paso Ancho",
+        "cps": [
+          "48373"
+        ]
+      },
+      {
+        "name": "Paso Del Molino",
+        "cps": [
+          "48373"
+        ]
+      },
+      {
+        "name": "Presidentes Municipales",
+        "cps": [
+          "48344"
+        ]
+      },
+      {
+        "name": "Primero de Mayo",
+        "cps": [
+          "48280",
+          "48325"
+        ]
+      },
+      {
+        "name": "Progreso",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Puerto Iguanas",
+        "cps": [
+          "48334"
+        ]
+      },
+      {
+        "name": "Puerto Vallarta Centro",
+        "cps": [
+          "48300"
+        ]
+      },
+      {
+        "name": "Ramblases",
+        "cps": [
+          "48343"
+        ]
+      },
+      {
+        "name": "Residencial Fluvial Vallarta",
+        "cps": [
+          "48312"
+        ]
+      },
+      {
+        "name": "San Esteban",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "San Francisco",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Santa Maria",
+        "cps": [
+          "48324",
+          "48325",
+          "48344"
+        ]
+      },
+      {
+        "name": "Santa Rosa",
+        "cps": [
+          "48325"
+        ]
+      },
+      {
+        "name": "Santo Domingo",
+        "cps": [
+          "48280"
+        ]
+      },
+      {
+        "name": "Sierra Del Mar",
+        "cps": [
+          "48294"
+        ]
+      },
+      {
+        "name": "Uhcel",
+        "cps": [
+          "48314"
+        ]
+      },
+      {
+        "name": "Valentin Gomez Farias",
+        "cps": [
+          "48320"
+        ]
+      },
+      {
+        "name": "Vallarta 500",
+        "cps": [
+          "48315"
+        ]
+      },
+      {
+        "name": "Vallarta 750",
+        "cps": [
+          "48314"
+        ]
+      },
+      {
+        "name": "Vallarta Villa",
+        "cps": [
+          "48313"
+        ]
+      },
+      {
+        "name": "Versalles",
+        "cps": [
+          "48310"
+        ]
+      },
+      {
+        "name": "Vida Vallarta",
+        "cps": [
+          "48318"
+        ]
+      },
+      {
+        "name": "Villa de Guadalupe",
+        "cps": [
+          "48290"
+        ]
+      },
+      {
+        "name": "Villa Del Mar",
+        "cps": [
+          "48333"
+        ]
+      },
+      {
+        "name": "Villa las Flores",
+        "cps": [
+          "48335"
+        ]
+      },
+      {
+        "name": "Villas Del Puerto",
+        "cps": [
+          "48315"
+        ]
+      },
+      {
+        "name": "Villas Rio",
+        "cps": [
+          "48313"
+        ]
+      },
+      {
+        "name": "Zona Hotelera Norte",
+        "cps": [
+          "48333"
+        ]
+      },
+      {
+        "name": "Zona Hotelera Sur",
+        "cps": [
+          "48390"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/incendio-marina-vallarta-preocupa-ayuntamiento/",
+    "article_date": "2026-05-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "en la zona de los peines de Marina Vallarta ... el hidrante presentaba fallas",
+    "street": null,
+    "colonia": "Marina Vallarta",
+    "landmark": null,
+    "summary": "A failed public hydrant in Marina Vallarta raises concern about Puerto Vallarta’s emergency water infrastructure.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/incendio-vivienda-las-juntas/",
+    "article_date": "2026-05-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "unclear",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Las Juntas ... calle Ricardo Flores Magón #273 ... falta de agua y equipo",
+    "street": "Ricardo Flores Magón",
+    "colonia": "Las Juntas",
+    "landmark": null,
+    "summary": "A house fire in Las Juntas spread while firefighters faced insufficient water and equipment.",
+    "affected_people_clue": "vecinos",
+    "duration_clue": null
+  }
+]

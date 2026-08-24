@@ -1,0 +1,59 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-semaforos-fluvial-falla/",
+    "article_date": "2026-07-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Jesús Rodríguez Barba, en Fluvial Vallarta",
+    "street": "avenida Jesús Rodríguez Barba",
+    "colonia": "Fluvial Vallarta",
+    "landmark": null,
+    "summary": "Broken traffic lights on Avenida Jesús Rodríguez Barba create ongoing risks for pedestrians and motorists in Fluvial Vallarta.",
+    "affected_people_clue": "automovilistas y peatones",
+    "duration_clue": "desde hace tiempo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/relleno-sanitario-el-gavilan-riesgo-multas-cierre-total/",
+    "article_date": "2026-07-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "relleno sanitario El Gavilán",
+    "street": null,
+    "colonia": null,
+    "landmark": "relleno sanitario El Gavilán",
+    "summary": "Partial closure of El Gavilán landfill persists because Puerto Vallarta has not proven environmental compliance.",
+    "affected_people_clue": "residuos que diariamente genera Puerto Vallarta",
+    "duration_clue": "más de un mes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/munguia-anuncia-llegada-68-camiones/",
+    "article_date": "2026-02-07",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "The mayor announces 68 additional buses after public complaints and demand for improved Puerto Vallarta public transit.",
+    "affected_people_clue": "muchas quejas y demanda de la ciudadanía",
+    "duration_clue": null
+  }
+]

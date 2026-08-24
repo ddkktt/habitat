@@ -1,0 +1,280 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/onu-mujeres-evalua-seguridad-espacios-vallarta/",
+    "article_date": "2026-07-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "lighting"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en Ixtapa ... déficit de alumbrado funcional ... la carretera estatal 544",
+    "street": "carretera estatal 544",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A gender audit found deficient lighting and unsafe pedestrian crossings in Ixtapa, limiting residents’ access to public spaces.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/crece-vallarta-infraestructura-urbana-rezagando/",
+    "article_date": "2026-06-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Los derrames recurrentes de aguas negras en colonias como Emiliano Zapata y Versalles",
+    "street": null,
+    "colonia": "Versalles",
+    "landmark": null,
+    "summary": "Residents report recurring sewage spills, flooding, and deteriorating roads as Puerto Vallarta’s aging infrastructure struggles with growth.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/lluvias-puerto-vallarta-inundaciones-trafico-caida-arbol-junio-2026/",
+    "article_date": "2026-06-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "roads"
+    ],
+    "status": "unclear",
+    "location_certainty": "exact",
+    "location_evidence": "Laguna de Tomasa, ubicada en el cruce de Poetas y avenida México",
+    "street": "Poetas y avenida México",
+    "colonia": null,
+    "landmark": "Laguna de Tomasa",
+    "summary": "Heavy rain flooded multiple Vallarta points and blocked roads, disrupting circulation across the city.",
+    "affected_people_clue": null,
+    "duration_clue": "la tarde del 9 de junio"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-desarrollo-urbano-turismo/",
+    "article_date": "2026-07-07",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "drainage",
+      "roads",
+      "trash",
+      "transit",
+      "lighting",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "An urban-planning analysis identifies broad water, drainage, waste, road, transit, lighting, and public-space deficiencies affecting Vallarta residents.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-bache-calle-aldama-2/",
+    "article_date": "2026-07-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "resolved",
+    "location_certainty": "exact",
+    "location_evidence": "calle Aldama, entre las calles Morelos y Mina, en la zona centro de Puerto Vallarta",
+    "street": "calle Aldama entre las calles Morelos y Mina",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A rain-hidden socavón on central Puerto Vallarta’s Aldama street damaged a vehicle; Seapal repaired the sanitary infrastructure and began resurfacing.",
+    "affected_people_clue": null,
+    "duration_clue": "Horas después"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/drenaje-colapsa-versalles-puerto-vallarta/",
+    "article_date": "2026-02-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "failed_repair",
+    "location_certainty": "exact",
+    "location_evidence": "la zona residencial de Versalles ... En la calle Palm Springs, entre Havre y Francia, brotó ... el agua negra",
+    "street": "calle Palm Springs entre Havre y Francia",
+    "colonia": "Versalles",
+    "landmark": null,
+    "summary": "A recurrent sewage blockage flooded Versalles streets; SEAPAL controlled it and began sanitation, but the recurring failure remains a resident hazard.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/aguas-negras-versalles-realizan-limpieza/",
+    "article_date": "2026-06-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Las calles de la colonia Versalles comenzaron a mejorar su apariencia tras los recientes escurrimientos de aguas negras",
+    "street": null,
+    "colonia": "Versalles",
+    "landmark": null,
+    "summary": "Recurring sewage spills affected Versalles while a collapsed collector remained under repair, with residents and businesses concerned about sanitation.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/socavon-vallarta-prisciliano-sanchez-tardara-10-dias/",
+    "article_date": "2026-06-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Prisciliano Sánchez, casi en su cruce con avenida México",
+    "street": "avenida Prisciliano Sánchez casi en su cruce con avenida México",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A collapsed sanitary collector left a Prisciliano Sánchez socavón under repair for at least ten more days.",
+    "affected_people_clue": null,
+    "duration_clue": "al menos 10 días más"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-tormentas-limpieza-desazolve/",
+    "article_date": "2026-08-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "la zona de Las Glorias ... cárcamo ubicado sobre la avenida Francisco Medina Ascencio",
+    "street": "avenida Francisco Medina Ascencio",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Storms caused blocked sewage equipment and street spills; SEAPAL crews continue desilting and sanitation in affected areas.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/restablecen-servicio-agua-puerto-vallarta/",
+    "article_date": "2026-02-20",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "resolved",
+    "location_certainty": "approximate",
+    "location_evidence": "fueron 22 colonias las que se quedaron sin suministro en la delegación municipal de El Pitillal",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "A planned pipe flush left 22 El Pitillal colonies without water, but SEAPAL reported service restoration and reduced turbidity.",
+    "affected_people_clue": "22 colonias",
+    "duration_clue": "hasta las 8:00 de la noche"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/ayuntamiento-puerto-vallarta-puente-peatonal-escaleras-coapinole/",
+    "article_date": "2026-07-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "escaleras ubicadas entre las calles 21 de Marzo y Josefa Ortiz de Domínguez, en la colonia El Coapinole",
+    "street": "calles 21 de Marzo y Josefa Ortiz de Domínguez",
+    "colonia": "El Coapinole",
+    "landmark": null,
+    "summary": "Deteriorated Coapinole stairs are nearly impassable and unsafe for hundreds of residents; the council urged urgent rehabilitation.",
+    "affected_people_clue": "cientos de habitantes",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-baja-presion-agua-150-colonias-puerto-vallarta/",
+    "article_date": "2026-02-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Planned pipe cleaning will leave 150 Puerto Vallarta colonies and the northern hotel zone with low pressure or no water.",
+    "affected_people_clue": "150 colonias",
+    "duration_clue": "la noche del jueves 19 y madrugada del viernes 20"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/red-ambiental-normaliza-servicio-recoleccion-basura/",
+    "article_date": "2026-02-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "LG",
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "resolved",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Puerto Vallarta’s garbage service resumed after waste accumulated during a forced pause; crews prioritized critical points and restored routes.",
+    "affected_people_clue": null,
+    "duration_clue": "durante los días previos"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-retoma-recoleccion-basura-1-abril/",
+    "article_date": "2026-03-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "LG",
+    "qualifies": "unsure",
+    "categories": [
+      "trash"
+    ],
+    "status": "unclear",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "The article discusses waste-service capacity and contract administration, but resident-impact qualification is uncertain.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  }
+]

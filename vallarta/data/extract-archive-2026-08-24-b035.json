@@ -1,0 +1,177 @@
+[
+  {
+    "article_url": "https://diariodevallarta.com/vallarta-preve-normalizar-recoleccion-de-basura-en-48-horas/",
+    "article_date": "2026-05-06",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Paloma Rocío Guevara",
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Garbage collection had recent operational complications, while Puerto Vallarta authorities promised normalization within 48 hours.",
+    "affected_people_clue": "population of Puerto Vallarta",
+    "duration_clue": "poco más de un mes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-cinco-colonias/",
+    "article_date": "2026-05-20",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "interconexión de nuevas líneas sobre la carretera a Las Palmas, en su cruce con el camino al río Ameca",
+    "street": "carretera a Las Palmas",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A planned water interruption will affect at least five Puerto Vallarta colonies during utility interconnection work.",
+    "affected_people_clue": "al menos cinco colonias",
+    "duration_clue": "de 9:00 de la mañana y las 3:00 de la tarde"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncian-suciedad-abandono-parque-lazaro-cardenas-puerto-vallarta/",
+    "article_date": "2026-05-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Parque Lázaro Cárdenas, conocido popularmente como el “Parque de los Azulejos”",
+    "street": null,
+    "colonia": null,
+    "landmark": "Parque Lázaro Cárdenas",
+    "summary": "Accumulated trash, odors, and missing maintenance leave Parque Lázaro Cárdenas dirty and apparently abandoned.",
+    "affected_people_clue": "residentes como turistas",
+    "duration_clue": "desde hace varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncian-basurero-clandestino-ojo-de-agua/",
+    "article_date": "2026-05-28",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Ojo de Agua ... avenida Las Cascadas, entre calles Manantial y Arroyito",
+    "street": "avenida Las Cascadas entre calles Manantial y Arroyito",
+    "colonia": "Ojo de Agua",
+    "landmark": null,
+    "summary": "A longstanding clandestine dump is reported in Ojo de Agua, but the article does not identify its municipality.",
+    "affected_people_clue": "vecinos de diferentes colonias",
+    "duration_clue": "no es nueva"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/suspenden-recoleccion-basura-colonias-puerto-vallarta-viernes/",
+    "article_date": "2026-06-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A same-day garbage collection suspension leaves Puerto Vallarta residents storing waste and risks accumulation in public streets.",
+    "affected_people_clue": "todas las colonias, excepto la franja turística",
+    "duration_clue": "este viernes 19 de junio; volverá el sábado"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/floresta-acumulacion-de-basura/",
+    "article_date": "2026-07-02",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia La Floresta ... calle Veracruz, en su cruce con 21 de Marzo",
+    "street": "calle Veracruz en su cruce con 21 de Marzo",
+    "colonia": "La Floresta",
+    "landmark": null,
+    "summary": "Residents report failed garbage collection at a La Floresta street corner, but the article does not identify the municipality.",
+    "affected_people_clue": "habitantes de la colonia La Floresta",
+    "duration_clue": "constantes fallas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-laguna-tomasa-parque-ecologico/",
+    "article_date": "2026-07-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la Laguna Tomasa ... ha sufrido durante años el abandono ... acumulación de lirio acuático, basura, escombros y diversos residuos",
+    "street": null,
+    "colonia": null,
+    "landmark": "Laguna Tomasa",
+    "summary": "Years of neglect leave Laguna Tomasa with aquatic weeds, garbage, and debris; advocates seek permanent public-space protection.",
+    "affected_people_clue": null,
+    "duration_clue": "durante años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/cambios-recoleccion-basura-desatan-criticas/",
+    "article_date": "2026-07-11",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report repeated collection changes, missed service, and garbage accumulating in Puerto Vallarta neighborhoods.",
+    "affected_people_clue": "varios usuarios",
+    "duration_clue": "durante la actual administración"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-proteger-playas-contaminacion/",
+    "article_date": "2026-07-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la playa del Cuale ha registrado niveles elevados de contaminación por coliformes fecales",
+    "street": null,
+    "colonia": null,
+    "landmark": "Playa del Cuale",
+    "summary": "Contaminated Playa del Cuale, wastewater threats, and deficient garbage collection endanger Puerto Vallarta beaches and residents.",
+    "affected_people_clue": "habitantes y visitantes",
+    "duration_clue": "en distintos estudios científicos"
+  }
+]

@@ -1,0 +1,1673 @@
+{
+ "generated_for": "requeue: marked processed, never triaged",
+ "note": "These URLs are listed in archive-progress processed_urls but no triage file contains a decision for them. They are therefore unread AND invisible to the reading queue, which skips anything in processed_urls. Remove them from processed_urls to requeue them, or read them directly. Do not treat them as read.",
+ "count": 238,
+ "articles": [
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-guadalajara-profugo-homicidio-30-anos/",
+   "article_date": "2026-04-15",
+   "title": "Detienen en Guadalajara a prófugo por homicidio ocurrido en CDMX hace más de 30 años",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/procesan-13-militares-homicidio-ninas-sinaloa/",
+   "article_date": "2026-04-08",
+   "title": "Procesan a 13 militares acusados del homicidio de dos niñas en 2025 en Badiraguato, Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/erick-saracho-fiscalia-espera-imputar-agresor/",
+   "article_date": "2026-04-01",
+   "title": "Fiscalía de Nayarit espera video original para imputar a agresor por caso Erick Saracho",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mata-maestras-michoacan-detienen-estudiante/",
+   "article_date": "2026-03-24",
+   "title": "Mata a balazos a dos maestras dentro de prepa de Michoacán; detienen a estudiante de 15 años",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mujer-atacada-machete-puebla-perros-callejeros/",
+   "article_date": "2026-03-23",
+   "title": "Mujer es atacada con machete por defender a perros callejeros en Puebla",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-falsos-policias-retenes-ilegales-edomex/",
+   "article_date": "2026-03-04",
+   "title": "Detienen a 44 falsos policías que instalaban retenes ilegales en carreteras del Estado de México",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-adolescente-16-feminicidio-naco-sonora/",
+   "article_date": "2026-03-03",
+   "title": "Detienen a adolescente de 16 años por el homicidio de una menor de 14 en Naco, Sonora",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/caiga-quien-caiga-lemus-narconomina-cjng-jalisco/",
+   "article_date": "2026-02-26",
+   "title": "¡Caiga quien caiga!, dice el gobernador Lemus por la narconómina del Mencho en Jalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/exhiben-video-funcionario-bahia-de-banderas-dinero-narco/",
+   "article_date": "2026-02-26",
+   "title": "Exhiben en video a funcionario cercano a Héctor Santana entregando dinero a sancionado por E.U. ligado a cártel del narcotráfico",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-operador-financiero-los-chapitos-bcs/",
+   "article_date": "2026-02-20",
+   "title": "Detienen en Baja California Sur a presunto operador financiero de “Los Chapitos”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/asunto-morena-sheinbaum-sergio-mayer/",
+   "article_date": "2026-02-19",
+   "title": "“Es asunto de Morena”: Sheinbaum sobre permiso de Sergio Mayer para ir a La Casa de los Famosos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-sujeto-armado-san-jose-del-valle-arma-hechiza-22/",
+   "article_date": "2026-02-17",
+   "title": "Detienen a sujeto armado en San José del Valle, Bahía de Banderas; portaba arma hechiza calibre .22",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/pepe-castaneda-suma-jasmin-bugarin/",
+   "article_date": "2026-02-09",
+   "title": "Se refuerza el Partido Verde en Nayarit: Pepe Castañeda se suma al proyecto de Jasmín Bugarín rumbo a 2027",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -4
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/operativos-cjng-jalisco-hidalgo-michoacan-20-detenidos/",
+   "article_date": "2026-08-24",
+   "title": "Golpe al CJNG: operativos en Jalisco, Hidalgo y Michoacán dejan 20 detenidos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ultimo-adios-octavio-haro-localizado-zapopan/",
+   "article_date": "2026-08-23",
+   "title": "Dan el último adiós al empresario Octavio Haro tras ser localizado sin vida en Zapopan",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/dea-acusa-funcionarios-mexicanos-colaborar-cjng/",
+   "article_date": "2026-08-23",
+   "title": "Jefe de la DEA acusa a funcionarios mexicanos de alto nivel de colaborar con el CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/hijo-r1-profugo-niega-feminicidio-valeria-marquez/",
+   "article_date": "2026-08-21",
+   "title": "“Soy completamente inocente”: hijo del R1 se deslinda del feminicidio de Valeria Márquez",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/gobernadores-4t-cierran-sheinbaum-rocha-moya-sinaloa/",
+   "article_date": "2026-08-21",
+   "title": "Gobernadores de la 4T cierran filas con Sheinbaum y reprochan regreso de Rocha Moya a Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/suman-12-detenidos-operativo-tio-lako-michoacan/",
+   "article_date": "2026-08-20",
+   "title": "Suman 12 detenidos en operativo contra célula de “El Tío Lako” en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/pablo-lemus-recibe-nueva-consul-de-eu/",
+   "article_date": "2026-08-19",
+   "title": "Pablo Lemus recibe a nueva cónsul de EU y destaca relación con Jalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-juan-perez-moral-alcalde-tianguismanalco-puebla/",
+   "article_date": "2026-08-18",
+   "title": "Detienen a Juan Pérez Moral, “El Mantecas”, alcalde de Tianguismanalco, Puebla",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mueren-cuatro-marinos-camioneta-rio-tamaulipas/",
+   "article_date": "2026-08-18",
+   "title": "Mueren cuatro marinos al caer su camioneta a un río en Tamaulipas",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-joven-armado-uan-tepic-acoso-estudiante/",
+   "article_date": "2026-08-17",
+   "title": "Detienen a joven armado cerca de la UAN, en Tepic; presuntamente acosaba a una estudiante",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ucio-n-exdirector-dif-jalisco-detenido-presunta-violacion/",
+   "article_date": "2026-08-16",
+   "title": "Detienen y vinculan a proceso a Lucio “N”, exdirector del DIF Jalisco, por presunta violación",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/el-marino-asesinado-penal-michoacan-extraditado-canada/",
+   "article_date": "2026-08-16",
+   "title": "Asesinan en su celda a “El Marino”; fue extraditado de Canadá por homicidio de adolescente en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/pareja-mexicanos-desaparecida-terremoto-colombia-familiares-busqueda/",
+   "article_date": "2026-08-16",
+   "title": "Pareja de mexicanos sigue desaparecida tras terremoto en Colombia",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-padrastro-nina-11-anos-embarazada-tamaulipas/",
+   "article_date": "2026-08-14",
+   "title": "Detienen a Sirenio “N”, padrastro de niña de 11 años embarazada en Tamaulipas",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-estados-unidos-agresor-hotel-cdmx/",
+   "article_date": "2026-08-13",
+   "title": "Detienen en Estados Unidos a presunto agresor de recepcionista de hotel en CDMX",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/divulgacion-universitaria-narrar-conocimiento-sin-propaganda/",
+   "article_date": "2026-08-13",
+   "title": "La divulgación universitaria después del boletín: narrar conocimiento sin convertirlo en propaganda",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ahijado-el-jardinero-cjng-detenido-republica-checa/",
+   "article_date": "2026-08-12",
+   "title": "Ahijado de “El Jardinero”enfrenta cadena perpetua tras haber sido detenido en República Checa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/trump-anuncia-salida-karoline-leavitt-casa-blanca/",
+   "article_date": "2026-08-12",
+   "title": "Trump anuncia salida de Karoline Leavitt como portavoz de la Casa Blanca",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/harfuch-12-detenidos-extorsion-productores-michoacan/",
+   "article_date": "2026-08-11",
+   "title": "Detienen a 12 por presunta extorsión a productores y comerciantes en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/agresion-guardia-nacional-los-mochis-ocho-detenidos/",
+   "article_date": "2026-08-10",
+   "title": "Agresión contra Guardia Nacional en Los Mochis deja al menos ocho detenidos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/asesinan-dona-dominga-vendedora-cemitas-90-pesos/",
+   "article_date": "2026-08-07",
+   "title": "Asesinan a Doña Dominga, vendedora de cemitas, en Puebla; le quitaron 90 pesos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-exgobernador-guerrero-angel-aguirre-rivero-caso-ayotzinapa/",
+   "article_date": "2026-08-06",
+   "title": "Detienen a exgobernador de Guerrero, Ángel Aguirre Rivero, por caso Ayotzinapa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/caso-valeria-marquez-fiscalia-mas-involucradas/",
+   "article_date": "2026-08-06",
+   "title": "Caso Valeria Márquez: Fiscalía de Jalisco revela que habría más personas involucradas en el feminicidio",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/eu-ofrece-mas-de-100-mdd-por-lideres-del-cjng/",
+   "article_date": "2026-08-05",
+   "title": "EU ofrece más de 100 MDD por líderes del CJNG y endurece ofensiva contra el cártel",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/quien-era-cesar-gastelum-el-influencer-asesinado-culiacan/",
+   "article_date": "2026-08-05",
+   "title": "¿Quién era César Gastélum? El influencer asesinado mientras transmitía en vivo en Culiacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/quien-es-03-eleva-recompensa-25-mdd-presunto-lider-cjng/",
+   "article_date": "2026-08-05",
+   "title": "¿Quién es “El 03”? EU eleva recompensa a 25 MDD por presunto líder del CJNG e hijastro de “El Mencho”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/dea-reconoce-garcia-harfuch-mejor-pais/",
+   "article_date": "2026-08-05",
+   "title": "DEA reconoce coordinación con García Harfuch: “Quiere lo mejor para su país”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ronald-johnson-cjng-rendiran-cuentas-recompensas/",
+   "article_date": "2026-08-05",
+   "title": "“Serán encontradas y rendirán cuentas”: embajador de E.U advierte a quienes operen para el CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ariadna-montiel-reglas-aspirantes-morena-elecciones-2027/",
+   "article_date": "2026-08-04",
+   "title": "Ariadna Montiel define las reglas para aspirantes de Morena rumbo a las elecciones de 2027",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ricardo-cabezas-talavera-desaparecido-zapopan-alerta-nacional/",
+   "article_date": "2026-08-04",
+   "title": "Ricardo Cabezas, agente inmobiliario, desaparece tras salir a una presunta cita con un cliente en Zapopan",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/aplazan-audiencia-el-r1-carlos-manzo/",
+   "article_date": "2026-08-04",
+   "title": "Aplazan audiencia de “El R1” por caso Carlos Manzo; defensa solicita más tiempo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/nayarit-retira-policia-estatal-municipios/",
+   "article_date": "2026-08-04",
+   "title": "Nayarit retira a la Policía Estatal de los municipios; Gobierno pone fin a la Policía Coordinada",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/nayarit-geraldine-ponce-acusa-pan-guerra-sucia/",
+   "article_date": "2026-08-04",
+   "title": "Geraldine Ponce acusa al PAN de operar guerra sucia contra aspirantes de Morena en Nayarit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/christian-nodal-fig-2026-colectivos-exigen-retirarlo/",
+   "article_date": "2026-08-03",
+   "title": "Colectivos exigen retirar a Christian Nodal del FIG 2026; festival responde y mantiene el cartel",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/matan-balazos-rapero-soldis-c4-grababa-guadalajara/",
+   "article_date": "2026-08-01",
+   "title": "Matan a balazos al rapero Soldis C4 mientras grababa un videoclip en Guadalajara",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/miguel-angel-navarro-policias-municipales-nayarit/",
+   "article_date": "2026-08-01",
+   "title": "Miguel Ángel Navarro se deslinda de policías municipales; advierte infiltración del crimen en corporaciones de Nayarit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/harfuch-vincula-r1-feminicidio-valeria-marquez-nuera/",
+   "article_date": "2026-07-31",
+   "title": "Harfuch vincula al “R1” con el feminicidio de la influencer Valeria Márquez; era su nuera",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/escandalo-examen-unam-sabe-irregularidades/",
+   "article_date": "2026-07-31",
+   "title": "Escándalo por examen de la UNAM: esto se sabe de las irregularidades y la salida de Patricia Dávila",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/morena-nacional-reune-aspirantes-unidad-nayarit-3/",
+   "article_date": "2026-07-31",
+   "title": "Morena nacional reúne a aspirantes y llama a la unidad ante la disputa por la gubernatura de Nayarit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-dos-hombres-maltrato-perrita-tlajomulco/",
+   "article_date": "2026-07-31",
+   "title": "Detienen a dos hombres por presunto maltrato contra perrita en Tlajomulco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-confirma-fgr-caso-mayo-zambada/",
+   "article_date": "2026-07-29",
+   "title": "Sheinbaum confirma que la FGR definirá el futuro del caso de ‘El Mayo’ Zambada",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fiscalia-jalisco-detiene-extorsionadores-guadalajara/",
+   "article_date": "2026-07-29",
+   "title": "Fiscalía de Jalisco detiene a cinco presuntos extorsionadores en Guadalajara; exigían 35 mil pesos de cobro de piso",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/cae-el-20-sinaloa-vinculan-ataque-militares/",
+   "article_date": "2026-07-28",
+   "title": "Cae “El 20” en Sinaloa; lo vinculan con ataque donde murieron cinco militares",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/lemus-confirma-seis-detenidos-operativo-marina-zapopan/",
+   "article_date": "2026-07-27",
+   "title": "Pablo Lemus confirma seis detenidos en operativo de la Marina en Zapopan",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/graban-agresion-sexual-menor-chiapas-fiscalia/",
+   "article_date": "2026-07-27",
+   "title": "Graban agresión sexual contra un menor en Chiapas; Fiscalía detiene a cuatro",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-seis-contra-la-extorsion-en-morelos/",
+   "article_date": "2026-07-25",
+   "title": "Detienen a seis presuntos integrantes de “La Empresa” en operativo contra la extorsión en Morelos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/alcalde-temoac-investigacion-nexos-crimen-organizado-harfuch/",
+   "article_date": "2026-07-24",
+   "title": "Alcalde de Temoac asesinado era investigado por presuntos vínculos con grupo criminal, revela Harfuch",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/asi-fue-fuerte-operativo-detener-mencho/",
+   "article_date": "2026-02-23",
+   "title": "MINUTO a MINUTO: Así fue el fuerte operativo para detener al Mencho en Tapalpa, Jalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/farmacias-guadalajara-opera-cautela-jalisco/",
+   "article_date": "2026-02-23",
+   "title": "Farmacias Guadalajara opera con cautela tras violencia en Jalisco; esto informaron",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/22-febrero-cayeron-chapo-mencho-capos-poderosos/",
+   "article_date": "2026-02-23",
+   "title": "22 de febrero: el día que cayeron El Chapo y El Mencho, los capos más poderosos de México",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/como-mujeres-caida-chapo-mencho/",
+   "article_date": "2026-02-23",
+   "title": "El talón de Aquiles de los capos: Cómo las mujeres marcaron la caída del “Mencho” y “El Chapo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/trump-exige-sheinbaum-intensificar-esfuerzos-contra-carteles/",
+   "article_date": "2026-02-23",
+   "title": "Trump exige a Sheinbaum “intensificar esfuerzos” contra cárteles tras muerte de “El Mencho”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mencho-lider-cjng-mas-buscado-dea/",
+   "article_date": "2026-02-22",
+   "title": "“El Mencho”, líder del CJNG, fue el objetivo prioritario de la DEA: ofrecían hasta 15 MDD",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-abatimiento-mencho-gabinete-seguridad-informe/",
+   "article_date": "2026-02-22",
+   "title": "Sheinbaum sobre abatimiento de “El Mencho”: Gabinete de Seguridad dará informe oficial",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/confirmado-mencho-fue-abatido-tapalpa/",
+   "article_date": "2026-02-22",
+   "title": "CONFIRMADO: “Mencho” fue abatido durante operativo en Tapalpa; hay más detenidos del CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/harfuch-pronuncia-caida-mencho-lanza-mensaje/",
+   "article_date": "2026-02-22",
+   "title": "Harfuch se pronuncia tras caída de “El Mencho”; lanza breve mensaje",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mencho-cjng-murio-durante-traslado-cdmx/",
+   "article_date": "2026-02-22",
+   "title": "El “Mencho”, líder del CJNG, murió durante traslado a la CDMX tras operativo en Tapalpa, Jalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/hay-bloqueos-activos-jalisco-muerte-mencho/",
+   "article_date": "2026-02-22",
+   "title": "Hay 21 bloqueos carreteros activos en Jalisco tras muerte de El Mencho",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/juan-carlos-valencia-gonzalez-hijastro-mencho-cjng/",
+   "article_date": "2026-02-22",
+   "title": "Juan Carlos Valencia González, hijastro de “El Mencho”, permanece libre y al frente del CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mencho-intento-matar-garcia-harfuch-hoy-cae-tapalpa/",
+   "article_date": "2026-02-22",
+   "title": "“El Mencho” intentó matar a García Harfuch en 2020; hoy cae en Tapalpa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/que-pasara-cjng-abatimiento-el-mencho/",
+   "article_date": "2026-02-22",
+   "title": "¿Qué pasará con el CJNG tras el abatimiento de “El Mencho”?",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/llega-cuerpo-mencho-cdmx-operativo/",
+   "article_date": "2026-02-22",
+   "title": "Llega el cuerpo de “El Mencho” a la CDMX bajo fuerte operativo de seguridad",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/casa-blanca-apoyo-inteligencia-operativo-el-mencho-jalisco/",
+   "article_date": "2026-02-22",
+   "title": "Casa Blanca confirma apoyo de inteligencia de E.U. en operativo contra “El Mencho” en Jalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/jalisco-permanece-4-bloqueos-carreteros-activos/",
+   "article_date": "2026-02-22",
+   "title": "Jalisco permanece con 4 bloqueos carreteros activos; fuerzas estatales y federales redoblan operativos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detuvieron-mencho-mexico-rumor-cjng/",
+   "article_date": "2026-02-21",
+   "title": "¿Detuvieron al “Mencho” en México?: Rumor sobre captura del líder del CJNG sacude redes",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-14-presuntos-secuestradores-veracruz/",
+   "article_date": "2026-02-21",
+   "title": "Detienen a 14 presuntos secuestradores en Veracruz; cae líder regional ligado al CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/jalisco-amplia-su-oferta-hotelera-rumbo-al-mundial-2026/",
+   "article_date": "2026-02-19",
+   "title": "Jalisco amplía su oferta hotelera rumbo al Mundial 2026",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-exprincipe-andres-hermano-carlos/",
+   "article_date": "2026-02-19",
+   "title": "Detienen al expríncipe Andrés, hermano del rey Carlos III, en Reino Unido",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/condenan-62-anos-el-nariz-familia-michoacana-edomex/",
+   "article_date": "2026-02-18",
+   "title": "Condenan a 62 años de prisión a “El Nariz”, integrante de la Familia Michoacana en Edomex",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/raul-moron-deslinda-asesinato-carlos-manzo-contrademanda/",
+   "article_date": "2026-02-18",
+   "title": "Raúl Morón se deslinda del asesinato de Carlos Manzo y analiza contrademandar a Grecia Quiroz",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-el-mungui-mazatlan-seis-anos-profugo/",
+   "article_date": "2026-02-18",
+   "title": "Tras seis años prófugo, detienen en Mazatlán a “El Mungui”, reo fugado durante el primer Culiacanazo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-morelos-excandidata-totolapan/",
+   "article_date": "2026-02-18",
+   "title": "Detienen en Morelos a Marlén “N”, excandidata a la alcaldía de Totolapan",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/lemus-reacciona-nombramiento-villanueva-morena/",
+   "article_date": "2026-02-17",
+   "title": "Entre amistad y política: Lemus reacciona al nombramiento de Villanueva en Morena",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/grecia-quiroz-denuncia-investigar-politicos-homicidio-carlos-manzo/",
+   "article_date": "2026-02-17",
+   "title": "Grecia Quiroz presenta denuncia ante Fiscalía de Michoacán y pide que se investigue a tres políticos por el homicidio de Carlos Manzo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fge-identifica-presunto-responsable-homicidio-ricardo-mizael-culiacan/",
+   "article_date": "2026-02-17",
+   "title": "FGE identifica a presunto responsable del homicidio del adolescente Ricardo Mizael en Culiacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/lemus-sortea-vuelos-nueva-york-tarjeta-unica-criticas/",
+   "article_date": "2026-02-16",
+   "title": "Lemus sortea vuelos a Nueva York para impulsar la Tarjeta Única Jalisco tras críticas",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-accionista-sello-rojo-roberto-eiji/",
+   "article_date": "2026-02-16",
+   "title": "Detienen a accionista de Sello Rojo, Roberto Eiji González Uyeda, en Zapopan",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/encuentran-muerta-regidora-manzanilla/",
+   "article_date": "2026-02-13",
+   "title": "Encuentran muerta a regidora de MC en La Manzanilla de la Paz; Fiscalía investiga feminicidio",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/adolescente-se-entrega-asesina-padre-hermano-toluca/",
+   "article_date": "2026-02-13",
+   "title": "Adolescente se entrega tras asesinar a su padre y hermano en Toluca",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/vinculan-proceso-menor-apunalar-jeremy-tlahuac/",
+   "article_date": "2026-02-13",
+   "title": "Vinculan a proceso a Diego Kevin “N” acusado de apuñalar a Jeremy durante una pelea afuera de secundaria en Tláhuac",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ucraniano-fuera-juegos-olimpicos-invierno-por-casco-vetado/",
+   "article_date": "2026-02-12",
+   "title": "Ucraniano Heraskevych es descalificado de Milán-Cortina 2026 por usar casco con homenaje a caídos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/chivas-america-blindan-clasico-nacional-evitar-violencia/",
+   "article_date": "2026-02-12",
+   "title": "Blindan el Clásico Nacional para evitar violencia dentro y fuera del Akron",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/profepa-denuncia-mono-arana-regidora-ocotlan/",
+   "article_date": "2026-02-12",
+   "title": "Profepa denuncia a regidora de Ocotlán por posesión de un mono araña",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/prision-preventiva-javier-duarte-peculado-2026/",
+   "article_date": "2026-02-12",
+   "title": "Dictan prisión preventiva justificada contra Javier Duarte por nuevo caso de presunto peculado",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-presuntos-maltrato-lobito-naucalpan/",
+   "article_date": "2026-02-12",
+   "title": "Detienen a hombre y a una familia por presunto maltrato a “Lobito”, perro arrojado por escaleras en Naucalpan",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/drones-carteles-cierre-espacio-aereo-el-paso/",
+   "article_date": "2026-02-11",
+   "title": "Drones de cárteles mexicanos provocaron cierre del espacio aéreo en El Paso, Texas",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/prision-preventiva-gaby-n-motociclista-iztapalapa/",
+   "article_date": "2026-02-11",
+   "title": "Juez dicta prisión preventiva a Gaby “N” por caso de motociclista arrollado y arrastrado en Iztapalapa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/lemus-anuncia-inversion-500-mdp-tequila/",
+   "article_date": "2026-02-10",
+   "title": "Lemus anuncia inversión de 500 MDP para Tequila tras detención de alcalde",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/explosion-ducto-pemex-oaxaca/",
+   "article_date": "2026-02-10",
+   "title": "Explosión de ducto de Pemex en Oaxaca deja tres muertos y seis lesionados",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/empresarios-desaparecidos-slp-hallados-zacatecas/",
+   "article_date": "2026-02-10",
+   "title": "Hallan sin vida a dos empresarios reportados como desaparecidos en San Luis Potosí",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/asesinan-hallie-tobler-hija-jeff-johnson-minnesota/",
+   "article_date": "2026-02-10",
+   "title": "Asesinan a Hallie Tobler, hija de Jeff Johnson, aspirante republicano a la gubernatura de Minnesota",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/tequila-jalisco-tiene-nueva-alcaldesa/",
+   "article_date": "2026-02-09",
+   "title": "Tequila, Jalisco, tiene nueva alcaldesa: Lorena Marisol Rodríguez asume el cargo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fgr-tras-operadores-cercanos-alcalde-tequila/",
+   "article_date": "2026-02-09",
+   "title": "FGR va tras dos operadores cercanos al alcalde de Tequila: jefe de Gabinete y operador del CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/aplazan-audiencia-javier-duarte-fgr-peculado/",
+   "article_date": "2026-02-09",
+   "title": "Aplazan por tercera ocasión audiencia de Javier Duarte; FGR alista nueva imputación por peculado",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fijan-fecha-proceso-estatal-contra-luigi-mangione/",
+   "article_date": "2026-02-06",
+   "title": "Juicio por asesinato de CEO de UnitedHealthcare: fijan fecha para proceso estatal contra Luigi Mangione",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/denuncia-alcalde-tequila-40-millones-cjng-reforma/",
+   "article_date": "2026-02-06",
+   "title": "Denuncia señala que alcalde de Tequila se decía subordinado de “El Mencho”, líder del CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/auto-formal-prision-alcalde-tequila/",
+   "article_date": "2026-02-06",
+   "title": "Dictan prisión preventiva al alcalde de Tequila, Diego “N”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-lider-los-salazar-queretaro-30-detenidos/",
+   "article_date": "2026-02-06",
+   "title": "Caen en Querétaro presunto operador de “Los Salazar” y 29 personas más; grupo afín al Cártel de Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/bahia-banderas-policias-paro-detenciones/",
+   "article_date": "2026-08-12",
+   "title": "Bahía de Banderas se queda sin policías: detienen a 8 municipales y más de 300 se van a paro",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -2
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-exdirector-comunicacion-alito-moreno/",
+   "article_date": "2026-08-12",
+   "title": "Detienen a exdirector de Comunicación de “Alito” Moreno por presunto peculado en Campeche",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -2
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/bahia-banderas-hector-santana-morena/",
+   "article_date": "2026-07-13",
+   "title": "Héctor Santana y Jasmin Bugarín no estarían jugando limpio en proceso interno de Morena, acusan diputados",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -2
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/hector-santana-caravanas-politicas-geraldine-ponce-bahia-de-banderas/",
+   "article_date": "2026-07-10",
+   "title": "En plena gira de Geraldine Ponce por Bahía de Banderas, Héctor Santana lanza mensaje contra las caravanas políticas",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -2
+  },
+  {
+   "article_url": "https://diariodevallarta.com/por-que-se-siguen-tolerando-los-mandatos-de-vacunacion/",
+   "article_date": "2026-06-11",
+   "title": "¿Por qué se siguen tolerando los mandatos de vacunación?",
+   "source_outlet": "Diario de Vallarta",
+   "score": -2
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/hector-santana-movimiento-ciudadano-gubernatura-nayarit-2027/",
+   "article_date": "2026-06-11",
+   "title": "¿Rompería con Morena? Crecen versiones de que Héctor Santana buscaría la gubernatura de Nayarit 2027 con Movimiento Ciudadano",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -2
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/morena-candidato-gubernatura-nayarit-despues-mundial-2027/",
+   "article_date": "2026-06-09",
+   "title": "Después del Mundial habrá candidato: Morena define fechas para elegir a su abanderado a la gubernatura de Nayarit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -2
+  },
+  {
+   "article_url": "https://diariodevallarta.com/chicas-comparten-el-primer-puesto-del-podio-con-un-hombre-transexual-en-las-finales-de-atletismo-de-california/",
+   "article_date": "2026-05-24",
+   "title": "Chicas comparten el primer puesto del podio con un hombre «transexual» en las finales de atletismo de California",
+   "source_outlet": "Diario de Vallarta",
+   "score": -2
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-presunto-homicida-bucerias-desde-2021/",
+   "article_date": "2026-05-22",
+   "title": "Cae presunto homicida en El Guamúchil; era buscado por asesinato en Bucerías desde 2021",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -2
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sinaloa-rocha-moya-licencia-indefinida/",
+   "article_date": "2026-08-22",
+   "title": "Rocha Moya pide licencia indefinida tras quedar aislado por su regreso",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-hija-pareja-tio-lako-cjng-michoacan/",
+   "article_date": "2026-08-19",
+   "title": "Detienen a hija y pareja de “El Tío Lako” junto con otros siete presuntos integrantes del CJNG en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-mazatlan-gabito-operador-chapitos/",
+   "article_date": "2026-06-02",
+   "title": "Detienen en Mazatlán a “El Gabito”, presunto operador de “Los Chapitos” en Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ruben-rocha-comparece-fgr-nexos-chapitos/",
+   "article_date": "2026-05-26",
+   "title": "Rubén Rocha Moya comparece este martes ante la FGR",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ruben-rocha-moya-sinaloa-escoltas/",
+   "article_date": "2026-05-20",
+   "title": "Harfuch confirma que Rubén Rocha Moya permanece en Sinaloa y cuenta con escoltas estatales",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-la-tia-carlos-manzo/",
+   "article_date": "2026-05-19",
+   "title": "Detienen a “La Tía”, presunta operadora vinculada al homicidio de Carlos Manzo en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://diariodevallarta.com/funcionarios-y-narcos-en-mexico-han-estado-en-la-cama-por-anos-afirma-jefe-de-la-dea/",
+   "article_date": "2026-05-12",
+   "title": "Funcionarios y narcos en México «han estado en la cama por años»: jefe de la DEA",
+   "source_outlet": "Diario de Vallarta",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/grecia-quiroz-critica-proteccion-rocha-moya-carlos-manzo/",
+   "article_date": "2026-05-06",
+   "title": "Grecia Quiroz arremete contra Morena por defender a Rocha Moya",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/nombran-yeraldine-bonilla-gobernadora-interina-sinaloa/",
+   "article_date": "2026-05-02",
+   "title": "Nombran a Yeraldine Bonilla gobernadora interina de Sinaloa tras aprobar licencia a Rubén Rocha",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ruben-rocha-dejar-cargo-acusaciones-eu/",
+   "article_date": "2026-04-30",
+   "title": "Rubén Rocha descarta dejar el cargo tras acusaciones en EU: “No temo, soy una persona limpia”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/comandante-galindo-cjng-edomex-detencion/",
+   "article_date": "2026-03-27",
+   "title": "Detienen a “Comandante Galindo”, presunto líder del CJNG en el Estado de México",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -9
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/geraldine-ponce-santana-cargos-frenan-salida-eleccion-nayarit-2027/",
+   "article_date": "2026-06-22",
+   "title": "Ni Geraldine Ponce ni Héctor Santana dejan el cargo; aplazan licencia rumbo a la candidatura por la gubernatura de Nayarit 2027",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -7
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/nayarit-licencias-ponce-santana-morena/",
+   "article_date": "2026-06-17",
+   "title": "Geraldine Ponce y Héctor Santana pedirán licencia este fin de semana para buscar la candidatura de Morena a la gubernatura de Nayarit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -7
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/video-exhibe-ataque-armado-casa-rocha-moya/",
+   "article_date": "2026-05-10",
+   "title": "VIDEO exhibe ataque armado a casa de Rubén Rocha Moya en Culiacán; tensión sacude nuevamente a Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -7
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/el-chucky-cjng-manzanillo/",
+   "article_date": "2026-05-04",
+   "title": "Detienen a “El Chucky”, presunto jefe de plaza del CJNG en Manzanillo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -7
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-rocha-moya-no-aviso-regreso-sinaloa/",
+   "article_date": "2026-08-24",
+   "title": "Sheinbaum revela que Rocha Moya no avisó de su regreso: “No me parecía pertinente”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-paola-alejandra-desaparicion-homicidio-tlaquepaque/",
+   "article_date": "2026-08-24",
+   "title": "Detienen a mujer por homicidio en Tlaquepaque; habría obligado a taxista a trasladar un cuerpo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-avala-salida-rocha-moya-lo-mejor-sinaloa/",
+   "article_date": "2026-08-23",
+   "title": "Sheinbaum avala salida de Rocha Moya: “Es lo mejor para Sinaloa”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-lanza-duro-mensaje-rocha-moya/",
+   "article_date": "2026-08-22",
+   "title": "Sheinbaum lanza duro mensaje tras regreso de Rocha Moya a la gubernatura de Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/rocha-moya-retoma-gubernatura-sinaloa-investigacion/",
+   "article_date": "2026-08-21",
+   "title": "Rubén Rocha Moya retoma la gubernatura de Sinaloa tras 112 días de investigación",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/segob-investigacion-ruben-rocha-moya-sigue-abierta/",
+   "article_date": "2026-08-21",
+   "title": "Segob aclara que regreso de Rocha Moya fue decisión personal; investigación sigue abierta",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/quien-es-tio-lako-cjng-operativo-michoacan/",
+   "article_date": "2026-08-19",
+   "title": "¿Quién es “El Tío Lako”? El líder del CJNG cuya célula estaría detrás de los narcobloqueos en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fgr-detiene-testigo-implicado-secuestro-mayo-zambada/",
+   "article_date": "2026-08-19",
+   "title": "FGR detiene a testigo clave implicado en el secuestro de ‘El Mayo’ Zambada",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/asi-sacaron-trasladan-cdmx-hija-pareja-tio-lako/",
+   "article_date": "2026-08-19",
+   "title": "¡Así las sacaron! Trasladan a CDMX a hija y pareja de ‘El Tío Lako’ tras operativo en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/gnp-seguros-evade-pagar-familia-transito-fallecido/",
+   "article_date": "2026-08-12",
+   "title": "GNP Seguros se niega a pagar indemnización por la muerte de un tránsito en Puerto Vallarta",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/nayarit-bajan-homicidios/",
+   "article_date": "2026-08-11",
+   "title": "Bajan 63% los homicidios en Nayarit: pasa de uno cada dos días a uno cada cinco días",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-zapopan-buscado-homicidio-quintana-roo/",
+   "article_date": "2026-08-06",
+   "title": "Detienen en Zapopan a presunto generador de violencia buscado por homicidio en Quintana Roo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/ingresan-r1-penal-altiplano/",
+   "article_date": "2026-08-02",
+   "title": "Ingresan a ‘El R1’ al penal de El Altiplano; lo señalan como autor intelectual del asesinato de Carlos Manzo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/capturan-presunto-autor-homicidio-carlos-manzo-harfuch/",
+   "article_date": "2026-07-30",
+   "title": "Capturan al “R1”, presunto autor intelectual del homicidio de Carlos Manzo, informa Harfuch",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/asi-fue-operativo-detener-r1-atotonilco-carlos-manzo/",
+   "article_date": "2026-07-30",
+   "title": "Así fue el operativo para detener al “R1” en Atotonilco, Jalisco, presunto autor intelectual del crimen de Manzo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/gabinete-seguridad-desmiente-operativo-ruben-rocha/",
+   "article_date": "2026-07-24",
+   "title": "Gabinete de Seguridad desmiente operativo del Ejército en Sinaloa para proteger a Rubén Rocha",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/cae-m4-presunto-operador-cjng-nayarit-tlaxcala/",
+   "article_date": "2026-07-19",
+   "title": "Cae el “M4”, señalado como presunto operador del CJNG; coordinaba actividades criminales en Nayarit y Tlaxcala",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/tepic-xalisco-captura-cartel-megaoperativo/",
+   "article_date": "2026-07-18",
+   "title": "Miguel Ángel Navarro confirma captura de cuatro presuntos miembros de un cártel tras megaoperativo en Tepic y Xalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-ernesto-ruffo-exgobernador-baja-california/",
+   "article_date": "2026-07-16",
+   "title": "Detienen a Ernesto Ruffo Appel, exgobernador de Baja California, por presunto contrabando de combustible",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/asesinan-guadalajara-benjamin-medrano-exalcalde-fresnillo/",
+   "article_date": "2026-07-10",
+   "title": "Asesinan en Guadalajara a Benjamín Medrano, exalcalde de Fresnillo y referente de la diversidad en la política",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/rocha-moya-culiacan-niega-proteccion-federal/",
+   "article_date": "2026-07-10",
+   "title": "“He permanecido, sin moverme, en mi domicilio”: Rocha Moya asegura estar en Culiacán y niega contar con protección federal",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-responde-senalamientos-eu-rocha-moya/",
+   "article_date": "2026-07-07",
+   "title": "Sheinbaum responde a señalamientos de EU: “Rocha Moya está en Culiacán”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-el-tondiro-jalisco-ataque-policias-michoacan/",
+   "article_date": "2026-06-30",
+   "title": "Detienen en Ocotlán, Jalisco a “El Tondiro”, presunto implicado en el asesinato de cinco policías en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/capturan-sobrino-el-jardinero-nayarit/",
+   "article_date": "2026-06-23",
+   "title": "Capturan en Nayarit al sobrino de ‘El Jardinero’; lo investigan por cuatro delitos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/enrique-inzunza-descarta-gubernatura-sinaloa-senado-2030/",
+   "article_date": "2026-06-17",
+   "title": "Enrique Inzunza descarta buscar la gubernatura de Sinaloa y permanecerá en el Senado hasta 2030",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/presidente-congreso-michoacan-banda-pleno-narcocorrido-mayo-zambada/",
+   "article_date": "2026-06-12",
+   "title": "Presidente del Congreso de Michoacán lleva banda al Pleno y canta narcocorrido dedicado a socio de “El Mayo” Zambada",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/eu-investigacion-gobernadores-de-morena/",
+   "article_date": "2026-06-03",
+   "title": "EU tiene bajo investigación a Durazo y Villarreal, gobernadores de Morena, según LA Times",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sspc-descarta-ficha-roja-interpol-contra-ruben-rocha-moya/",
+   "article_date": "2026-05-27",
+   "title": "SSPC descarta ficha roja de Interpol contra Rubén Rocha Moya tras acusaciones de EU",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/rocha-responde-tras-comparecer-fgr/",
+   "article_date": "2026-05-26",
+   "title": "“Con la frente en alto”: Rocha Moya responde tras comparecer ante la FGR en Culiacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/enrique-inzunza-fgr-culiacan/",
+   "article_date": "2026-05-26",
+   "title": "Senador Enrique Inzunza declara ante la FGR en Culiacán por investigación ligada a señalamientos de E.U.",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/maru-campos-persecucion-politica-fgr/",
+   "article_date": "2026-05-24",
+   "title": "Maru Campos acusa persecución política tras citatorio de la FGR por caso de agentes de la CIA",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fgr-cita-rocha-inzunza/",
+   "article_date": "2026-05-23",
+   "title": "FGR cita a Rocha e Inzunza por caso ligado al narco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-no-se-cubre-a-nadie-jalisco-morelos/",
+   "article_date": "2026-05-21",
+   "title": "Sheinbaum asegura que “no se cubre a nadie” y pone como ejemplo casos de Jalisco y Morelos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/nigeria-arresta-mexicanos-narcolaboratorio-metanfetamina/",
+   "article_date": "2026-05-21",
+   "title": "Nigeria desmantela narcolaboratorio y arresta a tres mexicanos señalados como “expertos” en metanfetamina",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-el-chipo-jalisco/",
+   "article_date": "2026-05-19",
+   "title": "Detienen a “El Chipo”, presunto operador financiero de “El Jardinero” en Jalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-descarta-riesgos-exfuncionarios-sinaloa/",
+   "article_date": "2026-05-18",
+   "title": "Sheinbaum descarta riesgos tras entregas de exfuncionarios de Sinaloa a EU",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/enrique-diaz-exsecretario-sinaloa-entrega/",
+   "article_date": "2026-05-15",
+   "title": "¡Uno más! Enrique Díaz, exsecretario de Finanzas de Sinaloa, se entrega en Nueva York",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/exsecretario-seguridad-sinaloa-entrego-eu/",
+   "article_date": "2026-05-15",
+   "title": "Exsecretario de Seguridad de Sinaloa se entregó a EU y quedó bajo custodia, confirma Gabinete de Seguridad",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-guadalajara-hombre-buscado-colima/",
+   "article_date": "2026-05-13",
+   "title": "Detienen en Guadalajara a presunto jefe de sicarios del cártel en Colima",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/lemus-confirma-detencion-hombre-toco-nina-guadalajara/",
+   "article_date": "2026-05-11",
+   "title": "“En Jalisco protegemos a los niños”: Lemus confirma detención de hombre que tocó a niña en GDL",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://diariodevallarta.com/el-mundo-al-reves-en-mexico/",
+   "article_date": "2026-05-07",
+   "title": "El mundo al revés en México",
+   "source_outlet": "Diario de Vallarta",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/vinculan-proceso-guero-conta-jardinero/",
+   "article_date": "2026-05-05",
+   "title": "Vinculan a proceso a “El Güero Conta”, presunto operador ligado a “El Jardinero” en Jalisco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/vicefiscal-sinaloa-licencia-damaso-castro/",
+   "article_date": "2026-05-05",
+   "title": "Vicefiscal de Sinaloa, Dámaso Castro, pide licencia al cargo tras señalamientos de E.U.",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -6
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/chapo-guzman-envia-nueva-carta-extraditado/",
+   "article_date": "2026-05-04",
+   "title": "El “Chapo” Guzmán envía nueva carta y pide ser extraditado a México desde EU",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/nino-asesinado-oaxaca-deuda-familiar/",
+   "article_date": "2026-05-04",
+   "title": "Asesinan a niño de ocho años en Oaxaca por deuda familiar; detienen a “Gallo huiini” por su presunta participación",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/juez-nueva-york-rechaza-extradicion-chapo/",
+   "article_date": "2026-05-04",
+   "title": "Juez en Nueva York rechaza solicitudes de “El Chapo” Guzmán, incluida su extradición a México",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/cae-presunta-financiera-fraudulenta-en-guadalajara/",
+   "article_date": "2026-05-02",
+   "title": "Cae presunta financiera fraudulenta en Guadalajara: detienen a seis por engaños con autos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fgr-exige-pruebas-eu-proceder-ruben-rocha/",
+   "article_date": "2026-05-01",
+   "title": "FGR exige pruebas a Estados Unidos para proceder contra Rubén Rocha",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/alex-soros-dio-la-bienvenida-a-lideres-progresistas-de-todo-el-mundo-en-la-cumbre-de-barcelona/",
+   "article_date": "2026-04-30",
+   "title": "Alex Soros dio la bienvenida a «líderes progresistas» de todo el mundo en la cumbre de Barcelona",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/la-trampa-de-la-escalada-y-sus-cuatro-arquetipos-en-la-guerra-de-estados-unidos-e-israel-contra-iran-por-alfredo-jalife-rahme/",
+   "article_date": "2026-04-30",
+   "title": "La “trampa de la escalada” y sus “cuatro arquetipos” en la guerra de Estados Unidos e Israel contra Irán",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-suegra-carolina-flores-venezuela/",
+   "article_date": "2026-04-30",
+   "title": "Detienen en Venezuela a suegra de exreina de belleza asesinada en Polanco",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-rocha-moya-fgr-acusaciones/",
+   "article_date": "2026-04-30",
+   "title": "Sheinbaum sobre Rocha Moya: investigarán si hay pruebas; advierte que México no permitirá injerencia",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/regidor-asesinado-talpa-jalisco/",
+   "article_date": "2026-04-30",
+   "title": "Asesinan a regidor en Talpa de Allende; no hay detenidos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/rocha-moya-eu-caso-principio/",
+   "article_date": "2026-04-30",
+   "title": "Congreso de E.U. lanza advertencia por caso Rocha Moya: “es sólo el principio”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/frenan-extradicion-jardinero-a-eu/",
+   "article_date": "2026-04-30",
+   "title": "Frenan extradición de “El Jardinero” a Estados Unidos; seguirá en el Altiplano",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fgr-extradicion-eu-ruben-rocha-sinaloa/",
+   "article_date": "2026-04-29",
+   "title": "FGR confirma solicitudes de extradición de E.U. contra Rubén Rocha y funcionarios de Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/prision-preventiva-el-jardinero-cjng/",
+   "article_date": "2026-04-29",
+   "title": "Dan prisión preventiva a “El Jardinero”, presunto operador del CJNG, capturado en Nayarit y buscado por E.U.",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/trasladan-el-jardinero-femdo-cdmx/",
+   "article_date": "2026-04-28",
+   "title": "Trasladan a “El Jardinero” a la FEMDO en CDMX tras su captura en Nayarit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/caida-mencho-el-jardinero-tomar-control-cjng/",
+   "article_date": "2026-04-28",
+   "title": "Tras caída de “El Mencho”, “El Jardinero” movió armas y hombres para tomar control del CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sentencia-menor-homicidio-zapopan/",
+   "article_date": "2026-04-27",
+   "title": "Dan casi 5 años de internamiento a menor por homicidio en Zapopan; deberá pagar más de 642 mil pesos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/cae-en-nayarit-el-jardinero-operador-del-cjng-eu-ofrecia-5-mdd-por-el/",
+   "article_date": "2026-04-27",
+   "title": "Cae en Nayarit “El Jardinero”, operador del CJNG; EU ofrecía 5 MDD por él",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/quien-es-el-jardinero-operador-del-cjng/",
+   "article_date": "2026-04-27",
+   "title": "¿Quién es El Jardinero? El poderoso operador del CJNG capturado en Nayarit y cercano al “Mencho”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detencion-el-guero-conta-zapopan/",
+   "article_date": "2026-04-27",
+   "title": "Detienen en Zapopan a ‘El Güero Conta’, operador financiero de ‘El Jardinero’; segundo golpe al CJNG en el día",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/captura-metro-9-reynosa/",
+   "article_date": "2026-04-27",
+   "title": "Captura de “Metro 9”, objetivo prioritario y presunto integrante del Cártel del Golfo, desata narcobloqueos en Reynosa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-inaugura-tren-buenavista-aifa/",
+   "article_date": "2026-04-26",
+   "title": "Sheinbaum inaugura el Tren Suburbano Buenavista–AIFA; conectará CDMX con el aeropuerto en 43 minutos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/trasladan-multihomicida-nogalera/",
+   "article_date": "2026-04-25",
+   "title": "Trasladan a presunto multihomicida de La Nogalera a Puente Grande",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-farias-laguna-pasaporte-falso-argentina/",
+   "article_date": "2026-04-24",
+   "title": "Sheinbaum revela que Farías Laguna entró con pasaporte falso a Argentina",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/fernando-farias-laguna-detenido-argentina/",
+   "article_date": "2026-04-23",
+   "title": "Detienen en Argentina a Fernando Farías Laguna, presunto líder ligado al huachicol fiscal",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-pablo-n-corta-manos-pareja-chiapa/",
+   "article_date": "2026-04-23",
+   "title": "Detienen en Chiapas a Pablo “N”, acusado de cortar las manos a su pareja en Cintalapa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mariana-rodriguez-tercer-bebe/",
+   "article_date": "2026-04-22",
+   "title": "Mariana Rodríguez y Samuel García esperan a su tercer bebé: “Te amamos desde antes de conocerte”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sismo-4-8-pega-oaxaca-hoy-21-abril/",
+   "article_date": "2026-04-21",
+   "title": "Sismo de 4.8 “pega” en Oaxaca hoy 21 de abril; se siente en varias regiones",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/exenfermero-bebe-nayarit-sentencia/",
+   "article_date": "2026-04-21",
+   "title": "Sentencian a más de 4 años de prisión a exenfermero por muerte de recién nacido en Nayarit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/trump-impone-restricciones-cartel-sinaloa/",
+   "article_date": "2026-04-20",
+   "title": "Trump impone restricciones de visa a 75 familiares y socios ligados al Cártel de Sinaloa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-hombre-valle-de-banderas-intento-feminicidio/",
+   "article_date": "2026-04-20",
+   "title": "Detienen en Valle de Banderas a hombre que presuntamente intentó matar a una mujer",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/esta-grave-guero-palma-esto-se-sabe/",
+   "article_date": "2026-04-19",
+   "title": "¿Está grave “El Güero” Palma? Esto se sabe sobre la orden de atención médica urgente",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/cae-el-bukanas-puebla-lider-huachicolero/",
+   "article_date": "2026-04-19",
+   "title": "Cae “El Bukanas” en Puebla: líder huachicolero prófugo por más de 10 años; tenía orden de aprehensión por homicidio",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mata-balazos-perrita-detienen-en-zapopan/",
+   "article_date": "2026-04-17",
+   "title": "Mata a balazos a una perrita y lo detienen en Zapopan; hallan arsenal en su casa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/chapo-guzman-trato-justo-prision/",
+   "article_date": "2026-04-17",
+   "title": "El Chapo Guzmán pide a la justicia de E.U. “un trato justo” en prisión; denuncia condiciones “crueles e inhumanas”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/feminicidio-edith-guadalupe-cdmx/",
+   "article_date": "2026-04-17",
+   "title": "Detienen a probable responsable del feminicidio de Edith Guadalupe en CDMX",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/andrea-chavez-deja-senado-apunta-chihuahua/",
+   "article_date": "2026-04-16",
+   "title": "Andrea Chávez deja el Senado y apunta a Chihuahua: “voy por 100 años del PRIAN”",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mc-jalisco-dirigencia-lemus-niega-ruptura/",
+   "article_date": "2026-04-16",
+   "title": "MC Jalisco desafía a su dirigencia nacional; Lemus niega ruptura y defiende congruencia",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/cuales-son-casinos-mexicanos-sancionados-eu/",
+   "article_date": "2026-04-14",
+   "title": "¿Cuáles son los dos casinos mexicanos sancionados por EU y por qué los vinculan al narco?",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/jalisco-abandera-a-su-delegacion/",
+   "article_date": "2026-04-14",
+   "title": "Lemus encabeza el abanderamiento de la Selección Jalisco para Nacionales CONADE 2026",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/detienen-rafael-zaga-tawil-fraude-infonavit/",
+   "article_date": "2026-04-13",
+   "title": "Detienen en E.U. a Rafael Zaga Tawil, empresario señalado por presunto fraude millonario al Infonavit",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/menor-acusado-homicidio-crucero-florida/",
+   "article_date": "2026-04-13",
+   "title": "Acusan a menor en Florida de homicidio y abuso sexual contra su hermanastra en un crucero",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/colombiana-cocaina-aicm-proceso/",
+   "article_date": "2026-04-12",
+   "title": "Vinculan a proceso a mujer colombiana detenida en el AICM con cocaína oculta en botellas de shampoo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/virginia-police-deny-confiscation-rumors-as-new-gun-bill-advances-sparking-liberty-debate/",
+   "article_date": "2026-04-11",
+   "title": "¿Requisa casa por casa?: Policía de Virginia niega los rumores de nuevo proyecto de ley sobre armas",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/posponen-otra-vez-audiencia-mayo-zambada-eu/",
+   "article_date": "2026-04-10",
+   "title": "Posponen otra vez audiencia de “El Mayo” Zambada en EU; ahora será en mayo",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/doble-golpe-el-aviso-del-banco-de-inglaterra-sobre-la-economia-mundial/",
+   "article_date": "2026-04-09",
+   "title": "¿Preparación de un colapso?: El aviso del Banco de Inglaterra sobre la economía mundial",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/sheinbaum-reacciona-a-congreso-de-masculinidad-en-guadalajara-y-supuesto-apoyo-de-gobiernos/",
+   "article_date": "2026-04-09",
+   "title": "Fearless Congress 2026: Sheinbaum pide explicaciones por un «congreso de masculinidad»",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/diputado-pt-compara-mujeres-con-caballos-video/",
+   "article_date": "2026-04-09",
+   "title": "Diputado del PT desata indignación al comparar a mujeres con caballos | VIDEO",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/festival-pulso-gnp-2026-cartel-oficial/",
+   "article_date": "2026-04-09",
+   "title": "Festival Pulso GNP 2026 revela cartel oficial con Robbie Williams y Caifanes como headliners",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/sheinbaum-reacciona-congreso-masculinidad/",
+   "article_date": "2026-04-08",
+   "title": "Sheinbaum reacciona a congreso de masculinidad en Guadalajara y supuesto apoyo de gobiernos",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/embajador-celebra-declaracion-85-cjng/",
+   "article_date": "2026-04-08",
+   "title": "Embajador de EU en México celebra declaración de culpabilidad de “El 85”, cofundador del CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/sheinbaum-asegura-que-abatimiento-de-el-mencho-no-esta-vinculado-con-la-negociacion-del-t-mec/",
+   "article_date": "2026-04-07",
+   "title": "Muerte de ‘El Mencho’ “no está vinculada” con la negociación del T-MEC: Sheinbaum",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/alberto-del-rio-detenido-violencia-familiar/",
+   "article_date": "2026-04-06",
+   "title": "Detienen al luchador Alberto del Río, “El Patrón”, en San Luis Potosí por presunta violencia familiar",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/mujer-libre-legitima-defensa-chiapas/",
+   "article_date": "2026-04-06",
+   "title": "Mujer mata a su esposo en Chiapas; fue detenida y luego liberada tras comprobarse que actuó en legítima defensa",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/bill-gates-pfizer-ceo-lawsuit-follow-up-what-actually-happened-in-court-on-march-9-videos-transcript-and-what-comes-next/",
+   "article_date": "2026-04-05",
+   "title": "Demanda en Holanda contra Bill Gates y Pfizer: Lo que realmente sucedió en la corte y lo que viene después",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/caso-gerardo-ortiz-juez-eu-multa-millonaria-relacion-cjng/",
+   "article_date": "2026-04-03",
+   "title": "Caso Gerardo Ortiz: juez en EU impone multa millonaria por relación con el CJNG",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/entrevista-de-tucker-carlson-a-joe-kent-expone-a-trump-como-rehen-de-netanyahu-por-alfredo-jalife-rahme/",
+   "article_date": "2026-04-01",
+   "title": "Entrevista de Tucker Carlson a Joe Kent: Trump es un rehén de Netanyahu",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://diariodevallarta.com/trump-signs-executive-order-creating-national-voter-list-restricting-mail-in-ballots/",
+   "article_date": "2026-04-01",
+   "title": "Trump firma una orden ejecutiva que crea una lista nacional de votantes y restringe el voto por correo",
+   "source_outlet": "Diario de Vallarta",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/juan-carlos-valladares-inasistencias-japon-pvem/",
+   "article_date": "2026-03-31",
+   "title": "Diputado del PVEM Juan Carlos Valladares es criticado por viaje a Japón; exhiben 51 inasistencias en San Lázaro",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  },
+  {
+   "article_url": "https://tribunadelabahia.com.mx/menor-vinculado-proceso-feminicidio-maestras-michoacan/",
+   "article_date": "2026-03-30",
+   "title": "Vinculan a proceso a menor por feminicidio de dos maestras en Michoacán",
+   "source_outlet": "Tribuna de la Bahía",
+   "score": -3
+  }
+ ]
+}

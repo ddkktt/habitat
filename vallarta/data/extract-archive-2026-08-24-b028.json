@@ -1,0 +1,175 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-baches-medina-prisciliano/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Francisco Medina Ascencio y su cruce con Prisciliano Sánchez",
+    "street": "avenida Francisco Medina Ascencio y Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Rainwater hides potholes at a Puerto Vallarta intersection, increasing risks for motorists, cyclists, and residents.",
+    "affected_people_clue": "automovilistas, motociclistas y ciclistas",
+    "duration_clue": "durante las lluvias"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-ixtapa-seapal-vallarta-5-marzo/",
+    "article_date": "2026-03-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "en la carretera a Las Palmas y calle Hidalgo",
+    "street": "carretera a Las Palmas y calle Hidalgo",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Scheduled line replacement will interrupt water service for Ixtapa residents for several hours.",
+    "affected_people_clue": "habitantes de varias colonias",
+    "duration_clue": "de 9:00 de la mañana a 6:00 de la tarde"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/red-ambiental-podria-demandar-ayuntamiento-vallarta/",
+    "article_date": "2026-03-27",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A payment dispute threatens Puerto Vallarta's trash collection, potentially leaving streets and commercial areas without service.",
+    "affected_people_clue": "calles, colonias y zonas comerciales",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/convocan-protesta-contra-seapal-corte-agua/",
+    "article_date": "2026-04-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "problemas de suministro de agua en la parte alta de El Pitillal",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "A pumping failure has caused ongoing water shortages across dozens of El Pitillal neighborhoods and prompted a protest call.",
+    "affected_people_clue": "decenas de colonias",
+    "duration_clue": "en los últimos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-falla-pozo-radial/",
+    "article_date": "2026-04-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A broken main well line is expected to interrupt water service across much of Puerto Vallarta for up to 48 hours.",
+    "affected_people_clue": "gran parte de la ciudad",
+    "duration_clue": "hasta por 48 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-vallarta-recuperacion-agua-colonias/",
+    "article_date": "2026-04-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Most affected neighborhoods partially regained water after a pipe repair, but full service remains pending.",
+    "affected_people_clue": "más de 14 colonias",
+    "duration_clue": "hasta la tarde del viernes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/habra-corte-agua-jueves-trabajos-de-seapal/",
+    "article_date": "2026-05-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "drainage"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "en la calle Guatemala, entre Finlandia y Suecia",
+    "street": "calle Guatemala, entre Finlandia y Suecia",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Planned water work will interrupt service in Lomas de Enmedio, alongside a separate sewer repair and road closure.",
+    "affected_people_clue": "vecinos de la colonia Lomas de Enmedio",
+    "duration_clue": "varias horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/colapso-colector-vallarta-grave-de-lo-previsto-seapal/",
+    "article_date": "2026-06-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Prisciliano Sánchez ... fraccionamiento El Capricho",
+    "street": "avenida Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": "fraccionamiento El Capricho",
+    "summary": "A collapsed sewer collector caused a sinkhole and road closure; emergency repairs continue near El Capricho.",
+    "affected_people_clue": "miles de usuarios",
+    "duration_clue": "continúan"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/arbol-cae-derriba-lineas-cfe-ixtapa-puerto-vallarta/",
+    "article_date": "2026-06-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "resolved",
+    "location_certainty": "exact",
+    "location_evidence": "en el cruce de las calles Allende y Josefa Ortiz",
+    "street": "calles Allende y Josefa Ortiz",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A fallen tree damaged power lines and blocked a public road, but crews restored safe passage.",
+    "affected_people_clue": "vecinos y automovilistas",
+    "duration_clue": null
+  }
+]

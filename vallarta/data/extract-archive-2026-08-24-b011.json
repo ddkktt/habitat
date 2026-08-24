@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/desperdicio-agua-molestia-en-palmar-de-aramara/",
+    "article_date": "2026-04-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "fraccionamiento Palmar de Aramara ... calle María Montessori #440",
+    "street": "calle María Montessori",
+    "colonia": "Palmar de Aramara",
+    "landmark": null,
+    "summary": "Residents report a continuous water leak at CFE buildings, wasting water amid shortages elsewhere in Puerto Vallarta.",
+    "affected_people_clue": "other city colonies face water shortages",
+    "duration_clue": "constante desperdicio"
+  }
+]

@@ -1,0 +1,194 @@
+{
+  "retrieved": "2026-08-24",
+  "note": "Read-only recon. DRAFT — no source here may be read regularly until a human approves it.",
+  "sources": [
+    {
+      "name": "SEAPAL Vallarta (water/sewer utility)",
+      "base_url": "https://seapal.gob.mx",
+      "robots_txt": "not found (404)",
+      "endpoints_tried": [
+        {
+          "url": "https://seapal.gob.mx/robots.txt",
+          "status": 404,
+          "finding": "No robots.txt file exists",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://seapal.gob.mx/",
+          "status": 200,
+          "finding": "Homepage accessible. No RSS feeds, API endpoints, or feed URLs visible. References external transparency portal only.",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://seapal.gob.mx/feed/",
+          "status": 404,
+          "finding": "No RSS feed endpoint",
+          "method": "curl"
+        },
+        {
+          "url": "https://seapal.gob.mx/wp-json/wp/v2/posts?per_page=5",
+          "status": 404,
+          "finding": "No WordPress JSON API available; not a WordPress site or API disabled",
+          "method": "curl"
+        }
+      ],
+      "verdict": "not usable",
+      "data_available": "No machine-readable feeds or API endpoints found; website is informational only.",
+      "update_frequency_evidence": null
+    },
+    {
+      "name": "CFE (federal electricity)",
+      "base_url": "https://cfe.mx",
+      "robots_txt": "not found; site is cfe.gob.mx (cfe.mx redirects)",
+      "endpoints_tried": [
+        {
+          "url": "https://cfe.mx/",
+          "status": 302,
+          "finding": "Redirects to https://www.cfe.gob.mx/",
+          "method": "curl"
+        },
+        {
+          "url": "https://www.cfe.gob.mx/robots.txt",
+          "status": 404,
+          "finding": "No robots.txt; site is Microsoft SharePoint-based",
+          "method": "curl"
+        },
+        {
+          "url": "https://www.cfe.gob.mx/",
+          "status": 200,
+          "finding": "Homepage accessible (SharePoint portal). No RSS feeds or API endpoints visible.",
+          "method": "curl"
+        },
+        {
+          "url": "https://www.cfe.gob.mx/es/Aplicaciones/CCFE/Anuncios/",
+          "status": 404,
+          "finding": "Announcements/outages endpoint not found",
+          "method": "curl"
+        }
+      ],
+      "verdict": "not usable",
+      "data_available": "No machine-readable outage/announcement feeds. Site is informational SharePoint portal only.",
+      "update_frequency_evidence": null
+    },
+    {
+      "name": "Puerto Vallarta Municipal Government",
+      "base_url": "https://puertovallarta.gob.mx",
+      "robots_txt": "Found. Allows all crawlers (User-agent: * Disallow: empty). Content-Signal header: search=yes, ai-train=no, use=reference",
+      "endpoints_tried": [
+        {
+          "url": "https://puertovallarta.gob.mx/robots.txt",
+          "status": 200,
+          "finding": "robots.txt found with permissive rules for general crawlers"
+        },
+        {
+          "url": "https://puertovallarta.gob.mx/",
+          "status": 403,
+          "finding": "Main page forbidden (access denied)"
+        },
+        {
+          "url": "https://puertovallarta.gob.mx/wp-json/wp/v2/posts",
+          "status": 403,
+          "finding": "WordPress REST API endpoint blocked"
+        },
+        {
+          "url": "https://puertovallarta.gob.mx/feed/",
+          "status": 403,
+          "finding": "RSS feed endpoint blocked"
+        }
+      ],
+      "verdict": "not usable",
+      "data_available": "Site may use WordPress but content access is forbidden despite permissive robots.txt.",
+      "update_frequency_evidence": null
+    },
+    {
+      "name": "Jalisco State Open Data Portal",
+      "base_url": "https://datos.jalisco.gob.mx",
+      "robots_txt": "DNS resolution failed",
+      "endpoints_tried": [
+        {
+          "url": "https://datos.jalisco.gob.mx/robots.txt",
+          "status": "DNS_ERROR",
+          "finding": "Host not found (COULDNT_RESOLVE_HOST via curl exit code 6)",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://datos.jalisco.gob.mx",
+          "status": "DNS_ERROR",
+          "finding": "Host not found; confirmed via curl",
+          "method": "curl"
+        },
+        {
+          "url": "https://datos.gob.mx/busca/api/3/action/package_search?q=vallarta",
+          "status": 403,
+          "finding": "Federal CKAN API blocked (Access Denied). Fallback to federal portal unsuccessful.",
+          "method": "curl"
+        }
+      ],
+      "verdict": "not usable",
+      "data_available": "Jalisco portal host does not resolve. Federal datos.gob.mx API also blocked.",
+      "update_frequency_evidence": null
+    },
+    {
+      "name": "CONAGUA/SMN (National Weather Service)",
+      "base_url": "https://smn.conagua.gob.mx",
+      "robots_txt": "500 Internal Server Error",
+      "endpoints_tried": [
+        {
+          "url": "https://smn.conagua.gob.mx/robots.txt",
+          "status": 500,
+          "finding": "Server error retrieving robots.txt",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://smn.conagua.gob.mx/",
+          "status": 200,
+          "finding": "Homepage accessible. References Automatic Meteorological Stations (EMAs) and forecast models but no direct API/JSON endpoints listed. Provides graphical viewers only. Email contact: ventanillaunica.smn@conagua.gob.mx",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://smn.conagua.gob.mx/api/",
+          "status": 500,
+          "finding": "API path returns server error",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://smn.conagua.gob.mx/es/web/smn/avisos",
+          "status": 500,
+          "finding": "Alerts/warnings path returns server error",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://smn.conagua.gob.mx/webservices/?method=1",
+          "status": "301 -> 404",
+          "finding": "Webservices redirects from /webservices to /es/webservices; redirected page returns 404",
+          "method": "curl"
+        }
+      ],
+      "verdict": "not usable",
+      "data_available": "Web interfaces for forecast/alerts exist but are not machine-readable. No JSON/API endpoints functional. Server errors on API paths.",
+      "update_frequency_evidence": "No automated data feed observed; human-readable web pages only."
+    },
+    {
+      "name": "Reddit Puerto Vallarta Subreddit",
+      "base_url": "https://www.reddit.com/r/puertovallarta",
+      "robots_txt": "Not fetched (HTTP 403 to all requests)",
+      "endpoints_tried": [
+        {
+          "url": "https://www.reddit.com/r/puertovallarta/new.json?limit=25",
+          "status": "FETCH_BLOCKED",
+          "finding": "WebFetch tool cannot fetch from reddit.com",
+          "method": "WebFetch"
+        },
+        {
+          "url": "https://www.reddit.com/r/puertovallarta/new.json?limit=25",
+          "status": 403,
+          "finding": "Explicitly forbidden via HTTP 403 even with descriptive User-Agent (vallarta-civic-mapper/0.1). Reddit blocks JSON feed access to this subreddit.",
+          "method": "curl"
+        }
+      ],
+      "verdict": "not usable",
+      "data_available": "Reddit JSON API endpoint exists but returns HTTP 403 Forbidden. Not accessible even with proper User-Agent compliance.",
+      "update_frequency_evidence": null
+    }
+  ]
+}

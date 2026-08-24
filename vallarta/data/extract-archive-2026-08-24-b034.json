@@ -1,0 +1,197 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/compra-chasis-camiones-recolectores-puerto-vallarta-25-millones/",
+    "article_date": "2026-07-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Puerto Vallarta plans more garbage trucks after a suspended collection concession left the city urgently short of service capacity.",
+    "affected_people_clue": "la ciudad",
+    "duration_clue": "más de cuatro meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/recibo-agua-seapal-vallarta-43-mil-pesos-emiliano-zapata/",
+    "article_date": "2026-07-15",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "calle Rivera del Río, en la colonia Emiliano Zapata",
+    "street": "calle Rivera del Río",
+    "colonia": "Emiliano Zapata",
+    "landmark": null,
+    "summary": "A Puerto Vallarta family disputes a 43,297-peso water bill despite reporting no household leak.",
+    "affected_people_clue": "una familia",
+    "duration_clue": "hace unos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/lanza-seapal-descuentos-hasta-90-recargos/",
+    "article_date": "2026-07-28",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "SEAPAL launches billing discounts amid residents’ reports that water bills are arriving with extremely high amounts.",
+    "affected_people_clue": "habitantes",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/89-colonias-puerto-vallarta-falta-agua-miercoles-12-agosto/",
+    "article_date": "2026-08-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "Habitantes de al menos 89 colonias y zonas de Puerto Vallarta ... Entre ellas se encuentran Aramara",
+    "street": null,
+    "colonia": "Aramara",
+    "landmark": null,
+    "summary": "A planned water interruption will affect at least 89 Puerto Vallarta colonies during highway-related hydraulic works.",
+    "affected_people_clue": "al menos 89 colonias y zonas",
+    "duration_clue": "a partir de este miércoles 12 de agosto",
+    "same_incident_as": "https://tribunadelabahia.com.mx/139-colonias-sin-agua-puerto-vallarta-miercoles/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-aclara-obras-avenida-mexico-corte-agua/",
+    "article_date": "2026-08-11",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "trabajos se realizarán en Avenida México, a la altura del kilómetro 1 de la autopista Puerto Vallarta-Las Varas",
+    "street": "Avenida México",
+    "colonia": null,
+    "landmark": null,
+    "summary": "SEAPAL explains that highway works require a water cut affecting about 139 Puerto Vallarta colonies.",
+    "affected_people_clue": "alrededor de 139 colonias",
+    "duration_clue": "a partir de este miércoles 12 de agosto",
+    "same_incident_as": "https://tribunadelabahia.com.mx/89-colonias-puerto-vallarta-falta-agua-miercoles-12-agosto/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/regreso-agua-puerto-vallarta-nuevas-fechas-colonias/",
+    "article_date": "2026-08-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "failed_repair",
+    "location_certainty": "none",
+    "location_evidence": "El regreso del agua potable en Puerto Vallarta ... alrededor de 139 colonias y zonas",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A contractor delay extends the Puerto Vallarta water interruption and postpones restoration for some areas.",
+    "affected_people_clue": "alrededor de 139 colonias y zonas",
+    "duration_clue": "aproximado de 36 horas",
+    "same_incident_as": "https://tribunadelabahia.com.mx/89-colonias-puerto-vallarta-falta-agua-miercoles-12-agosto/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/comienza-regresar-agua-puerto-vallarta-seapal-pruebas/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "algunas colonias de la zona baja de Puerto Vallarta que todavía permanecían sin suministro",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "After several days of disruption, SEAPAL begins testing to restore Puerto Vallarta water supply gradually.",
+    "affected_people_clue": "algunas colonias de la zona baja",
+    "duration_clue": "varios días",
+    "same_incident_as": "https://tribunadelabahia.com.mx/89-colonias-puerto-vallarta-falta-agua-miercoles-12-agosto/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/hasta-manana-habra-agua-puerto-vallarta-seapal/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "Puerto Vallarta ... suministro regular de agua potable en todas sus colonias",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Technical complications delay the final interconnection needed to restore regular water service in Puerto Vallarta.",
+    "affected_people_clue": "todas sus colonias",
+    "duration_clue": "aproximadamente 24 horas",
+    "same_incident_as": "https://tribunadelabahia.com.mx/89-colonias-puerto-vallarta-falta-agua-miercoles-12-agosto/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/munguia-nego-crisis-comunicacion-arranca-bacheo-puerto-vallarta/",
+    "article_date": "2026-02-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Las cuadrillas ya trabajan en la avenida Prisciliano Sánchez",
+    "street": "avenida Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Puerto Vallarta’s bacheo program targets long-deteriorated roads across several named areas, including Prisciliano Sánchez and Campo Verde.",
+    "affected_people_clue": "zonas con mas daños",
+    "duration_clue": "años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/escurrimientos-de-agua-cruda-medina-ascencio/",
+    "article_date": "2026-02-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "la lateral de la avenida Francisco Medina Ascencio, a la altura de la calle Francisco Murguía, en la delegación Las Juntas",
+    "street": "avenida Francisco Medina Ascencio y calle Francisco Murguía",
+    "colonia": "Las Juntas",
+    "landmark": null,
+    "summary": "Raw-water runoff affects a busy Puerto Vallarta avenue and nearby road users while utility work proceeds.",
+    "affected_people_clue": "automovilistas y peatones",
+    "duration_clue": null
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/falta-personal-aseo-publico-puerto-vallarta-recoleccion-basura/",
+    "article_date": "2026-07-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report missed garbage collection and accumulating waste across several Puerto Vallarta colonies.",
+    "affected_people_clue": "ciudadanía en varias colonias",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-vallarta-calle-fovissste-100-encharcamientos/",
+    "article_date": "2026-07-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "la calle Jongitud Barrios, en el fraccionamiento Fovissste, justo detrás de la clínica del ISSSTE",
+    "street": "Jongitud Barrios",
+    "colonia": "Fovissste",
+    "landmark": "clínica del ISSSTE",
+    "summary": "A three-year wastewater and rainwater pooling problem persists behind a Puerto Vallarta clinic despite a proposed street repair.",
+    "affected_people_clue": "vecinos del fraccionamiento",
+    "duration_clue": "alrededor de tres años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-obras-centro-inconclusas/",
+    "article_date": "2026-07-06",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "flooding",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "las calles Jesús Langarica y 31 de Octubre",
+    "street": "Jesús Langarica y 31 de Octubre",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Unfinished central-city works leave standing water, debris, and unsafe pedestrian routes on two Puerto Vallarta streets.",
+    "affected_people_clue": "vecinos, comerciantes y transeúntes",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/retraso-regreso-agua-vallarta-desata-reclamos/",
+    "article_date": "2026-08-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report several days without water in Puerto Vallarta and demand tanker deliveries while gradual recovery continues.",
+    "affected_people_clue": "habitantes de Puerto Vallarta",
+    "duration_clue": "varios días sin agua",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-retrasa-otra-vez-regreso-agua-vallarta/",
+    "article_date": "2026-08-15",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Delayed utility work leaves Puerto Vallarta residents without water for days, with gradual recovery and tanker support.",
+    "affected_people_clue": "habitantes de las colonias afectadas",
+    "duration_clue": "varios días sin servicio",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-asume-trabajos-retraso-agua-puerto-vallarta/",
+    "article_date": "2026-08-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Delayed interconnection work keeps parts of Puerto Vallarta without stable water as the utility takes over repairs.",
+    "affected_people_clue": "familias vallartenses",
+    "duration_clue": "prolongado retraso",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/atencion-vallarta-seapal-habilita-desvio-crisis-agua/",
+    "article_date": "2026-08-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida México, mientras continúan los trabajos ... entre calle Tamaulipas y avenida Universidad de Guadalajara",
+    "street": "avenida México",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Water-recovery works continue near Avenida México while affected families receive tanker deliveries and a temporary traffic diversion.",
+    "affected_people_clue": "familias de las colonias afectadas",
+    "duration_clue": "desde el jueves anterior"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/desabasto-agua-vallarta-seapal-mantiene-afectacion-colonias/",
+    "article_date": "2026-08-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "About one-fifth of Puerto Vallarta colonies still face intermittent water while delayed interconnection work continues.",
+    "affected_people_clue": "20 por ciento de las colonias",
+    "duration_clue": null,
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/habilitan-brecha-alterna-cierre-puente-la-desembocada-puerto-vallarta/",
+    "article_date": "2026-02-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "puente ubicado en la carretera estatal 544, en las inmediaciones del poblado de La Desembocada",
+    "street": "carretera estatal 544",
+    "colonia": null,
+    "landmark": "puente de La Desembocada",
+    "summary": "A structurally unsafe bridge closure isolates rural communities, requiring a provisional crossing and disrupting access to basic supplies.",
+    "affected_people_clue": "más de 6 mil familias",
+    "duration_clue": null
+  }
+]

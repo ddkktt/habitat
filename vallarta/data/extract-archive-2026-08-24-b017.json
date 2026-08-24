@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/alertan-demolicion-hormiga-centro-vallarta/",
+    "article_date": "2026-04-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "una casa ubicada en la intersección de Miramar con Iturbide",
+    "street": "Miramar esquina Iturbide",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A reported illegal demolition at a protected historic house may damage Puerto Vallarta's urban heritage; qualification as public-space infrastructure is uncertain.",
+    "affected_people_clue": "ciudadanos",
+    "duration_clue": "en distintos días"
+  }
+]

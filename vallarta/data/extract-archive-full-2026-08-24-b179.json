@@ -1,0 +1,40 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/inician-obras-carretera-la-cruz-punta-de-mita/",
+    "article_date": "2026-04-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la rehabilitación de la carretera La Cruz de Huanacaxtle–Punta de Mita, en Bahía de Banderas",
+    "street": "carretera La Cruz de Huanacaxtle–Punta de Mita",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Rehabilitation began on the pothole-ridden La Cruz de Huanacaxtle-Punta de Mita highway in Bahia de Banderas after years of deterioration and frequent accidents.",
+    "affected_people_clue": "más de 180 mil habitantes",
+    "duration_clue": "Durante años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puente-desembocada-reconstruido-finales-mayo/",
+    "article_date": "2026-04-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "el puente sobre el rio Mascota en La Desembocada … en la carretera estatal 544",
+    "street": "carretera estatal 544",
+    "colonia": null,
+    "landmark": "puente sobre el rio Mascota en La Desembocada",
+    "summary": "Official update: La Desembocada bridge, destroyed by explosives in February, remains under reconstruction until late May; unsure since frame is progress report, not complaint.",
+    "affected_people_clue": null,
+    "duration_clue": "desde el 22 de febrero"
+  }
+]

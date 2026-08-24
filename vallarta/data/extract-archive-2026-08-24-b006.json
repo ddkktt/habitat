@@ -1,0 +1,254 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-basura-entrada-playa-holi/",
+    "article_date": "2026-07-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "acceso a Playa Holi ... a un costado del río, en la entrada al balneario",
+    "street": null,
+    "colonia": null,
+    "landmark": "Playa Holi",
+    "summary": "Missed garbage collection leaves waste beside Playa Holi, creating foul odors and sanitation concerns at a busy public beach access.",
+    "affected_people_clue": "familias, deportistas y turistas",
+    "duration_clue": "durante varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-basura-santa-elena/",
+    "article_date": "2026-07-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Santa Elena ... en el cruce de las calles Pico de Orizaba y Santa Elena",
+    "street": "Pico de Orizaba y Santa Elena",
+    "colonia": "Santa Elena",
+    "landmark": null,
+    "summary": "Uncollected garbage at a Santa Elena intersection causes foul odors and sanitation concerns after several days without service.",
+    "affected_people_clue": null,
+    "duration_clue": "varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/inundacion-mojoneras-22-casas-afectadas/",
+    "article_date": "2026-08-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Los domicilios donde subió el agua a casi un metro fue en las calles Sinaloa y Guanajuato",
+    "street": "Sinaloa y Guanajuato",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A blocked storm drain repeatedly floods Mojoneras homes; 22 houses were affected and machinery removed debris.",
+    "affected_people_clue": "22 domicilios afectados",
+    "duration_clue": "de nuevo; desde la madrugada"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuga-salitrillo-excremento/",
+    "article_date": "2026-03-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia El Salitrillo ... a la altura de las calles 28 de Octubre y 30 de Noviembre",
+    "street": "28 de Octubre y 30 de Noviembre",
+    "colonia": "El Salitrillo",
+    "landmark": null,
+    "summary": "An unrepaired sewage leak in El Salitrillo continues contaminating an arroyo and creating foul odors for residents.",
+    "affected_people_clue": null,
+    "duration_clue": "más de un mes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/basura-colonias-vallarta-persiste-falta/",
+    "article_date": "2026-04-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "La problemática también afecta a la colonia 12 de Octubre, donde vecinos reportan acumulación de desechos en prácticamente todas las esquinas",
+    "street": null,
+    "colonia": "12 de Octubre",
+    "landmark": null,
+    "summary": "Residents in two Puerto Vallarta colonies report three days without garbage collection and worsening waste accumulation.",
+    "affected_people_clue": "habitantes de dos colonias",
+    "duration_clue": "últimos tres días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/acumulacion-de-basura-ixtapa/",
+    "article_date": "2026-05-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Tamarindos ... sobre la calle Gaviota, en el tramo comprendido entre la carretera 544 y Pavo Real",
+    "street": "calle Gaviota entre la carretera 544 y Pavo Real",
+    "colonia": "Tamarindos",
+    "landmark": null,
+    "summary": "Accumulating garbage and inadequate collection create a contamination hotspot on Gaviota Street in Tamarindos, Ixtapa.",
+    "affected_people_clue": null,
+    "duration_clue": "más de una semana"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-colonias-centro-5-de-diciembre/",
+    "article_date": "2026-06-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "en el cruce de las calles Argentina y Brasil, donde se registró una tubería rota",
+    "street": "Argentina y Brasil",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A broken water pipe suspends service in Centro and 5 de Diciembre while SEAPAL performs repairs.",
+    "affected_people_clue": "habitantes de Centro y 5 de Diciembre",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-portales-basura-acumulada/",
+    "article_date": "2026-06-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Portales ... en el cruce de las calles Portal San Juan y México, frente a la UMA",
+    "street": "Portal San Juan y México",
+    "colonia": "Portales",
+    "landmark": "UMA",
+    "summary": "Five days without garbage collection leave waste accumulated at a Portales intersection in front of the UMA.",
+    "affected_people_clue": null,
+    "duration_clue": "cinco días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/contaminacion-aguas-negras-urgencias-issste/",
+    "article_date": "2026-06-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "La calle sobre la que corren las aguas residuales es Jongitud Barrios, en el fraccionamiento Fovissste",
+    "street": "Jongitud Barrios",
+    "colonia": "Fovissste",
+    "landmark": null,
+    "summary": "A worsening sewage leak runs along Jongitud Barrios near Fovissste, contaminating the ISSSTE emergency entrance.",
+    "affected_people_clue": null,
+    "duration_clue": "el año pasado se reportó"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/poda-calle-montessori/",
+    "article_date": "2026-06-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes de la calle María Montessori expresaron su inconformidad",
+    "street": "María Montessori",
+    "colonia": null,
+    "landmark": null,
+    "summary": "CFE left branches and pruning debris on María Montessori Street, obstructing public space and troubling residents.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/acumulacion-basura-ixtapa/",
+    "article_date": "2026-06-24",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Uno de los puntos afectados se encuentra en el Fraccionamiento Palmares Universidad",
+    "street": null,
+    "colonia": "Palmares Universidad",
+    "landmark": null,
+    "summary": "Missed garbage collection leaves growing piles and foul odors in Ixtapa, including Palmares Universidad.",
+    "affected_people_clue": null,
+    "duration_clue": "desde el pasado martes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/otro-dia-sin-agua-cinco-colonias-puerto-vallarta-restablecimiento-servicio/",
+    "article_date": "2026-07-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Las colonias que permanecen con afectaciones son: Bugambilias",
+    "street": null,
+    "colonia": "Bugambilias",
+    "landmark": null,
+    "summary": "A delayed repair leaves five Puerto Vallarta colonies without water for another day after lightning damaged the Agua Azul tank.",
+    "affected_people_clue": "cinco colonias",
+    "duration_clue": "al menos un día más"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-parque-ojo-agua-abandono/",
+    "article_date": "2026-07-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "parque Ojo de Agua, ubicado entre las calles San Nicolás y Agua Zarca",
+    "street": "San Nicolás y Agua Zarca",
+    "colonia": null,
+    "landmark": "parque Ojo de Agua",
+    "summary": "Ojo de Agua park has broken playground equipment, accumulated trash, and overgrown vegetation after more than a month of neglect.",
+    "affected_people_clue": null,
+    "duration_clue": "más de un mes"
+  }
+]

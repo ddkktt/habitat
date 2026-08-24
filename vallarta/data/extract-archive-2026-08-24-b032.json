@@ -1,0 +1,178 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-incendio-lote-baldio-seguridad/",
+    "article_date": "2026-07-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "incendio en un lote baldío ubicado en la colonia El Coapinole ... una gran cantidad de basura",
+    "street": null,
+    "colonia": "El Coapinole",
+    "landmark": null,
+    "summary": "Trash in an abandoned El Coapinole lot fueled a fire, creating a sanitation and public-space risk for residents.",
+    "affected_people_clue": "habitantes",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-apagones-zonas/",
+    "article_date": "2026-08-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Vecinos de las colonias La Aurora, Portales, Emiliano Zapata y Marina reportaron apagones",
+    "street": null,
+    "colonia": "La Aurora",
+    "landmark": null,
+    "summary": "Residents report repeated power outages across Puerto Vallarta colonies, with possible household damage and economic losses.",
+    "affected_people_clue": "familias",
+    "duration_clue": "durante los últimos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-lluvia-provoca-encharcamientos-viales/",
+    "article_date": "2026-08-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "supervisar la colonia Mojoneras, sector que mantiene una rápida tendencia al incremento en sus niveles de agua",
+    "street": null,
+    "colonia": "Mojoneras",
+    "landmark": null,
+    "summary": "Heavy rain flooded low-lying Puerto Vallarta streets and disrupted traffic, with monitoring focused on Mojoneras.",
+    "affected_people_clue": "cientos de automovilistas y usuarios del transporte público",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puente-amado-nervo-ciclovia-balizamiento-riesgo/",
+    "article_date": "2026-08-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "ciclovía adecuada ... en el puente Amado Nervo ... solo se delineará con balizamiento",
+    "street": null,
+    "colonia": null,
+    "landmark": "puente Amado Nervo",
+    "summary": "The Amado Nervo bridge cycleway will lack physical separation, creating a safety risk for cyclists and pedestrians.",
+    "affected_people_clue": "quienes utilizan la bicicleta",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuerte-tormenta-golpea-puerto-vallarta-este-martes/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding"
+    ],
+    "status": "unclear",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A Puerto Vallarta storm brought reported street flooding and slow traffic, but no specific affected location is identified.",
+    "affected_people_clue": "vecinos y usuarios",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/recoleccion-basura-martes-avenidas-principales-puerto-vallarta/",
+    "article_date": "2026-02-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Temporary garbage collection limited to main avenues leaves other Puerto Vallarta areas without service.",
+    "affected_people_clue": "resto de las colonias y zonas del municipio",
+    "duration_clue": "hasta nuevo aviso"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/ecoterra-sin-agua-miercoles-puerto-vallarta/",
+    "article_date": "2026-03-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "suspenderá el suministro de agua potable en el fraccionamiento Ecoterra",
+    "street": null,
+    "colonia": "Ecoterra",
+    "landmark": null,
+    "summary": "Interconnection work will interrupt water service for Ecoterra residents for several hours.",
+    "affected_people_clue": "vecinos",
+    "duration_clue": "de 9:00 de la mañana a 4:00 de la tarde"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/cierre-vial-en-avenida-las-palmas-por-tres-meses-al-norte-de-puerto-vallarta/",
+    "article_date": "2026-03-15",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "cerrará la avenida Las Palmas durante tres meses ... en las inmediaciones de Las Mojoneras",
+    "street": "avenida Las Palmas",
+    "colonia": "Las Mojoneras",
+    "landmark": null,
+    "summary": "A three-month Las Palmas closure for drainage works will disrupt travel while addressing recurrent flooding near Las Mojoneras.",
+    "affected_people_clue": "conductores",
+    "duration_clue": "tres meses"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/nuevo-paso-vehicular-rio-mascota-puente-desembocada-vallarta/",
+    "article_date": "2026-03-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "paso vehicular sobre el río Mascota ... más cerca del sitio afectado",
+    "street": null,
+    "colonia": null,
+    "landmark": "río Mascota",
+    "summary": "A provisional river crossing restores access near a damaged bridge for northern Puerto Vallarta communities.",
+    "affected_people_clue": "vecinos de varias comunidades",
+    "duration_clue": "esta misma semana"
+  }
+]

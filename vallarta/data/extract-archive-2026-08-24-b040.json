@@ -1,0 +1,21 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/agua-colonias-norte-vallarta/",
+    "article_date": "2026-04-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": "70% de las colonias de la zona norte de Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A ruptured main disrupted water service across northern Puerto Vallarta; SEAPAL restored 70% and expected full recovery Friday.",
+    "affected_people_clue": "70% de las colonias de la zona norte",
+    "duration_clue": "hasta la mañana del viernes"
+  }
+]

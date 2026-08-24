@@ -1,0 +1,314 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vallarta-sin-agua-y-luis-munguia-en-guadalajara-atendiendo-asuntos-del-partido-verde/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A citywide water shortage affects families and businesses, but the article’s political criticism makes qualification uncertain.",
+    "affected_people_clue": "miles de familias",
+    "duration_clue": "varios días",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/hartazgo-falta-agua-puerto-vallarta-seapal/",
+    "article_date": "2026-08-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents remain without water as utility works continue, with some households waiting up to eight days for service.",
+    "affected_people_clue": "alrededor del 20 % de las colonias",
+    "duration_clue": "hasta por 8 días",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/ayuntamiento-desmiente-falsa-colecta-viveres-incendio-el-gavilan/",
+    "article_date": "2026-05-29",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "incendio en el relleno sanitario El Gavilán",
+    "street": null,
+    "colonia": null,
+    "landmark": "relleno sanitario El Gavilán",
+    "summary": "A landfill fire continues affecting nearby rural communities through persistent smoke, though the article centers on a false donation appeal.",
+    "affected_people_clue": "habitantes de comunidades rurales cercanas",
+    "duration_clue": "últimos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/quejas-acumulacion-basura/",
+    "article_date": "2026-02-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "la colonia Magisterio, particularmente sobre la calle Violeta en su cruce con Avenida de los Maestros",
+    "street": "calle Violeta en su cruce con Avenida de los Maestros",
+    "colonia": "Magisterio",
+    "landmark": null,
+    "summary": "Uncollected trash remains on streets in Magisterio despite a reported restoration of municipal collection.",
+    "affected_people_clue": "vecinos de varias colonias",
+    "duration_clue": "varios días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/26-colonias-sin-agua-puerto-vallarta-fallas-electricas/",
+    "article_date": "2026-03-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "power"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "An electrical failure interrupts water service across 26 Puerto Vallarta colonies pending power restoration.",
+    "affected_people_clue": "26 colonias",
+    "duration_clue": "este miércoles 25 de marzo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/desazolvan-las-glorias-evitar-inundaciones-vallarta/",
+    "article_date": "2026-06-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Vecinos de la zona hotelera de Las Glorias comentaron … personal de Obras Públicas Municipales se encuentra trabajando en el desazolve del área",
+    "street": null,
+    "colonia": "Las Glorias",
+    "landmark": null,
+    "summary": "Crews are clearing blocked storm drains in Las Glorias after prior flooding affected 50 businesses.",
+    "affected_people_clue": "50 locales",
+    "duration_clue": "junio de 2025"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/almacena-agua-corte-en-136-colonias-de-puerto-vallarta/",
+    "article_date": "2026-06-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A planned interruption will leave 136 Puerto Vallarta colonies without water during highway-related utility work.",
+    "affected_people_clue": "136 colonias y fraccionamientos",
+    "duration_clue": "a partir de las 6:00 de la mañana"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-baches-zona-hotelera/",
+    "article_date": "2026-07-07",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Francisco Medina Ascencio, frente a la Terminal Marítima y el centro comercial Galerías Vallarta",
+    "street": "avenida Francisco Medina Ascencio",
+    "colonia": null,
+    "landmark": "Galerías Vallarta",
+    "summary": "Potholes on Francisco Medina Ascencio endanger vehicles and transit near Galerías Vallarta.",
+    "affected_people_clue": "automovilistas y motociclistas",
+    "duration_clue": "lleva tiempo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/continua-retraso-obra-seapal-refuerza-reparto-agua-vallarta/",
+    "article_date": "2026-08-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Delayed interconnection work leaves parts of Puerto Vallarta without stable water while emergency tanker distribution continues.",
+    "affected_people_clue": "familias afectadas",
+    "duration_clue": "todavía persisten afectaciones",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/reducen-carril-avenida-mexico-puerto-vallarta-obras-agua/",
+    "article_date": "2026-08-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "entre calle Tamaulipas y avenida Universidad de Guadalajara, específicamente en el carril que circula rumbo a Ixtapa",
+    "street": "Avenida México entre calle Tamaulipas y avenida Universidad de Guadalajara",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Water-system works reduce a lane on Avenida México while about 20% of colonies still face supply problems.",
+    "affected_people_clue": "alrededor del 20 % de las colonias",
+    "duration_clue": "desde el 17 de agosto"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-gobierno-desperdicia-agua/",
+    "article_date": "2026-08-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "The article describes municipal water waste during a citywide shortage, but its political criticism makes qualification uncertain.",
+    "affected_people_clue": "cientos de familias",
+    "duration_clue": "más de 72 horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/unibus-reanuda-rutas-puerto-vallarta-quema-camiones/",
+    "article_date": "2026-02-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "el puente sobre el río Mascota, que —como indicaron las autoridades— sufrió daño en su estructura",
+    "street": null,
+    "colonia": null,
+    "landmark": "puente sobre el río Mascota",
+    "summary": "Routes have resumed, but a damaged bridge forces passengers to walk and transfer between buses.",
+    "affected_people_clue": "pasajeros de siete poblados",
+    "duration_clue": "desde el miércoles 25"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/bache-peligroso-versalles/",
+    "article_date": "2026-03-23",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "la colonia Versalles … en la intersección de las calles Rafael Osuna y Viena",
+    "street": "calles Rafael Osuna y Viena",
+    "colonia": "Versalles",
+    "landmark": null,
+    "summary": "A large pothole at a Versalles intersection damages vehicles and threatens passing traffic.",
+    "affected_people_clue": "automovilistas y transporte pesado",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/por-que-no-agua-colonias-vallarta-seapal/",
+    "article_date": "2026-04-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la zona alta de El Pitillal, la cual recientemente ha enfrentado problemas de baja presión y falta de agua",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "Pump repairs leave upper El Pitillal with low pressure and water shortages while tanks recover.",
+    "affected_people_clue": "18 colonias, luego más de 30 asentamientos",
+    "duration_clue": "recientemente"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/irregularidad-recoleccion-basura-puerto-vallarta-lagunas-del-valle/",
+    "article_date": "2026-04-27",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Habitantes de las colonias Laguna del Valle y Del Villar en Puerto Vallarta",
+    "street": null,
+    "colonia": "Laguna del Valle",
+    "landmark": null,
+    "summary": "Residents in Laguna del Valle and Del Villar report a week without garbage collection.",
+    "affected_people_clue": "habitantes de dos colonias",
+    "duration_clue": "una semana"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/usuarios-estallan-por-corte-masivo-de-agua-en-vallarta/",
+    "article_date": "2026-06-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Users protest a planned water cutoff affecting 136 Puerto Vallarta colonies for highway-related infrastructure work.",
+    "affected_people_clue": "136 colonias",
+    "duration_clue": "el próximo 22 de junio",
+    "same_incident_as": "https://tribunadelabahia.com.mx/almacena-agua-corte-en-136-colonias-de-puerto-vallarta/"
+  }
+]

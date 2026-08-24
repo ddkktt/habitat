@@ -1,0 +1,42 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/parabuses-irregulares-puerto-vallarta-munguia/",
+    "article_date": "2026-05-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "transit"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "sobre todo en la franja turística del boulevard Francisco Medina Ascencio",
+    "street": "boulevard Francisco Medina Ascencio",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Irregular advertising bus shelters reappear across Puerto Vallarta, mainly along Medina Ascencio boulevard; mayor promises to review the concession.",
+    "affected_people_clue": null,
+    "duration_clue": "en fecha reciente"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/demuelen-casa-ipanema-puerto-vallarta-patrimonio-historico/",
+    "article_date": "2026-05-12",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "public_space",
+      "other"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "El inmueble se ubica en el céntrico barrio El Cerro, calle Miramar número 403",
+    "street": "Miramar",
+    "colonia": "El Cerro",
+    "landmark": null,
+    "summary": "Civic observatory denounces authorized demolition of heritage Casa Ipanema in historic center; private heritage building, so infrastructure qualification is doubtful.",
+    "affected_people_clue": null,
+    "duration_clue": null
+  }
+]

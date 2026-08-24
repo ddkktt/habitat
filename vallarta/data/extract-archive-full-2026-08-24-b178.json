@@ -1,0 +1,40 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/investigan-presunto-ecocidio-brisas-del-pacifico-ii/",
+    "article_date": "2026-05-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de las colonias Brisas del Pacífico II y La Trinidad, en Puerto Vallarta … El predio se encuentra entre la avenida Palma Real y San Nicolás",
+    "street": "avenida Palma Real y San Nicolás",
+    "colonia": "Brisas del Pacífico II",
+    "landmark": null,
+    "summary": "Neighbors plan Profepa complaint over earthworks filling wildlife lagoon between two colonias; environmental dispute on private land, so infrastructure qualification is doubtful.",
+    "affected_people_clue": "Vecinos de las colonias Brisas del Pacífico II y La Trinidad",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-contaminacion/",
+    "article_date": "2026-05-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "sobre avenida México, en los cruces con Poetas y avenida Prisciliano Sánchez, donde fueron colocados cerca de 30 anuncios horizontales",
+    "street": "avenida México, cruces con Poetas y avenida Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Irregular advertising saturates Puerto Vallarta streets citywide; about 30 banners on Avenida Mexico median; authorities fail to enforce rules; multiple avenues affected.",
+    "affected_people_clue": "denuncias de habitantes y automovilistas",
+    "duration_clue": "Durante las últimas semanas"
+  }
+]

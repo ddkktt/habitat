@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quejas de infraestructura en Vallarta</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <h1>Quejas de infraestructura en Puerto Vallarta</h1>
+    <p class="sub" id="source-line">Quejas reportadas por tres medios locales</p>
+  </div>
+  <div class="actions">
+    <button type="button" class="btn" id="reload-btn" title="Volver a leer los datos del disco">Recargar</button>
+    <button type="button" class="btn icon" id="theme-btn" title="Alternar claro / oscuro" aria-label="Alternar claro / oscuro">◐</button>
+  </div>
+</header>
+
+<div id="status" class="status" role="status">Cargando…</div>
+
+<main id="app" hidden>
+  <section class="stats" aria-label="Totales">
+    <div class="stat"><span class="stat-n" id="s-incidents">–</span><span class="stat-l">incidentes</span></div>
+    <div class="stat"><span class="stat-n" id="s-records">–</span><span class="stat-l">artículos registrados</span></div>
+    <div class="stat"><span class="stat-n" id="s-located">–</span><span class="stat-l">con ubicación</span></div>
+    <div class="stat"><span class="stat-n" id="s-unsure">–</span><span class="stat-l">por revisar</span></div>
+    <div class="stat wide">
+      <span class="stat-l">certeza de la ubicación</span>
+      <div class="bar" id="certainty-bar" role="img" aria-label="Desglose de la certeza de la ubicación"></div>
+      <div class="bar-key" id="certainty-key"></div>
+    </div>
+  </section>
+
+  <section class="map-hero" aria-label="Mapa de incidentes">
+    <div class="filters map-filters">
+      <label class="field"><span>Categoría</span><select id="m-category"></select></label>
+      <label class="field"><span>Estado</span><select id="m-status"></select></label>
+      <div class="field"><span>Mes</span>
+        <div class="mchips" id="m-months"></div>
+      </div>
+      <button type="button" class="btn" id="m-play" title="Recorrer los meses">▶</button>
+      <p class="slice" id="m-label"></p>
+    </div>
+    <div class="map-wrap">
+      <div id="map" role="application" aria-label="Mapa de incidentes por colonia"></div>
+      <aside class="map-side">
+        <h3 class="sec" style="margin-top:0">Colonias con más incidentes</h3>
+        <div id="m-top"></div>
+        <h3 class="sec">Lo que el mapa no muestra</h3>
+        <p class="note" id="m-noloc"></p>
+        <p class="note" id="m-unmapped"></p>
+        <p class="note" id="m-coverage"></p>
+      </aside>
+    </div>
+    <p class="note map-caveat">Círculo = incidentes en el centro aproximado de la colonia. Las posiciones vienen de
+      <code>state/colonia_coords.json</code> (estimaciones manuales, no límites oficiales); una colonia sin coordenadas
+      se lista a la derecha en lugar de adivinarse.</p>
+  </section>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab is-on" role="tab" data-panel="p-incidents">Incidentes</button>
+    <button class="tab" role="tab" data-panel="p-articles" id="tab-articles" hidden>Artículos</button>
+    <button class="tab" role="tab" data-panel="p-cycles">Ciclos</button>
+    <button class="tab" role="tab" data-panel="p-learning">Lo que ha aprendido</button>
+    <button class="tab" role="tab" data-panel="p-screening" id="tab-screening" hidden>Lectura</button>
+    <button class="tab" role="tab" data-panel="p-report">Último informe</button>
+  </nav>
+
+  <section id="p-incidents" class="panel" role="tabpanel">
+    <div class="filters">
+      <label class="field grow">
+        <span>Buscar</span>
+        <input id="f-search" type="search" placeholder="calle, colonia, palabra…" autocomplete="off">
+      </label>
+      <label class="field"><span>Categoría</span><select id="f-category"></select></label>
+      <label class="field"><span>Estado</span><select id="f-status"></select></label>
+      <label class="field"><span>Ubicación</span><select id="f-certainty"></select></label>
+      <label class="field"><span>Medio</span><select id="f-outlet"></select></label>
+      <label class="check"><input type="checkbox" id="f-unsure"> <span>Solo lo que está por revisar</span></label>
+      <button type="button" class="btn" id="f-reset">Limpiar</button>
+      <p class="slice" id="slice-label"></p>
+    </div>
+    <ul class="cards" id="incident-list"></ul>
+    <p class="empty" id="incident-empty" hidden>Ningún incidente coincide con estos filtros.</p>
+  </section>
+
+  <section id="p-articles" class="panel" role="tabpanel" hidden>
+    <p class="note" id="art-intro"></p>
+    <div class="filters">
+      <label class="field grow"><span>Buscar título, categoría, medio</span>
+        <input id="a-search" type="search" placeholder="bache, fuga, colonia…" autocomplete="off"></label>
+      <label class="field"><span>Grupo</span><select id="a-bucket"></select></label>
+      <label class="field"><span>Categoría</span><select id="a-category"></select></label>
+      <label class="field"><span>Medio</span><select id="a-outlet"></select></label>
+      <label class="field"><span>Desde</span><input id="a-from" type="date"></label>
+      <label class="field"><span>Hasta</span><input id="a-to" type="date"></label>
+      <label class="field"><span>Orden</span><select id="a-sort">
+        <option value="score">Puntaje</option><option value="date">Más recientes</option>
+        <option value="date_asc">Más antiguos</option></select></label>
+      <label class="check"><input type="checkbox" id="a-recorded"> <span>Solo con registro</span></label>
+      <button type="button" class="btn" id="a-reset">Restablecer</button>
+    </div>
+    <div class="pager">
+      <button type="button" class="btn" id="a-prev">‹ Anterior</button>
+      <span id="a-count" class="slice"></span>
+      <button type="button" class="btn" id="a-next">Siguiente ›</button>
+    </div>
+    <ul class="cards" id="article-list"></ul>
+    <div class="pager">
+      <button type="button" class="btn" id="a-prev2">‹ Anterior</button>
+      <span id="a-count2" class="slice"></span>
+      <button type="button" class="btn" id="a-next2">Siguiente ›</button>
+    </div>
+  </section>
+
+  <section id="p-cycles" class="panel" role="tabpanel" hidden>
+    <table class="grid" id="cycle-table">
+      <thead><tr><th>Ciclo</th><th class="num">Revisados</th><th class="num">Califican</th>
+        <th class="num">Dudosos</th><th class="num">Excluidos</th><th class="num">Páginas descargadas</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <h3 class="sec">Por qué se excluyeron artículos</h3>
+    <div id="reason-bars" class="reasons"></div>
+    <p class="note">Las exclusiones se registran en lugar de descartarse, así que un tema mal
+      clasificado aparece aquí como un patrón en vez de desaparecer.</p>
+  </section>
+
+  <section id="p-learning" class="panel" role="tabpanel" hidden>
+    <div class="two-col">
+      <div>
+        <h3 class="sec">Nomenclátor <span class="hint">lugares confirmados por una frase citada</span></h3>
+        <div id="gazetteer"></div>
+        <h3 class="sec">Cobertura</h3>
+        <div id="coverage"></div>
+      </div>
+      <div>
+        <h3 class="sec">Vocabulario en observación</h3>
+        <div id="vocab"></div>
+        <h3 class="sec">Fuentes candidatas <span class="hint">registradas, no consultadas</span></h3>
+        <div id="sources"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="p-screening" class="panel" role="tabpanel" hidden>
+    <p class="note" id="screen-intro"></p>
+    <div class="stats" id="screen-stats" aria-label="Avance de lectura del corpus"></div>
+
+    <h3 class="sec">Orden de lectura (barra = total del corpus)</h3>
+    <div id="screen-reasons" class="reasons"></div>
+
+    <h3 class="sec">Pendientes de leer por medio</h3>
+    <div id="screen-outlets" class="reasons"></div>
+
+    <h3 class="sec">Categorías detectadas en el corpus</h3>
+    <div id="screen-cats" class="reasons"></div>
+
+    <h3 class="sec">Auditorías de calidad</h3>
+    <div id="audits"></div>
+
+    <h3 class="sec">Siguientes en la cola de lectura</h3>
+    <table class="grid" id="unread-table">
+      <thead><tr><th>Fecha</th><th>Medio</th><th>Titular</th>
+        <th class="num">Puntaje</th><th>Grupo</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="p-report" class="panel" role="tabpanel" hidden>
+    <pre class="report" id="report-md"></pre>
+  </section>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

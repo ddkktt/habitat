@@ -1,0 +1,61 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/incendios-mercado-5-diciembre-cableado-riesgo/",
+    "article_date": "2026-04-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power",
+      "lighting",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "El Mercado Municipal 5 de Diciembre, ubicado sobre las calles San Salvador y Brasilia, frente al viejo cementerio",
+    "street": "calles San Salvador y Brasilia",
+    "colonia": null,
+    "landmark": "Mercado Municipal 5 de Diciembre",
+    "summary": "Puerto Vallarta’s 5 de Diciembre market still needs electrical, lighting, and building repairs after three fires in six weeks.",
+    "affected_people_clue": "diez locatarios damnificados",
+    "duration_clue": "mes y medio"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/profeco-obliga-gaseras-retirar-cilindros/",
+    "article_date": "2026-04-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "other"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Defective gas cylinders and negligent supply practices affect the region, but reported explosions are outside Puerto Vallarta, making qualification borderline.",
+    "affected_people_clue": "familias de la región",
+    "duration_clue": "finales de 2025 y principios de 2026"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/reportan-alcantarilla-abierta-en-el-cruce-de-las-calles-exiquio-corona-e-independencia/",
+    "article_date": "2026-04-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "alcantarilla abierta en el cruce de las calles Exiquio Corona e Independencia de Puerto Vallarta",
+    "street": "calles Exiquio Corona e Independencia",
+    "colonia": null,
+    "landmark": null,
+    "summary": "An open manhole at Exiquio Corona and Independencia lacks official warning signs, endangering motorists, motorcyclists, and pedestrians.",
+    "affected_people_clue": "automovilistas y motociclistas",
+    "duration_clue": null
+  }
+]

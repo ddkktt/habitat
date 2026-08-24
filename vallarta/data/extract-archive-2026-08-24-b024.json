@@ -1,0 +1,183 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-ixtapa-puerto-vallarta-jueves-12-febrero-2026/",
+    "article_date": "2026-02-11",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "calle Guillermo Prieto y avenida Las Palmas",
+    "street": "calle Guillermo Prieto y avenida Las Palmas",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A scheduled water interruption affects two Ixtapa colonies during valve installation.",
+    "affected_people_clue": null,
+    "duration_clue": "9:00 de la mañana a 3:00 de la tarde"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/vecinos-ixtapa-interrumpen-gira-munguia/",
+    "article_date": "2026-02-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "intervenir la calle Gaviota, en el fraccionamiento Tamarindos",
+    "street": "calle Gaviota",
+    "colonia": "Tamarindos",
+    "landmark": null,
+    "summary": "Residents report recurring flooding in Ixtapa and demand drainage work on Gaviota Street in Tamarindos.",
+    "affected_people_clue": "más de 1,200 viviendas",
+    "duration_clue": "cada temporada de lluvias"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-ixtapa-puerto-vallarta-26-febrero-2026/",
+    "article_date": "2026-02-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "carretera a Las Palmas, esquina con Guillermo Prieto",
+    "street": "carretera a Las Palmas esquina con Guillermo Prieto",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A scheduled water interruption affects two Ixtapa colonies during hydraulic-line interconnection work.",
+    "affected_people_clue": null,
+    "duration_clue": "9:00 a.m. a 8:00 p.m."
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-18-colonias-afectadas/",
+    "article_date": "2026-04-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "18 colonias al norte y oriente de la delegación municipal de El Pitillal",
+    "street": null,
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "A power failure leaves 18 Pitillal-area colonies without water pending pump repair.",
+    "affected_people_clue": "18 colonias",
+    "duration_clue": "hasta la mañana del jueves 9 de abril",
+    "same_incident_as": "https://tribunadelabahia.com.mx/por-que-no-agua-colonias-vallarta-seapal/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/lista-completa-colonias-sin-agua-puerto-vallarta/",
+    "article_date": "2026-04-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A ruptured main causes a mass Puerto Vallarta water cutoff while repairs and gradual service recovery continue.",
+    "affected_people_clue": "numerosas colonias y fraccionamientos",
+    "duration_clue": "hasta la mañana del viernes 24 de abril",
+    "same_incident_as": "https://tribunadelabahia.com.mx/seapal-vallarta-reparacion-red-colapsada-agua/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/basura-acumulada-calle-31-octubre/",
+    "article_date": "2026-06-02",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "drainage",
+      "flooding"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "canal ... sobre la calle 31 de Octubre, en la zona centro de Puerto Vallarta",
+    "street": "calle 31 de Octubre",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Accumulated trash in a central Vallarta canal may block drains and worsen flooding during the rainy season.",
+    "affected_people_clue": "habitantes y comerciantes del área",
+    "duration_clue": "ante la cercanía de la temporada de lluvias"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/canal-pluvial-en-la-entrada-al-centro/",
+    "article_date": "2026-06-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash",
+      "drainage",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "boulevard Francisco Medina Ascencio, a un costado del terreno de Pensiones del Estado",
+    "street": "boulevard Francisco Medina Ascencio",
+    "colonia": null,
+    "landmark": "terreno de Pensiones del Estado",
+    "summary": "An abandoned canal beside a main boulevard contains trash and weeds, raising flooding and pollution concerns for residents.",
+    "affected_people_clue": "vecinos, automovilistas y ciudadanos",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/reabririan-sabado-calle-prisciliano-sanchez-socavon/",
+    "article_date": "2026-06-17",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calle Prisciliano Sánchez ... socavón provocado por el colapso del Colector Centro-Norte",
+    "street": "calle Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Repairs continue on a collapsed sewer collector and sinkhole before Prisciliano Sánchez fully reopens.",
+    "affected_people_clue": null,
+    "duration_clue": "fase final",
+    "same_incident_as": "https://tribunadelabahia.com.mx/colapso-drenaje-versalles-seapal-taponamiento-mexico/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-masivo-agua-puerto-vallarta-136-colonias-afectadas/",
+    "article_date": "2026-06-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A planned highway-related cutoff will interrupt water service across 136 Puerto Vallarta colonies.",
+    "affected_people_clue": "136 zonas habitacionales",
+    "duration_clue": "lunes 22 de junio a martes 23 de junio",
+    "same_incident_as": "https://tribunadelabahia.com.mx/usuarios-estallan-por-corte-masivo-de-agua-en-vallarta/"
+  }
+]

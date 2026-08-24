@@ -1,0 +1,60 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/realizan-obra-sin-permiso-donde-murio-nino-derrumbe/",
+  "article_date": "2026-05-31",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "flooding",
+   "other"
+  ],
+  "status": "new_complaint",
+  "location_certainty": "exact",
+  "location_evidence": "los dueños del predio colindante en la calle 5 de febrero número 541 o Insurgentes 108 en la colonia Emiliano Zapata",
+  "street": "calle 5 de febrero",
+  "colonia": "Emiliano Zapata",
+  "landmark": null,
+  "summary": "Unpermitted construction resumed on collapsed Cuale riverside site where a child died in 2021; Profepa and CNDH complaints filed; qualification doubtful.",
+  "affected_people_clue": null,
+  "duration_clue": "Desde hace dos semanas"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/cierre-unirse-vallarta-descompuso-aire/",
+  "article_date": "2026-05-20",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "other"
+  ],
+  "status": "new_complaint",
+  "location_certainty": "approximate",
+  "location_evidence": "Cierre parcial de la Unirse Puerto Vallarta",
+  "street": null,
+  "colonia": null,
+  "landmark": "Unirse Puerto Vallarta",
+  "summary": "State government offices (Unirse) partially closed by air-conditioning failure; residents turned away from paperwork; infrastructure qualification doubtful.",
+  "affected_people_clue": "había mucha gente que madrugo",
+  "duration_clue": "tuvo lugar en la madrugada"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/terminan-muro-piedras-playa-las-cocinas-punta-de-mita/",
+  "article_date": "2026-05-12",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "Playa Las Cocinas , en Punta de Mita, Bahía de Banderas",
+  "street": null,
+  "colonia": "Punta de Mita",
+  "landmark": "Playa Las Cocinas",
+  "summary": "Activists say rock jetty at Playa Las Cocinas completed despite promises to move it; beach access dispute; public-space qualification uncertain.",
+  "affected_people_clue": "habitantes de Punta de Mita",
+  "duration_clue": "tras varios meses de trabajos"
+ }
+]

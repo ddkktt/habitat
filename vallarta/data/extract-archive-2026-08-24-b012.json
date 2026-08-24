@@ -1,0 +1,118 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-pozo-calle-juarez/",
+    "article_date": "2026-08-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "calle Juárez, casi en el cruce con Allende, en pleno Centro de Puerto Vallarta",
+    "street": "calle Juárez esquina Allende",
+    "colonia": "Centro",
+    "landmark": null,
+    "summary": "A persistent pothole on Calle Juárez near Allende threatens traffic and vehicles in central Puerto Vallarta.",
+    "affected_people_clue": "vecinos y personas que transitan diariamente",
+    "duration_clue": "más de dos semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-estacionamiento-autobuses-glorias/",
+    "article_date": "2026-08-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "transit",
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonia Las Glorias ... calle Febronio Uribe",
+    "street": "calle Febronio Uribe",
+    "colonia": "Las Glorias",
+    "landmark": null,
+    "summary": "Parking shortages and buses using residential streets worsen congestion and damage a Las Glorias roadway.",
+    "affected_people_clue": "vecinos de la colonia Las Glorias",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/video-exhiben-camion-puerta-voladora/",
+    "article_date": "2026-03-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A damaged rear door on a Puerto Vallarta bus could injure passengers during service.",
+    "affected_people_clue": "pasajeros y ciudadanos",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/arboles-cinepolis-peligro-para-vecinos-ex-haciendas-pitillal/",
+    "article_date": "2026-04-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "fraccionamiento Ex Haciendas del Pitillal ... calle Privada Arrecife",
+    "street": "Privada Arrecife",
+    "colonia": "Ex Haciendas del Pitillal",
+    "landmark": null,
+    "summary": "Overgrown trees near Ex Haciendas homes enable roof access and harbor pests despite repeated reports.",
+    "affected_people_clue": "vecinos del fraccionamiento Ex Haciendas del Pitillal",
+    "duration_clue": "tres ocasiones"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/usuarios-transporte-vallarta-derriten-aire-acondicionado/",
+    "article_date": "2026-05-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Passengers report hot, crowded Puerto Vallarta buses without air conditioning, alongside scarce service and long waits.",
+    "affected_people_clue": "múltiples reportes de ciudadanos",
+    "duration_clue": "en los últimos días"
+  },
+  {
+    "article_url": "https://diariodevallarta.com/playa-holi-perdio-mas-de-13-mil-m2-superficie/",
+    "article_date": "2026-06-22",
+    "source_outlet": "Diario de Vallarta",
+    "author": "Redaccion de Diario de Vallarta y Nayarit",
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "la playa Holi de Puerto Vallarta ha perdido más de 13 mil metros cuadrados de superficie efectiva",
+    "street": null,
+    "colonia": null,
+    "landmark": "Playa Holi",
+    "summary": "Research finds Playa Holi has lost public recreational area through erosion and structures, reducing available beach space.",
+    "affected_people_clue": "residentes y turistas",
+    "duration_clue": "poco más de una década"
+  }
+]

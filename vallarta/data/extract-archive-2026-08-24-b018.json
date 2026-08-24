@@ -1,0 +1,41 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/suspenden-clases-presenciales-vallarta-emergencia/",
+    "article_date": "2026-05-28",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A Puerto Vallarta landfill fire caused an atmospheric emergency, suspending classes and outdoor activities in several areas to protect residents.",
+    "affected_people_clue": "estudiantes, docentes y personal educativo",
+    "duration_clue": "este jueves",
+    "same_incident_as": "https://tribunadelabahia.com.mx/puerto-vallarta-incendio-gavilan-residuos/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/abandono-gatos-isla-rio-cuale-puerto-vallarta-vigilancia/",
+    "article_date": "2026-07-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Isla del Río Cuale",
+    "street": null,
+    "colonia": null,
+    "landmark": "Isla del Río Cuale",
+    "summary": "Residents report abandoned cats and inadequate municipal vigilance on Isla del Río Cuale, harming wildlife; qualification as a public-space service complaint is borderline.",
+    "affected_people_clue": "11 gatitos",
+    "duration_clue": "desde hace años"
+  }
+]

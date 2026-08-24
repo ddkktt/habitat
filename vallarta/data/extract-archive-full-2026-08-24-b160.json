@@ -1,0 +1,40 @@
+[
+ {
+  "article_url": "https://tribunadelabahia.com.mx/hospital-tondoroque-semanas-sin-aire-acondicionado/",
+  "article_date": "2026-05-27",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "other"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "el Hospital de Tondoroque, uno de los más concurridos de Bahía de Banderas",
+  "street": null,
+  "colonia": null,
+  "landmark": "Hospital de Tondoroque",
+  "summary": "Tondoroque public hospital has lacked air conditioning about three weeks; qualification uncertain since hospital climate systems sit outside listed infrastructure topics.",
+  "affected_people_clue": "pacientes internados y personal médico",
+  "duration_clue": "aproximadamente tres semanas"
+ },
+ {
+  "article_url": "https://tribunadelabahia.com.mx/playa-las-cocinas-228-mil-firmas-escollera/",
+  "article_date": "2026-05-23",
+  "source_outlet": "Tribuna de la Bahía",
+  "author": null,
+  "qualifies": "unsure",
+  "categories": [
+   "public_space"
+  ],
+  "status": "ongoing",
+  "location_certainty": "approximate",
+  "location_evidence": "Playa Las Cocinas, en Punta de Mita, municipio de Bahía de Banderas",
+  "street": null,
+  "colonia": "Punta de Mita",
+  "landmark": "Playa Las Cocinas",
+  "summary": "Petition of 228,000 signatures demands removing jetty at Playa Las Cocinas beach; environmental-development conflict, so qualification as infrastructure complaint is doubtful.",
+  "affected_people_clue": "228 mil 179 personas habían firmado",
+  "duration_clue": "ya supera un año"
+ }
+]

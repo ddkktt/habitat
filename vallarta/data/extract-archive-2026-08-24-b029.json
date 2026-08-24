@@ -1,0 +1,236 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/por-que-cortaron-agua-vallarta-seapal-muestra/",
+    "article_date": "2026-06-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Highway-related works temporarily suspend water service for thousands of Puerto Vallarta residents.",
+    "affected_people_clue": "miles de habitantes",
+    "duration_clue": "suspensión temporal del servicio",
+    "same_incident_as": "https://tribunadelabahia.com.mx/almacena-agua-corte-en-136-colonias-de-puerto-vallarta/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-vallarta-anuncia-corte-de-agua-cuatro-colonias-viernes/",
+    "article_date": "2026-07-03",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Prisciliano Sánchez",
+    "street": "avenida Prisciliano Sánchez",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Planned interconnection works will temporarily cut water service to four Puerto Vallarta colonies.",
+    "affected_people_clue": "cuatro colonias",
+    "duration_clue": "de 9:00 de la mañana a 6:00 de la tarde"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/cinco-colonias-sin-agua-puerto-vallarta-falla-tanque-agua-azul/",
+    "article_date": "2026-07-07",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "Tanque Agua Azul",
+    "street": null,
+    "colonia": null,
+    "landmark": "Tanque Agua Azul",
+    "summary": "An electrical equipment failure leaves five Puerto Vallarta colonies without water while repairs proceed.",
+    "affected_people_clue": "cinco colonias",
+    "duration_clue": "durante este martes 7 de julio",
+    "same_incident_as": "https://tribunadelabahia.com.mx/otro-dia-sin-agua-cinco-colonias-puerto-vallarta-restablecimiento-servicio/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/calle-bolivia-coapinole-bacheo-puerto-vallarta/",
+    "article_date": "2026-07-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "colonias Coapinole y Lomas del Coapinole … calle Bolivia",
+    "street": "calle Bolivia",
+    "colonia": "Coapinole",
+    "landmark": null,
+    "summary": "Residents demand urgent pothole repairs on deteriorating Bolivia Street in Puerto Vallarta.",
+    "affected_people_clue": "automovilistas, motociclistas, ciclistas y peatones",
+    "duration_clue": "desde una administración anterior"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-cerraran-carriles-avenida-mexico-vallarta/",
+    "article_date": "2026-07-20",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "cruce de avenida México y avenida Las Palmas",
+    "street": "avenida México y avenida Las Palmas",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A deteriorated sewer pipe at a busy intersection has affected residents and motorists for years.",
+    "affected_people_clue": "vecinos y automovilistas",
+    "duration_clue": "durante años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/fuga-agua-avenida-politecnico-nacional-trafico-lento/",
+    "article_date": "2026-07-21",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "avenida Politécnico Nacional",
+    "street": "avenida Politécnico Nacional",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A broken water pipe causes a leak and slow traffic on Politécnico Nacional Avenue in Puerto Vallarta.",
+    "affected_people_clue": "automovilistas",
+    "duration_clue": "hoy mismo"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-repara-tuberia-cfe-restablece-agua-seis-colonias-vallarta/",
+    "article_date": "2026-07-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "cruce de las avenidas Politécnico Nacional y Universo",
+    "street": "avenida Politécnico Nacional y avenida Universo",
+    "colonia": null,
+    "landmark": null,
+    "summary": "SEAPAL repaired a damaged pipe, restoring water gradually to six Puerto Vallarta colonies.",
+    "affected_people_clue": "seis colonias",
+    "duration_clue": "noche del martes 21 y madrugada del miércoles"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/concluyen-reparacion-impulsion-recuperacion-vallarta/",
+    "article_date": "2026-07-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A repaired supply line begins gradual water recovery after a major Puerto Vallarta service interruption.",
+    "affected_people_clue": "129 colonias",
+    "duration_clue": "desde la tarde del viernes 24 de julio",
+    "same_incident_as": "https://tribunadelabahia.com.mx/cuando-volvera-agua-vallarta-seapal-normalizara-servicio/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/seapal-cierres-avenida-mexico-palmas-drenaje-vallarta/",
+    "article_date": "2026-08-05",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "cruce de avenida México y avenida Las Palmas",
+    "street": "avenida México y avenida Las Palmas",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A sewer subcollector replacement addresses a historic drainage problem affecting a busy Puerto Vallarta intersection.",
+    "affected_people_clue": "vecinos y automovilistas",
+    "duration_clue": "durante años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/139-colonias-sin-agua-puerto-vallarta-miercoles/",
+    "article_date": "2026-08-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Highway-related works will interrupt water service for about 139 Puerto Vallarta zones with gradual recovery.",
+    "affected_people_clue": "alrededor de 139 colonias y zonas",
+    "duration_clue": "del miércoles 12 al domingo 16 de agosto",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-retraso-suministro-agua/",
+    "article_date": "2026-08-14",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Delayed contractor work prolongs water-supply disruption for affected Puerto Vallarta users.",
+    "affected_people_clue": "usuarios de las zonas afectadas",
+    "duration_clue": "más tiempo del horario previsto",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-munguia-seapal-abasto-agua/",
+    "article_date": "2026-08-20",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Intermittent water and low pressure persist across Puerto Vallarta despite an official claim of full restoration.",
+    "affected_people_clue": "miles de familias",
+    "duration_clue": "más de ocho días",
+    "same_incident_as": "https://diariodevallarta.com/te-quedaste-sin-agua-en-vallarta-mapa-y-horarios-de-las-pipas-de-seapal-y-que-colonias-siguen-afectadas/"
+  }
+]

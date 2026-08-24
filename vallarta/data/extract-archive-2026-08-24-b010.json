@@ -1,0 +1,80 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-denuncian-invasion-area-verde/",
+    "article_date": "2026-07-02",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos del fraccionamiento Paseo de la Ribera denunciaron la presunta invasión de un área verde ubicada junto a la avenida Las Torres, entre el río Pitillal y la calle 5 de Mayo",
+    "street": "avenida Las Torres",
+    "colonia": "Paseo de la Ribera",
+    "landmark": null,
+    "summary": "Residents report an invaded green area beside Las Torres, allegedly altered to provide event access, affecting a community recreation space.",
+    "affected_people_clue": "familias y deportistas de la zona",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/denuncian-obras-irregulares-instalacion-circo-ayala/",
+    "article_date": "2026-07-08",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "roads"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de la colonia Paso de la Ribera ... en el Lienzo Charro La Rivera, en El Pitillal",
+    "street": null,
+    "colonia": "Paso de la Ribera",
+    "landmark": "Lienzo Charro La Rivera",
+    "summary": "Residents report unauthorized green-area modifications for a circus entrance, with traffic, access, parking, and noise impacts on the colonia.",
+    "affected_people_clue": "quienes viven en la zona",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-arbol-papelillo-riesgo/",
+    "article_date": "2026-07-27",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "Un árbol papelillo ubicado sobre la banqueta de Plaza Parota, en la avenida Francisco Villa de Puerto Vallarta",
+    "street": "avenida Francisco Villa",
+    "colonia": null,
+    "landmark": "Plaza Parota",
+    "summary": "A deteriorating tree beside a busy sidewalk may collapse, threatening pedestrians, vehicles, and nearby urban infrastructure.",
+    "affected_people_clue": "peatones y automovilistas",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/arboles-cables-bobadilla/",
+    "article_date": "2026-02-27",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power",
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes de la colonia Bobadilla, en la delegación de El Pitillal, denunciaron públicamente una situación de riesgo en la calle Veracruz, entre 16 de Septiembre y 10 de Mayo",
+    "street": "calle Veracruz, entre 16 de Septiembre y 10 de Mayo",
+    "colonia": "Bobadilla",
+    "landmark": null,
+    "summary": "Trees touching high-voltage cables create a reported risk of electrical faults, fire, or shock along a residential street.",
+    "affected_people_clue": "vecinos, peatones y automovilistas",
+    "duration_clue": "zumbido constante"
+  }
+]

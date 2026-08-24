@@ -1,0 +1,40 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/preocupa-lgbt-restriccion-en-vallarta-pride/",
+    "article_date": "2026-03-28",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "public_space"
+    ],
+    "status": "unclear",
+    "location_certainty": "approximate",
+    "location_evidence": "espacios públicos en la Zona Romántica de la ciudad",
+    "street": null,
+    "colonia": "Zona Romántica",
+    "landmark": null,
+    "summary": "A proposed Pride event may restrict access to Zona Romántica public spaces through donations, so this borderline complaint remains uncertain.",
+    "affected_people_clue": "ciudadanos y turistas",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/reparan-semaforo-cucosta-vallarta-semanas-fuera-de-servicio/",
+    "article_date": "2026-03-30",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "transit"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "semáforo ubicado en las inmediaciones del Centro Universitario de la Costa (CUC)",
+    "street": null,
+    "colonia": null,
+    "landmark": "Centro Universitario de la Costa (CUC)",
+    "summary": "A traffic signal near CUCosta was out for months, creating mobility and safety concerns until repairs began.",
+    "affected_people_clue": "automovilistas y peatones",
+    "duration_clue": "varios meses"
+  }
+]

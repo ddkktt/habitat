@@ -1,0 +1,89 @@
+{
+  "note": "Outlets, agencies and groups named in scanned articles. Logged for HUMAN APPROVAL only. Nothing here is fetched or contacted; the approved source list stays the four feeds in vallarta_agent_prompt.md until a human changes it.",
+  "last_updated": "2026-08-24",
+  "candidates": [
+    {
+      "name": "Seapal Vallarta",
+      "kind": "utility (water and sewerage)",
+      "why": "named as the responsible party in the Brisas del Pacífico leak; likely issues public service notices",
+      "first_seen": "2026-08-24",
+      "status": "pending_human_approval"
+    },
+    {
+      "name": "Ayuntamiento de Puerto Vallarta",
+      "kind": "municipal government",
+      "why": "named as the authority residents address complaints to",
+      "first_seen": "2026-08-24",
+      "status": "pending_human_approval"
+    },
+    {
+      "name": "Secretaría de Transporte de Jalisco",
+      "kind": "state agency",
+      "why": "source of transit service statements",
+      "first_seen": "2026-08-24",
+      "status": "pending_human_approval"
+    },
+    {
+      "name": "Meridiano (Nayarit edition)",
+      "kind": "news outlet",
+      "feed_url": "https://meridiano.mx/feed/",
+      "why": "live RSS with full text (content:encoded); Nayarit-wide coverage including Bahía de Banderas, but sample was Tepic-heavy — would need local_terms filtering",
+      "recon": "probed 2026-08-24: feed live, 10 items, fresh same-day",
+      "first_seen": "2026-08-24",
+      "status": "approved_by_operator_2026-08-24"
+    },
+    {
+      "name": "Banderas News",
+      "kind": "news outlet (English)",
+      "feed_url": "https://banderasnews.com/feed/",
+      "why": "live RSS with full text; English-language, tourism/lifestyle slant but does cover infrastructure works (e.g. Amado Nervo road connection)",
+      "recon": "probed 2026-08-24: feed live, 10 items, fresh same-day",
+      "first_seen": "2026-08-24",
+      "status": "approved_by_operator_2026-08-24"
+    },
+    {
+      "name": "Vallarta Daily News",
+      "kind": "news outlet (English)",
+      "feed_url": "https://www.vallartadaily.com/feed/",
+      "why": "live RSS, 40 items/read, excerpt-only body (page fetch needed); high volume with routine daily reports (weather, flights, peso) mixed with local news",
+      "recon": "probed 2026-08-24: feed live, fresh same-day",
+      "first_seen": "2026-08-24",
+      "status": "pending_human_approval"
+    },
+    {
+      "name": "La Noticia al Punto Vallarta",
+      "kind": "news outlet",
+      "feed_url": "https://lanoticiaalpuntovallarta.com/feed/",
+      "why": "feed is live but currently serving multilingual casino-spam posts (Polish/Dutch/Greek) — site appears compromised or selling spam placements",
+      "recon": "probed 2026-08-24: feed live but content is spam",
+      "first_seen": "2026-08-24",
+      "status": "rejected_by_recon"
+    },
+    {
+      "name": "PV Mirror City Paper",
+      "kind": "news outlet (English weekly)",
+      "feed_url": "https://pvmcitypaper.com/feed/",
+      "why": "feed live but stale (latest item Dec 2025) and lifestyle/columns content, not civic news",
+      "recon": "probed 2026-08-24",
+      "first_seen": "2026-08-24",
+      "status": "rejected_by_recon"
+    },
+    {
+      "name": "Out & About PV",
+      "kind": "news outlet (English, LGBTQ lifestyle)",
+      "feed_url": "https://outandaboutpv.com/feed/",
+      "why": "feed live and fresh but entertainment/lifestyle focus, not infrastructure complaints",
+      "recon": "probed 2026-08-24",
+      "first_seen": "2026-08-24",
+      "status": "rejected_by_recon"
+    },
+    {
+      "name": "Reporte Diario / Vallarta Opina / NotiVallarta / Vallarta Today",
+      "kind": "news outlets",
+      "why": "no machine-readable feed: Reporte Diario and Vallarta Today 404 on all feed paths; Vallarta Opina serves a broken self-signed TLS cert (CN=ubuntu) and 404s; notivallarta.com does not resolve",
+      "recon": "probed 2026-08-24",
+      "first_seen": "2026-08-24",
+      "status": "rejected_by_recon"
+    }
+  ]
+}

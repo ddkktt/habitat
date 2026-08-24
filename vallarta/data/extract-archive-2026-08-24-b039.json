@@ -1,0 +1,98 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/pepillo-origel-destapa-paseo-fama-vallarta/",
+    "article_date": "2026-02-16",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "roads",
+      "drainage"
+    ],
+    "status": "unclear",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents’ infrastructure complaints appear only as reactions to a cultural project, making qualification borderline.",
+    "affected_people_clue": "varios vallartenses",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/ampliacion-avenida-mexico-cuatro-carriles-puerto-vallarta/",
+    "article_date": "2026-03-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "la avenida México ... actualmente ahí se forma un embudo y provoca embotellamiento y caos en el tráfico vehicular",
+    "street": "avenida México",
+    "colonia": null,
+    "landmark": null,
+    "summary": "A traffic bottleneck on Avenida México causes congestion while a four-lane expansion proceeds.",
+    "affected_people_clue": "miles de vecinos",
+    "duration_clue": "desde diciembre del año pasado"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/autos-abandonados-paseo-de-la-industria/",
+    "article_date": "2026-03-18",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "zona de Paseo de la Industria, antes de llegar al fraccionamiento Banús",
+    "street": "Paseo de la Industria",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Abandoned vehicles block a sidewalk on Paseo de la Industria, forcing pedestrians into traffic and creating safety risks.",
+    "affected_people_clue": "vecinos y transeúntes",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/corte-agua-puerto-vallarta-26-marzo-colonias/",
+    "article_date": "2026-03-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "approximate",
+    "location_evidence": "Las colonias afectadas son Díaz Ordaz, La Vena y Versalles",
+    "street": null,
+    "colonia": "Díaz Ordaz",
+    "landmark": null,
+    "summary": "A scheduled water cutoff will affect three Puerto Vallarta colonies during interconnection work.",
+    "affected_people_clue": "habitantes de estas zonas",
+    "duration_clue": "9:00 de la mañana a 4:00 de la tarde"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/red-ambiental-puerto-vallarta-relleno-sanitario-entrega/",
+    "article_date": "2026-03-30",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "A contractor exit amid municipal debt threatens continuity of Puerto Vallarta waste collection and final disposal.",
+    "affected_people_clue": null,
+    "duration_clue": "varios meses"
+  }
+]

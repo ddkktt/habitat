@@ -1,0 +1,216 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-autos-abandonados-hipodromo/",
+    "article_date": "2026-08-04",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space",
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Habitantes de la colonia Hipódromo, en Puerto Vallarta, solicitaron ... sobre la calle Alazán",
+    "street": "calle Alazán",
+    "colonia": "Hipódromo",
+    "landmark": null,
+    "summary": "Abandoned cars on Calle Alazán accumulate trash, weeds, and stagnant water, creating health and safety risks for Hipódromo residents.",
+    "affected_people_clue": "familias de la colonia",
+    "duration_clue": "más de tres años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-seapal-corte-agua/",
+    "article_date": "2026-08-11",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "water"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "An early water cut disrupted residents before Seapal’s announced schedule, amid reports of recurring interruptions across Puerto Vallarta.",
+    "affected_people_clue": "alrededor de 139 colonias",
+    "duration_clue": "desde el lunes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/puerto-vallarta-mojoneras-avenida-mexico/",
+    "article_date": "2026-08-22",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de Mojoneras cerraron este sábado la Avenida México, en Puerto Vallarta, para exigir una solución definitiva al problema de inundaciones que afecta desde hace años a la colonia",
+    "street": "Avenida México",
+    "colonia": "Mojoneras",
+    "landmark": null,
+    "summary": "Mojoneras residents block Avenida México over recurrent flooding and demand permanent storm-drainage infrastructure.",
+    "affected_people_clue": "vecinos de Mojoneras",
+    "duration_clue": "desde hace años"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/conexiones-irregulares-puerto-vallarta/",
+    "article_date": "2026-03-13",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "La situación ocurre específicamente en el cruce de las calles 20 de Noviembre y 30 de Noviembre, dentro de El Salitrillo",
+    "street": "calles 20 de Noviembre y 30 de Noviembre",
+    "colonia": "El Salitrillo",
+    "landmark": null,
+    "summary": "Improvised electrical connections persist at two El Salitrillo streets despite reports, posing fire and electrocution risks.",
+    "affected_people_clue": "familias de la zona",
+    "duration_clue": "persiste a pesar de los reportes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/apertura-irregular-camino-linda-vista/",
+    "article_date": "2026-03-19",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "unsure",
+    "categories": [
+      "roads"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Vecinos de la colonia Linda Vista Océano denunciaron la apertura presuntamente irregular de un camino … en el extremo derecho de la calle Bello Horizonte, justo a un costado de la bomba de Seapal ubicada en la parte alta del Centro de Acopio Animal",
+    "street": "calle Bello Horizonte",
+    "colonia": "Linda Vista Océano",
+    "landmark": "Centro de Acopio Animal",
+    "summary": "Residents report a possibly unauthorized road opening toward a hill, but its infrastructure-complaint status is borderline.",
+    "affected_people_clue": "habitantes del área",
+    "duration_clue": "en días pasados"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/mercado-5-diciembre-danos-incendios-puerto-vallarta/",
+    "article_date": "2026-03-25",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "power",
+      "water",
+      "lighting",
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "Mercado Municipal 5 de Diciembre, ubicado sobre las calles San Salvador y Brasilia, frente al viejo cementerio",
+    "street": "calles San Salvador y Brasilia",
+    "colonia": null,
+    "landmark": "Mercado Municipal 5 de Diciembre",
+    "summary": "One month after fires, the municipal market still has damaged wiring, water connections, and inadequate lighting.",
+    "affected_people_clue": "locatarios del mercado",
+    "duration_clue": "un mes"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/obstruccion-en-banquetas-paseo-de-las-flores-por-arboles-caidos-y-maleza/",
+    "article_date": "2026-04-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "public_space"
+    ],
+    "status": "ongoing",
+    "location_certainty": "exact",
+    "location_evidence": "malas condiciones en las banquetas de la avenida Paseo de las Flores donde la presencia de árboles caídos y el crecimiento de maleza están dificultando el paso peatonal",
+    "street": "avenida Paseo de las Flores",
+    "colonia": null,
+    "landmark": null,
+    "summary": "Fallen trees and overgrown vegetation block Paseo de las Flores sidewalks, forcing pedestrians into the roadway.",
+    "affected_people_clue": "adultos mayores, niños y personas con movilidad reducida",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/usuarios-tribuna-bahia-reaccionan-basura-presidencia-vallarta/",
+    "article_date": "2026-05-07",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "none",
+    "location_evidence": null,
+    "street": null,
+    "colonia": null,
+    "landmark": null,
+    "summary": "Residents report weeks of failed garbage collection, prompting a proposed protest delivering waste to Puerto Vallarta’s municipal offices.",
+    "affected_people_clue": "diversas zonas del municipio",
+    "duration_clue": "desde hace semanas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/mas-de-100-elementos-combaten-incendio-los-gavilanes-puerto-vallarta/",
+    "article_date": "2026-05-28",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "incendio en el vertedero municipal “Los Gavilanes”, ... en la localidad de El Colorado, en Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": "vertedero municipal Los Gavilanes",
+    "summary": "A landfill fire remains active after twelve hours, sending smoke over Puerto Vallarta and prompting precautions for residents.",
+    "affected_people_clue": "población de Puerto Vallarta",
+    "duration_clue": "más de doce horas"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/incendio-llantas-gavilanes-columna-humo/",
+    "article_date": "2026-05-28",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "incendio al interior del basurero de El Gavilán, en Puerto Vallarta",
+    "street": null,
+    "colonia": null,
+    "landmark": "basurero El Gavilán",
+    "summary": "A tire fire at El Gavilán produces thick smoke and renews residents’ concern about repeated landfill fires.",
+    "affected_people_clue": "vecinos y personas que circulaban cerca",
+    "duration_clue": null
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/recoleccion-basura-puerto-vallarta-garantizada-el-gavilan/",
+    "article_date": "2026-06-09",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": null,
+    "qualifies": "yes",
+    "categories": [
+      "trash"
+    ],
+    "status": "ongoing",
+    "location_certainty": "approximate",
+    "location_evidence": "hay reportes de montañas de basura en colonias como Ramblases y Ecoterra, donde se reportan varios días sin que acudan los camiones recolectores",
+    "street": null,
+    "colonia": "Ramblases",
+    "landmark": null,
+    "summary": "Officials say collection is guaranteed, but reports describe uncollected trash for days in Ramblases and Ecoterra.",
+    "affected_people_clue": "colonias como Ramblases y Ecoterra",
+    "duration_clue": "varios días"
+  }
+]

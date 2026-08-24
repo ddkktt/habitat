@@ -1,0 +1,42 @@
+[
+  {
+    "article_url": "https://tribunadelabahia.com.mx/se-inunda-obra-siop-entrada-verde-vallarta/",
+    "article_date": "2026-06-10",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "flooding",
+      "drainage"
+    ],
+    "status": "failed_repair",
+    "location_certainty": "exact",
+    "location_evidence": "la obra de ampliación de la avenida Federación ... se inundó esta mañana, al igual que la entrada a Verde Vallarta",
+    "street": "avenida Federación",
+    "colonia": "Verde Vallarta",
+    "landmark": null,
+    "summary": "Recent drainage clearing failed as the Avenida Federación project flooded the Verde Vallarta entrance and blocked a highway storm outlet.",
+    "affected_people_clue": null,
+    "duration_clue": "hace algunos días"
+  },
+  {
+    "article_url": "https://tribunadelabahia.com.mx/proponen-modulo-adolescentes-comisaria-peatonales/",
+    "article_date": "2026-06-26",
+    "source_outlet": "Tribuna de la Bahía",
+    "author": "JB",
+    "qualifies": "yes",
+    "categories": [
+      "roads",
+      "public_space"
+    ],
+    "status": "new_complaint",
+    "location_certainty": "exact",
+    "location_evidence": "el cruce de la avenida Francisco Medina Ascencio con Prisciliano Sánchez, en El Pitillal",
+    "street": "avenida Francisco Medina Ascencio con Prisciliano Sánchez",
+    "colonia": "El Pitillal",
+    "landmark": null,
+    "summary": "Three high-traffic crossings reportedly lack accessible signals, ramps, sidewalks, and signage, prompting a municipal technical proposal.",
+    "affected_people_clue": "personas con discapacidad visual o motriz",
+    "duration_clue": null
+  }
+]
